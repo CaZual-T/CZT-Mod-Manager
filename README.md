@@ -1,4 +1,4 @@
-#CZT Mod Installer Setup:
+# CZT Mod Installer Setup:
 ### - Download and Run installer
 ### - Run CTZ Mod Installer
 <img width="174" height="41" alt="{7EB16B48-08C8-4FFD-98D0-5B2268A55CE7}" src="https://github.com/user-attachments/assets/e7a5422c-d50a-44f9-9d7d-f1647d57bca0" />
