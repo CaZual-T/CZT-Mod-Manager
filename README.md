@@ -20,9 +20,9 @@
 - Click install mods
 - Launch Game (yes = with mods, no will launch without mods)
 
-<img width="762" height="460" alt="{179966BA-61BB-4521-9876-A0F09C213067}" src="https://github.com/user-attachments/assets/96e06fc8-5234-4445-bdd3-62d902bf4b3e" />
 
-Features:
+
+# Features:
 - Multi game profiles
 - Smart extraction (can handle zip, 7z, rar, and even already extracted mods)
 - Compatible with community mod loaders like melon loader for schedule 1.
@@ -30,3 +30,5 @@ Features:
 - Auto Detect Paths for Source, Tool, and Selected Profile. (please let me know if any of these fail)
 - Buttons to browse all location of mods, source folder, game folder, and unrar install.
 - Will overwrite mods of the same name (makes it easy for updating!)
+
+<img width="762" height="460" alt="{179966BA-61BB-4521-9876-A0F09C213067}" src="https://github.com/user-attachments/assets/96e06fc8-5234-4445-bdd3-62d902bf4b3e" />
