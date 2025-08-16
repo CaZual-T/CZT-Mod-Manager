@@ -16,10 +16,10 @@
 <img width="736" height="264" alt="{C0591DF7-43CD-4E17-9F28-33AC3DE80038}" src="https://github.com/user-attachments/assets/113e5b5d-eb4a-485e-81ce-db6ffdb032b3" />
 <img width="738" height="211" alt="{3F862350-9E2D-4EFB-8161-2A31EFA6DB38}" src="https://github.com/user-attachments/assets/2993f106-f080-4491-a0e0-7846efa30dfb" />
 
-### - Click install mods
+### - Click install mods.
 <img width="174" height="74" alt="{FADAF42E-453B-4FF6-BE22-B7CB1865500A}" src="https://github.com/user-attachments/assets/03a81e48-37ad-4bea-9ce3-1d1bdf7d7b7e" />
 
-### - Launch Game (yes = with mods, no will launch without mods)
+### - Launch Game.
 <img width="757" height="460" alt="{1345BC6C-2502-4892-A3C1-5C7B38DAD03C}" src="https://github.com/user-attachments/assets/3929d6e5-2851-4a44-a569-6e019b094d0f" />
 
 
