@@ -9,7 +9,7 @@
     - If you already have winrar installed it MIGHT piggyback off of it (which is fine). Not 100% sure though.
     - Unrar is the cli version of winrar. (https://www.rarlab.com/rar_add.htm)
     
-### - Click Auto Detect
+### - Click Auto Detect (this sets the source and tool path)
 ### - Select Game profile
 ### - Drag desired mods to Desktop\CZT Mod Installer\mods_go_here (they can be extracted already or still be zip, 7z or rar. CZT will handle it all)
 <img width="495" height="218" alt="{9B5AEFCD-1510-4AE1-B3A5-5DD6E2C12520}" src="https://github.com/user-attachments/assets/51c7af1c-486f-40b8-bee4-705e7fcf5d36" />
