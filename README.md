@@ -18,8 +18,11 @@
 
 > [!NOTE]
 > If you have an existing mod folder > move it to mods_go_here before doing the next step. (you can delete it after install)
+
 ### - Click install mods.
 <img width="174" height="74" alt="{FADAF42E-453B-4FF6-BE22-B7CB1865500A}" src="https://github.com/user-attachments/assets/03a81e48-37ad-4bea-9ce3-1d1bdf7d7b7e" />
+> [!NOTE]
+> Clear the mods_go_here folder after install. (no need to keep all the zips etc)
 
 ### - Launch Game.
 <img width="757" height="460" alt="{1345BC6C-2502-4892-A3C1-5C7B38DAD03C}" src="https://github.com/user-attachments/assets/3929d6e5-2851-4a44-a569-6e019b094d0f" />
