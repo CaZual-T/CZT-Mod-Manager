@@ -21,6 +21,7 @@
 
 ### - Click install mods.
 <img width="174" height="74" alt="{FADAF42E-453B-4FF6-BE22-B7CB1865500A}" src="https://github.com/user-attachments/assets/03a81e48-37ad-4bea-9ce3-1d1bdf7d7b7e" />
+
 > [!NOTE]
 > Clear the mods_go_here folder after install. (no need to keep all the zips etc)
 
