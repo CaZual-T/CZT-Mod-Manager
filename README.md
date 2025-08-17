@@ -26,6 +26,7 @@
 > Clear the mods_go_here folder after install. (no need to keep all the zips etc)
 
 ### - Launch Game.
+- You only have to launch with CZT when you initially setup, and when you want to toggle them on or off, once toggled on they will stay enabled until you toggle off.
 <img width="757" height="460" alt="{1345BC6C-2502-4892-A3C1-5C7B38DAD03C}" src="https://github.com/user-attachments/assets/3929d6e5-2851-4a44-a569-6e019b094d0f" />
 
 
