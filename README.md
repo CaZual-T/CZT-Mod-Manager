@@ -1,7 +1,7 @@
 Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added!
 
 # CZT Mod Manager Setup:
-### - Download and Run installer (<https://github.com/CaZual-T/CZT-Mod-Installer/releases>)
+### - Download and Run installer <https://github.com/CaZual-T/CZT-Mod-Manager/releases>
 <img width="174" height="41" alt="{7EB16B48-08C8-4FFD-98D0-5B2268A55CE7}" src="https://github.com/user-attachments/assets/e7a5422c-d50a-44f9-9d7d-f1647d57bca0" />
 
 ### - Install Unrar (click the button top right) (FOLLOW ON SCREEN PROMPTS)
