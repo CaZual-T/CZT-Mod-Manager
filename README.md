@@ -15,7 +15,6 @@ Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added
 ### - Click Auto Detect (this sets the source and tool path)
 ### - Select Game profile
 ### - Drag desired mods to the logbox in the app (they can be extracted already or still be zip, 7z or rar. CZT will handle it all)
-<img width="495" height="218" alt="{9B5AEFCD-1510-4AE1-B3A5-5DD6E2C12520}" src="https://github.com/user-attachments/assets/51c7af1c-486f-40b8-bee4-705e7fcf5d36" />
 <img width="742" height="214" alt="{1B67544D-6F3F-4522-AD76-B0C671FDCE1C}" src="https://github.com/user-attachments/assets/9442ccf0-ace7-46fd-a2e3-107311e8478f" />
 
 
