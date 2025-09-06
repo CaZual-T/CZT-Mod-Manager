@@ -17,13 +17,17 @@ Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added
 ### - Drag desired mods to the logbox in the app (they can be extracted already or still be zip, 7z or rar. CZT will handle it all)
 <img width="495" height="218" alt="{9B5AEFCD-1510-4AE1-B3A5-5DD6E2C12520}" src="https://github.com/user-attachments/assets/51c7af1c-486f-40b8-bee4-705e7fcf5d36" />
 <img width="736" height="264" alt="{C0591DF7-43CD-4E17-9F28-33AC3DE80038}" src="https://github.com/user-attachments/assets/113e5b5d-eb4a-485e-81ce-db6ffdb032b3" />
-<img width="738" height="211" alt="{3F862350-9E2D-4EFB-8161-2A31EFA6DB38}" src="https://github.com/user-attachments/assets/2993f106-f080-4491-a0e0-7846efa30dfb" />
+<img width="742" height="214" alt="{1B67544D-6F3F-4522-AD76-B0C671FDCE1C}" src="https://github.com/user-attachments/assets/9442ccf0-ace7-46fd-a2e3-107311e8478f" />
+
+
 
 > [!NOTE]
 > If you have an existing mod folder > drag them to the log box before doing the next step.
 
 ### - Click install mods.
 <img width="174" height="74" alt="{FADAF42E-453B-4FF6-BE22-B7CB1865500A}" src="https://github.com/user-attachments/assets/03a81e48-37ad-4bea-9ce3-1d1bdf7d7b7e" />
+<img width="895" height="691" alt="{7127A580-017C-4D22-9170-F140DA4F3C8E}" src="https://github.com/user-attachments/assets/9d8d6f20-5dea-4ba1-b7b2-6c691d2c8a0f" />
+
 
 ### - Launch Game.
 - You only have to launch with CZT when you initially setup, and when you want to toggle them on or off, once toggled on they will stay enabled until you toggle off.
