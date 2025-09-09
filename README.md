@@ -10,7 +10,7 @@ Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added
 - YOU MUST INSTALL TO > /CZT Mod Installer/czt_tools/unrar.exe
 <img width="160" height="184" alt="{673739FC-5BBF-4132-939A-5967EE68D8AC}" src="https://github.com/user-attachments/assets/c6b682d5-245c-4ddc-a44b-30763fdeae2b" />
 
-    - If you use Win EDU or Enterprise you may have an error appear, just ignore, restart app, then click auto detect.
+    - If you use Win EDU or Enterprise you may have an error appear, just ignore, restart app, then click create root again and select the drive you originally chose.
     - If you already have winrar installed it MIGHT piggyback off of it (which is fine). Not 100% sure though.
     - Unrar is the cli version of winrar. (https://www.rarlab.com/rar_add.htm)
     
