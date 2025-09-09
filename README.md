@@ -46,4 +46,5 @@ Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added
 - Buttons to browse all location of mods, source folder, game folder, and unrar install.
 - Will overwrite mods of the same name (makes it easy for updating!)
 
-<img width="762" height="460" alt="{179966BA-61BB-4521-9876-A0F09C213067}" src="https://github.com/user-attachments/assets/96e06fc8-5234-4445-bdd3-62d902bf4b3e" />
+<img width="770" height="466" alt="{AF19A021-7B6A-4493-8EE4-9DE0A6CE26B7}" src="https://github.com/user-attachments/assets/63694a82-b5ca-442e-adb7-d4126e1e1f87" />
+
