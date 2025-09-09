@@ -4,7 +4,7 @@ Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added
 ### - Download and Run installer <https://github.com/CaZual-T/CZT-Mod-Manager/releases>
 <img width="174" height="41" alt="{7EB16B48-08C8-4FFD-98D0-5B2268A55CE7}" src="https://github.com/user-attachments/assets/e7a5422c-d50a-44f9-9d7d-f1647d57bca0" />
 
-### - Click Create Root (Select Drive, this where be where all of your mods are stored.)
+### - Click Create Root (Select Drive, this will be where your mods are stored.)
 
 ### - Install Unrar (click the button top right) (FOLLOW ON SCREEN PROMPTS)
 - YOU MUST INSTALL TO > /CZT Mod Installer/czt_tools/unrar.exe
