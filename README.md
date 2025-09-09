@@ -24,7 +24,7 @@ Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added
 
 
 > [!NOTE]
-> If you have an existing mod folder > drag them to the log box before doing the next step.
+> If you have an existing mod folder > drag them to the log box before doing the next step. Please either zip the entire mod folder or open the mod folder, press ctrl+A and drag them all to log box at once.
 
 ### - Click install mods.
 <img width="174" height="74" alt="{FADAF42E-453B-4FF6-BE22-B7CB1865500A}" src="https://github.com/user-attachments/assets/03a81e48-37ad-4bea-9ce3-1d1bdf7d7b7e" />
