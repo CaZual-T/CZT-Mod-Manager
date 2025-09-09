@@ -17,7 +17,8 @@ Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added
 ### - Select Game profile
 <img width="144" height="93" alt="{8D19D8EC-2113-4A0D-9D24-D2DFE67C46B2}" src="https://github.com/user-attachments/assets/a1ea3117-143b-478d-998a-0137fcb2f5d0" />
 
-### - Drag desired mods to the logbox in the app (they can be extracted already or still be zip, 7z or rar. CZT will handle it all)
+### - Drag desired mods to the logbox in the app 
+- (they can be extracted already or still be zip, 7z or rar. CZT will handle it all)
 <img width="742" height="214" alt="{1B67544D-6F3F-4522-AD76-B0C671FDCE1C}" src="https://github.com/user-attachments/assets/9442ccf0-ace7-46fd-a2e3-107311e8478f" />
 
 
