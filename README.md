@@ -8,7 +8,7 @@ Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added
 
 ### - Install Unrar (click the button top right) (FOLLOW ON SCREEN PROMPTS)
 - YOU MUST INSTALL TO > /CZT Mod Installer/czt_tools/unrar.exe
-<img width="130" height="169" alt="{EC5A1C2B-3A1D-456A-909A-BF19CE3E7D10}" src="https://github.com/user-attachments/assets/979c31f1-9552-4a96-8f69-e2784c1623d4" />
+<img width="160" height="184" alt="{673739FC-5BBF-4132-939A-5967EE68D8AC}" src="https://github.com/user-attachments/assets/c6b682d5-245c-4ddc-a44b-30763fdeae2b" />
 
     - If you use Win EDU or Enterprise you may have an error appear, just ignore, restart app, then click auto detect.
     - If you already have winrar installed it MIGHT piggyback off of it (which is fine). Not 100% sure though.
