@@ -30,7 +30,7 @@ Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added
 
 
 # How to use CZT Mod Manager
-### - 1:) Drag desired mods to the logbox in the app 
+### - 1:) Select Game Profile, Drag desired mods to the logbox in the app 
 - (they can be extracted already or still be zip, 7z or rar. CZT will handle it all)
 <img width="739" height="209" alt="{EC658457-340C-4BA8-8E23-183844FBBFD3}" src="https://github.com/user-attachments/assets/350605c0-417a-41d8-a59d-4d642547c7c5" />
 
