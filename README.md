@@ -15,7 +15,8 @@ Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added
     - Unrar is the cli version of winrar. (https://www.rarlab.com/rar_add.htm)
     
 ### - Select Game profile
-<img width="144" height="93" alt="{8D19D8EC-2113-4A0D-9D24-D2DFE67C46B2}" src="https://github.com/user-attachments/assets/a1ea3117-143b-478d-998a-0137fcb2f5d0" />
+<img width="146" height="100" alt="{91182C62-1401-412F-B4EA-945B662BBD63}" src="https://github.com/user-attachments/assets/d6c30c81-45ae-445e-a37e-06a69648f6d0" />
+
 
 ### - Drag desired mods to the logbox in the app 
 - (they can be extracted already or still be zip, 7z or rar. CZT will handle it all)
