@@ -12,12 +12,12 @@ Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added
 
 
 # CZT Mod Manager Setup:
-### - Download and Run installer <https://github.com/CaZual-T/CZT-Mod-Manager/releases>
+### - 1:) Download and Run installer <https://github.com/CaZual-T/CZT-Mod-Manager/releases>
 <img width="174" height="41" alt="{7EB16B48-08C8-4FFD-98D0-5B2268A55CE7}" src="https://github.com/user-attachments/assets/e7a5422c-d50a-44f9-9d7d-f1647d57bca0" />
 
-### - Click Create Root (Select Drive, this will be where your mods are stored.)
+### - 2:) Click Create Root (Select Drive, this will be where your mods are stored.)
 
-### - Install Unrar (click the button top right) (FOLLOW ON SCREEN PROMPTS)
+### - 3:) Install Unrar (click the button top right) (FOLLOW ON SCREEN PROMPTS)
 - YOU MUST INSTALL TO > Drive_selected_in_step_2/CZT Mod Installer/czt_tools/unrar.exe
 <img width="160" height="184" alt="{673739FC-5BBF-4132-939A-5967EE68D8AC}" src="https://github.com/user-attachments/assets/c6b682d5-245c-4ddc-a44b-30763fdeae2b" />
 
@@ -25,11 +25,12 @@ Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added
     - If you already have winrar installed it MIGHT piggyback off of it (which is fine). Not 100% sure though.
     - Unrar is the cli version of winrar. (https://www.rarlab.com/rar_add.htm)
     
-### - Select Game profile
+### - 4:) Select Game profile
 <img width="146" height="100" alt="{91182C62-1401-412F-B4EA-945B662BBD63}" src="https://github.com/user-attachments/assets/d6c30c81-45ae-445e-a37e-06a69648f6d0" />
 
 
-### - Drag desired mods to the logbox in the app 
+# How to use CZT Mod Manager
+### - 1:) Drag desired mods to the logbox in the app 
 - (they can be extracted already or still be zip, 7z or rar. CZT will handle it all)
 <img width="739" height="209" alt="{EC658457-340C-4BA8-8E23-183844FBBFD3}" src="https://github.com/user-attachments/assets/350605c0-417a-41d8-a59d-4d642547c7c5" />
 
@@ -38,13 +39,13 @@ Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added
 > [!NOTE]
 > If you have an existing mod folder > drag them to the log box before doing the next step. Please either zip the entire mod folder or open the mod folder, press ctrl+A and drag them all to log box at once.
 
-### - Click install mods.
+### - 2:) Click install mods.
 <img width="174" height="74" alt="{FADAF42E-453B-4FF6-BE22-B7CB1865500A}" src="https://github.com/user-attachments/assets/03a81e48-37ad-4bea-9ce3-1d1bdf7d7b7e" />
 <img width="889" height="671" alt="image" src="https://github.com/user-attachments/assets/4a17270a-3190-4406-a8c4-1ee392babeac" />
 <img width="770" height="466" alt="{AF19A021-7B6A-4493-8EE4-9DE0A6CE26B7}" src="https://github.com/user-attachments/assets/63694a82-b5ca-442e-adb7-d4126e1e1f87" />
 
 
-### - Launch Game.
+### - 3:) Launch Game.
 - You only have to launch with CZT when you initially setup, and when you want to toggle them on or off, once toggled on they will stay enabled until you toggle off.
 <img width="759" height="461" alt="image" src="https://github.com/user-attachments/assets/885aa0ae-7367-46ab-b1b7-086efa88a2e3" />
 <img width="953" height="715" alt="{C1597293-AFD8-471B-AE39-8C070128013F}" src="https://github.com/user-attachments/assets/76a8c412-3b9d-4b61-a19c-a26b37a098d1" />
