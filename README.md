@@ -1,5 +1,14 @@
 Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added!
 
+# Features:
+- Multi game profiles
+- Smart extraction (can handle zip, 7z, rar, and even already extracted mods)
+- Compatible with community mod loaders like melon loader for schedule 1.
+- Launch with or without mods (useful for games like RoN that block PC players from joining console players due to mods being installed)
+- Auto Detect Paths for Source, Tool, and Selected Profile. (please let me know if any of these fail)
+- Buttons to browse all location of mods, source folder, game folder, and unrar install.
+- Will overwrite mods of the same name (makes it easy for updating!)
+
 # CZT Mod Manager Setup:
 ### - Download and Run installer <https://github.com/CaZual-T/CZT-Mod-Manager/releases>
 <img width="174" height="41" alt="{7EB16B48-08C8-4FFD-98D0-5B2268A55CE7}" src="https://github.com/user-attachments/assets/e7a5422c-d50a-44f9-9d7d-f1647d57bca0" />
@@ -30,24 +39,9 @@ Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added
 ### - Click install mods.
 <img width="174" height="74" alt="{FADAF42E-453B-4FF6-BE22-B7CB1865500A}" src="https://github.com/user-attachments/assets/03a81e48-37ad-4bea-9ce3-1d1bdf7d7b7e" />
 <img width="889" height="671" alt="image" src="https://github.com/user-attachments/assets/4a17270a-3190-4406-a8c4-1ee392babeac" />
-
+<img width="770" height="466" alt="{AF19A021-7B6A-4493-8EE4-9DE0A6CE26B7}" src="https://github.com/user-attachments/assets/63694a82-b5ca-442e-adb7-d4126e1e1f87" />
 
 
 ### - Launch Game.
 - You only have to launch with CZT when you initially setup, and when you want to toggle them on or off, once toggled on they will stay enabled until you toggle off.
 <img width="759" height="461" alt="image" src="https://github.com/user-attachments/assets/885aa0ae-7367-46ab-b1b7-086efa88a2e3" />
-
-
-
-
-# Features:
-- Multi game profiles
-- Smart extraction (can handle zip, 7z, rar, and even already extracted mods)
-- Compatible with community mod loaders like melon loader for schedule 1.
-- Launch with or without mods (useful for games like RoN that block PC players from joining console players due to mods being installed)
-- Auto Detect Paths for Source, Tool, and Selected Profile. (please let me know if any of these fail)
-- Buttons to browse all location of mods, source folder, game folder, and unrar install.
-- Will overwrite mods of the same name (makes it easy for updating!)
-
-<img width="770" height="466" alt="{AF19A021-7B6A-4493-8EE4-9DE0A6CE26B7}" src="https://github.com/user-attachments/assets/63694a82-b5ca-442e-adb7-d4126e1e1f87" />
-
