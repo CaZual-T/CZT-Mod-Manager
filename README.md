@@ -29,7 +29,8 @@ Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added
 
 ### - Click install mods.
 <img width="174" height="74" alt="{FADAF42E-453B-4FF6-BE22-B7CB1865500A}" src="https://github.com/user-attachments/assets/03a81e48-37ad-4bea-9ce3-1d1bdf7d7b7e" />
-<img width="895" height="691" alt="{7127A580-017C-4D22-9170-F140DA4F3C8E}" src="https://github.com/user-attachments/assets/9d8d6f20-5dea-4ba1-b7b2-6c691d2c8a0f" />
+<img width="889" height="671" alt="image" src="https://github.com/user-attachments/assets/4a17270a-3190-4406-a8c4-1ee392babeac" />
+
 
 
 ### - Launch Game.
