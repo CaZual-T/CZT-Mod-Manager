@@ -33,7 +33,8 @@ Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added
 
 ### - Launch Game.
 - You only have to launch with CZT when you initially setup, and when you want to toggle them on or off, once toggled on they will stay enabled until you toggle off.
-<img width="757" height="460" alt="{1345BC6C-2502-4892-A3C1-5C7B38DAD03C}" src="https://github.com/user-attachments/assets/3929d6e5-2851-4a44-a569-6e019b094d0f" />
+<img width="759" height="461" alt="image" src="https://github.com/user-attachments/assets/885aa0ae-7367-46ab-b1b7-086efa88a2e3" />
+
 
 
 
