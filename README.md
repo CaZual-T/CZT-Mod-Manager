@@ -8,7 +8,8 @@ Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added
 - Auto Detect Paths for Source, Tool, and Selected Profile. (please let me know if any of these fail)
 - Buttons to browse all location of mods, source folder, game folder, and unrar install.
 - Will overwrite mods of the same name (makes it easy for updating!)
-<img width="753" height="457" alt="{5EC49A08-0A34-4A9A-B6C0-DB4F43B8E769}" src="https://github.com/user-attachments/assets/ad077edf-c3fc-4a28-bc18-66f7d3c91bba" />
+<img width="769" height="512" alt="A526D4D6-2C04-46B4-B59D-4257A3BF0BB9" src="https://github.com/user-attachments/assets/707a466b-135d-4629-bf37-5923d0b3668b" />
+<img width="998" height="587" alt="43777879-2E54-4B87-A450-44E1A3B9A34F" src="https://github.com/user-attachments/assets/c0d7fd05-4cfc-4987-b773-27386c832318" />
 
 
 # CZT Mod Manager Setup:
@@ -34,8 +35,6 @@ Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added
 - (they can be extracted already or still be zip, 7z or rar. CZT will handle it all)
 <img width="739" height="209" alt="{EC658457-340C-4BA8-8E23-183844FBBFD3}" src="https://github.com/user-attachments/assets/350605c0-417a-41d8-a59d-4d642547c7c5" />
 
-
-
 > [!NOTE]
 > If you have an existing mod folder > drag them to the log box before doing the next step. Please either zip the entire mod folder or open the mod folder, press ctrl+A and drag them all to log box at once.
 
@@ -43,6 +42,13 @@ Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added
 <img width="174" height="74" alt="{FADAF42E-453B-4FF6-BE22-B7CB1865500A}" src="https://github.com/user-attachments/assets/03a81e48-37ad-4bea-9ce3-1d1bdf7d7b7e" />
 <img width="889" height="671" alt="image" src="https://github.com/user-attachments/assets/4a17270a-3190-4406-a8c4-1ee392babeac" />
 <img width="770" height="466" alt="{AF19A021-7B6A-4493-8EE4-9DE0A6CE26B7}" src="https://github.com/user-attachments/assets/63694a82-b5ca-442e-adb7-d4126e1e1f87" />
+
+### - 2.5:) Update Info in manager to track versions
+- Click Manage Mods
+- Enter url
+- Select checkbox next to mod, click save nexus links. (this is how you update local mod version)
+- To check for updates simply select the mod, click check for updates. This will also update the version number in the NEW column.
+<img width="993" height="140" alt="{2B259BF2-669B-4E9E-9909-45024BC25E4C}" src="https://github.com/user-attachments/assets/d1caa98a-32df-4c79-967b-8175866abf15" />
 
 
 ### - 3:) Launch Game.
