@@ -30,6 +30,8 @@ Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added
 <img width="146" height="100" alt="{91182C62-1401-412F-B4EA-945B662BBD63}" src="https://github.com/user-attachments/assets/d6c30c81-45ae-445e-a37e-06a69648f6d0" />
 
 ### - 5:) Retrieve and save your NEXUS API key (this is how the tool communicates with the nexus website to retrieve mod info)
+- Go to <https://next.nexusmods.com/settings/api-keys>
+- Scroll to the bottom to get your personal key.
 <img width="763" height="138" alt="{8063903C-97CC-4AD6-9499-630BDC882606}" src="https://github.com/user-attachments/assets/0cbfe256-4e9d-4dc9-b4d9-bdfd10d6c194" />
 
 
