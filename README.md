@@ -50,7 +50,7 @@ Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added
 
 ### - 2.5:) Update Info in manager to track versions
 - Click Manage Mods
-- Enter url
+- Enter nexus url
 - Select checkbox next to mod, click save nexus links. (this is how you update local mod version)
 - To check for updates simply select the mod, click check for updates. This will also update the version number in the NEW column.
 <img width="993" height="140" alt="{2B259BF2-669B-4E9E-9909-45024BC25E4C}" src="https://github.com/user-attachments/assets/d1caa98a-32df-4c79-967b-8175866abf15" />
