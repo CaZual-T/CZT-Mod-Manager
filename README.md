@@ -9,7 +9,8 @@ Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added
 - Buttons to browse all location of mods, source folder, game folder, and unrar install.
 - Will overwrite mods of the same name (makes it easy for updating!)
 <img width="769" height="512" alt="A526D4D6-2C04-46B4-B59D-4257A3BF0BB9" src="https://github.com/user-attachments/assets/707a466b-135d-4629-bf37-5923d0b3668b" />
-<img width="998" height="587" alt="43777879-2E54-4B87-A450-44E1A3B9A34F" src="https://github.com/user-attachments/assets/c0d7fd05-4cfc-4987-b773-27386c832318" />
+<img width="988" height="577" alt="image" src="https://github.com/user-attachments/assets/676ed25e-4e38-43ef-b630-a1e93ef0ba8a" />
+
 
 
 # CZT Mod Manager Setup:
