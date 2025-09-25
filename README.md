@@ -59,6 +59,8 @@ Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added
 
 ### - 3:) Launch Game.
 - You only have to launch with CZT when you initially setup, and when you want to toggle them on or off, once toggled on they will stay enabled until you toggle off.
+>[!NOTE]
+>If you run into this error "A required privilege is not held by the client" when launching, try running the program as administrator. (Most users wont have to do this)
 <img width="759" height="461" alt="image" src="https://github.com/user-attachments/assets/885aa0ae-7367-46ab-b1b7-086efa88a2e3" />
 <img width="953" height="715" alt="{C1597293-AFD8-471B-AE39-8C070128013F}" src="https://github.com/user-attachments/assets/76a8c412-3b9d-4b61-a19c-a26b37a098d1" />
 <img width="1194" height="847" alt="{511CDB3D-D3C1-446F-8AD0-4787021BA1BD}" src="https://github.com/user-attachments/assets/124c304b-4fe7-44e9-9d88-15e4fe720e68" />
