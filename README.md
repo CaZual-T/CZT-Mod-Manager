@@ -1,4 +1,4 @@
-Currently Supports Ready or Not, Schedule I, and Dying Light 2. More to be added!
+Currently Supports Ready or Not, Schedule I, Dying Light 2, and Dying Light The Beast. More to be added!
 
 # Features:
 - Multi game profiles
