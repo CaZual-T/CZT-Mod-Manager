@@ -9,7 +9,6 @@ Currently Supports Ready or Not, Schedule I, Dying Light 2, and Dying Light The 
 - Auto Detect Paths for Source, Tool, and Selected Profile. (please let me know if any of these fail)
 - Buttons to browse all location of mods, source folder, game folder, and unrar install.
 - Will overwrite mods of the same name (makes it easy for updating!)
-<img width="769" height="512" alt="A526D4D6-2C04-46B4-B59D-4257A3BF0BB9" src="https://github.com/user-attachments/assets/707a466b-135d-4629-bf37-5923d0b3668b" />
 <img width="988" height="577" alt="image" src="https://github.com/user-attachments/assets/676ed25e-4e38-43ef-b630-a1e93ef0ba8a" />
 
 
