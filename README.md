@@ -9,8 +9,7 @@ Currently Supports Ready or Not, Schedule I, Dying Light 2, and Dying Light The 
 - Auto Detect Paths for Source, Tool, and Selected Profile. (please let me know if any of these fail)
 - Buttons to browse all location of mods, source folder, game folder, and unrar install.
 - Will overwrite mods of the same name (makes it easy for updating!)
-<img width="988" height="577" alt="image" src="https://github.com/user-attachments/assets/676ed25e-4e38-43ef-b630-a1e93ef0ba8a" />
-
+<img width="760" height="508" alt="image" src="https://github.com/user-attachments/assets/821a9ff6-abcf-400e-86c6-8897b12b032a" />
 
 
 # CZT Mod Manager Setup:
