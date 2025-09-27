@@ -1,7 +1,7 @@
 Currently Supports Ready or Not, Schedule I, Dying Light 2, and Dying Light The Beast. More to be added!
 
 # Features:
-- Multi game profiles
+- Multiple game profiles
 - Smart extraction (can handle zip, 7z, rar, and even already extracted mods)
 - Compatible with community mod loaders like melon loader for schedule 1.
 - Launch with or without mods (useful for games like RoN that block PC players from joining console players due to mods being installed)
