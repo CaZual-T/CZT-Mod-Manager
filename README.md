@@ -1,7 +1,8 @@
 Currently Supports Ready or Not, Schedule I, Dying Light 2, and Dying Light The Beast. More to be added!
 
 # Features:
-- Multiple game profiles
+- Multiple game profiles.
+- Works on ANY drive.
 - Merge mods (Dying Light Games)
 - Smart extraction (can handle zip, 7z, rar, and even already extracted mods)
 - Compatible with community mod loaders like melon loader for schedule 1.
