@@ -21,7 +21,7 @@ Currently Supports Ready or Not, Schedule I, Dying Light 2, and Dying Light The 
 
 ### - 3:) Install Unrar (click the button top right) (FOLLOW ON SCREEN PROMPTS)
 - YOU MUST INSTALL TO > Drive_selected_in_step_2/CZT Mod Installer/czt_tools/unrar.exe
-- After installing UnRar, Restart CZT or Click Create Root again (just be sure to select the same drive as before) 
+- After installing UnRar, Click Create Root again (Be sure to select the same drive as before) 
 <img width="160" height="184" alt="{673739FC-5BBF-4132-939A-5967EE68D8AC}" src="https://github.com/user-attachments/assets/c6b682d5-245c-4ddc-a44b-30763fdeae2b" />
     
 ### - 4:) Select Game profile (you can change this at any time)
