@@ -43,9 +43,9 @@ Currently Supports Ready or Not, Schedule I, Dying Light 2, and Dying Light The 
 > If you have an existing mod folder > drag them to the log box before doing the next step. Please either zip the entire mod folder or open the mod folder, press ctrl+A and drag them all to log box at once.
 
 ### - 2:) Click install mods.
-<img width="174" height="74" alt="{FADAF42E-453B-4FF6-BE22-B7CB1865500A}" src="https://github.com/user-attachments/assets/03a81e48-37ad-4bea-9ce3-1d1bdf7d7b7e" />
-<img width="889" height="671" alt="image" src="https://github.com/user-attachments/assets/4a17270a-3190-4406-a8c4-1ee392babeac" />
-<img width="770" height="466" alt="{AF19A021-7B6A-4493-8EE4-9DE0A6CE26B7}" src="https://github.com/user-attachments/assets/63694a82-b5ca-442e-adb7-d4126e1e1f87" />
+<img width="174" height="74" alt="{FADAF42E-453B-4FF6-BE22-B7CB1865500A}" src="https://github.com/user-attachments/assets/03a81e48-37ad-4bea-9ce3-1d1bdf7d7b7e"/> <br/>
+<img width="541" height="145" alt="{AA91659A-6736-4D78-BEF7-B655434C0DAA}" src="https://github.com/user-attachments/assets/47384f6d-a459-4a2f-965f-2505864ce003" /> <br/>
+<img width="547" height="87" alt="{00F34AD0-A61B-4449-A1A5-608F3BA0E2C1}" src="https://github.com/user-attachments/assets/79440f85-45ec-4946-b39e-b2916f51b032"/> <br/>
 
 ### - 3:) Update Info in manager to track versions
 - Click Manage Mods
