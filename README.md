@@ -1,15 +1,16 @@
 Currently Supports Ready or Not, Schedule I, Dying Light 2, and Dying Light The Beast. More to be added!
 
 # Features:
-- Multiple game profiles.
-- Works on ANY drive.
-- Merge mods (Dying Light Games)
-- Smart extraction (can handle zip, 7z, rar, and even already extracted mods)
+- Support custom steam installs and folder names.
+- Supports ANY drive letter.
+- Smart extraction. (zip, 7z, rar)
+- Drag and Drop mods into log box for easy install.
+- Select individual mods or all at once to install/uninstall.
+- Merge multiple .paks into one.
+- Toggle Mods: Launch with or without mods.
+- Auto Detect Paths for Source, Tool, and Selected Profile for easy setup.
+- Easily install, delete, update and manage your mods at the click of a button!
 - Compatible with community mod loaders like melon loader for schedule 1.
-- Launch with or without mods (useful for games like RoN that block PC players from joining console players due to mods being installed)
-- Auto Detect Paths for Source, Tool, and Selected Profile. (please let me know if any of these fail)
-- Buttons to browse all location of mods, source folder, game folder, and unrar install.
-- Will overwrite mods of the same name (makes it easy for updating!)
 <img width="760" height="508" alt="image" src="https://github.com/user-attachments/assets/821a9ff6-abcf-400e-86c6-8897b12b032a" />
 
 
@@ -46,15 +47,15 @@ Currently Supports Ready or Not, Schedule I, Dying Light 2, and Dying Light The 
 <img width="889" height="671" alt="image" src="https://github.com/user-attachments/assets/4a17270a-3190-4406-a8c4-1ee392babeac" />
 <img width="770" height="466" alt="{AF19A021-7B6A-4493-8EE4-9DE0A6CE26B7}" src="https://github.com/user-attachments/assets/63694a82-b5ca-442e-adb7-d4126e1e1f87" />
 
-### - 2.5:) Update Info in manager to track versions
+### - 3:) Update Info in manager to track versions
 - Click Manage Mods
 - Enter nexus url
-- Select checkbox next to mod, click save nexus links.
-- To check for updates simply select the mod, click check for updates. This will also update the version number in the NEW column.
+- Select checkbox next to mod, click save nexus links. (this will update image)
+- To check for updates simply select the mod, click check for updates. This will also update the version number in the LATEST column.
 <img width="993" height="140" alt="{2B259BF2-669B-4E9E-9909-45024BC25E4C}" src="https://github.com/user-attachments/assets/d1caa98a-32df-4c79-967b-8175866abf15" />
 
 
-### - 3:) Launch Game.
+### - 4:) Launch Game.
 - You only have to launch with CZT when you initially setup, and when you want to toggle them on or off, once toggled on they will stay enabled until you toggle off.
 >[!NOTE]
 >If you run into this error "A required privilege is not held by the client" when launching, try running the program as administrator. (Most users wont have to do this)
