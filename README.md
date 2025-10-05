@@ -11,7 +11,8 @@ Currently Supports Ready or Not, Schedule I, Dying Light 2, and Dying Light The 
 - Auto Detect Paths for Source, Tool, and Selected Profile for easy setup.
 - Easily install, delete, update and manage your mods at the click of a button!
 - Compatible with community mod loaders like melon loader for schedule 1.
-<img width="760" height="508" alt="image" src="https://github.com/user-attachments/assets/821a9ff6-abcf-400e-86c6-8897b12b032a" />
+<img width="771" height="512" alt="image" src="https://github.com/user-attachments/assets/efb0e0f8-8619-49d2-9fea-0535fea505c3" />
+
 
 
 # CZT Mod Manager Setup:
