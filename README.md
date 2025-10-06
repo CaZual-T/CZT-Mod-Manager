@@ -25,7 +25,7 @@ Currently Supports Ready or Not, Schedule I, Dying Light 2, and Dying Light The 
 
 ### - 3:) Install Unrar (click the button top right) (FOLLOW ON SCREEN PROMPTS)
 - YOU MUST INSTALL TO > Drive_selected_in_step_2/CZT Mod Manager/czt_tools/unrar.exe
-- After installing UnRar, Click Create Root again (Be sure to select the same drive as before) 
+- After installing UnRar, Click UnRar again to auto detect and set its path.
 <img width="160" height="184" alt="{673739FC-5BBF-4132-939A-5967EE68D8AC}" src="https://github.com/user-attachments/assets/c6b682d5-245c-4ddc-a44b-30763fdeae2b" />
     
 ### - 4:) Select Game profile (you can change this at any time)
@@ -34,7 +34,8 @@ Currently Supports Ready or Not, Schedule I, Dying Light 2, and Dying Light The 
 ### - 5:) Retrieve and save your NEXUS API key (this is how the tool communicates with the nexus website to retrieve mod info)
 - Go to <https://next.nexusmods.com/settings/api-keys>
 - Scroll to the bottom to get your personal key.
-<img width="763" height="138" alt="{8063903C-97CC-4AD6-9499-630BDC882606}" src="https://github.com/user-attachments/assets/0cbfe256-4e9d-4dc9-b4d9-bdfd10d6c194" />
+<img width="774" height="207" alt="{858D75A0-44D2-4715-913F-3B59FB67C141}" src="https://github.com/user-attachments/assets/338f17d8-57cf-4493-b833-d935a069b8d8" />
+
 
 
 # How to use CZT Mod Manager
@@ -45,20 +46,23 @@ Currently Supports Ready or Not, Schedule I, Dying Light 2, and Dying Light The 
 > [!NOTE]
 > If you have an existing mod folder > drag them to the log box before doing the next step. Please either zip the entire mod folder or open the mod folder, press ctrl+A and drag them all to log box at once.
 
-### - 2:) Click install mods.
-<img width="174" height="74" alt="{FADAF42E-453B-4FF6-BE22-B7CB1865500A}" src="https://github.com/user-attachments/assets/03a81e48-37ad-4bea-9ce3-1d1bdf7d7b7e"/> <br/>
-<img width="541" height="145" alt="{AA91659A-6736-4D78-BEF7-B655434C0DAA}" src="https://github.com/user-attachments/assets/47384f6d-a459-4a2f-965f-2505864ce003" /> <br/>
-<img width="547" height="87" alt="{00F34AD0-A61B-4449-A1A5-608F3BA0E2C1}" src="https://github.com/user-attachments/assets/79440f85-45ec-4946-b39e-b2916f51b032"/> <br/>
+### - 2:) Click Manage mods.
+- Go to Install Mods tab
+- Select mods to install
+- Click 'Install Selected
+<img width="1109" height="577" alt="{BD31A8A3-8819-47F3-8071-6D73F817AA3E}" src="https://github.com/user-attachments/assets/99fd003f-4386-4f20-9d10-aec3032ebadf" />
+
 
 ### - 3:) Update Info in manager to track versions
-- Click Manage Mods
+- Go to 'Manage Mods' Tab
 - Enter nexus url
-- Select checkbox next to mod, click save nexus links. (this will update image)
+- Select checkbox next to mod, click save data button. (this will update image)
 - To check for updates simply select the mod, click check for updates. This will also update the version number in the LATEST column.
-<img width="993" height="140" alt="{2B259BF2-669B-4E9E-9909-45024BC25E4C}" src="https://github.com/user-attachments/assets/d1caa98a-32df-4c79-967b-8175866abf15" />
+<img width="1117" height="229" alt="{D3ECABB2-E0F3-453C-8EAF-8FDCABBB2BBD}" src="https://github.com/user-attachments/assets/f998f09a-9aba-49c5-8019-3241934dbb54" />
 
 
 ### - 4:) Launch Game.
+- Close the big manager window and then click the green launch button.
 - You only have to launch with CZT when you initially setup, and when you want to toggle them on or off, once toggled on they will stay enabled until you toggle off.
 >[!NOTE]
 >If you run into this error "A required privilege is not held by the client" when launching, try running the program as administrator. (Most users wont have to do this)
