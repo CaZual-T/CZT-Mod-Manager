@@ -1,9 +1,7 @@
 Currently Supports Ready or Not, Schedule I, Dying Light 2, and Dying Light The Beast. More to be added!
 
 # Features:
-- Support custom steam installs and folder names.
-- Supports ANY drive letter.
-- Smart extraction. (zip, 7z, rar)
+- Smart extraction & install. (zip, 7z, rar)
 - Drag and Drop mods into log box for easy install.
 - Select individual mods or all at once to install/uninstall.
 - Merge multiple .paks into one.
@@ -11,6 +9,9 @@ Currently Supports Ready or Not, Schedule I, Dying Light 2, and Dying Light The 
 - Auto Detect Paths for Source, Tool, and Selected Profile for easy setup.
 - Easily install, delete, update and manage your mods at the click of a button!
 - Compatible with community mod loaders like melon loader for schedule 1.
+- Support custom steam installs and folder names.
+- Supports ANY drive letter.
+- Custom user options (color, fonts, launch options)
 <img width="771" height="512" alt="image" src="https://github.com/user-attachments/assets/efb0e0f8-8619-49d2-9fea-0535fea505c3" />
 <img width="1115" height="614" alt="image" src="https://github.com/user-attachments/assets/594e4ec7-7ff5-4f40-98da-61733382939f" />
 
