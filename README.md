@@ -47,6 +47,8 @@ Currently Supports Ready or Not, Schedule I, Dying Light 2, and Dying Light The 
 > If you have an existing mod folder > drag them to the log box before doing the next step. Please either zip the entire mod folder or open the mod folder, press ctrl+A and drag them all to log box at once.
 
 ### - 2:) Click Manage mods.
+<img width="778" height="137" alt="{9A5B4E34-81AC-4597-AC83-8C1FFFDD3327}" src="https://github.com/user-attachments/assets/6abcb9c1-cd70-4f7e-a0fa-6e7331367d9f" />
+
 - Go to Install Mods tab
 - Select mods to install
 - Click 'Install Selected
@@ -63,6 +65,8 @@ Currently Supports Ready or Not, Schedule I, Dying Light 2, and Dying Light The 
 
 ### - 4:) Launch Game.
 - Close the big manager window and then click the green launch button.
+<img width="778" height="137" alt="{9A5B4E34-81AC-4597-AC83-8C1FFFDD3327}" src="https://github.com/user-attachments/assets/52599d16-d07a-4b93-8a1f-ee40fdc30406" />
+
 - You only have to launch with CZT when you initially setup, and when you want to toggle them on or off, once toggled on they will stay enabled until you toggle off.
 >[!NOTE]
 >If you run into this error "A required privilege is not held by the client" when launching, try running the program as administrator. (Most users wont have to do this)
