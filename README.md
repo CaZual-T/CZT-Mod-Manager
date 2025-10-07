@@ -21,7 +21,7 @@ Built for STEAM and WINDOWS. Does not support EPIC Games, Cracked version, or Li
 
 
 # CZT Mod Manager Setup:
-### - 1:) Download and Run installer <https://github.com/CaZual-T/CZT-Mod-Manager/releases>
+### - 1:) Download and Run installer
 <img width="174" height="41" alt="{7EB16B48-08C8-4FFD-98D0-5B2268A55CE7}" src="https://github.com/user-attachments/assets/e7a5422c-d50a-44f9-9d7d-f1647d57bca0" />
 
 ### - 2:) Click Create Root (Select Drive, this will be where your mods are stored.)
