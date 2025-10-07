@@ -2,10 +2,6 @@ Currently Supports Ready or Not, Schedule I, Dying Light 2, and Dying Light The 
 
 Built for STEAM and WINDOWS. Does not support EPIC Games, Cracked version, or Linux.
 
-# Shortcuts
-Go to "Setup" https://github.com/CaZual-T/CZT-Mod-Manager/edit/main/README.md#czt-mod-manager-setup </br>
-Go to "How to Use" https://github.com/CaZual-T/CZT-Mod-Manager/edit/main/README.md#how-to-use-czt-mod-manager
-
 # Features:
 - Easily install, delete, update and manage your mods at the click of a button!
 - Toggle Mods: Launch with or without mods.
