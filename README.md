@@ -6,7 +6,7 @@ Built for STEAM and WINDOWS. Does not support EPIC Games, Cracked version, or Li
 - Easily install, delete, update and manage your mods at the click of a button!
 - Toggle Mods: Launch with or without mods.
 - Smart extraction & install. (zip, 7z, rar)
-- Drag and Drop mods into log box for easy install.
+- Drag and Drop mods into log box for easy staging.
 - Select individual mods or all at once to install/uninstall.
 - Merge multiple .paks into one. (limited to dying light games)
 - Auto Detect Paths for Source, Tool, and Selected Profile for easy setup.
