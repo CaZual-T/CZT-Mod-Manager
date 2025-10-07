@@ -47,7 +47,8 @@ Built for STEAM and WINDOWS. Does not support EPIC Games, Cracked version, or Li
 <img width="739" height="209" alt="{EC658457-340C-4BA8-8E23-183844FBBFD3}" src="https://github.com/user-attachments/assets/350605c0-417a-41d8-a59d-4d642547c7c5" />
 
 > [!NOTE]
-> If you have an existing mod folder > drag them to the log box before doing the next step. Please either zip the entire mod folder or open the mod folder, press ctrl+A and drag them all to log box at once.
+> Before continuing to the next step....
+> If you have existing mods installed please open the location they are in, then press CTRL+A and drag them all into the log box of CZT.
 
 ### - 2:) Click Manage mods.
 <img width="778" height="137" alt="{9A5B4E34-81AC-4597-AC83-8C1FFFDD3327}" src="https://github.com/user-attachments/assets/6abcb9c1-cd70-4f7e-a0fa-6e7331367d9f" />
