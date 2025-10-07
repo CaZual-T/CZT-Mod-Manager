@@ -1,8 +1,10 @@
 Currently Supports Ready or Not, Schedule I, Dying Light 2, and Dying Light The Beast. More to be added!
 
+Built for STEAM and WINDOWS. Does not support EPIC Games, Cracked version, or Linux.
+
 # Features:
-- Toggle Mods: Launch with or without mods.
 - Easily install, delete, update and manage your mods at the click of a button!
+- Toggle Mods: Launch with or without mods.
 - Smart extraction & install. (zip, 7z, rar)
 - Drag and Drop mods into log box for easy install.
 - Select individual mods or all at once to install/uninstall.
