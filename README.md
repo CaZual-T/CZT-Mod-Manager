@@ -2,6 +2,10 @@ Currently Supports Ready or Not, Schedule I, Dying Light 2, and Dying Light The 
 
 Built for STEAM and WINDOWS. Does not support EPIC Games, Cracked version, or Linux.
 
+# Shortcuts
+Go to "Setup" https://github.com/CaZual-T/CZT-Mod-Manager/edit/main/README.md#czt-mod-manager-setup </br>
+Go to "How to Use" https://github.com/CaZual-T/CZT-Mod-Manager/edit/main/README.md#how-to-use-czt-mod-manager
+
 # Features:
 - Easily install, delete, update and manage your mods at the click of a button!
 - Toggle Mods: Launch with or without mods.
@@ -24,17 +28,22 @@ Built for STEAM and WINDOWS. Does not support EPIC Games, Cracked version, or Li
 ### - 1:) Download and Run installer
 <img width="174" height="41" alt="{7EB16B48-08C8-4FFD-98D0-5B2268A55CE7}" src="https://github.com/user-attachments/assets/e7a5422c-d50a-44f9-9d7d-f1647d57bca0" />
 
-### - 2:) Click Create Root (Select Drive, this will be where your mods are stored.)
+### - 2:) Create Root
+- Click the "Create Root" button in the top right of the CZT window.
+- Select Drive, this will be where your mods are stored.
+- All folders will be automatically created for you at the root of the drive you chose.
 
 ### - 3:) Install Unrar (click the button top right) (FOLLOW ON SCREEN PROMPTS)
 - YOU MUST INSTALL TO > Drive_selected_in_step_2/CZT Mod Manager/czt_tools/unrar.exe
 - After installing UnRar, Click UnRar again to auto detect and set its path.
 <img width="160" height="184" alt="{673739FC-5BBF-4132-939A-5967EE68D8AC}" src="https://github.com/user-attachments/assets/c6b682d5-245c-4ddc-a44b-30763fdeae2b" />
     
-### - 4:) Select Game profile (you can change this at any time)
+### - 4:) Select Game profile
+- Click the drop down on the left.  (you can change this at any time)
 <img width="146" height="100" alt="{91182C62-1401-412F-B4EA-945B662BBD63}" src="https://github.com/user-attachments/assets/d6c30c81-45ae-445e-a37e-06a69648f6d0" />
 
-### - 5:) Retrieve and save your NEXUS API key (this is how the tool communicates with the nexus website to retrieve mod info)
+### - 5:) Retrieve and save your NEXUS API key 
+- Why? This is how CZT communicates with the nexus website to retrieve mod info.
 - Go to <https://next.nexusmods.com/settings/api-keys>
 - Scroll to the bottom to get your personal key.
 <img width="774" height="207" alt="{858D75A0-44D2-4715-913F-3B59FB67C141}" src="https://github.com/user-attachments/assets/338f17d8-57cf-4493-b833-d935a069b8d8" />
@@ -42,8 +51,9 @@ Built for STEAM and WINDOWS. Does not support EPIC Games, Cracked version, or Li
 
 
 # How to use CZT Mod Manager
-### - 1:) Select Game Profile, Drag desired mods to the logbox in the app 
-- (they can be extracted already or still be zip, 7z or rar. CZT will handle it all)
+### - 1:) Select Game Profile. 
+- Drag desired mods to the logbox in the app (.zip, .rar, .7z, or already extracted .pak)
+- YOU DO NOT NEED TO EXTRACT YOUR MODS BEFORE INSTALLING. CZT WILL DO THAT FOR YOU.
 <img width="739" height="209" alt="{EC658457-340C-4BA8-8E23-183844FBBFD3}" src="https://github.com/user-attachments/assets/350605c0-417a-41d8-a59d-4d642547c7c5" />
 
 > [!NOTE]
@@ -55,7 +65,7 @@ Built for STEAM and WINDOWS. Does not support EPIC Games, Cracked version, or Li
 
 - Go to Install Mods tab
 - Select mods to install
-- Click 'Install Selected
+- Click 'Install Selected'
 <img width="1109" height="577" alt="{BD31A8A3-8819-47F3-8071-6D73F817AA3E}" src="https://github.com/user-attachments/assets/99fd003f-4386-4f20-9d10-aec3032ebadf" />
 
 
