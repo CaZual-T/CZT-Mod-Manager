@@ -80,8 +80,6 @@ Built for STEAM and WINDOWS. Does not support EPIC Games, Cracked version, or Li
 - Go to the MAIN tab and then click the green launch button.
 - You only have to launch with CZT when you want to toggle mods on or off or recently installed/deleted mods.
 - Once mods are toggled on/off that is the state they will stay in until changed by the user.
-<img width="1104" height="573" alt="{3BFC3645-229D-47EC-BF04-3C9D97028D56}" src="https://github.com/user-attachments/assets/4779fc83-1bba-48bf-b7ed-7657c6167ec2" />
-
 >[!NOTE]
 >If you run into this error "A required privilege is not held by the client" when launching, try running the program as administrator. (Most users wont have to do this)
-
+<img width="1104" height="573" alt="{3BFC3645-229D-47EC-BF04-3C9D97028D56}" src="https://github.com/user-attachments/assets/4779fc83-1bba-48bf-b7ed-7657c6167ec2" />
