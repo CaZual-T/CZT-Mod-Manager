@@ -1,4 +1,4 @@
-Currently Supports Ready or Not, Schedule I, Dying Light 2, and Dying Light The Beast. More to be added!
+Currently Supports Ready or Not, Schedule I, Dying Light 1/2, and Dying Light The Beast. More to be added!
 
 Built for STEAM and WINDOWS. Does not support EPIC Games, Cracked version, or Linux.
 
