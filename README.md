@@ -78,11 +78,8 @@ Built for STEAM and WINDOWS. Does not support EPIC Games, Cracked version, or Li
 
 ### - 4:) Launch Game.
 - Go to the MAIN tab and then click the green launch button.
-<img width="1100" height="148" alt="{6D68BF3E-0AF7-48A7-9EB8-2800DEFCAA73}" src="https://github.com/user-attachments/assets/d23cf33b-08ca-4a0f-a0af-456db32e1404" />
-
 - You only have to launch with CZT when you want to toggle mods on or off or recently installed/deleted mods.
 - Once mods are toggled on/off that is the state they will stay in until changed by the user.
-
 <img width="1104" height="573" alt="{3BFC3645-229D-47EC-BF04-3C9D97028D56}" src="https://github.com/user-attachments/assets/4779fc83-1bba-48bf-b7ed-7657c6167ec2" />
 
 >[!NOTE]
