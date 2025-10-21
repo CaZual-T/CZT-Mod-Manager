@@ -35,7 +35,7 @@ Built for STEAM and WINDOWS. Does not support EPIC Games, Cracked version, or Li
 
 ### - 4:) Select Game profile
 - Click LOAD STEAM LIBRARIES at the bottom.
-- Click the drop down on the left.  (you can change this at any time)
+- Then select the drop down on the left.  (you can change this at any time)
 <img width="178" height="359" alt="{D4BEC0A2-DD47-4693-AD3C-936974E4EF7B}" src="https://github.com/user-attachments/assets/6ca83fb3-5ea6-4119-aa77-b4e9a920e6d1" />
 
 
