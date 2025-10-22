@@ -2,20 +2,28 @@ Currently Supports Ready or Not, Schedule I, Dying Light 1/2, and Dying Light Th
 
 Built for STEAM and WINDOWS. Does not support EPIC Games, Cracked version, or Linux.
 
+# CZT Core:
+- Built using Python and PyQt5, Compiled with Nuitka Standalone.
+- Python: Core coding language. This app is 100% python.
+- PyQt5: Provides a modern, customizable GUI for a professional user experience.
+- UnRAR: Supports extraction and management of compressed mod files of any compression type.
+
 # Features:
-- Easily install, delete, update and manage your mods at the click of a button!
-- Toggle Mods: Launch with or without mods.
-- Smart extraction & install. (zip, 7z, rar)
-- Drag and Drop mods into log box for easy staging.
-- Select individual mods or all at once to install/uninstall.
-- Merge multiple .paks into one. (limited to dying light games)
-- Auto Detect Paths for Source, Tool, and Selected Profile for easy setup.
-- Compatible with community mod loaders like melon loader for schedule 1.
+- EZ Setup & Launch: Automatically locates or creates required configuration files, ensuring seamless setup for users.
+- Steam Library Detection: Scans drives for Steam libraries to auto-detect game installations.
 - Support custom steam installs and folder names.
-- Supports ANY drive letter.
-- Custom user options (color, fonts, launch options)
-<img width="1113" height="610" alt="{4951A703-A220-43B9-977F-C28C7116B2B5}" src="https://github.com/user-attachments/assets/d25269ad-b77d-4df2-ac38-5b854606dcdb" />
-<img width="1113" height="614" alt="{D9180AC9-7543-4222-B96F-23AE7884ED1B}" src="https://github.com/user-attachments/assets/8f029881-fa93-49a2-ac72-9136c61c94f2" />
+- Supports ANY drive letter, and multi drive libraries.
+- Game Profile Support: Handles multiple game profiles, with tailored settings and paths for each.
+- Mod Installation & Management: Allows users to install, delete, and track mods, with precise user options.
+- Toggle Mods: Launch with or without mods.
+- Nexus Mods Integration: Connects to the Nexus Mods API for mod info, updates, and direct downloads.
+- Customizable UI: Users can personalize colors, fonts, and layouts for accessibility and aesthetics.
+- Update Checking: Built-in update checker for both the manager and mods, keeping everything current.
+- Drag-and-Drop Support: Simplifies mod addition for users.
+- Error Handling & Recovery: Stress tested for reliability.
+- User Information: In-Depth user logs for both normal processes and errors.
+- Merge Utility: Combine multiple .paks into one. (limited to dying light games)
+<img width="1113" height="608" alt="{42D27C9B-05C4-45CB-B295-BE1BAF747E4A}" src="https://github.com/user-attachments/assets/83d40d53-db60-4e23-a7b4-f5269172af6d" />
 
 
 
