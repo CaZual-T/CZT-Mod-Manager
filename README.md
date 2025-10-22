@@ -98,4 +98,5 @@
 - Once mods are toggled on/off that is the state they will stay in until changed by the user.
 >[!NOTE]
 >If you run into this error "A required privilege is not held by the client" when launching, try running the program as administrator. (Most users wont have to do this)
-<img width="1104" height="573" alt="{3BFC3645-229D-47EC-BF04-3C9D97028D56}" src="https://github.com/user-attachments/assets/4779fc83-1bba-48bf-b7ed-7657c6167ec2" />
+<img width="1112" height="581" alt="{068958E5-CCE1-41EB-9C44-7750CF13E781}" src="https://github.com/user-attachments/assets/50f44dea-2d0d-4769-93e8-430089008b84" />
+
