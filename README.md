@@ -72,14 +72,14 @@
 
 > [!NOTE]
 > Before continuing to the next step.... </br>
-> 1.) If you have existing mods installed please open the location they are in. </br>
-> 2.) Press CTRL+A and drag them all into the install tab log box of CZT. </br>
-> 3.) After succesfully moving them you can then delete them from the original location. </br>
+> 1.33) If you have existing mods installed please open the location they are in. </br>
+> 1.66) Press CTRL+A and drag them all into the install tab log box of CZT. </br>
+> 1.99) After succesfully moving them you can then delete them from the original location. </br>
 
 ### - 2:) Select mods
+- Select mods to install.
 <img width="379" height="157" alt="{B12E874C-4456-4379-AAEC-AA24F2A1A491}" src="https://github.com/user-attachments/assets/99b369d6-009f-4baa-8b6b-0f559ff5df37" />
 
-- Select mods to install
 - Click 'Install Selected'
 <img width="677" height="96" alt="{EFE9FAA0-CD31-4FAE-9DFF-AF9D9609A92D}" src="https://github.com/user-attachments/assets/8d3bc819-5f4f-4a8a-a589-30dfeaad17d6" />
 
