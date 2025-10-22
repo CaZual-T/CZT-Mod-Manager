@@ -1,7 +1,7 @@
 # Welcome to the CZT Mod Manager homepage!
 
 ~ Go to 'First Time Setup' : [CLICK TO TELEPORT](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/README.md#czt-mod-manager-setup)</br>
-~ Go to 'How to Use' : [CLICK TO TELEPORT](https://github.com/CaZual-T/CZT-Mod-Manager/edit/main/README.md#how-to-use-czt-mod-manager)
+~ Go to 'How to Use' : [CLICK TO TELEPORT](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/README.md#how-to-use-czt-mod-manager)
 
 # CZT Core:
 - Built using Python and PyQt5, Compiled with Nuitka Standalone.
