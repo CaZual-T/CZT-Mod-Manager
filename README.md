@@ -1,6 +1,7 @@
-Currently Supports Ready or Not, Schedule I, Dying Light 1/2, and Dying Light The Beast. More to be added!
+# Welcome to the CZT Mod Manager homepage!
 
-Built for STEAM and WINDOWS. Does not support EPIC Games, Cracked version, or Linux.
+~ Go to 'First Time Setup' : [CLICK TO TELEPORT](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/README.md#czt-mod-manager-setup)</br>
+~ Go to 'How to Use' : [CLICK TO TELEPORT](https://github.com/CaZual-T/CZT-Mod-Manager/edit/main/README.md#how-to-use-czt-mod-manager)
 
 # CZT Core:
 - Built using Python and PyQt5, Compiled with Nuitka Standalone.
@@ -23,6 +24,10 @@ Built for STEAM and WINDOWS. Does not support EPIC Games, Cracked version, or Li
 - Error Handling & Recovery: Stress tested for reliability.
 - User Information: In-Depth user logs for both normal processes and errors.
 - Merge Utility: Combine multiple .paks into one. (limited to dying light games)
+
+- Currently Supports Ready or Not, Schedule I, Dying Light 1/2, and Dying Light The Beast. More to be added!
+- Built for STEAM and WINDOWS. Does not support EPIC Games, Cracked version, or Linux.</br>
+
 <img width="1113" height="608" alt="{42D27C9B-05C4-45CB-B295-BE1BAF747E4A}" src="https://github.com/user-attachments/assets/83d40d53-db60-4e23-a7b4-f5269172af6d" />
 
 
