@@ -1,7 +1,7 @@
 # Welcome to the CZT Mod Manager homepage!
 
 ~ Go to 'First Time Setup' : [CLICK TO TELEPORT](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/README.md#czt-mod-manager-setup)</br>
-~ Go to 'How to Use' : [CLICK TO TELEPORT](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/README.md#how-to-use-czt-mod-manager)
+~ Go to 'How to Use' : [CLICK TO TELEPORT](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/README.md#how-to-use-czt-mod-manager)</br>
 
 # CZT Core:
 - Built using Python and PyQt5, Compiled with Nuitka Standalone.
@@ -33,6 +33,7 @@
 
 
 # CZT Mod Manager Setup:
+~ Go to homepage : [CLICK TO TELEPORT](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/README.md#welcome-to-the-czt-mod-manager-homepage)</br>
 ### - 1:) Download and Run installer
 <img width="174" height="41" alt="{7EB16B48-08C8-4FFD-98D0-5B2268A55CE7}" src="https://github.com/user-attachments/assets/e7a5422c-d50a-44f9-9d7d-f1647d57bca0" />
 
@@ -61,6 +62,7 @@
 
 
 # How to use CZT Mod Manager
+~ Go to homepage : [CLICK TO TELEPORT](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/README.md#welcome-to-the-czt-mod-manager-homepage)</br>
 ### - 1:) Select Game Profile in the MAIN tab then...
 - Go to the INSTALL tab
 - Drag & Drop your mods to anywhere within app (.zip, .rar, .7z, or already extracted .pak)
