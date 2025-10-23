@@ -4,7 +4,7 @@
 ~ Go to 'How to Use' : [CLICK TO TELEPORT](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#how-to-use-czt-mod-manager)</br>
 
 # CZT Core:
-- Built using Python and PyQt5, Compiled with Nuitka Standalone.
+- Built with Python and PyQt5 gui library; EXE compiling method = Nuitka Standalone.
 - Python: Core coding language. This app is 100% python.
 - PyQt5: Provides a modern, customizable GUI for a professional user experience.
 - UnRAR: Supports extraction and management of compressed mod files of any compression type.
