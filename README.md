@@ -12,7 +12,7 @@
 # Features:
 - EZ Setup & Launch: Automatically locates or creates required configuration files, ensuring seamless setup for users.
 - Steam Library Detection: Scans drives for Steam libraries to auto-detect game installations.
-- Support custom steam installs and folder names.
+- Supports custom steam installs and folder names.
 - Supports ANY drive letter, and multi drive libraries.
 - Game Profile Support: Handles multiple game profiles, with tailored settings and paths for each.
 - Mod Installation & Management: Allows users to install, delete, and track mods, with precise user options.
