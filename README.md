@@ -7,7 +7,7 @@
 ```
 - Built using Python and PyQt5 gui library; EXE compiling method = Nuitka Standalone.
 - Python: Core coding language. This app is 100% python.
-- PyQt5: Provides a modern, customizable GUI for a professional user experience.
+- PyQt5: Provides a modern, customizable GUI for a more personal user experience.
 - UnRAR: Supports extraction and management of compressed mod files of any compression type.
 ```
 # Features:
@@ -16,7 +16,7 @@
 - Steam Library Detection: Scans drives for Steam libraries to auto-detect game installations.
 - Supports custom steam installs and folder names.
 - Supports ANY drive letter, and multi drive libraries.
-- Game Profile Support: Handles multiple game profiles, with tailored settings and paths for each.
+- Game Profile Support: Handles multiple game profiles, with custom settings and paths for each.
 - Mod Installation & Management: Allows users to install, delete, and track mods, with precise user options.
 - Toggle Mods: Launch with or without mods.
 - Nexus Mods Integration: Connects to the Nexus Mods API for mod info, updates, and direct downloads.
