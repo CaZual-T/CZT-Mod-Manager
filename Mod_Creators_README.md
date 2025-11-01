@@ -1,41 +1,39 @@
-==========================================================================================
-[!] This information is for mod creators. 
 
-[!] Manifest file name should always = "_mod_info.json"
+ This information is for mod creators. 
+
+ Manifest file name should always = "_mod_info.json"
 	> Place manifest at top level of your folder or compressed file. See example mods.
-==========================================================================================
 
-[Variable_Definitions]
-
-# "profile_name" = game your mod is for.
-+ Available profiles to use in 'profile_name' var.
-> 7DTD
-> Dying Light 1
-> Dying Light 2
-> DL The Beast
-> Ready or Not
-> Schedule I
-
-# "display_name" = Whatever you want to show as the mod name in the UI
-# "mod_local_version" = version number to display in UI
-# "nexus_url" = url of mod
-# "files_to_install" = name of file(s) to install
-# "folder_to_install" = name of single folder to install
-# "folders_to_install" = dict of folders to install
-
-# "destination" = 
+## Variable_Definitions
+- "profile_name" = game your mod is for.
+- Available profiles to use in 'profile_name' var.
+```
+- 7DTD
+- Dying Light 1
+- Dying Light 2
+- DL The Beast
+- Ready or Not
+- Schedule I
+```
+- "nexus_url" = url of mod
+- "files_to_install" = name of file(s) to install (exact name)
+- "folder_to_install" = name of single folder to install (exact name)
+- "folders_to_install" = dict of folders to install (exact name)
+- "display_name" = Whatever you want to show as the mod name in the UI
+- "mod_local_version" = version number to display in UI
+- "destination" = 
 + Available destination to use in 'destination' var.
+```
 > profile_mods/7DTD/Mods/
 > profile_mods/Ready or Not/mod.czt/
 > profile_mods/Dying Light 1/
 > profile_mods/Dying Light 2/
 > profile_mods/DL The Beast/
 > profile_mods/Schedule I/Mods/
+```
 
-===========================================
-// Single File Manifest (_mod_info.json)
-===========================================
-
+### Single File Manifest (_mod_info.json)
+```
 {
   "profile_name": "Ready or Not",
   "nexus_url": "https://www.nexusmods.com/readyornot/mods/741",
@@ -48,16 +46,10 @@
   ],
   "destination": "profile_mods/Ready or Not/mod.czt/"
 }
+```
 
-[NOTES] 
-# display_name = Name that will display in gui
-# mod_local_vesrion = Local version to display in gui
-# files_to_install = Source: file to install | Destination: Profile path/file_to_install
-
-===========================================
-// Multi File Manifest (_mod_info.json)
-===========================================
-
+### Multi File Manifest (_mod_info.json)
+```
 {
   "profile_name": "Ready or Not",
   "nexus_url": "https://www.nexusmods.com/readyornot/mods/3796",
@@ -90,16 +82,10 @@
   ],
   "destination": "profile_mods/Ready or Not/mod.czt/"
 }
+```
 
-[NOTES] 
-# display_name = Name that will display in gui
-# mod_local_vesrion = Local version to display in gui
-# files_to_install = Source: file to install | Destination: Profile path/file_to_install
-
-===========================================
-// Single Folder Manifest (_mod_info.json)
-===========================================
-
+### Single Folder Manifest (_mod_info.json)
+```
 {
   "profile_name": "7DTD",		
   "display_name": "A Mod For 7DTD",	
@@ -108,17 +94,10 @@
   "folder_to_install": "7DTD_MOD_TEST",
   "destination": "profile_mods/7DTD/Mods/" 
 }
+```
 
-[NOTES] 
-# display_name = Name that will display in gui
-# mod_local_vesrion = Local version to display in gui
-# destination = Use the destinations from the top of the file. You do not need to include anything after that. 
-> CZT will append your folder name(s) from above to the destination you set.
-
-===========================================
-// Multi Folder Manifest (_mod_info.json)
-===========================================
-
+### Multi Folder Manifest (_mod_info.json)
+```
 {
   "profile_name": "7DTD",
   "nexus_url": "https://www.nexusmods.com/7daystodie/mods/3285",
@@ -153,10 +132,4 @@
   },
   "destination": "profile_mods/7DTD/Mods/"
 }
-
-[NOTES]
-# folders_to_install = The exact names of the folders you wish to have installed.
-# display_name = Name that will display in gui.
-# mod_local_vesrion = Local version to display in gui.
-# destination = Use the destinations from the top of the file. You do not need to include anything after that. 
-> CZT will append your folder name(s) from above to the destination you set.
+```
