@@ -4,14 +4,12 @@
 ~ Go to 'How to Use' : [CLICK TO TELEPORT](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#how-to-use-czt-mod-manager)</br>
 
 # CZT Core:
-```
 - Built using Python and PyQt5 gui library; EXE compiling method = Nuitka Standalone.
 - Python: Core coding language. This app is 100% python.
 - PyQt5: Provides a modern, customizable GUI for a more personal user experience.
 - UnRAR: Supports extraction and management of compressed mod files of any compression type.
-```
+
 # Features:
-```
 - EZ Setup & Launch: Automatically locates or creates required configuration files, ensuring seamless setup for users.
 - Steam Library Detection: Scans drives for Steam libraries to auto-detect game installations.
 - Supports custom steam installs and folder names.
@@ -26,11 +24,10 @@
 - Error Handling & Recovery: Stress tested for reliability.
 - User Information: In-Depth user logs for both normal processes and errors.
 - Merge Utility: Combine multiple .paks into one. (limited to dying light games)
-```
+
 - Currently Supports 7DTD, Ready or Not, Schedule I, Dying Light 1/2, and Dying Light The Beast. More to be added!
 - Built for STEAM and WINDOWS. Does not support EPIC Games, Cracked version, or Linux.</br>
 <img width="1113" height="608" alt="{42D27C9B-05C4-45CB-B295-BE1BAF747E4A}" src="https://github.com/user-attachments/assets/83d40d53-db60-4e23-a7b4-f5269172af6d" />
-
 
 
 # CZT Mod Manager Setup:
