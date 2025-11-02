@@ -93,8 +93,8 @@
 
 # How To Track Mods/Update Info
 ~ Go to homepage : [CLICK TO TELEPORT](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#welcome-to-the-czt-mod-manager-homepage)</br>
-- Go to the 'Manage' Tab
-- Enter nexus url
+- Go to the 'Manage' Tab.
+- Enter the selected mods corresponding nexus url.
 - Select checkbox next to mod, click save data button.
 - To check for updates simply select the mod, click check for updates. This will also update the version number in the LATEST column.
 
