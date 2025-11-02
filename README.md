@@ -65,7 +65,9 @@
 ### - 1:) Select Game Profile in the MAIN tab then...
 - Go to the INSTALL tab
 - Drag & Drop your mods to anywhere within app (.zip, .rar, .7z, or already extracted .pak)
-- YOU DO NOT NEED TO EXTRACT YOUR MODS BEFORE INSTALLING. CZT WILL DO THAT FOR YOU.
+- File based mods (.pak, .dll, .asi etc) do not need extracted before install.
+- Folder mods need to be extracted first to avoid double foldering.
+- Mods with a _mod_info.json file attached DO NOT need extracted before install, regardless of the type.
 <img width="1106" height="237" alt="{9B9FD217-A798-4585-BA6E-BD871B32240D}" src="https://github.com/user-attachments/assets/d1945643-f2bb-40fc-a8e8-7bb83e80318d" />
 
 
