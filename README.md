@@ -71,9 +71,10 @@
 
 > [!NOTE]
 > Before continuing to the next step...</br>
-> Users with mods already installed...</br>
-> Go to your mod install location, drag and drop any mods you may have installed into the install tab. (to install later)</br>
-> Delete the old mod files/mod folder. You wont need them anymore.</br>
+> - Users with mods already installed...</br>
+> - Go to your mod install location,</br>
+> drag and drop any mods you may have installed into the install tab. (to install later)</br>
+> - Delete the old mod files/mod folder. You wont need them anymore.</br>
 
 ### - 2:) Select mods
 - Select mods to install.
