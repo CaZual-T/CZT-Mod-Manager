@@ -69,10 +69,10 @@
 
 
 > [!NOTE]
-> Before continuing to the next step.... </br>
-> 1.33) If you have existing mods installed please open the location they are in. </br>
-> 1.66) Press CTRL+A and drag them all into the install tab log box of CZT. </br>
-> 1.99) After succesfully moving them you can then delete them and your original mod folder (if exists). </br>
+> Before continuing to the next step...</br>
+> Users with mods already installed...</br>
+> Go to your mod install location, drag and drop any mods you may have installed into the install tab. (to install later)</br>
+> Delete the old mod files/mod folder. You wont need them anymore.</br>
 
 ### - 2:) Select mods
 - Select mods to install.
