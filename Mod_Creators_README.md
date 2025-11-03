@@ -1,8 +1,9 @@
 
  This information is for mod creators. 
 
- Manifest file name should always = "_mod_info.json"
-	> Place manifest at top level of your folder or compressed file. See example mods.
+ Manifest file name should always = "_mod_info.json" </br>
+	> Place manifest at top level of your folder or compressed file.</br>
+	> See example mods: https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/Mod_Creators_Examples.rar
 
 ## Variable_Definitions
 - "profile_name" = game your mod is for.
@@ -133,3 +134,4 @@
   "destination": "profile_mods/7DTD/Mods/"
 }
 ```
+
