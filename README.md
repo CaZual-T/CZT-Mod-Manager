@@ -126,7 +126,7 @@
         > Nexus Api Key: opens nexus website and takes user to api page.
         > {profile_select}: select which game you want to manage mods for.
     [Right side buttons]
-        > Create Root: Crreates main dependency folders for CZT
+        > Create Root: Creates main dependency folders for CZT
         > Install Unrar: Downloads and runs the official unrar installer.
         > Save Key: save nexus api key
         > Browse: open current profiles mod install and symlink locations.
