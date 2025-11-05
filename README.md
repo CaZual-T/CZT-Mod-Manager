@@ -118,7 +118,7 @@
 
 
 # Below is a complete function dictionary:
-
+~ Go to homepage : [CLICK TO TELEPORT](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#welcome-to-the-czt-mod-manager-homepage)</br>
 ### Main Tab:
     [Left side buttons]
         > Source Folder: Opens main czt root folder.
