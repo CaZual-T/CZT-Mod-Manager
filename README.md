@@ -114,3 +114,80 @@
 'Force Update Display Name'
 'Force Update Local Version'
 ```
+
+# Below is a complete function dictionary:
+
+### Main Tab:
+    [Left side buttons]
+        > Source Folder: Opens main czt root folder.
+        > Unrar Path: opens the unrar.exe path
+        > Nexus Api Key: opens nexus website and takes user to api page.
+        > {profile_select}: select which game you want to manage mods for.
+    [Right side buttons]
+        > Create Root: Crreates main dependency folders for CZT
+        > Install Unrar: Downloads and runs the official unrar installer.
+        > Save Key: save nexus api key
+        > Browse: open current profiles mod install and symlink locations.
+    [Main Logbox]
+        > Logs (shows output of) all primary functions.
+
+    [Bottom row buttons]
+        > Join Discord: Opens official CZT discord
+        > Open Github: Opens main github page.
+        > Load Steam Libraries: Scan all installed drives for steams vdf file, parses that file, and uses the found library path(s) for other functions.
+        > Save Config: Peace of mind manual save of all current settings.
+        > Launch Game: Launch with or without mods. Uses symlink.
+
+### Install Mods Tab:
+    [Entire Window]
+        > Ability to drag and drop mod zip, rar, 7z files into the window and stage them for install.
+    [Bottom row buttons]
+        > Select all.
+        > Deselct all.
+        > Patch DataN: Patches the number and mod info file if found so users dont have to manually.
+        > Delete Selected.
+        > Install Selected: Scans mod for potential manifest, if found, runs dedicated logic for manifest based installs. If not found, runs legacy install.
+    [Checkbox]
+        > Clear source folder after install: Will delete all selected mods AFTER they've been installed.
+    [Install Log box]
+        > Logs (shows output of) all install functions.
+
+### Manage Mods Tab:
+    [Top Row Labels]
+        > {current game} | Installed Mods
+        > Local Version: Most recent version installed.
+        > Latest: Newest version available on nexus.
+        > Nexus Link: Entry for each mods nexus link. (used to grab info like mod name, version, and thumbnail)
+    [Mod List Display (per row)]
+        > Mod Name or File Name
+        > Install Date
+        > Version installed (this will auto fill if the mod installed used a _mod_info.json file)
+        > Mods newest version available
+        > Nexus link
+    [Controls (buttons)]
+        > Select All
+        > Deselect All
+        > Select Outdated (use this after running 'Update Scan')
+        > Open Selected: Opens the webpage of each selected mod.
+        > Update Scan: Compares the selected mods saved info within mod_list.json to the available metadata on the nexus site.
+        > Merge Mods: Line by line merging for DataN.pak mods in Dying Light Games. Easy and Advanced options.
+        > Disable Selected: Moves selected mods to a quarantined folder to prevent them from loading at launch. Great for troubleshooting problematic mods.
+        > Restore Disabled: Individually select which mods you want to re-enable.
+        > Delete Selected: There is a yes no confirmation before the action completes. THIS CANNOT BE UNDONE.
+        > Save Data: Saves the data of SELECTED MODS. YOU MUST SELECT THE MOD THEN CLICK THIS BUTTON. OTHERWISE IT DOESNT SAVE.
+    [Checkboxes]
+        - I added these to ensure DataN.pak mods could easily be overwritten within the mod_list.json at the users discretion.
+        - CZT uses a mod list to display mod info. Due to the naming of dataN.pak mods this can cause mixed info to be displayed. 
+        - These settings ensure you can easily overwrite them to prevent them from displaying the wrong info. Just ensure the link is correct for the mod you installed.
+        > Force Update Image
+        > Force Update Display Name
+        > Force Update Local Version
+
+### Settings Tab
+    [Startup Options]
+        Set 'Install' as home tab - When CZT is launched, this tab display first.
+        Set 'Manage' as home tab - When CZT is launched, this tab display first.
+    [Color & Font Options]
+    - You can reset these to default values at anytime.
+        Custom Color selection (hexadecimal so literally any color is available)
+        Custom font selection - 75+ Fonts available
