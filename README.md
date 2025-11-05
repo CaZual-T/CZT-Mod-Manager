@@ -78,14 +78,14 @@
 >     ...drag and drop any mods you may have installed into the install tab. (to install later)</br>
 > - Delete the old mod files/mod folder. You wont need them anymore.</br>
 
-### - 2:) Select mods
+### - 2:) Select mods:
 - Select mods to install.
 <img width="379" height="157" alt="{B12E874C-4456-4379-AAEC-AA24F2A1A491}" src="https://github.com/user-attachments/assets/99b369d6-009f-4baa-8b6b-0f559ff5df37" />
 
 - Click 'Install Selected'
 <img width="647" height="81" alt="{4F1AE783-5E3F-4864-B202-51A2C0BEA97A}" src="https://github.com/user-attachments/assets/abf63bbc-a0b5-4bc0-8e97-7d2fa397e320" />
 
-### - 3:) Launch Game.
+### - 3:) Launch Game:
 - Go to the MAIN tab and then click the green launch button.
 - You only have to launch with CZT when you want to toggle mods on or off or recently installed/deleted mods.
 - Once mods are toggled on/off that is the state they will stay in until changed by the user.
@@ -93,20 +93,20 @@
 >If you run into this error "A required privilege is not held by the client" when launching, try running the program as administrator. (Most users wont have to do this)
 <img width="1112" height="581" alt="{068958E5-CCE1-41EB-9C44-7750CF13E781}" src="https://github.com/user-attachments/assets/50f44dea-2d0d-4769-93e8-430089008b84" />
 
-# How To Track Mods/Update Info
+# How To Track Mods/Update Info:
 ~ Go to homepage : [CLICK TO TELEPORT](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#welcome-to-the-czt-mod-manager-homepage)</br>
 - Go to the 'Manage' Tab.
 - Enter the selected mods corresponding nexus url.
 - Select checkbox next to mod, click save data button.
 - To check for updates simply select the mod, click check for updates. This will also update the version number in the LATEST column.
 
-# Other Features
+# Other Features:
 ### - Disabled/Restore Mods
 - Select mods then click 'Disable Selected'
 - You can click 'Restore Disabled' at anytime.
 - Disabling mods results in them not being linked at launch. (good for trouble shooting broken mods)
 
-### Forcible options
+### Forcible options:
 - These allow users to overwrite existing data within the profile_mod_list.json.
 - Extremely useful for DataN.pak mods.
 ```
@@ -183,7 +183,7 @@
         > Force Update Display Name
         > Force Update Local Version
 
-### Settings Tab
+### Settings Tab:
     [Startup Options]
         Set 'Install' as home tab - When CZT is launched, this tab display first.
         Set 'Manage' as home tab - When CZT is launched, this tab display first.
