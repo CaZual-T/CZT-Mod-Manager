@@ -42,6 +42,8 @@
 - Select Drive, this will be where your mods are stored.
 - All folders will be automatically created for you at the root of the drive you chose.
 <img width="172" height="258" alt="{CEACEE52-38AD-4307-8A2E-CA00EBC285F2}" src="https://github.com/user-attachments/assets/03f0bbdc-daa5-4fe6-b535-e5c56ae5f3bb" />
+<img width="354" height="189" alt="{FA7CDBF7-1A0F-4E39-9E60-466B44ADEF27}" src="https://github.com/user-attachments/assets/4a11cd57-1997-4a38-a651-f2d1d1b2e567" />
+
 
 ### - 3:) Install Unrar (click the button top right) (FOLLOW ON SCREEN PROMPTS)
 - YOU MUST INSTALL TO > Drive_selected_in_step_2/CZT Mod Manager/czt_tools/unrar.exe
