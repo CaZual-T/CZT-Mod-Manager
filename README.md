@@ -123,6 +123,7 @@
 'Force Update Mod Image'
 'Force Update Display Name'
 'Force Update Local Version'
+'Force Update Install Date'
 ```
 
 
