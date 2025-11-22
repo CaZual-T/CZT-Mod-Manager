@@ -164,19 +164,17 @@
         > Logs (shows output of) all install functions.
 
 ### Manage Mods Tab:
-    [Top Row Labels]
+    [Top UI]
         > Search bar to jump to any mod.
         > 2 Sort options (By display name A-Z/Z-A) (By creator name A-Z/Z-A)
-        > Mod creator name.
-        > Local Version: Most recent version installed.
-        > Latest: Newest version available on nexus.
-        > Nexus Link: Entry for each mods nexus link. (used to grab info like mod name, version, and thumbnail)
+        > Heaader Labels.
     [Mod List Display (per row)]
-        > Mod Name or File Name (Shift + Left Click the mod name to edit the display name)
-        > Install Date
+        > Mod Name or File/Parent Folder Name (Shift + Left Click the mod name to edit the display name)
+        > Mod cretors name.
+        > Install Date. (date that you installed the mod)
         > Version installed (this will auto fill if the mod installed used a _mod_info.json file)
-        > Mods newest version available
-        > Nexus link
+        > Mods newest version available. (select mod then click update scan for this to fill)
+        > Nexus link (used to grab info like mod name, version, and thumbnail)
     [Controls (buttons)]
         > Select All
         > Deselect All
