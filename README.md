@@ -23,6 +23,10 @@
 - Customizable UI: Users can personalize colors, fonts, and layouts for accessibility and aesthetics.
 - Update Checking: Built-in update checker for both the manager and mods, keeping everything current.
 - Drag-and-Drop Support: Simplifies mod addition for users.
+- Search bar to easily jump to any mod.
+- Shift + left click mod name to edit the display name.
+- Sort mods A-Z/Z-A by mod display name.
+- Sort mods A-Z/Z-A by mod creator name.
 - Error Handling & Recovery: Stress tested for reliability.
 - User Information: In-Depth user logs for both normal processes and errors.
 - Merge Utility: Combine multiple .paks into one. (limited to dying light games)
