@@ -165,12 +165,14 @@
 
 ### Manage Mods Tab:
     [Top Row Labels]
-        > {current game} | Installed Mods
+        > Search bar to jump to any mod.
+        > 2 Sort options (By display name A-Z/Z-A) (By creator name A-Z/Z-A)
+        > Mod creator name.
         > Local Version: Most recent version installed.
         > Latest: Newest version available on nexus.
         > Nexus Link: Entry for each mods nexus link. (used to grab info like mod name, version, and thumbnail)
     [Mod List Display (per row)]
-        > Mod Name or File Name
+        > Mod Name or File Name (Shift + Left Click the mod name to edit the display name)
         > Install Date
         > Version installed (this will auto fill if the mod installed used a _mod_info.json file)
         > Mods newest version available
@@ -193,6 +195,7 @@
         > Force Update Image
         > Force Update Display Name
         > Force Update Local Version
+        > Force Install Date
 
 ### Settings Tab:
     [Startup Options]
