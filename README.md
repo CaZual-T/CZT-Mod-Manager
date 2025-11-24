@@ -99,8 +99,8 @@
 - You only have to launch with CZT when you want to toggle mods on or off or recently installed/deleted mods.
 - Once mods are toggled on/off that is the state they will stay in until changed by the user.
 >[!NOTE]
->If you run into this error "A required privilege is not held by the client" when launching, try running the program as administrator. (Most users wont have to do this)
->THIS IS ONLY TO LAUNCH THE GAME. DRAG AND DROP WILL NOT WORK WHEN CZT IS RUNNING AS ADMIN. THIS IS A WINDOWS LIMITATION. EXPLORER CANNOT MOVE FILES TO AN APP WITH HIGHER PERMS THAN ITSELF.
+>- If you run into this error "A required privilege is not held by the client" when launching, try running the program as administrator. (Most users wont have to do this)</br>
+>- THIS IS ONLY TO LAUNCH THE GAME. DRAG AND DROP WILL NOT WORK WHEN CZT IS RUNNING AS ADMIN. THIS IS A WINDOWS LIMITATION. EXPLORER CANNOT MOVE FILES TO AN APP WITH HIGHER PERMS THAN ITSELF.
 <img width="1112" height="581" alt="{068958E5-CCE1-41EB-9C44-7750CF13E781}" src="https://github.com/user-attachments/assets/50f44dea-2d0d-4769-93e8-430089008b84" />
 
 # How To Track Mods/Update Info:
