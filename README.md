@@ -32,7 +32,9 @@
 - Merge Utility: Combine multiple .paks into one. (limited to dying light games)
 
 - Currently Supports 7DTD, Ready or Not, Schedule I, Dying Light 1/2, and Dying Light The Beast. More to be added!
-- Built for STEAM and WINDOWS. Does not support EPIC Games, Cracked version, or Linux.</br>
+- Auto pathing built for STEAM.
+- Manual pathing available for EPIC and OTHER platforms. 
+- Does NOT support Linux.</br>
 <img width="1111" height="605" alt="{4624B862-0566-4BF5-80A2-B1DA782A89C2}" src="https://github.com/user-attachments/assets/c06a63b7-2f88-4fba-ace0-a6c6645547b9" />
 
 # CZT Mod Manager Setup:
