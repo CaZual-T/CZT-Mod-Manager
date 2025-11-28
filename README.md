@@ -140,6 +140,11 @@
         > Install Unrar: Downloads and runs the official unrar installer.
         > Save Key: save nexus api key
         > Browse: open current profiles mod install and symlink locations.
+        
+    [Checkbox Options]
+        > Manual Path: Used so the user can manually set exe and mod install locations.
+        > Auto Path: Uses steam libraries to automatically detect and handle pathing for mods/games.
+        
     [Main Logbox]
         > Logs (shows output of) all primary functions.
 
