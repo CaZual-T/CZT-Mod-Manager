@@ -7,8 +7,6 @@
 
 # CZT Core:
 - Built using Python and PyQt5 gui library; EXE compiling method = Nuitka Standalone.
-- Python: Core coding language. This app is 100% python.
-- PyQt5: Provides a modern, customizable GUI for a more personal user experience.
 - UnRAR: Supports extraction and management of compressed mod files of any compression type.
 
 # Features:
