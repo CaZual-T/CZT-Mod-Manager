@@ -14,11 +14,11 @@
 - Steam Library Detection: Scans drives for Steam libraries to auto-detect game installations. (detects custom paths and names)
 - Supports multi drive steam libraries. (any drive letter C-Z)
 - Manual pathing available for EPIC and OTHER platforms. 
-- Game Profiles: Handles multiple games. Custom settings for each.
-- Mod Management: Allows users to install, delete, and track mods, with precise user options.
+- Game Profiles: Handles multiple games. Custom settings built specifically for each game.
+- EZ Management: Allows users to install, delete, and track mods, with precise user options.
 - Toggle Mods: Launch with or without mods enabled.
-- Disable mods individually. Restore at anytime.
-- Nexus Mods Integration: Connects to the Nexus Mods API for mod info, updates, and direct downloads.
+- Disable mods individually & Restore at anytime.
+- Nexus Mods Integration: Connects to the Nexus Mods API to collect mod info, and check versions for potential updates.
 - "Available Updates" Notification @ Launch: Built-in check for CZT that allows the user to simply download and update CZT in app.
 - Drag-and-Drop Support: Simplifies mod addition for users.
 - Search bar to easily jump to any mod.
