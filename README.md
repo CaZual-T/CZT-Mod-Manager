@@ -101,7 +101,6 @@
 <img width="1112" height="581" alt="{068958E5-CCE1-41EB-9C44-7750CF13E781}" src="https://github.com/user-attachments/assets/50f44dea-2d0d-4769-93e8-430089008b84" />
 
 # How To Track Mods/Update Info:
-~ Go to homepage : [CLICK TO TELEPORT](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#welcome-to-the-czt-mod-manager-homepage)</br>
 - Go to the 'Manage' Tab.
 - Enter the selected mods corresponding nexus url.
 - Select checkbox next to mod, click save data button.
