@@ -32,7 +32,6 @@
 - Customizable UI: Users can personalize colors, fonts, and layouts for accessibility and aesthetics.
 - Currently Supports 7DTD, Ready or Not, Schedule I, Dying Light 1/2, and Dying Light The Beast. More to be added!
 - Does NOT support Linux.</br>
-<img width="1111" height="605" alt="{4624B862-0566-4BF5-80A2-B1DA782A89C2}" src="https://github.com/user-attachments/assets/c06a63b7-2f88-4fba-ace0-a6c6645547b9" />
 
 # CZT Mod Manager Setup:
 ### - 1:) Download and Run installer
