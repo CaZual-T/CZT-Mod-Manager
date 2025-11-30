@@ -20,7 +20,7 @@
 - Toggle Mods: Launch with or without mods.
 - Nexus Mods Integration: Connects to the Nexus Mods API for mod info, updates, and direct downloads.
 - Customizable UI: Users can personalize colors, fonts, and layouts for accessibility and aesthetics.
-- Available Updates Notification @ Launch: Built-in update check for both the manager and mods, keeping everything current.
+- Available Updates Notification @ Launch: Built-in check for CZT that allows the user to simply download and update in app.
 - Drag-and-Drop Support: Simplifies mod addition for users.
 - Search bar to easily jump to any mod.
 - Shift + left click mod name to edit the display name.
