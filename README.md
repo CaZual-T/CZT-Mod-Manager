@@ -14,6 +14,7 @@
 - Steam Library Detection: Scans drives for Steam libraries to auto-detect game installations.
 - Supports custom steam installs and folder names.
 - Supports ANY drive letter, and multi drive steam libraries.
+- Manual pathing available for EPIC and OTHER platforms. 
 - Game Profile Support: Handles multiple game profiles, with custom settings and paths for each.
 - Mod Installation & Management: Allows users to install, delete, and track mods, with precise user options.
 - Toggle Mods: Launch with or without mods.
@@ -29,10 +30,7 @@
 - Error Handling & Recovery: Stress tested for reliability.
 - User Information: In-Depth user logs for both normal processes and errors.
 - Merge Utility: Combine multiple .paks into one. (limited to dying light games)
-
 - Currently Supports 7DTD, Ready or Not, Schedule I, Dying Light 1/2, and Dying Light The Beast. More to be added!
-- Auto pathing built for STEAM.
-- Manual pathing available for EPIC and OTHER platforms. 
 - Does NOT support Linux.</br>
 <img width="1111" height="605" alt="{4624B862-0566-4BF5-80A2-B1DA782A89C2}" src="https://github.com/user-attachments/assets/c06a63b7-2f88-4fba-ace0-a6c6645547b9" />
 
