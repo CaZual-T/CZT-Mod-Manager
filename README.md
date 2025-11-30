@@ -216,7 +216,4 @@
     [Color & Font Options]
     - You can reset these to default values at anytime.
         Custom Color selection (hexadecimal so literally any color is available)
-        Custom font selection - 75+ Fonts available
-
-
-~ Go to homepage : [CLICK TO TELEPORT](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#welcome-to-the-czt-mod-manager-homepage)</br>
+        Custom font selection - 75+ Fonts available.\
