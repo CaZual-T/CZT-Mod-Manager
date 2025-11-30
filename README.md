@@ -23,6 +23,7 @@
 - Drag-and-Drop Support: Simplifies mod addition for users.
 - Search bar to easily jump to any mod.
 - Shift + left click mod name to edit the display name.
+- CTRL+SHIFT+S will open detailed debug console.
 - Sort mods A-Z/Z-A by mod display name.
 - Sort mods A-Z/Z-A by mod creator name.
 - Error Handling & Recovery: Stress tested for reliability.
