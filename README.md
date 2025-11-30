@@ -11,16 +11,15 @@
 
 # Features:
 - EZ Setup & Launch: Automatically locates or creates required configuration files, ensuring seamless setup for users.
-- Steam Library Detection: Scans drives for Steam libraries to auto-detect game installations.
-- Supports custom steam installs and folder names.
-- Supports ANY drive letter, and multi drive steam libraries.
+- Steam Library Detection: Scans drives for Steam libraries to auto-detect game installations. (detects custom paths and names)
+- Supports multi drive steam libraries. (any drive letter C-Z)
 - Manual pathing available for EPIC and OTHER platforms. 
-- Game Profile Support: Handles multiple game profiles, with custom settings and paths for each.
-- Mod Installation & Management: Allows users to install, delete, and track mods, with precise user options.
-- Toggle Mods: Launch with or without mods.
+- Game Profiles: Handles multiple games. Custom settings for each.
+- Mod Management: Allows users to install, delete, and track mods, with precise user options.
+- Toggle Mods: Launch with or without mods enabled.
+- Disable mods individually. Restore at anytime.
 - Nexus Mods Integration: Connects to the Nexus Mods API for mod info, updates, and direct downloads.
-- Customizable UI: Users can personalize colors, fonts, and layouts for accessibility and aesthetics.
-- Available Updates Notification @ Launch: Built-in check for CZT that allows the user to simply download and update in app.
+- "Available Updates" Notification @ Launch: Built-in check for CZT that allows the user to simply download and update CZT in app.
 - Drag-and-Drop Support: Simplifies mod addition for users.
 - Search bar to easily jump to any mod.
 - Shift + left click mod name to edit the display name.
@@ -30,12 +29,12 @@
 - Error Handling & Recovery: Stress tested for reliability.
 - User Information: In-Depth user logs for both normal processes and errors.
 - Merge Utility: Combine multiple .paks into one. (limited to dying light games)
+- Customizable UI: Users can personalize colors, fonts, and layouts for accessibility and aesthetics.
 - Currently Supports 7DTD, Ready or Not, Schedule I, Dying Light 1/2, and Dying Light The Beast. More to be added!
 - Does NOT support Linux.</br>
 <img width="1111" height="605" alt="{4624B862-0566-4BF5-80A2-B1DA782A89C2}" src="https://github.com/user-attachments/assets/c06a63b7-2f88-4fba-ace0-a6c6645547b9" />
 
 # CZT Mod Manager Setup:
-~ Go to homepage : [CLICK TO TELEPORT](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#welcome-to-the-czt-mod-manager-homepage)</br>
 ### - 1:) Download and Run installer
 <img width="174" height="41" alt="{7EB16B48-08C8-4FFD-98D0-5B2268A55CE7}" src="https://github.com/user-attachments/assets/e7a5422c-d50a-44f9-9d7d-f1647d57bca0" />
 
@@ -69,7 +68,6 @@
 
 
 # How to use CZT Mod Manager
-~ Go to homepage : [CLICK TO TELEPORT](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#welcome-to-the-czt-mod-manager-homepage)</br>
 ### - 1:) Select Game Profile in the MAIN tab then...
 - Go to the INSTALL tab
 - Drag & Drop your mods to anywhere within app (.zip, .rar, .7z, or already extracted .pak)
@@ -127,18 +125,22 @@
 
 
 # Below is a complete function dictionary:
-~ Go to homepage : [CLICK TO TELEPORT](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#welcome-to-the-czt-mod-manager-homepage)</br>
 ### Main Tab:
     [Left side buttons]
         > Source Folder: Opens main czt root folder.
         > Unrar Path: opens the unrar.exe path
         > Nexus Api Key: opens nexus website and takes user to api page.
         > {profile_select}: select which game you want to manage mods for.
+    
     [Right side buttons]
         > Create Root: Creates main dependency folders for CZT
         > Install Unrar: Downloads and runs the official unrar installer.
         > Save Key: save nexus api key
         > Browse: open current profiles mod install and symlink locations.
+
+    [Manual Path Options] (Greyed out unless the "Manual Pathing" option (below) is checked.)
+        > Set Install: Set path to where mods should be linked to at launch.
+        > Set EXE: Set path to the exe of the profile you selected.
         
     [Checkbox Options]
         > Manual Path: Used so the user can manually set exe and mod install locations.
@@ -157,14 +159,17 @@
 ### Install Mods Tab:
     [Entire Window]
         > Ability to drag and drop mod zip, rar, 7z files into the window and stage them for install.
+    
     [Bottom row buttons]
         > Select all.
         > Deselct all.
         > Patch DataN: Patches the number and mod info file if found so users dont have to manually.
         > Delete Selected.
         > Install Selected: Scans mod for potential manifest, if found, runs dedicated logic for manifest based installs. If not found, runs legacy install.
+    
     [Checkbox]
         > Clear source folder after install: Will delete all selected mods AFTER they've been installed.
+    
     [Install Log box]
         > Logs (shows output of) all install functions.
 
@@ -173,6 +178,7 @@
         > Search bar to jump to any mod.
         > 2 Sort options (By display name A-Z/Z-A) (By creator name A-Z/Z-A)
         > Heaader Labels.
+    
     [Mod List Display (per row)]
         > Mod Name or File/Parent Folder Name (Shift + Left Click the mod name to edit the display name)
         > Mod cretors name.
@@ -180,6 +186,7 @@
         > Version installed (this will auto fill if the mod installed used a _mod_info.json file)
         > Mods newest version available. (select mod then click update scan for this to fill)
         > Nexus link (used to grab info like mod name, version, and thumbnail)
+    
     [Controls (buttons)]
         > Select All
         > Deselect All
@@ -191,6 +198,7 @@
         > Restore Disabled: Individually select which mods you want to re-enable.
         > Delete Selected: There is a yes no confirmation before the action completes. THIS CANNOT BE UNDONE.
         > Save Data: Saves the data of SELECTED MODS. YOU MUST SELECT THE MOD THEN CLICK THIS BUTTON. OTHERWISE IT DOESNT SAVE.
+    
     [Checkboxes]
         - I added these to ensure DataN.pak mods could easily be overwritten within the mod_list.json at the users discretion.
         - CZT uses a mod list to display mod info. Due to the naming of dataN.pak mods this can cause mixed info to be displayed. 
@@ -204,7 +212,11 @@
     [Startup Options]
         Set 'Install' as home tab - When CZT is launched, this tab display first.
         Set 'Manage' as home tab - When CZT is launched, this tab display first.
+    
     [Color & Font Options]
     - You can reset these to default values at anytime.
         Custom Color selection (hexadecimal so literally any color is available)
         Custom font selection - 75+ Fonts available
+
+
+~ Go to homepage : [CLICK TO TELEPORT](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#welcome-to-the-czt-mod-manager-homepage)</br>
