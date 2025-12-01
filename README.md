@@ -215,3 +215,10 @@
     - You can reset these to default values at anytime.
         Custom Color selection (hexadecimal so literally any color is available)
         Custom font selection - 75+ Fonts available.\
+
+<img width="1110" height="611" alt="{D43A4216-AB82-4B51-B745-D848072E72F3}" src="https://github.com/user-attachments/assets/5de0d36c-ac56-49dd-b5ab-ab89fd63ea92" />
+<img width="1109" height="606" alt="{934FBFE6-E478-4798-B215-1F7DB3A20E0C}" src="https://github.com/user-attachments/assets/25d980be-bbdd-42b9-8991-a054bc4949db" />
+<img width="1112" height="609" alt="{D666293E-2EF4-4D8A-BB21-0E262B9116BB}" src="https://github.com/user-attachments/assets/04b42cc7-43dd-48f3-ab4e-70fd4b22f66a" />
+<img width="1110" height="608" alt="{B82D6E34-6F2A-4B66-8639-64E8E987FCAF}" src="https://github.com/user-attachments/assets/c41e00d3-f4be-4be2-9a84-be257080fdfc" />
+
+
