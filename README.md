@@ -33,6 +33,16 @@
 - Currently Supports 7DTD, Ready or Not, Schedule I, Dying Light 1/2, and Dying Light The Beast. More to be added!
 - Does NOT support Linux.</br>
 
+# Common error solutions:
+Run CZT as ADMIN if you encounter the following errors:</br>
+    - "[ERROR] No write permission to drive" </br>
+    - "[ERROR] Permission denied: ':\\czt_write_test.tmp'."</br>
+    - "[ERROR] A required privilege is not held by the client"</br>
+
+"I cant drag and drop". </br>
+    - Don't run CZT as admin at start. </br>
+    - Its IMPOSSIBLE for windows explorer to move files to an app with higher permissions. This is a windows limitation.</br>
+
 # CZT Mod Manager Setup:
 ### - 1:) Download and Run installer
 <img width="174" height="41" alt="{7EB16B48-08C8-4FFD-98D0-5B2268A55CE7}" src="https://github.com/user-attachments/assets/e7a5422c-d50a-44f9-9d7d-f1647d57bca0" />
@@ -220,5 +230,3 @@
 <img width="1109" height="606" alt="{934FBFE6-E478-4798-B215-1F7DB3A20E0C}" src="https://github.com/user-attachments/assets/25d980be-bbdd-42b9-8991-a054bc4949db" />
 <img width="1112" height="609" alt="{D666293E-2EF4-4D8A-BB21-0E262B9116BB}" src="https://github.com/user-attachments/assets/04b42cc7-43dd-48f3-ab4e-70fd4b22f66a" />
 <img width="1110" height="608" alt="{B82D6E34-6F2A-4B66-8639-64E8E987FCAF}" src="https://github.com/user-attachments/assets/c41e00d3-f4be-4be2-9a84-be257080fdfc" />
-
-
