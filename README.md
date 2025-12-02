@@ -33,7 +33,7 @@
 - Currently Supports 7DTD, Ready or Not, Schedule I, Dying Light 1/2, and Dying Light The Beast. More to be added!
 - Does NOT support Linux.</br>
 
-# Common error solutions:
+# Common errors w/ solutions:
 Run CZT as ADMIN if you encounter the following errors:</br>
     - "[ERROR] No write permission to drive" </br>
     - "[ERROR] Permission denied: ':\\czt_write_test.tmp'."</br>
