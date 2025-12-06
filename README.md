@@ -45,7 +45,7 @@ A: This is so CZT can create required folders and properly edit the profile_mods
 Q: Why does CZT need admin permissions when launching my game?</br>
 A: Not all, but some users may need to launch their game with CZT as admin to ensure symlinking works correctly.</br>
 
-"I cant drag and drop". </br>
+"I cant drag and drop downloaded mods into the install tab". </br>
     - Don't run CZT as admin when installing mods. </br>
     - Its IMPOSSIBLE for windows explorer to move files to an app with higher permissions. This is a windows limitation.</br>
 
