@@ -38,9 +38,15 @@ Run CZT as ADMIN if you encounter the following errors:</br>
     - "[ERROR] No write permission to drive" </br>
     - "[ERROR] Permission denied: ':\\czt_write_test.tmp'."</br>
     - "[ERROR] A required privilege is not held by the client"</br>
+    
+Q:"Why does czt need write permissions?"</br>
+A:This is so CZT can create required folders and properly edit the profile_mods_list.json (file that contains all your mod info)</br>
+
+Q: Why does CZT need admin permissions at launch?</br>
+A: Not all, but some users may need to launch their game with CZT as admin to ensure symlinking works correctly.</br>
 
 "I cant drag and drop". </br>
-    - Don't run CZT as admin at start. </br>
+    - Don't run CZT as admin when installing mods. </br>
     - Its IMPOSSIBLE for windows explorer to move files to an app with higher permissions. This is a windows limitation.</br>
 
 # CZT Mod Manager Setup:
