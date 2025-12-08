@@ -50,9 +50,9 @@ A: Not all, but some users may need to launch their game with CZT as admin to en
     - Don't run CZT as admin when installing mods. </br>
     - Its IMPOSSIBLE for windows explorer to move files to an app with higher permissions. This is a windows limitation.</br>
 
-If CZTs UI looks all fucked up then try the following:
-    - Change your window scaling to 100%. 
-    - If you use any type of zoom outside of your (default) recommended it can cause issues.
+If CZTs UI looks all fucked up then try the following:</br>
+    - Change your window scaling to 100%.</br>
+    - If you use any type of zoom outside of your (default) recommended it can cause issues.</br>
 
 # CZT Mod Manager Setup:
 ### - 1:) Download and Run installer
