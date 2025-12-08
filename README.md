@@ -34,6 +34,7 @@
 - Does NOT support Linux.</br>
 
 # Common errors w/ solutions:
+
 Run CZT as ADMIN if you encounter the following errors:</br>
     - "[ERROR] No write permission to drive" </br>
     - "[ERROR] Permission denied: ':\\czt_write_test.tmp'."</br>
@@ -48,6 +49,10 @@ A: Not all, but some users may need to launch their game with CZT as admin to en
 "I cant drag and drop downloaded mods into the install tab". </br>
     - Don't run CZT as admin when installing mods. </br>
     - Its IMPOSSIBLE for windows explorer to move files to an app with higher permissions. This is a windows limitation.</br>
+
+If CZTs UI looks all fucked up then try the following:
+    - Change your window scaling to 100%. 
+    - If you use any type of zoom outside of your (default) recommended it can cause issues.
 
 # CZT Mod Manager Setup:
 ### - 1:) Download and Run installer
