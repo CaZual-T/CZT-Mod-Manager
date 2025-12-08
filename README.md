@@ -224,10 +224,11 @@ A: Not all, but some users may need to launch their game with CZT as admin to en
 
 ### Settings Tab:
     [FX Options]
-        - Button Sound Effects [enable/disable]
+        - Button click sound effect [enable/disable]
+        - Button hover sounf effect [enable/disable]
         - Background Audio [enable/disable]
         - Background audio level (%)
-        - Select Track for background.
+        - Select Track for background audio.
 
     [Startup Options]
         Set 'Install' as home tab - When CZT is launched, this tab display first.
