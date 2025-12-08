@@ -223,6 +223,12 @@ A: Not all, but some users may need to launch their game with CZT as admin to en
         > Force Install Date
 
 ### Settings Tab:
+    [FX Options]
+        - Button Sound Effects [enable/disable]
+        - Background Audio [enable/disable]
+        - Background audio level (%)
+        - Select Track for background.
+
     [Startup Options]
         Set 'Install' as home tab - When CZT is launched, this tab display first.
         Set 'Manage' as home tab - When CZT is launched, this tab display first.
