@@ -58,10 +58,11 @@ If CZTs UI looks all fucked up then try the following:</br>
 ### - 1:) Download and Run installer
 <img width="174" height="41" alt="{7EB16B48-08C8-4FFD-98D0-5B2268A55CE7}" src="https://github.com/user-attachments/assets/e7a5422c-d50a-44f9-9d7d-f1647d57bca0" />
 
-### - 2:) Create Root
+### - 2:) Create Root 
 - Click the "Create Root" button in the top right of the CZT window.
 - Select Drive, this will be where your mods are stored.
 - All folders will be automatically created for you at the root of the drive you chose.
+NOTE: You wont be able to save any custom settings until you create root.
 <img width="172" height="258" alt="{CEACEE52-38AD-4307-8A2E-CA00EBC285F2}" src="https://github.com/user-attachments/assets/03f0bbdc-daa5-4fe6-b535-e5c56ae5f3bb" />
 <img width="354" height="189" alt="{FA7CDBF7-1A0F-4E39-9E60-466B44ADEF27}" src="https://github.com/user-attachments/assets/4a11cd57-1997-4a38-a651-f2d1d1b2e567" />
 
