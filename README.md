@@ -38,7 +38,8 @@
 
 ### TO AVOID HAVING TO RESTART THE APP BETWEEN MAJOR FUNCTIONS. ENABLE DEVELOPER MODE.
 - (Windows) Settings > Advanced > For Developers (Toggle Developer Mode On)
-- This allows you to not need admin perms each time the tool symlinks.
+- This allows you to not need admin perms each time the tool symlinks.</br>
+
   <img width="865" height="252" alt="image" src="https://github.com/user-attachments/assets/d38dacf5-a82f-4c04-91da-3d5a1178e72d" />
 
 IF you chose to not enable developer mode, Run CZT as ADMIN if you encounter the following errors:</br>
