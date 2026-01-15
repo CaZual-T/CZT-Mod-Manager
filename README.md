@@ -36,10 +36,11 @@
 # Common errors w/ solutions:
 
 ### TO AVOID HAVING TO RESTART THE APP BETWEEN MAJOR FUNCTIONS. ENABLE DEVELOPER MODE.
-- Settings > Advanced > For Developers (Toggle Devloper Mod On)
+- (Windows) Settings > Advanced > For Developers (Toggle Developer Mode On)
 - This allows you to not need admin perms each time the tool symlinks.
+  <img width="865" height="252" alt="image" src="https://github.com/user-attachments/assets/d38dacf5-a82f-4c04-91da-3d5a1178e72d" />
 
-Run CZT as ADMIN if you encounter the following errors:</br>
+IF you chose to not enable developer mode, Run CZT as ADMIN if you encounter the following errors:</br>
     - "[ERROR] No write permission to drive" </br>
     - "[ERROR] Permission denied: ':\\czt_write_test.tmp'."</br>
     - "[ERROR] A required privilege is not held by the client"</br>
