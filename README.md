@@ -66,7 +66,7 @@ A: Not all, but some users may need to launch their game with CZT as admin to en
 - All folders will be automatically created for you at the root of the drive you chose.</br>
 NOTE: You wont be able to save any custom settings until you create root.
 
-### - 3:) Install Unrar (click the Install Unrar button top right) (FOLLOW ON SCREEN PROMPTS)
+### - 3:) Install Unrar (under create root button) (FOLLOW ON SCREEN PROMPTS)
 - Click browse when the installer popup appears.
 - YOU MUST INSTALL TO > Drive_selected_in_step_2/CZT Mod Manager/czt_tools/unrar.exe
 - After installing UnRar, Click UnRar again to auto detect and set its path.
