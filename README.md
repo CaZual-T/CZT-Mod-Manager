@@ -101,10 +101,11 @@ NOTE: You wont be able to save any custom settings until you create root.
 
 ### - 2:) Select mods:
 - Select mods to install.
-- Click ➡️ 'Install Selected'
+- Click '➡️' to install selected mods.
+<img width="328" height="110" alt="image" src="https://github.com/user-attachments/assets/ff2db525-90e5-4001-8455-e47711a319a0" />
 
 ### - 3:) Launch Game:
-- Click the green launch button.
+- Click the green launch button in the main menu (or) press CTRL+SHIFT+L 
 - You only have to launch with CZT when you want to toggle mods on or off or recently installed/deleted mods.
 - Once mods are toggled on/off that is the state they will stay in until changed by the user.
 
