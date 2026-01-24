@@ -76,8 +76,9 @@ NOTE: You wont be able to save any custom settings until you create root.
 ### - 4:) Retrieve and save your NEXUS API key 
 - Why? This is how CZT communicates with the nexus website to retrieve mod info.
 - Go to <https://next.nexusmods.com/settings/api-keys>
-- Scroll to the bottom to get your personal key.
-<img width="637" height="72" alt="image" src="https://github.com/user-attachments/assets/5ace9d82-339f-4d9c-8f50-05bb50117efe" />
+- Scroll to the bottom to get your personal key.</br>
+<img width="637" height="72" alt="image" src="https://github.com/user-attachments/assets/5ace9d82-339f-4d9c-8f50-05bb50117efe" /></br>
+- CZT uses the api to simply fetch mod data such as thumbnail, creator name, mod name and current version.</br> (all of this gets displayed within the gui)
 
 ### - 5:) Select Game profile
 - Select an option from the drop down on the left.  (you can change this at any time)
