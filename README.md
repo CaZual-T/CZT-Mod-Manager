@@ -84,7 +84,7 @@ NOTE: You wont be able to save any custom settings until you create root.
 - Click DETECT STEAM at the bottom. (Alternatively you can use manual pathing and follow the instructions in the log box)
 <img width="507" height="112" alt="image" src="https://github.com/user-attachments/assets/87ff2e94-5d68-45c3-b7f4-3694ac6deca3" />
 
-# How to use CZT Mod Manager
+# How to use CZT to install mods
 ### - 1:) Select Game Profile in the MAIN tab then...
 - Drag & Drop your mods to anywhere within the log box (.zip, .rar, .7z, or already extracted .pak)
 - File based mods (.pak, .dll, .asi etc) do not need extracted before install.
@@ -95,7 +95,7 @@ NOTE: You wont be able to save any custom settings until you create root.
 > Before continuing to the next step...</br>
 > - Users with mods already installed...</br>
 > - Go to your mod install location...</br>
->     ...drag and drop any mods you may have installed into the install tab. (to install later)</br>
+>     ...drag and drop any mods you may have installed into CZT. (to install later)</br>
 > - Delete the old mod files. You wont need them anymore.</br>
 
 ### - 2:) Select mods:
