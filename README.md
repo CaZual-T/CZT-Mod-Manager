@@ -77,10 +77,12 @@ NOTE: You wont be able to save any custom settings until you create root.
 - Why? This is how CZT communicates with the nexus website to retrieve mod info.
 - Go to <https://next.nexusmods.com/settings/api-keys>
 - Scroll to the bottom to get your personal key.
+<img width="637" height="72" alt="image" src="https://github.com/user-attachments/assets/5ace9d82-339f-4d9c-8f50-05bb50117efe" />
 
 ### - 5:) Select Game profile
 - Select an option from the drop down on the left.  (you can change this at any time)
 - Click DETECT STEAM at the bottom. (Alternatively you can use manual pathing and follow the instructions in the log box)
+<img width="507" height="112" alt="image" src="https://github.com/user-attachments/assets/87ff2e94-5d68-45c3-b7f4-3694ac6deca3" />
 
 # How to use CZT Mod Manager
 ### - 1:) Select Game Profile in the MAIN tab then...
@@ -104,9 +106,6 @@ NOTE: You wont be able to save any custom settings until you create root.
 - Click the green launch button.
 - You only have to launch with CZT when you want to toggle mods on or off or recently installed/deleted mods.
 - Once mods are toggled on/off that is the state they will stay in until changed by the user.
->[!NOTE]
->- If you run into this error "A required privilege is not held by the client" when launching, try running the program as administrator. (Most users wont have to do this)</br>
->- THIS IS ONLY TO LAUNCH THE GAME. DRAG AND DROP WILL NOT WORK WHEN CZT IS RUNNING AS ADMIN. THIS IS A WINDOWS LIMITATION. EXPLORER CANNOT MOVE FILES TO AN APP WITH HIGHER PERMS THAN ITSELF.
 
 # How To Track Mods/Update Info:
 - Go to the 'Manage' Tab.
