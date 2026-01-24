@@ -65,6 +65,7 @@ A: Not all, but some users may need to launch their game with CZT as admin to en
 - Select Drive, this will be where your mods are stored.
 - All folders will be automatically created for you at the root of the drive you chose.</br>
 NOTE: You wont be able to save any custom settings until you create root.
+<img width="1111" height="221" alt="image" src="https://github.com/user-attachments/assets/0309d2f3-b9be-46d0-ba89-7069a135780c" />
 
 ### - 3:) Install Unrar (under create root button) (FOLLOW ON SCREEN PROMPTS)
 - Click browse when the installer popup appears.
