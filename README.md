@@ -67,11 +67,14 @@ A: Not all, but some users may need to launch their game with CZT as admin to en
 NOTE: You wont be able to save any custom settings until you create root.
 <img width="1111" height="221" alt="image" src="https://github.com/user-attachments/assets/0309d2f3-b9be-46d0-ba89-7069a135780c" />
 
-### - 3:) Install Unrar (under create root button) (FOLLOW ON SCREEN PROMPTS)
-- Click browse when the installer popup appears.
-- YOU MUST INSTALL TO > Drive_selected_in_step_2/CZT Mod Manager/czt_tools/unrar.exe
-- After installing UnRar, Click UnRar again to auto detect and set its path.
-<img width="401" height="248" alt="image" src="https://github.com/user-attachments/assets/ee9f8b5f-5657-4bee-8d23-fb64ca512068" />
+### - 3:) Install Unrar 
+- Go to the 'User Settings' Tab and click "Install Unrar"
+- Click browse when the installer popup appears.</br>
+    <img width="520" height="390" alt="image" src="https://github.com/user-attachments/assets/51d1ffec-1d01-4665-963b-f55279ffcdce" /></br>
+
+- YOU MUST INSTALL TO > /CZT Mod Manager/czt_tools/unrar.exe</br>
+    <img width="401" height="248" alt="image" src="https://github.com/user-attachments/assets/ee9f8b5f-5657-4bee-8d23-fb64ca512068" /></br>
+    - You can click 'Install UnRar' again to rescan and set its path. (it should automatically set after install though)
 
 ### - 4:) Retrieve and save your NEXUS API key 
 - Why? This is how CZT communicates with the nexus website to retrieve mod info.
