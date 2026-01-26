@@ -1,5 +1,4 @@
 # Welcome to the CZT Mod Manager homepage!
-
 ~ Go to ["First Time Setup"](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#czt-mod-manager-setup)</br>
 ~ Go to ["How to Use"](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#how-to-use-czt-mod-manager)</br>
 ~ Go to ["Track Mods/Other Options"](https://github.com/CaZual-T/CZT-Mod-Manager?tab=readme-ov-file#how-to-track-modsupdate-info)</br>
@@ -35,9 +34,10 @@
 - Customizable UI: Users can personalize colors, fonts, and layouts for accessibility and aesthetics.
 - Currently Supports 7DTD, Ready or Not, Schedule I, Dying Light 1/2, and Dying Light The Beast. More to be added!
 - Does NOT support Linux.</br>
-
+#
+<img width="1920" height="50" alt="Untitled (6)" src="https://github.com/user-attachments/assets/ff94bb31-a33c-4cfa-9553-87237b177632" /></br>
+###
 # Common errors w/ solutions:
-
 ### TO AVOID HAVING TO RESTART THE APP BETWEEN MAJOR FUNCTIONS. ENABLE DEVELOPER MODE.
 (Windows) Settings > Advanced > For Developers (Toggle Developer Mode On)
 This allows symlinks to be created without admin permissions.
@@ -72,44 +72,52 @@ A: Not all, but some users may need to launch their game with CZT as admin to en
 
   "set_profile_path": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\Ready or Not\\ReadyOrNot\\Content\\Paks\\Mods"
 ```
-
+#
+<img width="1920" height="50" alt="Untitled (6)" src="https://github.com/user-attachments/assets/ff94bb31-a33c-4cfa-9553-87237b177632" /></br>
+###
 # CZT Mod Manager Setup:
-### - 1:) Download and Run installer
+### 1:) Download and Run installer
 
-### - 2:) Create Root 
+### 2:) Create Root 
 - Go to the 'User Settings' Tab and click "Create Root".
-- Select Drive, this will be where your mods are stored.
-- All folders will be automatically created for you at the root of the drive you chose.</br>
-NOTE: You wont be able to save any custom settings until you create root.
+  - Select a Drive:</br>
+  - This is where your config and mod files will be stored.</br>
+> [!NOTE]
+> You wont be able to save any custom settings until you create root.
 <img width="1111" height="221" alt="image" src="https://github.com/user-attachments/assets/0309d2f3-b9be-46d0-ba89-7069a135780c" />
 
-### - 3:) Install Unrar 
+### 3:) Install Unrar 
 - Go to the 'User Settings' Tab and click "Install Unrar"
 - Click browse when the installer popup appears.</br>
     <img width="520" height="390" alt="image" src="https://github.com/user-attachments/assets/51d1ffec-1d01-4665-963b-f55279ffcdce" /></br>
 
 - YOU MUST INSTALL TO > /CZT Mod Manager/czt_tools/unrar.exe</br>
     <img width="401" height="248" alt="image" src="https://github.com/user-attachments/assets/ee9f8b5f-5657-4bee-8d23-fb64ca512068" /></br>
-    - You can click 'Install UnRar' again to rescan and set its path. (it should automatically set after install though)
+- You can click 'Install UnRar' again to rescan and set its path. (it should automatically set after install though)
 
-### - 4:) Retrieve and save your NEXUS API key 
+### 4:) Retrieve and save your NEXUS API key 
 - Why? This is how CZT communicates with the nexus website to retrieve mod info.
 - Go to <https://next.nexusmods.com/settings/api-keys>
 - Scroll to the bottom to get your personal key.</br>
+- CZT uses the api to simply fetch mod data such as thumbnail, creator name, mod name and current version.</br> (all of this gets displayed within the gui)</br>
 <img width="637" height="72" alt="image" src="https://github.com/user-attachments/assets/5ace9d82-339f-4d9c-8f50-05bb50117efe" /></br>
-- CZT uses the api to simply fetch mod data such as thumbnail, creator name, mod name and current version.</br> (all of this gets displayed within the gui)
 
-### - 5:) Select Game profile
+### 5:) Select Game profile
 - Select an option from the drop down on the left.  (you can change this at any time)
-- Click DETECT STEAM at the bottom. (Alternatively you can use manual pathing and follow the instructions in the log box)
-<img width="507" height="112" alt="image" src="https://github.com/user-attachments/assets/87ff2e94-5d68-45c3-b7f4-3694ac6deca3" />
-
+- Choose pathing mode (It's set to steam 'auto' by default)
+- Click DETECT STEAM at the bottom.
+  - Alternatively you can use manual pathing and follow the instructions in the log box.
+###
+<img width="507" height="112" alt="image" src="https://github.com/user-attachments/assets/87ff2e94-5d68-45c3-b7f4-3694ac6deca3" /></br>
+#
+<img width="1920" height="50" alt="Untitled (6)" src="https://github.com/user-attachments/assets/ff94bb31-a33c-4cfa-9553-87237b177632" /></br>
+###
 # How to use CZT to install mods
-### - 1:) Select Game Profile in the MAIN tab then...
+### 1:) Select Game Profile in the MAIN tab then...
 - Drag & Drop your mods to anywhere within the log box (.zip, .rar, .7z, or already extracted .pak)
-- File based mods (.pak, .dll, .asi etc) do not need extracted before install.
-- Folder mods need to be extracted first to avoid double foldering.
-- Mods with a _mod_info.json file attached DO NOT need extracted before install, regardless of the type.
+  - File based mods (.pak, .dll, .asi etc) do not need extracted before install.
+  - Folder mods need to be extracted first to avoid double foldering.
+  - Mods with a _mod_info.json file attached DO NOT need extracted before install, regardless of the type.
 
 > [!NOTE]
 > Before continuing to the next step...</br>
@@ -118,12 +126,12 @@ NOTE: You wont be able to save any custom settings until you create root.
 >     ...drag and drop any mods you may have, into CZT. (to install later)</br>
 > - Delete the old mod files. You wont need them anymore.</br>
 
-### - 2:) Select mods:
+### 2:) Select mods:
 - Select mods to install.
 - Click '➡️' to install selected mods.
 <img width="328" height="110" alt="image" src="https://github.com/user-attachments/assets/ff2db525-90e5-4001-8455-e47711a319a0" />
 
-### - 3:) Launch Game:
+### 3:) Launch Game:
 - Click the green launch button in the main menu (or) press CTRL+SHIFT+L 
 - You only have to launch with CZT when you want to toggle mods on or off or recently installed/deleted mods.
 - Once mods are toggled on/off that is the state they will stay in until changed by the user.
