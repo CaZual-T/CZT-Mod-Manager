@@ -97,9 +97,9 @@ NOTE: You wont be able to save any custom settings until you create root.
 
 > [!NOTE]
 > Before continuing to the next step...</br>
-> - Users with mods already installed...</br>
+> - First time users with mods already installed at default locations...</br>
 > - Go to your mod install location...</br>
->     ...drag and drop any mods you may have installed into CZT. (to install later)</br>
+>     ...drag and drop any mods you may have, into CZT. (to install later)</br>
 > - Delete the old mod files. You wont need them anymore.</br>
 
 ### - 2:) Select mods:
