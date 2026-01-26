@@ -39,23 +39,39 @@
 # Common errors w/ solutions:
 
 ### TO AVOID HAVING TO RESTART THE APP BETWEEN MAJOR FUNCTIONS. ENABLE DEVELOPER MODE.
-- (Windows) Settings > Advanced > For Developers (Toggle Developer Mode On)
-- This allows symlinks to be created without admin permissions.</br>
+(Windows) Settings > Advanced > For Developers (Toggle Developer Mode On)
+This allows symlinks to be created without admin permissions.
 
-IF you chose to not enable developer mode, Run CZT as ADMIN if you encounter the following errors:</br>
-    - "[ERROR] No write permission to drive" </br>
-    - "[ERROR] Permission denied: ':\\czt_write_test.tmp'."</br>
-    - "[ERROR] A required privilege is not held by the client"</br>
-    
-Q: Why does czt need write permissions?</br>
-A: This is so CZT can create required folders and properly edit the profile_mods_list.json (file that contains all your mod info)</br>
+### IF you chose to not enable developer mode, Run CZT as ADMIN if you encounter the following errors:
+- "[ERROR] No write permission to drive"
+- "[ERROR] Permission denied: ':\czt_write_test.tmp'."
+- "[ERROR] A required privilege is not held by the client"
 
-Q: Why does CZT need admin permissions when launching my game?</br>
-A: Not all, but some users may need to launch their game with CZT as admin to ensure symlinking works correctly.</br>
+### Q: Why does czt need write permissions?
+A: This is so CZT can create required folders and properly edit the profile_mods_list.json (file that contains all your mod info)
 
-"I cant drag and drop downloaded mods into CZT". </br>
-    - Don't run CZT as admin when installing mods. </br>
-    - Its IMPOSSIBLE for windows explorer to move files to an app with higher permissions. This is a windows limitation.</br>
+### Q: Why does CZT need admin permissions when launching my game?
+A: Not all, but some users may need to launch their game with CZT as admin to ensure symlinking works correctly.
+
+### "I cant drag and drop downloaded mods into CZT"
+- Don't run CZT as admin when installing mods.
+- Its IMPOSSIBLE for windows explorer to move files to an app with higher permissions. This is a windows limitation.﻿
+
+### [ERROR] Permission denied: [WinError 3]
+- press ctrl + o , open the config file.
+- find resolved_profile_paths, resolved_exe_paths, and set_profile_path and delete their blocks/lines.
+- Then press 'detect steam' (or set your paths again manually for other install types)>
+- Launch Game.
+```
+  "resolved_profile_paths": {
+     "Ready or Not": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\Ready or Not\\ReadyOrNot\\Content\\Paks\\Mods"
+      },
+  "resolved_exe_paths": {
+     "Ready or Not": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\Ready or Not\\ReadyOrNot.exe"
+      },
+
+  "set_profile_path": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\Ready or Not\\ReadyOrNot\\Content\\Paks\\Mods"
+```
 
 # CZT Mod Manager Setup:
 ### - 1:) Download and Run installer
