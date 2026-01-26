@@ -99,8 +99,8 @@ A: Not all, but some users may need to launch their game with CZT as admin to en
 - Why? This is how CZT communicates with the nexus website to retrieve mod info.
 - Go to <https://next.nexusmods.com/settings/api-keys>
 - Scroll to the bottom to get your personal key.</br>
-- CZT uses the api to simply fetch mod data such as thumbnail, creator name, mod name and current version.</br> (all of this gets displayed within the gui)</br>
-<img width="637" height="72" alt="image" src="https://github.com/user-attachments/assets/5ace9d82-339f-4d9c-8f50-05bb50117efe" /></br>
+- CZT uses the api to simply fetch mod data such as thumbnail, creator name, mod name and current version.</br>
+  - all of this gets displayed within the gui.</br>
 
 ### 5:) Select Game profile
 - Select an option from the drop down on the left.  (you can change this at any time)
@@ -124,7 +124,7 @@ A: Not all, but some users may need to launch their game with CZT as admin to en
 > - First time users with mods already installed at default locations...</br>
 > - Go to your mod install location...</br>
 >     ...drag and drop any mods you may have, into CZT. (to install later)</br>
-> - Delete the old mod files. You wont need them anymore.</br>
+> - Delete the old mod files from the old default location. You wont need them anymore.</br>
 
 ### 2:) Select mods:
 - Select mods to install.
