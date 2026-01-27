@@ -3,7 +3,8 @@
 ~ Go to ["How to Use"](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#how-to-use-czt-mod-manager)</br>
 ~ Go to ["Track Mods/Other Options"](https://github.com/CaZual-T/CZT-Mod-Manager?tab=readme-ov-file#how-to-track-modsupdate-info)</br>
 ~ Go to ["Function Definitions"](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#below-is-a-complete-function-dictionary)</br>
-~ Go to ["Troubleshooting"](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#common-errors-w-solutions)
+~ Go to ["Troubleshooting"](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#common-errors-w-solutions)</br>
+~ Go to ["Plugins"](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#plugins (beta))
 
 # CZT Core:
 - Built using Python and PyQt5 gui library; EXE compiling method = Nuitka Standalone.
@@ -141,6 +142,13 @@ A: Not all, but some users may need to launch their game with CZT as admin to en
 - Enter the selected mods corresponding nexus url.
 - Select checkbox next to mod, click save data button.
 - To check for updates simply select the mod, click check for updates. This will also update the version number in the LATEST column.
+
+# Plugins (BETA)
+- Place plugins in:
+  - CZT Mod Manager/plugins/executables
+  - CZT Mod Manager/plugins/scripts
+    - Press F3 to load.
+    - Once a script plugin is loaded , it will persistently run @ start if available (remove the plugin from the plugins folder to disable it)
 
 # Other Features:
 ### - Disabled/Restore Mods
