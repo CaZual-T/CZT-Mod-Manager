@@ -2,9 +2,9 @@
 ~ Go to ["First Time Setup"](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#czt-mod-manager-setup)</br>
 ~ Go to ["How to Use"](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#how-to-use-czt-mod-manager)</br>
 ~ Go to ["Track Mods/Other Options"](https://github.com/CaZual-T/CZT-Mod-Manager?tab=readme-ov-file#how-to-track-modsupdate-info)</br>
+~ Go to ["Plugins BETA"](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#plugins-beta)</br>
 ~ Go to ["Function Definitions"](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#below-is-a-complete-function-dictionary)</br>
 ~ Go to ["Troubleshooting"](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#common-errors-w-solutions)</br>
-~ Go to ["Plugins"](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#plugins (beta))
 
 # CZT Core:
 - Built using Python and PyQt5 gui library; EXE compiling method = Nuitka Standalone.
