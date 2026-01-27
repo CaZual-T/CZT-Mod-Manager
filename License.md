@@ -1,42 +1,42 @@
-CZT Mod Manager
-Created by CaZual_T
-Copyright © 2026 Lilly Jane Labs LLC
-All rights reserved.
+CZT Mod Manager </br>
+Created by CaZual_T</br>
+Copyright © 2026 Lilly Jane Labs LLC</br>
+All rights reserved.</br>
 
-This software and accompanying files (the “Software”) are the
-exclusive property of Lilly Jane Labs LLC.
+This software and accompanying files (the “Software”) are the</br>
+exclusive property of Lilly Jane Labs LLC.</br>
 
-Permission is granted to install and use the Software for personal
-or internal business purposes only.
+Permission is granted to install and use the Software for personal</br>
+or internal business purposes only.</br>
 
-The following actions are strictly prohibited without prior
-written permission from Lilly Jane Labs LLC:
+The following actions are strictly prohibited without prior</br>
+written permission from Lilly Jane Labs LLC:</br>
 
-• Copying or redistributing the Software
-• Selling, sublicensing, renting, or leasing the Software
-• Modifying, adapting, translating, or creating derivative works
-• Reverse engineering, decompiling, or disassembling the Software
+• Copying or redistributing the Software</br>
+• Selling, sublicensing, renting, or leasing the Software</br>
+• Modifying, adapting, translating, or creating derivative works</br>
+• Reverse engineering, decompiling, or disassembling the Software</br>
 
-Ownership:
-The Software is licensed, not sold. All title, ownership rights,
-and intellectual property rights remain with Lilly Jane Labs LLC.
+Ownership:</br>
+The Software is licensed, not sold. All title, ownership rights,</br>
+and intellectual property rights remain with Lilly Jane Labs LLC.</br>
 
-No Warranty:
-The Software is provided “AS IS”, without warranty of any kind,
-express or implied, including but not limited to warranties of
-merchantability, fitness for a particular purpose, or
-non-infringement.
+No Warranty:</br>
+The Software is provided “AS IS”, without warranty of any kind,</br>
+express or implied, including but not limited to warranties of</br>
+merchantability, fitness for a particular purpose, or</br>
+non-infringement.</br>
 
-Limitation of Liability:
-In no event shall Lilly Jane Labs LLC be liable for any damages
-arising out of the use or inability to use the Software, including
-but not limited to loss of data, loss of profits, or business
-interruption.
+Limitation of Liability:</br>
+In no event shall Lilly Jane Labs LLC be liable for any damages</br>
+arising out of the use or inability to use the Software, including</br>
+but not limited to loss of data, loss of profits, or business</br>
+interruption.</br>
 
-By using this Software, you acknowledge that you have read,
-understood, and agree to the terms of this license.
+By using this Software, you acknowledge that you have read,</br>
+understood, and agree to the terms of this license.</br>
 
-CZT Mod Manager
-Created by CaZual_T
-Copyright © 2026 Lilly Jane Labs LLC
+CZT Mod Manager</br>
+Created by CaZual_T</br>
+Copyright © 2026 Lilly Jane Labs LLC</br>
 All rights reserved.
