@@ -149,6 +149,7 @@ A: Not all, but some users may need to launch their game with CZT as admin to en
   - CZT Mod Manager/plugins/scripts
     - Press F3 to load.
     - Once a script plugin is loaded , it will persistently run @ start if available (remove the plugin from the plugins folder to disable it)
+    - You can download my example plugin ➡️ [here](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/profile_addon_plugin.py)
 
 # Other Features:
 ### - Disabled/Restore Mods
