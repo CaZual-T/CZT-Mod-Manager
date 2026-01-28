@@ -12,7 +12,8 @@
 - 4: Once completed, go to the manage tab. data7.pak is your merged file. Delete the old mod files. (done)
 
 > [!TIP]
-> - In the manage tab you can hover over the display names to see true file names if data7 already had saved "mod info". </br>
+> - You can hover over the display names to see true file names. Useful if data7 already has saved "mod info" within the mod_list.json</br>
+> - You can also shift left click a mod to change its display name.
 
 > [!NOTE]
 > - If you are already in the manage tab at the time of merge you will not see data7 until you reload the ui.mod list. </br>
