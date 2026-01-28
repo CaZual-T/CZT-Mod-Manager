@@ -101,6 +101,46 @@ public static class Packager
             }
         }
 
-        //Directory.Delete(stagingDirectory, true); // CZT PATCH - Retain staging directory due to structure requirements
+        //Directory.Delete(stagingDirectory, true); // CZT
+
+        // CZT Patch - Clean staging directory instead of deleting it fully
+        string[] foldersToDelete = { "scripts", "temp", "mods" };
+        string[] fileExtensionsToDelete = { ".czt", ".txt", ".md" };
+
+        // Delete specific folders recursively and log each deletion
+        Console.WriteLine($"[CLEAN] Check for, and remove leftover files from merge process...");
+        foreach (var dir in Directory.GetDirectories(stagingDirectory, "*", SearchOption.AllDirectories))
+        {
+            string dirName = Path.GetFileName(dir);
+            if (foldersToDelete.Contains(dirName, StringComparer.OrdinalIgnoreCase))
+            {
+                try
+                {
+                    Directory.Delete(dir, true);
+                    Console.WriteLine($"[CLEAN] Deleted folder: {dir}");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"[ERROR] Failed to delete folder '{dir}': {ex.Message}");
+                }
+            }
+        }
+
+        // Delete specific file extensions recursively and log each deletion
+        foreach (var ext in fileExtensionsToDelete)
+        {
+            foreach (var file in Directory.GetFiles(stagingDirectory, $"*{ext}", SearchOption.AllDirectories))
+            {
+                try
+                {
+                    File.Delete(file);
+                    Console.WriteLine($"[CLEAN] Deleted file: {file}");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"[ERROR] Failed to delete file '{file}': {ex.Message}");
+                }
+            }
+        }
     }
 }
