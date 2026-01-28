@@ -15,5 +15,5 @@
 > - In the manage tab you can hover over the display names to see true file names if data7 already had saved "mod info". </br>
 
 > [!NOTE]
-> - If you are already in the mangage time at the time of merge you will not see data7 until you reload the ui.mod list. </br>
+> - If you are already in the manage tab at the time of merge you will not see data7 until you reload the ui.mod list. </br>
 >     - You can do this by simply switching to any other tab then going back to the manage tab.
