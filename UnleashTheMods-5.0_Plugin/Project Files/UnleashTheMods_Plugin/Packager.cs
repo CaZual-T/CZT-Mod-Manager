@@ -101,6 +101,6 @@ public static class Packager
             }
         }
 
-        Directory.Delete(stagingDirectory, true);
+        //Directory.Delete(stagingDirectory, true); // CZT PATCH - Retain staging directory due to structure requirements
     }
 }
