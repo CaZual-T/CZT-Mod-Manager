@@ -1,39 +1,36 @@
-==========================================================================================
-[!] This information is for mod creators. 
+> [!NOTE]
+> - Manifest file name should always = "_mod_info.json" </br>
+- Place manifest at top level of your folder or compressed file. See example mods.
 
-[!] Manifest file name should always = "_mod_info.json"
-	> Place manifest at top level of your folder or compressed file. See example mods.
-==========================================================================================
+# Variable_Definitions
+- "profile_name" = game your mod is for.
+  - Available profiles to use in 'profile_name' var.
+    - 7DTD
+    - Dying Light 1
+    - Dying Light 2
+    - DL The Beast
+    - Ready or Not
+    - Schedule I
 
-[Variable_Definitions]
+- "display_name" = Whatever you want to show as the mod name in the UI
+- "mod_local_version" = version number to display in UI
+- "nexus_url" = url of mod
+- "files_to_install" = name of file(s) to install
+- "folder_to_install" = name of single folder to install
+- "folders_to_install" = dict of folders to install
 
-# "profile_name" = game your mod is for.
-+ Available profiles to use in 'profile_name' var.
-> 7DTD
-> Dying Light 1
-> Dying Light 2
-> DL The Beast
-> Ready or Not
-> Schedule I
+- "destination" = 
+  - Available destination to use in 'destination' var.
+    - profile_mods/7DTD/Mods/
+    - profile_mods/Ready or Not/mod.czt/
+    - profile_mods/Dying Light 1/
+    - profile_mods/Dying Light 2/
+    - profile_mods/DL The Beast/
+    - profile_mods/Schedule I/Mods/
 
-# "display_name" = Whatever you want to show as the mod name in the UI
-# "mod_local_version" = version number to display in UI
-# "nexus_url" = url of mod
-# "files_to_install" = name of file(s) to install
-# "folder_to_install" = name of single folder to install
-# "folders_to_install" = dict of folders to install
-
-# "destination" = 
-+ Available destination to use in 'destination' var.
-> profile_mods/7DTD/Mods/
-> profile_mods/Ready or Not/mod.czt/
-> profile_mods/Dying Light 1/
-> profile_mods/Dying Light 2/
-> profile_mods/DL The Beast/
-> profile_mods/Schedule I/Mods/
-
+```
 ===========================================
-# // Single File Manifest (_mod_info.json)
+- // Single File Manifest (_mod_info.json)
 ===========================================
 {
   "profile_name": "Ready or Not",
@@ -50,7 +47,7 @@
 
 
 ===========================================
-# // Multi File Manifest (_mod_info.json)
+// Multi File Manifest (_mod_info.json)
 ===========================================
 {
   "profile_name": "Ready or Not",
@@ -87,7 +84,7 @@
 
 
 ===========================================
-# // Single Folder Manifest (_mod_info.json)
+- // Single Folder Manifest (_mod_info.json)
 ===========================================
 {
   "profile_name": "7DTD",		
@@ -100,7 +97,7 @@
 
 
 ===========================================
-# // Multi Folder Manifest (_mod_info.json)
+- // Multi Folder Manifest (_mod_info.json)
 ===========================================
 {
   "profile_name": "7DTD",
@@ -139,9 +136,9 @@
 
 
 ===========================================
-# EXTRA EXAMPLES
+- EXTRA EXAMPLES
 ===========================================
-# // (Single File Mods)
+- // (Single File Mods)
 {
   "profile_name": "DL The Beast",
   "display_name": "Infinite AIO (Balanced)",
@@ -155,7 +152,7 @@
   ]
 }
 
-# // OR
+- // OR
 {
   "profile_name": "DL The Beast",
   "display_name": "AP (Balanced)",
@@ -167,7 +164,7 @@
 }
 
 
-# // (Multiple Files At Once)
+- // (Multiple Files At Once)
 {
   "profile_name": "DL The Beast",
   "nexus_url": "https://www.nexusmods.com/dyinglightthebeast/mods/120",
@@ -188,7 +185,7 @@
 }
 
 
-# // Ready or Not (Multiple Files At Once)
+- // Ready or Not (Multiple Files At Once)
 {
   "profile_name": "Ready or Not",
   "nexus_url": "https://www.nexusmods.com/readyornot/mods/3796",
@@ -223,7 +220,7 @@
 }
 
 
-# // Schedule I
+- // Schedule I
 {
   "profile_name": "Schedule I",
   "nexus_url": "https://www.nexusmods.com/schedule1/mods/14",
@@ -237,9 +234,9 @@
 }
 
 
-# // 7DTD  (FOLDER STYLE MODS)
+- // 7DTD  (FOLDER STYLE MODS)
 
-# //SINGLE
+- //SINGLE
 {
   "profile_name": "7DTD",
   "display_name": "A MOD FOR 7DTD",
@@ -249,7 +246,7 @@
   "destination": "profile_mods/7DTD/Mods/"
 }
 
-# //MULTI
+- //MULTI
 {
   "profile_name": "7DTD",
   "nexus_url": "https://www.nexusmods.com/7daystodie/mods/3285",
@@ -284,3 +281,4 @@
   },
   "destination": "profile_mods/7DTD/Mods/"
 }
+```
