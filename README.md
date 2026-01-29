@@ -79,10 +79,11 @@
 
 # How to install mods:
 ### 1:) Select Game Profile in the MAIN tab then...
-- Drag & Drop your mods to anywhere within the log box (.zip, .rar, .7z, or Raw Files/Folders)
+- Drag & Drop your mods to anywhere within the log box on the Main Menu tab. (.zip, .rar, .7z, or Raw Files/Folders)
   - Most mods do not need extracted before install. (CZT handles extraction)
     - Extract folder based mods to desktop and drag the raw folder into CZT if you experience double foldering issues.
-  - Mods with a _mod_info.json file attached DO NOT need extracted before install, regardless of the type.
+  - Mods with a _mod_info.json file attached will automatically have their mod info updated in the manage tab.
+    - Image, Mod Name, Creator, Install Date, Version, Nexus URL (ID)
 
 > [!NOTE]
 > [NEW USERS] Before continuing to the next step...</br>
