@@ -121,7 +121,7 @@
 > - You can select and scan all of your mods for updates at once if you choose.
 >   - This may take a few minutes depending on total mod count and internet connection. 
 
-### [Disabled/Restore Mods]
+### [Disable/Restore Mods]
 - Select mods then click 'Disable Selected'
 - You can click 'Restore Disabled' at anytime.
 - Disabling mods results in them not being linked at launch. (good for trouble shooting broken mods)
