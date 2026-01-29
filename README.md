@@ -138,6 +138,20 @@
 
 <img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
 
+# Plugins (BETA)
+- Place plugins in:
+  - CZT Mod Manager/plugins/exe_standalone
+    - Press F3 to load. 
+    - optional launch with admin prompt for plugins that may need it.
+    - EXE plugins are not persistent and only launch when a user loads from the plugin menu.
+  - CZT Mod Manager/plugins/scripts
+    - Press F3 to load.
+    - You can set scripts to persistently load at launch.
+    - Example plugin ➡️ [here](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/profile_addon_plugin.py)
+<img width="501" height="226" alt="image" src="https://github.com/user-attachments/assets/43cdf134-1c7b-4403-a42f-3c68c8bd2c16" />
+
+<img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
+
 # All Controls:
 ### Global Hotkeys
     [HOTKEY CONTROLS]
@@ -226,20 +240,6 @@
         > Custom Color selection (hexadecimal so literally any color is available)
         > Custom font selection - 75+ Fonts available
 <img width="1110" height="607" alt="image" src="https://github.com/user-attachments/assets/41cb57a5-394e-4065-9500-6e0bc698f503" />
-
-<img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
-
-# Plugins (BETA)
-- Place plugins in:
-  - CZT Mod Manager/plugins/exe_standalone
-    - Press F3 to load. 
-    - optional launch with admin prompt for plugins that may need it.
-    - EXE plugins are not persistent and only launch when a user loads from the plugin menu.
-  - CZT Mod Manager/plugins/scripts
-    - Press F3 to load.
-    - You can set scripts to persistently load at launch.
-    - Example plugin ➡️ [here](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/profile_addon_plugin.py)
-<img width="501" height="226" alt="image" src="https://github.com/user-attachments/assets/43cdf134-1c7b-4403-a42f-3c68c8bd2c16" />
 
 <img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
 
