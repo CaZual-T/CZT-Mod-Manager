@@ -106,12 +106,14 @@
 # How To Use Manager Controls:
 ### - Update Mod Info
 - 1.) Go to the 'Manage' Tab.
-- 2.) Enter the selected mods corresponding nexus url.
-- 3.) Ensure checkbox next to the mod you entered the url for is checked. (failing to do this will reset the nexus url entry)
-- 4.) Click save data button.
-<img width="1092" height="78" alt="image" src="https://github.com/user-attachments/assets/708c2b19-6252-4a35-a7fb-6287d34acedc" />
+- 2.) Enter the selected mods corresponding nexus full url (or just the id). <img width="79" height="29" alt="image" src="https://github.com/user-attachments/assets/7a189cef-bd94-4492-9ed7-464f7dc9175b" />
+- 3.) Ensure checkbox next to the mod you entered the url for is checked. <img width="180" height="22" alt="image" src="https://github.com/user-attachments/assets/6670f70a-7437-4ebd-904f-839c78872dfe" />
+- 4.) Click save data button. <img width="120" height="35" alt="image" src="https://github.com/user-attachments/assets/f0e0a2b7-e69d-4d37-b295-a8d9bb5ad8e8" />
+- RESULT:
+<img width="974" height="73" alt="image" src="https://github.com/user-attachments/assets/3878382b-af1c-42f5-85a4-341f46570e70" />
 
-### - Check Mods For Updates
+
+### [Check Mods For Updates]
 - Select as many mods as you want.
 - click '🔄️ Scan'
   - This will also update the version number in the LATEST column.
@@ -119,12 +121,12 @@
 > - You can select and scan all of your mods for updates at once if you choose.
 >   - This may take a few minutes depending on total mod count and internet connection. 
 
-### - Disabled/Restore Mods
+### [Disabled/Restore Mods]
 - Select mods then click 'Disable Selected'
 - You can click 'Restore Disabled' at anytime.
 - Disabling mods results in them not being linked at launch. (good for trouble shooting broken mods)
 
-### - Forcible options:
+### [Forcible options]
 - These options allow users to overwrite existing data within the profile_mod_list.json when 'Save Data' is clicked.
 - Extremely useful for DataN.pak mods.
 ```
