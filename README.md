@@ -79,9 +79,9 @@
 
 # How to install mods:
 ### 1:) Select Game Profile in the MAIN tab then...
-- Drag & Drop your mods to anywhere within the log box (.zip, .rar, .7z, or already extracted .pak)
-  - File based mods (.pak, .dll, .asi etc) do not need extracted before install.
-  - Folder mods need to be extracted first to avoid double foldering.
+- Drag & Drop your mods to anywhere within the log box (.zip, .rar, .7z, or Raw Files/Folders)
+  - Most mods do not need extracted before install. (CZT handles extraction)
+    - Extract folder based mods to desktop and drag the raw folder into CZT if you experience double foldering issues.
   - Mods with a _mod_info.json file attached DO NOT need extracted before install, regardless of the type.
 
 > [!NOTE]
