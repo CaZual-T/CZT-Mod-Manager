@@ -32,7 +32,8 @@
 - Error Handling & Recovery: Stress tested for reliability.
 - In-Depth user logs for both normal processes and errors.
 - Merge Utility: Combine multiple .paks into one. (limited to dying light games)
-  - ↳ Merge button in manage tab is NOT the same logic as the UnleashTheMods plugin. It's 2 different things. UTM is more reliable imo.  
+  - ↳ Merge button in manage tab is NOT the same logic as the UnleashTheMods plugin. It's 2 different things.
+  - ↳ UTM plugin is more reliable imo.  
 - Customizable UI: Users can personalize colors, fonts, and layouts for accessibility and aesthetics.
 - Currently Supports 7DTD, Ready or Not, Schedule I, Dying Light 1/2, and Dying Light The Beast. More to be added!
 - Does NOT support Linux.</br>
