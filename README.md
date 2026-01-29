@@ -36,48 +36,10 @@
 - Customizable UI: Users can personalize colors, fonts, and layouts for accessibility and aesthetics.
 - Currently Supports 7DTD, Ready or Not, Schedule I, Dying Light 1/2, and Dying Light The Beast. More to be added!
 - Does NOT support Linux.</br>
-#
-<img width="1920" height="50" alt="Untitled (6)" src="https://github.com/user-attachments/assets/ff94bb31-a33c-4cfa-9553-87237b177632" /></br>
-###
-# Common errors w/ solutions:
-### TO AVOID HAVING TO RESTART THE APP BETWEEN MAJOR FUNCTIONS. ENABLE DEVELOPER MODE.
-(Windows) Settings > Advanced > For Developers (Toggle Developer Mode On)
-This allows symlinks to be created without admin permissions. 99% of errors are solved by enabling this.
 
-### IF you chose to not enable developer mode, Run CZT as ADMIN if you encounter the following errors:
-- "[ERROR] No write permission to drive"
-- "[ERROR] Permission denied: ':\czt_write_test.tmp'."
-- "[ERROR] A required privilege is not held by the client"
+<img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
 
-### Q: Why does czt need write permissions?
-A: This is so CZT can create required folders and properly edit the profile_mods_list.json (file that contains all your mod info)
-
-### Q: Why does CZT need admin permissions when launching my game?
-A: Not all, but some users may need to launch their game with CZT as admin to ensure symlinking works correctly.
-
-### "I cant drag and drop downloaded mods into CZT"
-- Don't run CZT as admin when installing mods.
-- Its IMPOSSIBLE for windows explorer to move files to an app with higher permissions. This is a windows limitation.﻿
-
-### [ERROR] Permission denied: [WinError 3]
-- press ctrl + o , open the config file.
-- find resolved_profile_paths, resolved_exe_paths, and set_profile_path and delete their blocks/lines.
-- Then press 'detect steam' (or set your paths again manually for other install types)>
-- Launch Game.
-```
-  "resolved_profile_paths": {
-     "Ready or Not": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\Ready or Not\\ReadyOrNot\\Content\\Paks\\Mods"
-      },
-  "resolved_exe_paths": {
-     "Ready or Not": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\Ready or Not\\ReadyOrNot.exe"
-      },
-
-  "set_profile_path": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\Ready or Not\\ReadyOrNot\\Content\\Paks\\Mods"
-```
-#
-<img width="1920" height="50" alt="Untitled (6)" src="https://github.com/user-attachments/assets/ff94bb31-a33c-4cfa-9553-87237b177632" /></br>
-###
-# CZT Mod Manager Setup:
+# Install/Setup Instructions:
 ### 1:) Download and Run installer
 
 ### 2:) Create Root 
@@ -111,10 +73,10 @@ A: Not all, but some users may need to launch their game with CZT as admin to en
   - Alternatively you can use manual pathing and follow the instructions in the log box.
 ###
 <img width="507" height="112" alt="image" src="https://github.com/user-attachments/assets/87ff2e94-5d68-45c3-b7f4-3694ac6deca3" /></br>
-#
-<img width="1920" height="50" alt="Untitled (6)" src="https://github.com/user-attachments/assets/ff94bb31-a33c-4cfa-9553-87237b177632" /></br>
-###
-# How to use CZT to install mods
+
+<img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
+
+# How to install mods:
 ### 1:) Select Game Profile in the MAIN tab then...
 - Drag & Drop your mods to anywhere within the log box (.zip, .rar, .7z, or already extracted .pak)
   - File based mods (.pak, .dll, .asi etc) do not need extracted before install.
@@ -122,7 +84,7 @@ A: Not all, but some users may need to launch their game with CZT as admin to en
   - Mods with a _mod_info.json file attached DO NOT need extracted before install, regardless of the type.
 
 > [!NOTE]
-> Before continuing to the next step...</br>
+> [NEW USERS] Before continuing to the next step...</br>
 > - First time users with mods already installed at default locations...</br>
 > - Go to your mod install location...</br>
 >     ...drag and drop any mods you may have, into CZT. (to install later)</br>
@@ -138,11 +100,40 @@ A: Not all, but some users may need to launch their game with CZT as admin to en
 - You only have to launch with CZT when you want to toggle mods on or off or recently installed/deleted mods.
 - Once mods are toggled on/off that is the state they will stay in until changed by the user.
 
-# How To Track Mods/Update Info:
-- Go to the 'Manage' Tab.
-- Enter the selected mods corresponding nexus url.
-- Select checkbox next to mod, click save data button.
-- To check for updates simply select the mod, click check for updates. This will also update the version number in the LATEST column.
+<img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
+
+# How To Use Manager Controls:
+### - Update Mod Info
+- 1.) Go to the 'Manage' Tab.
+- 2.) Enter the selected mods corresponding nexus url.
+- 3.) Ensure checkbox next to the mod you entered the url for is checked. (failing to do this will reset the nexus url entry)
+- 4.) Click save data button.
+<img width="1092" height="78" alt="image" src="https://github.com/user-attachments/assets/708c2b19-6252-4a35-a7fb-6287d34acedc" />
+
+### - Check Mods For Updates
+- Select as many mods as you want.
+- click '🔄️ Scan'
+  - This will also update the version number in the LATEST column.
+>[!TIP]
+> - You can select and scan all of your mods for updates at once if you choose.
+>   - This may take a few minutes depending on total mod count and internet connection. 
+
+### - Disabled/Restore Mods
+- Select mods then click 'Disable Selected'
+- You can click 'Restore Disabled' at anytime.
+- Disabling mods results in them not being linked at launch. (good for trouble shooting broken mods)
+
+### - Forcible options:
+- These options allow users to overwrite existing data within the profile_mod_list.json when 'Save Data' is clicked.
+- Extremely useful for DataN.pak mods.
+```
+'Force Update Mod Image'
+'Force Update Display Name'
+'Force Update Local Version'
+'Force Update Install Date'
+```
+
+<img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
 
 # Plugins (BETA)
 - Place plugins in:
@@ -156,22 +147,7 @@ A: Not all, but some users may need to launch their game with CZT as admin to en
     - Example plugin ➡️ [here](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/profile_addon_plugin.py)
 <img width="501" height="226" alt="image" src="https://github.com/user-attachments/assets/43cdf134-1c7b-4403-a42f-3c68c8bd2c16" />
 
-
-# Other Features:
-### - Disabled/Restore Mods
-- Select mods then click 'Disable Selected'
-- You can click 'Restore Disabled' at anytime.
-- Disabling mods results in them not being linked at launch. (good for trouble shooting broken mods)
-
-### Forcible options:
-- These allow users to overwrite existing data within the profile_mod_list.json.
-- Extremely useful for DataN.pak mods.
-```
-'Force Update Mod Image'
-'Force Update Display Name'
-'Force Update Local Version'
-'Force Update Install Date'
-```
+<img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
 
 ### Below is a complete function dictionary:
 ### Main Tab:
@@ -249,5 +225,44 @@ A: Not all, but some users may need to launch their game with CZT as admin to en
         > Custom Color selection (hexadecimal so literally any color is available)
         > Custom font selection - 75+ Fonts available
 <img width="1110" height="607" alt="image" src="https://github.com/user-attachments/assets/41cb57a5-394e-4065-9500-6e0bc698f503" />
+
+<img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
+
+# Common errors w/ solutions:
+### TO AVOID HAVING TO RESTART THE APP BETWEEN MAJOR FUNCTIONS. ENABLE DEVELOPER MODE.
+- (Windows) Settings > Advanced > For Developers (Toggle Developer Mode On)
+  - This allows symlinks to be created without admin permissions.
+  - 99% of errors are solved by enabling this.
+
+### IF you chose to not enable developer mode, Run CZT as ADMIN if you encounter the following errors:
+- "[ERROR] No write permission to drive"
+- "[ERROR] Permission denied: ':\czt_write_test.tmp'."
+- "[ERROR] A required privilege is not held by the client"
+
+### Q: Why does czt need write permissions?
+A: This is so CZT can create required folders and properly edit the profile_mods_list.json (file that contains all your mod info)
+
+### Q: Why does CZT need admin permissions when launching my game?
+A: Not all, but some users may need to launch their game with CZT as admin to ensure symlinking works correctly.
+
+### "I cant drag and drop downloaded mods into CZT"
+- Don't run CZT as admin when installing mods.
+- Its IMPOSSIBLE for windows explorer to move files to an app with higher permissions. This is a windows limitation.﻿
+
+### [ERROR] Permission denied: [WinError 3]
+- press ctrl + o , open the config file.
+- find resolved_profile_paths, resolved_exe_paths, and set_profile_path and delete their blocks/lines.
+- Then press 'detect steam' (or set your paths again manually for other install types)>
+- Launch Game.
+```
+  "resolved_profile_paths": {
+     "Ready or Not": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\Ready or Not\\ReadyOrNot\\Content\\Paks\\Mods"
+      },
+  "resolved_exe_paths": {
+     "Ready or Not": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\Ready or Not\\ReadyOrNot.exe"
+      },
+
+  "set_profile_path": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\Ready or Not\\ReadyOrNot\\Content\\Paks\\Mods"
+```
 
 
