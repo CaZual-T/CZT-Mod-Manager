@@ -3,7 +3,7 @@
 ~ Go to ["How to Use"](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#how-to-use-czt-mod-manager)</br>
 ~ Go to ["Track Mods/Other Options"](https://github.com/CaZual-T/CZT-Mod-Manager?tab=readme-ov-file#how-to-track-modsupdate-info)</br>
 ~ Go to ["Plugins BETA"](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#plugins-beta)</br>
-~ Go to ["Function Definitions"](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#below-is-a-complete-function-dictionary)</br>
+~ Go to ["All Controls"](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#below-is-a-complete-function-dictionary)</br>
 ~ Go to ["Troubleshooting"](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#common-errors-w-solutions)</br>
 
 # CZT Core:
@@ -150,7 +150,19 @@
 
 <img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
 
-### Below is a complete function dictionary:
+# All Controls:
+### Global Hotkeys
+    [HOTKEY CONTROLS]
+        > F2           : Open Load Order Menu.
+        > F3           : Open Plugins Menu.
+        > CTRL+O       : Open CZT root folder.
+        > Shift+H      : Show hotkey options.
+        > Shift+C      : Show current config.
+        > Shift+R      : Show resource file paths.
+        > Ctrl+Shift+L : Initiate a missile launch.
+        > Ctrl+Shift+S : Launch debug console.
+        > Ctrl+Alt+P   : Open paypal donation page.
+        
 ### Main Tab:
     [Left side buttons]
         > {profile_select}: select which game you want to manage mods for.
