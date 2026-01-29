@@ -1,7 +1,7 @@
 # Welcome to the CZT Mod Manager homepage! 
 ~ Go to ["First Time Install/Setup Instructions"](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#czt-mod-manager-setup)</br>
-~ Go to ["How to install mods"](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#how-to-use-czt-mod-manager)</br>
-~ Go to ["How To Use Manager Controls"](https://github.com/CaZual-T/CZT-Mod-Manager?tab=readme-ov-file#how-to-track-modsupdate-info)</br>
+~ Go to ["How to Install Mods"](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#how-to-use-czt-mod-manager)</br>
+~ Go to ["How to use Manager Controls"](https://github.com/CaZual-T/CZT-Mod-Manager?tab=readme-ov-file#how-to-track-modsupdate-info)</br>
 ~ Go to ["All CZT Controls"](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#below-is-a-complete-function-dictionary)</br>
 ~ Go to ["Install Plugins (BETA)"](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#plugins-beta)</br>
 ~ Go to ["Troubleshooting"](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main?tab=readme-ov-file#common-errors-w-solutions)</br>
