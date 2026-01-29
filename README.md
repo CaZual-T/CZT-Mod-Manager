@@ -42,7 +42,7 @@
 # Common errors w/ solutions:
 ### TO AVOID HAVING TO RESTART THE APP BETWEEN MAJOR FUNCTIONS. ENABLE DEVELOPER MODE.
 (Windows) Settings > Advanced > For Developers (Toggle Developer Mode On)
-This allows symlinks to be created without admin permissions.
+This allows symlinks to be created without admin permissions. 99% of errors are solved by enabling this.
 
 ### IF you chose to not enable developer mode, Run CZT as ADMIN if you encounter the following errors:
 - "[ERROR] No write permission to drive"
