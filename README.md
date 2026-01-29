@@ -106,7 +106,7 @@
 # How To Use Manager Controls:
 ### - Update Mod Info
 - 1.) Go to the 'Manage' Tab.
-- 2.) Enter the selected mods corresponding nexus full url (or just the id). <img width="79" height="29" alt="image" src="https://github.com/user-attachments/assets/7a189cef-bd94-4492-9ed7-464f7dc9175b" />
+- 2.) Enter the selected mods nexus url, or just the id. <img width="79" height="29" alt="image" src="https://github.com/user-attachments/assets/7a189cef-bd94-4492-9ed7-464f7dc9175b" />
 - 3.) Ensure checkbox next to the mod you entered the url for is checked. <img width="180" height="22" alt="image" src="https://github.com/user-attachments/assets/6670f70a-7437-4ebd-904f-839c78872dfe" />
 - 4.) Click save data button. <img width="120" height="35" alt="image" src="https://github.com/user-attachments/assets/f0e0a2b7-e69d-4d37-b295-a8d9bb5ad8e8" />
 - RESULT:
