@@ -56,7 +56,7 @@ def run(plugin_api, *args, **kwargs):
     epic_checkbox.stateChanged.connect(on_checkbox)
     if hasattr(user_setup_tab, 'register_pathing_checkbox'):
         user_setup_tab.register_pathing_checkbox('epic-games_plugin', epic_checkbox)
-    plugin_api.czt_log('[EPIC GAMES PLUGIN] Epic Games plugin initialized.')
+    plugin_api.czt_log('[EPIC GAMES PLUGIN] Epic Games plugin enabled.\n > Select a game profile, then select the "Epic Games" path mode.\n > Use Shift+E to scan for "Epic Games" installations.')
 
 
 

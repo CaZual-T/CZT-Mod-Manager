@@ -28,8 +28,8 @@ def run(plugin_api):
                 "symlink_asi_and_dll_to_exe": False, # <----------------------------- If True, .dll and .asi files will be linked to the exe path when game is launched.
                 "official_game_data_paks": [], # <----------------------------------- List of official .pak files. This prevents them from being modified or deleted.
                 "auto_rename_pak": False, # <---------------------------------------- If True, rename .pak files during copy/transfer / if False, overwrite files of the same name. // 9/28/25: Deprecated, now handled by DataN patcher.
-                "default_mods_dir": True, # <---------------------------------------- If True, installs directly to path. If False, uses custom_mods_dir below.
-                "custom_mods_dir": "Mods", # <--------------------------------------- Set mod folder name. The name "Mods" is used for most games, but some games dont care about the name and this can be set to anything.
+                "default_mods_dir": True, # <---------------------------------------- If True, installs directly to path. If False, uses set_mod_dir_name below.
+                "set_mod_dir_name": "Mods", # <--------------------------------------- Set mod folder name. The name "Mods" is used for most games, but some games dont care about the name and this can be set to anything.
                 "per_file_symlink": True, # <---------------------------------------- If True, enables per-file symlink mode (each mod file is symlinked separately)
                 "per_folder_symlink": False, # <------------------------------------- If True, enables per-folder symlink mode (each mod folder is symlinked as a whole) // Had to make this for games like 7dtd that have a default dependency, in 7dtd's case its "0_TFP_Harmony"
                 "nexus_game_link": "https://www.nexusmods.com/readyornot/mods/", # <- Link to the game's overall Nexus Mods page.
@@ -50,7 +50,7 @@ def run(plugin_api):
                 "official_game_data_paks": [],
                 "auto_rename_pak": False,
                 "default_mods_dir": True,
-                "custom_mods_dir": "Mods",
+                "set_mod_dir_name": "Mods",
                 "per_file_symlink": True,
                 "per_folder_symlink": False,
                 "nexus_game_link": "https://www.nexusmods.com/readyornot/mods/",
@@ -85,8 +85,8 @@ def run(plugin_api):
 # symlink_asi_and_dll_to_exe -------------> If True, .dll and .asi files will be linked to the exe path when game is launched.
 # official_game_data_paks: ---------------> List of official .pak files. This prevents them from being modified or deleted.
 # auto_rename_pak: -----------------------> If True, rename .pak files during copy/transfer / if False, overwrite files of the same name. // 9/28/25: Deprecated, now handled by DataN patcher.
-# default_mods_dir: ----------------------> If True, installs directly to path. If False, uses custom_mods_dir below.
-# custom_mods_dir: -----------------------> Set mod folder name. The name "Mods" is used for most games, but some games dont care about the name and this can be set to anything.
+# default_mods_dir: ----------------------> If True, installs directly to path. If False, uses set_mod_dir_name below.
+# set_mod_dir_name: -----------------------> Set mod folder name. The name "Mods" is used for most games, but some games dont care about the name and this can be set to anything.
 # per_file_symlink: ----------------------> If True, enables per-file symlink mode (each mod file is symlinked separately)
 # per_folder_symlink: --------------------> If True, enables per-folder symlink mode (each mod folder is symlinked as a whole) // Had to make this for games like 7dtd that have a default dependendy, in 7dtd's case its "0_TFP_Harmony"
 # nexus_game_link: -----------------------> Link to the game's overall Nexus Mods page.
@@ -117,7 +117,7 @@ def run(plugin_api):
 #     "official_game_data_paks": [],
 #     "auto_rename_pak": True,
 #     "default_mods_dir": False,
-#     "custom_mods_dir": "mod.czt",
+#     "set_mod_dir_name": "mod.czt",
 #     "per_file_symlink": False,
 #     "per_folder_symlink": True,
 
@@ -153,7 +153,7 @@ def run(plugin_api):
 #         "official_game_data_paks": [],
 #         "auto_rename_pak": False,
 #         "default_mods_dir": True,
-#         "custom_mods_dir": "Mods",
+#         "set_mod_dir_name": "Mods",
 #         "per_file_symlink": True,
 #         "nexus_game_link": "https://www.nexusmods.com/readyornot/mods/",
 #     },    
@@ -173,7 +173,7 @@ def run(plugin_api):
 #         ],
 #         "auto_rename_pak": False,
 #         "default_mods_dir": True,
-#         "custom_mods_dir": "",
+#         "set_mod_dir_name": "",
 #         "per_file_symlink": True,
 #         "nexus_game_link": "https://www.nexusmods.com/dyinglight/mods/",
 #     },
@@ -190,7 +190,7 @@ def run(plugin_api):
 #         "official_game_data_paks": ["data0.pak", "data1.pak"],
 #         "auto_rename_pak": False,
 #         "default_mods_dir": True,
-#         "custom_mods_dir": "",
+#         "set_mod_dir_name": "",
 #         "per_file_symlink": True,
 #         "nexus_game_link": "https://www.nexusmods.com/dyinglight2/mods/",
 #     },
@@ -208,7 +208,7 @@ def run(plugin_api):
 #         "official_game_data_paks": ["data0.pak", "data1.pak"],
 #         "auto_rename_pak": False, 
 #         "default_mods_dir": True,
-#         "custom_mods_dir": "",
+#         "set_mod_dir_name": "",
 #         "per_file_symlink": True,
 #         "per_folder_symlink": False,
 #         "nexus_game_link": "https://www.nexusmods.com/dyinglightthebeast/mods/",
@@ -225,7 +225,7 @@ def run(plugin_api):
 #         "official_game_data_paks": [],
 #         "auto_rename_pak": False,
 #         "default_mods_dir": False,
-#         "custom_mods_dir": "Mods",
+#         "set_mod_dir_name": "Mods",
 #         "per_file_symlink": False,
 #         "dependency_mods": ["MelonLoader*"],
 #         "copy_dependency_to_profile": [
@@ -252,7 +252,7 @@ def run(plugin_api):
 #         "official_game_data_paks": [],
 #         "auto_rename_pak": False,
 #         "default_mods_dir": True,
-#         "custom_mods_dir": "",
+#         "set_mod_dir_name": "",
 #         "per_file_symlink": False,
 #         "per_folder_symlink": True,
 #         "official_game_data_paks": ["0_TFP_Harmony"],
