@@ -1,4 +1,4 @@
-> [!NOTE]
+> [!NOTE] 
 > - Manifest file name should always = "_mod_info.json" </br>
 - Place manifest at top level of your folder or compressed file. See example mods.
 
@@ -282,3 +282,4 @@
   "destination": "profile_mods/7DTD/Mods/"
 }
 ```
+
