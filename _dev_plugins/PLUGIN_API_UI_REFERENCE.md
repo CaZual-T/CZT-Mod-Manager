@@ -92,10 +92,8 @@ def run(plugin_api: PluginContextAPI):
     - Current staged mods list (source): `plugin_api.user_setup_tab.install_logic.mods_list`
     - Refresh staged mods list: `plugin_api.user_setup_tab.install_logic._refresh_mods_list()`
 - Manage Mods tab:
-  - Mods grid: `plugin_api.mod_manager_tab.mods_grid` (set from `ui.mods_grid`) in [tabs/ModManager/_Main_MNGR.py].
+  - Mods grid: `plugin_api.mod_manager_tab.mods_grid` (set from `ui.mods_grid`).
   - Progress bar layout: `plugin_api.mod_manager_tab.ui.progress_layout`.
   - Refresh manager list: `utilities_global._RefreshManagerWinList.RefreshManagerWinList.refresh_managerWin_list(...)` (refresh manager tab ui elements and mod list).
 - Settings tab:
-  - Not exposed by default in `PluginContextAPI`. If you want plugins to target Settings, pass it through `PluginContextAPI(..., settings_tab=...)` in your loader, then document the anchor (e.g., `plugin_api.settings_tab.ui.gridLayout_2` in [gui_/gui_Tab_Settings_ui.py](gui_/gui_Tab_Settings_ui.py)).
-
-If a layout changes in future versions, plugins should detect missing anchors and log a message instead of failing.
+  - Not Ready.
