@@ -1,15 +1,19 @@
 import os, sys
 import importlib
 
+ADDED_PROFILE_NAMES = []
+LAST_PLUGIN_API = None
+
 # Official CZT Plugin: Custom_Profiles (adds additional game profile to in-memory config)
 # Usage: Place this file in plugins/scripts, then run it from the CZT Mod Manager plugin menu.
 # You can use this to... 
 #   ↳ add NEW profiles for games that are not included in the main CZT Mod Manager or to 
 #   ↳ add multiple profiles for the same game. (allowing you to quickly switch between mod setups for the same game)
 
-
 def run(plugin_api):
     try:
+        global ADDED_PROFILE_NAMES, LAST_PLUGIN_API
+        LAST_PLUGIN_API = plugin_api
         # Find the root (parent of plugins/scripts) // When i made this i had the .py file in CZT Mod Manager/plugins/scripts and just edited it directly
         GAME_PROFILES = plugin_api.GAME_PROFILES
         if GAME_PROFILES is None:
@@ -64,10 +68,69 @@ def run(plugin_api):
                 plugin_api.czt_log(f"[PLUGIN] Profile '{profile_name}' already exists in memory.")
             else:
                 GAME_PROFILES[profile_name] = profile_data
+                ADDED_PROFILE_NAMES.append(profile_name)
                 plugin_api.czt_log(f"[PLUGIN] Profile '{profile_name}' has been added as a usable profile.")
         plugin_api.czt_log(" > Custom profiles will remain in-memory until plugin is removed.")
     except Exception as e:
         plugin_api.czt_log(f"[PLUGIN] Error adding profile to GAME_PROFILES: {e}")
+
+def on_unload():
+    global ADDED_PROFILE_NAMES, LAST_PLUGIN_API
+    plugin_api = LAST_PLUGIN_API
+    if plugin_api is None:
+        return
+    try:
+        def refresh_any_open_ui():
+            try:
+                from PyQt5.QtWidgets import QApplication
+                for w in QApplication.topLevelWidgets():
+                    tab = getattr(w, "user_setup_tab", None)
+                    if tab and hasattr(tab, "refresh_profile_dropdown"):
+                        if hasattr(tab, "GAME_PROFILES"):
+                            tab.profiles = list(tab.GAME_PROFILES.keys())
+                        tab.refresh_profile_dropdown()
+                        return True
+            except Exception:
+                pass
+            return False
+
+        def remove_from(target_dict):
+            removed_local = []
+            if not target_dict:
+                return removed_local
+            for name in list(ADDED_PROFILE_NAMES):
+                if name in target_dict:
+                    del target_dict[name]
+                    removed_local.append(name)
+            return removed_local
+
+        removed = []
+        removed += remove_from(getattr(plugin_api, "GAME_PROFILES", None))
+        if getattr(plugin_api, "user_setup_tab", None) is not None:
+            removed += remove_from(getattr(plugin_api.user_setup_tab, "GAME_PROFILES", None))
+        if getattr(plugin_api, "mod_manager_tab", None) is not None:
+            removed += remove_from(getattr(plugin_api.mod_manager_tab, "GAME_PROFILES", None))
+        try:
+            from var_global.Global_Configs import GAME_PROFILES as GLOBAL_GAME_PROFILES
+            removed += remove_from(GLOBAL_GAME_PROFILES)
+        except Exception:
+            pass
+
+        ADDED_PROFILE_NAMES = []
+        if removed:
+            plugin_api.czt_log(f"[PLUGIN] Removed profiles on unload: {', '.join(sorted(set(removed)))}")
+        if getattr(plugin_api, "user_setup_tab", None):
+            if hasattr(plugin_api.user_setup_tab, "profiles") and getattr(plugin_api, "GAME_PROFILES", None):
+                plugin_api.user_setup_tab.profiles = list(plugin_api.GAME_PROFILES.keys())
+            if hasattr(plugin_api.user_setup_tab, "refresh_profile_dropdown"):
+                plugin_api.user_setup_tab.refresh_profile_dropdown()
+        else:
+            refresh_any_open_ui()
+    except Exception as e:
+        try:
+            plugin_api.czt_log(f"[PLUGIN] Error during unload cleanup: {e}")
+        except Exception:
+            pass
 
 # ================================================================================================================================================
 
@@ -258,3 +321,4 @@ def run(plugin_api):
 #         "official_game_data_paks": ["0_TFP_Harmony"],
 #         "nexus_game_link": "https://www.nexusmods.com/7daystodie/mods/",
 #     },
+

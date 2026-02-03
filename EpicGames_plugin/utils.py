@@ -7,6 +7,10 @@ def epic_hotkey(plugin_api):
         plugin_api.czt_log('[ERROR][EPIC GAMES PLUGIN] current_profile not set in plugin_api. Please select a profile.')
         return
     cfg = getattr(plugin_api, 'cfg', {})
+    profile_mode = cfg.get('profile_path_mode', {}).get(current_profile, '').strip().lower()
+    if profile_mode != 'epic-games_plugin':
+        plugin_api.czt_log('[WARNING] Epic Games path mode is not selected; scan canceled.')
+        return
     plugin_api.czt_log(f'[EPIC GAMES PLUGIN] Epic Pathing mode selected for profile: {current_profile}. Scanning for Epic manifests...')
 
     def scan():
