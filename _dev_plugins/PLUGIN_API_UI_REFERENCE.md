@@ -97,3 +97,5 @@ def run(plugin_api: PluginContextAPI):
   - Refresh manager list: `utilities_global._RefreshManagerWinList.RefreshManagerWinList.refresh_managerWin_list(...)` (refresh manager tab ui elements and mod list).
 - Settings tab:
   - Not Ready.
+
+If a layout changes in future versions, plugins should detect missing anchors and log a message instead of failing.
