@@ -84,9 +84,6 @@
     - Extract folder based mods to desktop and drag the raw folder into CZT if you experience double foldering issues.
   - Mods with a _mod_info.json file attached will automatically have their mod info updated in the manage tab.
     - Image, Mod Name, Creator, Install Date, Version, Nexus URL (ID)
-> [!TIP]
-> - You can hover over the display names to see true file names. Useful if data7 already has saved "mod info" within the mod_list.json</br>
-> - You can also shift left click a mod to change its display name.
 
 > [!NOTE]
 > [NEW USERS] Before continuing to the next step...</br>
@@ -116,14 +113,14 @@
 - RESULT:
 <img width="974" height="73" alt="image" src="https://github.com/user-attachments/assets/3878382b-af1c-42f5-85a4-341f46570e70" />
 
+> [!TIP]
+> You can hover over the display names to see true file names. Useful if data7 already has saved "mod info" within the mod_list.json </br>
+> - You can also shift left click a mod to change its display name.
 
 ### [Check Mods For Updates]
 - Select as many mods as you want.
 - click '🔄️ Scan'
   - This will also update the version number in the LATEST column.
->[!TIP]
-> - You can select and scan all of your mods for updates at once if you choose.
->   - This may take a few minutes depending on total mod count and internet connection. 
 
 ### [Disable/Restore Mods]
 - Select mods then click 'Disable Selected'
