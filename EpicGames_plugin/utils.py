@@ -1,6 +1,3 @@
-import os
-import threading
-
 def epic_hotkey(plugin_api):
     current_profile = getattr(plugin_api, 'current_profile', None)
     if not current_profile:
@@ -27,6 +24,10 @@ def epic_hotkey(plugin_api):
             plugin_api.czt_log(f'[EPIC GAMES PLUGIN] Epic Games manifest data saved for profile: {current_profile}')
             for fpath, install_dir, exe_name in manifests:
                 plugin_api.czt_log(f"  - {fpath}\n      Game folder: {install_dir}\n      Executable:  {exe_name}")
+    threading = getattr(plugin_api, 'threading', None)
+    if threading is None:
+        scan()
+        return
     threading.Thread(target=scan, daemon=True).start()
 
 def find_epic_manifests(plugin_api, max_depth=5, current_profile=None, cfg=None, save_cfg=None, czt_root_folder=None):
@@ -84,7 +85,7 @@ def find_epic_manifests(plugin_api, max_depth=5, current_profile=None, cfg=None,
                                     cfg["resolved_exe_paths"] = {}
                                 if "resolved_profile_paths" not in cfg or not isinstance(cfg["resolved_profile_paths"], dict):
                                     cfg["resolved_profile_paths"] = {}
-                                final_profile_path = build_install_dir_path(install_dir, profile_subfolder)
+                                final_profile_path = build_install_dir_path(plugin_api, install_dir, profile_subfolder)
                                 plugin_api.czt_log(f"[DEBUG-EPIC] Final joined profile path: {final_profile_path}")
                                 exe_path = os.path.join(install_dir, exe_name)
                                 resolved_exe_paths = cfg["resolved_exe_paths"]
@@ -104,8 +105,11 @@ def find_epic_manifests(plugin_api, max_depth=5, current_profile=None, cfg=None,
         plugin_api.czt_log(f"[EPICMANIFEST] Located {len(found_manifests)} manifest(s).")
     return found_manifests
 
-def build_install_dir_path(install_dir, profile_subfolder):
+def build_install_dir_path(plugin_api, install_dir, profile_subfolder):
     # Joins Epic install_dir with the FIRST profile subfolder only, never appends multiple paths.
+    os = getattr(plugin_api, 'os', None)
+    if os is None:
+        return install_dir
     if not profile_subfolder:
         return install_dir
     # If profile_subfolder is a list, only use the first entry

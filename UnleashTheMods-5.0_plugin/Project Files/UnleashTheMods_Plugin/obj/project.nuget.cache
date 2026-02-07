@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "bvQgBWUCFlU=",
+  "success": true,
+  "projectFilePath": "C:\\_Gaming\\_Projects\\CZT_MM\\.ignore\\my_plugins\\UnleashTheMods-5.0_plugin\\Project Files\\UnleashTheMods_Plugin\\UnleashTheMods_Plugin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CaZual_T\\.nuget\\packages\\sharpcompress\\0.40.0\\sharpcompress.0.40.0.nupkg.sha512",
+    "C:\\Users\\CaZual_T\\.nuget\\packages\\system.buffers\\4.6.0\\system.buffers.4.6.0.nupkg.sha512",
+    "C:\\Users\\CaZual_T\\.nuget\\packages\\zstdsharp.port\\0.8.5\\zstdsharp.port.0.8.5.nupkg.sha512",
+    "C:\\Users\\CaZual_T\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.23\\microsoft.netcore.app.ref.8.0.23.nupkg.sha512",
+    "C:\\Users\\CaZual_T\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.23\\microsoft.windowsdesktop.app.ref.8.0.23.nupkg.sha512",
+    "C:\\Users\\CaZual_T\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.23\\microsoft.aspnetcore.app.ref.8.0.23.nupkg.sha512",
+    "C:\\Users\\CaZual_T\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.23\\microsoft.netcore.app.host.win-x64.8.0.23.nupkg.sha512"
+  ],
+  "logs": []
+}

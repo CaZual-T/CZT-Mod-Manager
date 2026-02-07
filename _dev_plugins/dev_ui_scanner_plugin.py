@@ -3,12 +3,10 @@
 
 ui_plugin = True
 
-from PyQt5.QtWidgets import (QDialog, QVBoxLayout, QHBoxLayout, QPushButton, QTreeWidget, QTreeWidgetItem, QApplication, QCheckBox,)
-from PyQt5.QtCore import Qt
+from plugins_.Global_Plugin_API import (PluginContextAPI,QApplication,QCheckBox,QDialog,QHBoxLayout,
+QPushButton,QTreeWidget,QTreeWidgetItem,QVBoxLayout,Qt,)
 
-from plugins_.Global_Plugin_API import PluginContextAPI
-
-def _widget_label(widget):
+def widget_label(widget):
     name = widget.objectName() or "<unnamed>"
     return f"{widget.__class__.__name__}  ({name})"
 
@@ -18,13 +16,25 @@ def _layout_label(layout):
     return f"{layout.__class__.__name__}  ({name})"
 
 
-def _add_widget_tree(parent_item, widget, show_unnamed):
+def has_named_descendant(widget):
+    for child in widget.children():
+        if not hasattr(child, "objectName"):
+            continue
+        child_name = child.objectName() or ""
+        if child_name:
+            return True
+        if hasattr(child, "children") and has_named_descendant(child):
+            return True
+    return False
+
+
+def add_widget_tree(parent_item, widget, show_unnamed):
     name = widget.objectName() or "<unnamed>"
-    if not show_unnamed and name == "<unnamed>":
+    if not show_unnamed and name == "<unnamed>" and not has_named_descendant(widget):
         return
-    label = _widget_label(widget)
+    label = widget_label(widget)
     w_item = QTreeWidgetItem(parent_item, [label])
-    w_item.setData(0, Qt.UserRole, label)
+    w_item.setData(0, Qt.ItemDataRole.UserRole, label)
     # Layout attached to this widget
     layout = widget.layout() if hasattr(widget, "layout") else None
     if layout is not None:
@@ -32,14 +42,14 @@ def _add_widget_tree(parent_item, widget, show_unnamed):
         if show_unnamed or layout_name != "<unnamed>":
             layout_label = f"layout: {_layout_label(layout)}"
             layout_item = QTreeWidgetItem(w_item, [layout_label])
-            layout_item.setData(0, Qt.UserRole, layout_label)
+            layout_item.setData(0, Qt.ItemDataRole.UserRole, layout_label)
     # Recurse into child widgets only
     for child in widget.children():
-        if hasattr(child, "layout"):
-            _add_widget_tree(w_item, child, show_unnamed)
+        if hasattr(child, "setLayout"):
+            add_widget_tree(w_item, child, show_unnamed)
 
 
-def _build_tree(tree, plugin_api, show_unnamed, include_tabs):
+def build_tree(tree, plugin_api, show_unnamed, include_tabs):
     tree.clear()
     targets = [("main_window", plugin_api.main_window)]
     if include_tabs:
@@ -50,11 +60,11 @@ def _build_tree(tree, plugin_api, show_unnamed, include_tabs):
         ]
     for label, widget in targets:
         root = QTreeWidgetItem(tree, [label])
-        root.setData(0, Qt.UserRole, label)
+        root.setData(0, Qt.ItemDataRole.UserRole, label)
         if widget is None:
             QTreeWidgetItem(root, ["<not available>"])
             continue
-        _add_widget_tree(root, widget, show_unnamed)
+        add_widget_tree(root, widget, show_unnamed)
     tree.expandAll()
 
 
@@ -67,7 +77,7 @@ def run(plugin_api: PluginContextAPI):
     dlg = QDialog(host)
     dlg.setWindowTitle("CZT UI Scanner")
     dlg.setMinimumSize(700, 500)
-    dlg.setWindowFlags(dlg.windowFlags() & ~Qt.WindowContextHelpButtonHint)
+    dlg.setWindowFlags(dlg.windowFlags() & ~Qt.WindowType.WindowContextHelpButtonHint)
     try:
         dlg.setStyleSheet(plugin_api.ui_context.popup_dialog_stylesheet())
     except Exception:
@@ -132,7 +142,7 @@ def run(plugin_api: PluginContextAPI):
     layout.addLayout(btn_row)
 
     def set_prefix(item, expanded):
-        base = item.data(0, Qt.UserRole) or item.text(0)
+        base = item.data(0, Qt.ItemDataRole.UserRole) or item.text(0)
         if item.childCount() == 0:
             item.setText(0, base)
             return
@@ -147,7 +157,7 @@ def run(plugin_api: PluginContextAPI):
             update_prefixes(root_item.child(i))
 
     def refresh():
-        _build_tree(tree, plugin_api, cb_show_unnamed.isChecked(), cb_include_tabs.isChecked())
+        build_tree(tree, plugin_api, cb_show_unnamed.isChecked(), cb_include_tabs.isChecked())
         for i in range(tree.topLevelItemCount()):
             update_prefixes(tree.topLevelItem(i))
 

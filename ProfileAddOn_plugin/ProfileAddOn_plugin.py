@@ -1,6 +1,3 @@
-import os, sys
-import importlib
-
 ADDED_PROFILE_NAMES = []
 LAST_PLUGIN_API = None
 
@@ -80,20 +77,6 @@ def on_unload():
     if plugin_api is None:
         return
     try:
-        def refresh_any_open_ui():
-            try:
-                from PyQt5.QtWidgets import QApplication
-                for w in QApplication.topLevelWidgets():
-                    tab = getattr(w, "user_setup_tab", None)
-                    if tab and hasattr(tab, "refresh_profile_dropdown"):
-                        if hasattr(tab, "GAME_PROFILES"):
-                            tab.profiles = list(tab.GAME_PROFILES.keys())
-                        tab.refresh_profile_dropdown()
-                        return True
-            except Exception:
-                pass
-            return False
-
         def remove_from(target_dict):
             removed_local = []
             if not target_dict:
@@ -110,11 +93,6 @@ def on_unload():
             removed += remove_from(getattr(plugin_api.user_setup_tab, "GAME_PROFILES", None))
         if getattr(plugin_api, "mod_manager_tab", None) is not None:
             removed += remove_from(getattr(plugin_api.mod_manager_tab, "GAME_PROFILES", None))
-        try:
-            from var_global.Global_Configs import GAME_PROFILES as GLOBAL_GAME_PROFILES
-            removed += remove_from(GLOBAL_GAME_PROFILES)
-        except Exception:
-            pass
 
         ADDED_PROFILE_NAMES = []
         if removed:
@@ -124,8 +102,6 @@ def on_unload():
                 plugin_api.user_setup_tab.profiles = list(plugin_api.GAME_PROFILES.keys())
             if hasattr(plugin_api.user_setup_tab, "refresh_profile_dropdown"):
                 plugin_api.user_setup_tab.refresh_profile_dropdown()
-        else:
-            refresh_any_open_ui()
     except Exception as e:
         try:
             plugin_api.czt_log(f"[PLUGIN] Error during unload cleanup: {e}")

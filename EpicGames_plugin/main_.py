@@ -5,32 +5,20 @@ from utils import epic_hotkey
 ui_plugin = True
 
 def run(plugin_api, *args, **kwargs):
-
     user_setup_tab = getattr(plugin_api, 'user_setup_tab', None)
     if user_setup_tab is None:
-        # Defensive: fallback print if plugin_api is missing user_setup_tab
-        try:
-            plugin_api.czt_log('[ERROR][EPIC GAMES PLUGIN] user_setup_tab not available in plugin_api. Cannot add Epic Pathing checkbox.')
-        except Exception:
-            print('[ERROR][EPIC GAMES PLUGIN] user_setup_tab not available in plugin_api. Cannot add Epic Pathing checkbox.')
+        plugin_api.czt_log('[ERROR][EPIC GAMES PLUGIN] user_setup_tab not available in plugin_api. Cannot add Epic Pathing checkbox.')
         return
 
-    # Register a hotkey to trigger the Epic Games scan
     if hasattr(plugin_api, 'register_hotkey'):
         plugin_api.register_hotkey('Shift+E', lambda: epic_hotkey(plugin_api))
     else:
-        try:
-            plugin_api.czt_log('[ERROR][EPIC GAMES PLUGIN] register_hotkey not available in plugin_api. Cannot register Epic Games hotkey.')
-        except Exception:
-            print('[ERROR][EPIC GAMES PLUGIN] register_hotkey not available in plugin_api. Cannot register Epic Games hotkey.')
+        plugin_api.czt_log('[ERROR][EPIC GAMES PLUGIN] register_hotkey not available in plugin_api. Cannot register Epic Games hotkey.')
         return
 
     QCheckBox = getattr(plugin_api, 'QCheckBox', None)
     if QCheckBox is None:
-        try:
-            plugin_api.czt_log('[ERROR][EPIC GAMES PLUGIN] QCheckBox not available in plugin_api. Cannot create Epic Pathing checkbox.')
-        except Exception:
-            print('[ERROR][EPIC GAMES PLUGIN] QCheckBox not available in plugin_api. Cannot create Epic Pathing checkbox.')
+        plugin_api.czt_log('[ERROR][EPIC GAMES PLUGIN] QCheckBox not available in plugin_api. Cannot create Epic Pathing checkbox.')
         return
 
     epic_checkbox = QCheckBox('Epic Games')
