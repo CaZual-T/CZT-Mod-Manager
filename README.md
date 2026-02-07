@@ -101,7 +101,7 @@
 - Right click mod, enter its url or just the ID, click save.
 
 ### [Check Mods For Updates]
-- click '🔄️' to scall all mods or right click an entry and individually scan.
+- click '🔄️' on the manager tab to scan all mods, or right click an entry and individually scan.
 
 ### [Disable/Restore Mods]
 - Utilize the toggle in the top right to enable/disable all mods at once. 
