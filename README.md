@@ -12,6 +12,9 @@
 # CZT Core:
 - Built using Python and Pyside6 gui library; EXE compiling method = Nuitka Standalone.
 - UnRAR: Supports extraction and management of compressed mod files of any compression type.
+<img width="1112" height="613" alt="image" src="https://github.com/user-attachments/assets/88c2651d-10c6-4c06-a7d1-be2cd1cb6a4c" />
+<img width="1110" height="614" alt="image" src="https://github.com/user-attachments/assets/39a0e5e6-b557-46a3-a7a6-2fa6d3651521" />
+
 
 # Features:
 - EZ Setup & Launch: Automatically locates or creates required configuration files, ensuring seamless setup for users.
