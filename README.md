@@ -37,6 +37,8 @@
 <img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
 
 # Install/Setup Instructions:
+>[!TIP]
+>- Almost every ui element has a tooltip. Hover over buttons and drop downs etc to see them.
 ### 1:) Download and Run installer
 
 ### 2:) Create Root 
