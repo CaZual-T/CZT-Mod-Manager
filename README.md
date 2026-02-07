@@ -96,7 +96,7 @@
 - Once mods are toggled on/off that is the state they will stay in until changed by the user.
 
 # How To Use Manager Controls:
-### - Update Mod Info
+### [Update Mod Info]
 - Right click mod, enter its url or just the ID, click save.
 
 ### [Check Mods For Updates]
