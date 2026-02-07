@@ -117,7 +117,6 @@
     - Press F3 to load.
     - You can set scripts to persistently load at launch.
     - Example plugin ➡️ [here](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/profile_addon_plugin.py)
-<img width="501" height="226" alt="image" src="https://github.com/user-attachments/assets/43cdf134-1c7b-4403-a42f-3c68c8bd2c16" />
 
 <img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
 
