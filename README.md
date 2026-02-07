@@ -17,6 +17,7 @@
 - EZ Management: Allows users to install, delete, and track mods, with precise user options.
 - ⭐ Toggle Mods: Launch with or without mods enabled.
 - ⭐ Set mod load order. (Press F2)
+- ⭐ Script & EXE plugin support. (Press F3 for plugin manager)
 - ⭐ Disable mods individually & Restore at anytime.
 - Nexus Mods Integration: Connects to the Nexus Mods API to collect mod info, and check versions for potential updates.
 - "Available Updates" Notification @ Launch: Built-in check for CZT that allows the user to simply download and update CZT in app.
