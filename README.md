@@ -61,6 +61,7 @@
 
 ### 3:) Install/Set Unrar 
 - Click "Install Unrar"
+  - or download from: https://www.rarlab.com/rar/unrarw64.exe and place it in /CZT Mod Manager/czt_tools/unrar.exe
 - Click browse when the installer popup appears.</br>
   - Install to > /CZT Mod Manager/czt_tools/unrar.exe</br>
     - Right now you have to do it this way.
@@ -68,6 +69,7 @@
     - but i guess i fuckered it all up so it only works if unrar is in the czt_tools folder.
     - Sorry about that. (ill fix it soon)
 - You can click 'Install UnRar' again to rescan and set its path automatically.
+  - Or click set path (again it HAS to be to /CZT Mod Manager/czt_tools/unrar.exe)
 
 ### 4:) Retrieve and save your NEXUS API key 
 - Why? This is how CZT communicates with the nexus website to retrieve mod info.
@@ -109,7 +111,7 @@
 - You only have to launch with CZT when you want to toggle mods on or off or recently installed/deleted mods.
 - Once mods are toggled on/off that is the state they will stay in until changed by the user.
 
-# How To Use Manager Controls:
+# Manage Mods tab basic controls:
 ### [Update Mod Info]
 - Right click mod, enter its url or just the ID, click save.
 
