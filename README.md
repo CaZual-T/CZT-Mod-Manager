@@ -7,6 +7,7 @@
 
 # Features:
 - EZ Setup & Launch: Automatically locates or creates required configuration files, ensuring seamless setup for users.
+- ⭐ Detects when mods have updates available and if they are corrupted.
 - ⭐ Steam Library Detection: Scans drives for Steam libraries to auto-detect game installations. (detects custom paths and names)
 - ⭐ Supports multi drive steam libraries. (any drive letter C-Z)
 - ⭐ Manual pathing available for EPIC and OTHER platforms. 
