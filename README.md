@@ -55,7 +55,7 @@
   - Select a Drive:</br>
 <img width="357" height="199" alt="image" src="https://github.com/user-attachments/assets/e7092185-1c80-4f53-94f0-82ae1dd5a78e" />
 
-  - This is where your config and mod files will be stored.</br>
+  - This is where your config and mod files will be stored. 'SelectedDrive:\CZT Mod Manager'\ </br>
 > [!NOTE]
 > You wont be able to save any custom settings until you create root.
 
