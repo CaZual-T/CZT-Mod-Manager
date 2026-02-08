@@ -59,7 +59,7 @@
 
 ### 3:) Install/Set Unrar 
 - Click "Install Unrar"
-  - or download from: https://www.rarlab.com/rar/unrarw64.exe and place it in /CZT Mod Manager/czt_tools/unrar.exe
+  - Alternative: Download from: https://www.rarlab.com/rar/unrarw64.exe and place it in /CZT Mod Manager/czt_tools/unrar.exe
 - Click browse when the installer popup appears.</br>
   - Install to > /CZT Mod Manager/czt_tools/unrar.exe</br>
     - Right now you have to do it this way.
