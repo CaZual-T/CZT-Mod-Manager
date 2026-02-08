@@ -44,8 +44,17 @@
 
 ### 2:) Create Root 
 - Click 'SETUP' on the main menu.
+<img width="1112" height="155" alt="image" src="https://github.com/user-attachments/assets/3a8b9a2d-300d-465a-be20-2b72bbedb54b" />
+
+- This popup will appear.
+<img width="846" height="167" alt="image" src="https://github.com/user-attachments/assets/543887b5-4343-4d20-9f47-2e2d5d87f8f1" />
+
   - Click create root.
+<img width="160" height="167" alt="image" src="https://github.com/user-attachments/assets/f08378bf-7d88-4615-9156-c9d860d37c7c" />
+
   - Select a Drive:</br>
+<img width="357" height="199" alt="image" src="https://github.com/user-attachments/assets/e7092185-1c80-4f53-94f0-82ae1dd5a78e" />
+
   - This is where your config and mod files will be stored.</br>
 > [!NOTE]
 > You wont be able to save any custom settings until you create root.
@@ -54,6 +63,10 @@
 - Click "Install Unrar"
 - Click browse when the installer popup appears.</br>
   - Install to > /CZT Mod Manager/czt_tools/unrar.exe</br>
+    - Right now you have to do it this way.
+    - I meant to set it up so you could set a path to winrar if you already had that installed,
+    - but i guess i fuckered it all up so it only works if unrar is in the czt_tools folder.
+    - Sorry about that. (ill fix it soon)
 - You can click 'Install UnRar' again to rescan and set its path automatically.
 
 ### 4:) Retrieve and save your NEXUS API key 
