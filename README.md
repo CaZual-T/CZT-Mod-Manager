@@ -1,6 +1,3 @@
-> [!NOTE]
-> README IS UPDATED FOR V3. IF YOU'RE ON AN OLDER VERSION THEN THIS WONT TRANSLATE.
-
 # CZT Core:
 - Built using Python and Pyside6 gui library; EXE compiling method = Nuitka Standalone.
 - UnRAR: Supports extraction and management of compressed mod files of any compression type.
