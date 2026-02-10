@@ -79,7 +79,9 @@
 ### 5:) Select Game profile
 - Select an option from the drop down on the left.  (you can change this at any time)
 - Choose pathing mode (It's set to steam 'auto' by default)
-- Click DETECT STEAM.
+- Click DETECT STEAM. (you should see someting like the image below)
+<img width="726" height="279" alt="image" src="https://github.com/user-attachments/assets/2bf4962a-a637-4f5d-93d4-7dcfdc581f9f" />
+
   - Alternatively you can use manual pathing and follow the instructions in the log box.
 ###
 
