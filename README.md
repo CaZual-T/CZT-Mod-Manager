@@ -110,6 +110,9 @@
 - Click launch game in the main menu (or) press CTRL+SHIFT+L 
 - You only have to launch with CZT when you want to toggle mods on or off or recently installed/deleted mods.
 - Once mods are toggled on/off that is the state they will stay in until changed by the user.
+  - Reaady or Not users:
+  - If you experience the error below, please add a Mods folder to \Ready or Not\ReadyOrNot\Content\Paks\ >Mods<
+  - <img width="497" height="182" alt="image" src="https://github.com/user-attachments/assets/9c769ab8-a7c9-49ef-aa85-9abac7ac2505" />
 
 # Manage Mods tab basic controls:
 ### [Update Mod Info]
