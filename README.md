@@ -107,11 +107,16 @@
   - Download mods from nexus.
      - CZT will see the file in your downloads folder. (you can also drag files into the panel that's to the right of the log box)
 
-- 2:) Select mods from the far right panel, click the top right arrow button. (you can install multiple mods at once as well)
+- 2:) Select mods from the far right panel. Then click the top right arrow button. (you can install multiple mods at once as well)
   <img width="236" height="119" alt="image" src="https://github.com/user-attachments/assets/ea11206a-1f2e-4871-b506-f1da5375bbca" />
 
 - 3:) Launch Game:
-   - Click launch game in the main menu (or) press CTRL+SHIFT+L
+   - Click launch game in the main menu (left), or press CTRL+SHIFT+L.
+     - [YES] will symlink mods that are currently enabled at the time of launch 
+     - [NO] will remove all symlinks from the games directory. (fresh launch, no mods)
+> [!TIP]
+> - You only have to launch with CZT when you install new mods, or enable/disable mods using the toggle switches within CZT.
+> - If your mod list hasn't changed, then you dont have to launch with CZT every single time you play.
 
 <img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
 
@@ -125,8 +130,8 @@
 - click '🔄️' on the manager tab to scan all mods, or right click an entry and click "check for updates" at the bottom of the popup.
 
 ### [Disable/Restore Mods]
-- Indivudal mod enable/disable toggle.
-- Toggle in the top right will enable/disable all mods at once. 
+- Individual mod enable/disable toggle. 
+- Toggle in the top right will enable/disable all mods at once.
 
 <img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
 
