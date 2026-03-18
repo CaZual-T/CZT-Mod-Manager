@@ -1,37 +1,47 @@
-# CZT Core:
-- Built using Python and Pyside6 gui library; EXE compiling method = Nuitka Standalone.
-- UnRAR: Supports extraction and management of compressed mod files of any compression type.
-<img width="1112" height="613" alt="image" src="https://github.com/user-attachments/assets/88c2651d-10c6-4c06-a7d1-be2cd1cb6a4c" />
-<img width="1110" height="614" alt="image" src="https://github.com/user-attachments/assets/39a0e5e6-b557-46a3-a7a6-2fa6d3651521" />
-
-
 # Features:
-- EZ Setup & Launch: Automatically locates or creates required configuration files, ensuring seamless setup for users.
-- ⭐ Detects when mods have updates available and if they are corrupted.
+- ⭐ EZ Setup & Launch: Automatically locates or creates required configuration files, ensuring seamless setup for users.
+     - If you have any problems just make your way to discord so i can help you.
+- ⭐ Direct Downloads from nexus website (available only to nexus premium users, i have no control over their API restrictions)
+- ⭐ Detects when mods have Updates Available/Hidden Mod Page/Removed from Site and if they are corrupted.
 - ⭐ Steam Library Detection: Scans drives for Steam libraries to auto-detect game installations. (detects custom paths and names)
 - ⭐ Supports multi drive steam libraries. (any drive letter C-Z)
 - ⭐ Manual pathing available for EPIC and OTHER platforms. 
-- Game Profiles: Handles multiple games. Custom settings built specifically for each game.
-- EZ Management: Allows users to install, delete, and track mods, with precise user options.
+- ⭐ Handles multiple games. Custom settings built specifically for each game.
+- ⭐ Users can easily download, install, toggle, track, and delete mods with precise user options.
 - ⭐ Toggle Mods: Launch with or without mods enabled.
 - ⭐ Set mod load order. (Press F2)
-- ⭐ Script & EXE plugin support. (Press F3 for plugin manager)
 - ⭐ Disable mods individually & Restore at anytime.
-- Nexus Mods Integration: Connects to the Nexus Mods API to collect mod info, and check versions for potential updates.
-- "Available Updates" Notification @ Launch: Built-in check for CZT that allows the user to simply download and update CZT in app.
-- Drag-and-Drop Support: Simplifies mod addition for users.
-- CTRL+SHIFT+S will open detailed debug console.
-- Shift + H will display all hotkeys.
-- Search bar to easily filter mods.
-- Many sort filters.
-- Error Handling & Recovery: Stress tested for reliability.
-- In-Depth user logs for both normal processes and errors.
-- Merge Utility: Combine multiple .paks into one. (limited to dying light games)
-  - ↳ Merge button in manage tab is NOT the same logic as the UnleashTheMods plugin. It's 2 different things.
-  - ↳ UTM plugin is more reliable imo.  
-- Customizable UI: Users can personalize colors, fonts, and layouts for accessibility and aesthetics.
-- Currently Supports 7DTD, Ready or Not, Schedule I, Dying Light 1/2, and Dying Light The Beast. More to be added!
-- Does NOT support Linux.</br>
+- ⭐ Create, Share and Download custom profile loadouts.
+- ⭐ Nexus Mods Integration: Connects to the Nexus Mods API to collect mod info, and check versions for potential updates.
+- ⭐ "Available Updates" Notification @ Launch: Built-in check for CZT that allows the user to simply download and update CZT in app.
+- ⭐ Detect new mods in downloads folder. (you can also drag and drop directly into the far right panel of the main menu)
+- ⭐ Shift + H will display all hotkeys in the main menu log box.
+- ⭐ Search bar and sort filters to easily navigate mods.
+- ⭐ Error Handling & Recovery: Stress tested for reliability.
+- ⭐ In-Depth user logs for both normal processes and errors.
+- ⭐ Customizable UI: Users can personalize colors, fonts, and layouts for accessibility and aesthetics.
+- ⭐ Currently Supports Ready or Not, Schedule I, Dying Light 1/2, and Dying Light The Beast.
+- 🟡 Merge Utility: Combine multiple .paks into one. (limited to dying light games)
+     - ↳ Merge button in manage tab is NOT the same logic as the UnleashTheMods plugin. It's 2 different things.
+     - ↳ UTM plugin is more reliable imo.
+- 🚫 Does NOT support Linux.</br>
+
+<img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
+
+# Common errors w/ solutions:
+### TO AVOID HAVING TO RESTART THE APP BETWEEN MAJOR FUNCTIONS. ENABLE DEVELOPER MODE.
+- (Windows) Settings > Advanced > For Developers (Toggle Developer Mode On)
+  - This allows symlinks and essential folders to be created without giving CZT admin permissions.
+  - 99% of errors are solved by enabling this. Including the infamous [WinError 3]
+
+### IF you chose to not enable developer mode, Run CZT as ADMIN if you encounter the following errors:
+- "[ERROR] No write permission to drive"
+- "[ERROR] Permission denied: ':\czt_write_test.tmp'."
+- "[ERROR] A required privilege is not held by the client"
+
+### "I cant drag and drop downloaded mods into CZT"
+- That will happen when CZT is running as Admin.
+   - Its IMPOSSIBLE for windows explorer to move files to an app with higher permissions. This is a windows limitation.﻿
 
 <img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
 
@@ -65,7 +75,6 @@
     - Right now you have to do it this way.
     - I meant to set it up so you could set a path to winrar if you already had that installed,
     - but i guess i fuckered it all up so it only works if unrar is in the czt_tools folder.
-    - Sorry about that. (ill fix it soon)
 - You can click 'Install UnRar' again to rescan and set its path automatically.
   - Or click set path (again it HAS to be to /CZT Mod Manager/czt_tools/unrar.exe)
 
@@ -88,54 +97,36 @@
 <img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
 
 # How to install mods:
-### 1:) Select Game Profile in the MAIN tab then...
-- Drag & Drop your mods to anywhere within the log box on the Main Menu tab. (.zip, .rar, .7z, or Raw Files/Folders)
-  - Most mods do not need extracted before install. (CZT handles extraction)
-    - Extract folder based mods to desktop and drag the raw folder into CZT if you experience double foldering issues.
-  - Mods with a _mod_info.json file attached will automatically have their mod info updated in the manage tab.
-    - Image, Mod Name, Creator, Install Date, Version, Nexus URL (ID)
-
 > [!NOTE]
 > [NEW USERS] Before continuing to the next step...</br>
-> - First time users with mods already installed at default locations...</br>
-> - Go to your mod install location...</br>
->     ...drag and drop any mods you may have into the log box of CZT. (to install later)</br>
+> - First time users with mods already installed at default locations... </br>
+> - ...Move them into your downloads folder. (NOT INCLUDING mod.io, do not touch mod.io folder) 
 > - Delete the old mod files from the old default location. You wont need them anymore.</br>
 
-### 2:) Select mods:
-- Select mods to install.
-- Click the arrow in the top right to install selected mods.
+- 1:) Select Game Profile in the MAIN tab then...
+  - Download mods from nexus.
+     - CZT will see the file in your downloads folder. (you can also drag files into the panel that's to the right of the log box)
 
-### 3:) Launch Game:
-- Click launch game in the main menu (or) press CTRL+SHIFT+L 
-- You only have to launch with CZT when you want to toggle mods on or off or recently installed/deleted mods.
-- Once mods are toggled on/off that is the state they will stay in until changed by the user.
-  - Reaady or Not users:
-  - If you experience the error below, please add a Mods folder to \Ready or Not\ReadyOrNot\Content\Paks\ >Mods<
-  - <img width="497" height="182" alt="image" src="https://github.com/user-attachments/assets/9c769ab8-a7c9-49ef-aa85-9abac7ac2505" />
+- 2:) Select mods from the far right panel, click the top right arrow button. (you can install multiple mods at once as well)
+  <img width="236" height="119" alt="image" src="https://github.com/user-attachments/assets/ea11206a-1f2e-4871-b506-f1da5375bbca" />
 
-# Manage Mods tab basic controls:
-### [Update Mod Info]
-- Right click mod, enter its url or just the ID, click save.
-
-### [Check Mods For Updates]
-- click '🔄️' on the manager tab to scan all mods, or right click an entry and individually scan.
-
-### [Disable/Restore Mods]
-- Utilize the toggle in the top right to enable/disable all mods at once. 
+- 3:) Launch Game:
+   - Click launch game in the main menu (or) press CTRL+SHIFT+L
 
 <img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
 
-# Plugins (BETA)
-- Place plugins in:
-  - CZT Mod Manager/plugins/exe_standalone
-    - Press F3 to load. 
-    - optional launch with admin prompt for plugins that may need it.
-    - EXE plugins are not persistent and only launch when a user loads from the plugin menu.
-  - CZT Mod Manager/plugins/scripts
-    - Press F3 to load.
-    - You can set scripts to persistently load at launch.
-    - Example plugin ➡️ [here](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/profile_addon_plugin.py)
+# Manage Mods tab basic controls:
+### [Update Mod Info]
+- Right click a mod, enter its nexus url or just the ID, click save.
+   - <img width="305" height="39" alt="image" src="https://github.com/user-attachments/assets/e14ca7b2-0263-49a3-aaea-b6e223104a2e" />
+   - <img width="255" height="103" alt="image" src="https://github.com/user-attachments/assets/b4bc0eb9-8c49-46ce-852a-faedda22dd86" />
+
+### [Check Mods For Updates]
+- click '🔄️' on the manager tab to scan all mods, or right click an entry and click "check for updates" at the bottom of the popup.
+
+### [Disable/Restore Mods]
+- Indivudal mod enable/disable toggle.
+- Toggle in the top right will enable/disable all mods at once. 
 
 <img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
 
@@ -151,28 +142,16 @@
         > Ctrl+Shift+S : Launch debug console.
         > Ctrl+Alt+P   : Open paypal donation page.
         
+
 <img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
 
-# Common errors w/ solutions:
-### TO AVOID HAVING TO RESTART THE APP BETWEEN MAJOR FUNCTIONS. ENABLE DEVELOPER MODE.
-- (Windows) Settings > Advanced > For Developers (Toggle Developer Mode On)
-  - This allows symlinks to be created without admin permissions.
-  - 99% of errors are solved by enabling this.
-
-### IF you chose to not enable developer mode, Run CZT as ADMIN if you encounter the following errors:
-- "[ERROR] No write permission to drive"
-- "[ERROR] Permission denied: ':\czt_write_test.tmp'."
-- "[ERROR] A required privilege is not held by the client"
-
-### Q: Why does czt need write permissions?
-A: This is so CZT can create required folders and properly edit the profile_mods_list.json (file that contains all your mod info)
-
-### Q: Why does CZT need admin permissions when launching my game?
-A: Not all, but some users may need to launch their game with CZT as admin to ensure symlinking works correctly.
-
-### "I cant drag and drop downloaded mods into CZT"
-- Don't run CZT as admin when installing mods.
-- Its IMPOSSIBLE for windows explorer to move files to an app with higher permissions. This is a windows limitation.﻿
-
-- If you are already in the manage tab at the time of merge you will not see data7 until you reload the ui.mod list. </br>
-  - You can do this by simply switching to any other tab then going back to the manage tab.
+# Plugins (BETA)
+- Place plugins in:
+  - CZT Mod Manager/plugins/exe_standalone
+    - Press F3 to load. 
+    - optional launch with admin prompt for plugins that may need it.
+    - EXE plugins are not persistent and only launch when a user loads from the plugin menu.
+  - CZT Mod Manager/plugins/scripts
+    - Press F3 to load.
+    - You can set scripts to persistently load at launch.
+    - Example plugin ➡️ [here](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/profile_addon_plugin.py)
