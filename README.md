@@ -63,8 +63,14 @@
 <img width="357" height="199" alt="image" src="https://github.com/user-attachments/assets/e7092185-1c80-4f53-94f0-82ae1dd5a78e" />
 
   - This is where your config and mod files will be stored. 'SelectedDrive:\CZT Mod Manager\' </br>
+
 > [!NOTE]
-> You wont be able to save any custom settings until you create root.
+> You WILL NOT be able to save any custom settings, loadouts or load orders until you create root.
+> - Creating root is what generates the config.
+> - Without the config you cannot save settings.
+>   - Placing it at the root of the drive ensures my tool only has to peek into a drive one layer deep.
+>   - This allows CZT to find the config on startup and load profiles significantly faster.
+>   - Simple math, but there's always one...
 
 ### 3:) Install/Set Unrar 
 - Click "Install Unrar"
