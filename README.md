@@ -11,9 +11,9 @@
 - ⭐ Set mod load order. (Press F2)
 - ⭐ Disable mods individually & Restore at anytime.
 - ⭐ Create, Share and Download custom profile loadouts.
-- ⭐ Nexus Mods Integration: Connects to the Nexus Mods API to collect mod info, and check versions for potential updates.
-- ⭐ "Available Updates" Notification @ Launch: Built-in check for CZT that allows the user to simply download and update CZT in app.
-- ⭐ Detect new mods in downloads folder. (you can also drag and drop directly into the far right panel of the main menu)
+- ⭐ Connects to the Nexus Mods API to collect mod info, and check versions for potential updates.
+- ⭐ CZT will show a popup when the manager itself has an available update.
+- ⭐ Detect new mods in downloads folder. (drag and drop is also supported)
 - ⭐ Shift + H will display all hotkeys in the main menu log box.
 - ⭐ Search bar and sort filters to easily navigate mods.
 - ⭐ Error Handling & Recovery: Stress tested for reliability.
