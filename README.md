@@ -40,7 +40,8 @@
 
 ### "I cant drag and drop downloaded mods into CZT"
 - That will happen when CZT is running as Admin.
-   - Its IMPOSSIBLE for windows explorer to move files to an app with higher permissions. This is a windows limitation.﻿
+   - Its IMPOSSIBLE for windows explorer to move files to an app with higher permissions. This is a windows limitation.
+     - That is also why CZT detect archive files in your downloads folders so you can skip the dnd and simply install.﻿
 
 <img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
 
