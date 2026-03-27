@@ -217,4 +217,3 @@
   - CZT Mod Manager/plugins/scripts
     - Press F3 to load.
     - You can set scripts to persistently load at launch.
-    - Example plugin ➡️ [here](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/profile_addon_plugin.py)
