@@ -22,8 +22,7 @@
 - ⭐ Customizable UI: Users can personalize colors, fonts, and layouts for accessibility and aesthetics.
 - ⭐ Currently Supports Ready or Not, Schedule I, Dying Light 1/2, and Dying Light The Beast.
 - 🟡 Merge Utility: Combine multiple .paks into one. (limited to dying light games)
-     - ↳ Merge button in manage tab is NOT the same logic as the UnleashTheMods plugin. It's 2 different things.
-     - ↳ UTM plugin is more reliable imo.
+     - ↳ Download the UTM plugin.
 - 🚫 Does NOT support Linux.</br>
 
 <img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
