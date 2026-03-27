@@ -102,21 +102,22 @@
 
 <img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
 
-# How to install mods:
+# How to install mods (NEW USER):
 > [!NOTE]
-> [NEW USERS] Before continuing to the next step...</br>
 > - First time users with mods already installed at default locations... </br>
 > - ...Move them into your downloads folder. (NOT INCLUDING mod.io, do not touch mod.io folder) 
 > - Delete the old mod files from the old default location. You wont need them anymore.</br>
+> - Select the profile (game) you want to use in CZT
+> - Select all of your mods in the right panel (you can use the check mark to select all)
+> - Click the top right arrow to install.
+> - <img width="236" height="119" alt="image" src="https://github.com/user-attachments/assets/ea11206a-1f2e-4871-b506-f1da5375bbca" />
 
-- 1:) Select Game Profile in the MAIN tab then...
-  - Download mods from nexus.
-     - CZT will see the file in your downloads folder. (you can also drag files into the panel that's to the right of the log box)
 
-- 2:) Select mods from the far right panel. Then click the top right arrow button. (you can install multiple mods at once as well)
-  <img width="236" height="119" alt="image" src="https://github.com/user-attachments/assets/ea11206a-1f2e-4871-b506-f1da5375bbca" />
+# How to install mods (normal):
+1.) Download mods on the nexus site using the "Mod Manager Download" button.
+   - This will automatically trigger CZT and the app will automatically handle install + saving mod info.
 
-- 3:) Launch Game:
+2.) Launch Game:
    - Click launch game in the main menu (left), or press CTRL+SHIFT+L.
      - [YES] will symlink mods that are currently enabled at the time of launch 
      - [NO] will remove all symlinks from the games directory. (fresh launch, no mods)
@@ -126,18 +127,48 @@
 
 <img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
 
-# Manage Mods tab basic controls:
-### [Update Mod Info]
+# Manage Mods tab basic controls (left to right):
+<img width="1094" height="39" alt="image" src="https://github.com/user-attachments/assets/620b4def-f476-4855-aa6a-e238f9c73092" />
+
+### [Search Bar]
+
+### [Sort/Filter Menu]
+     🇱 17 total filters, select one to quickly sort your mods.
+### [Loadouts Menu]
+     🇱 Save loadous
+     🇱 Manage Loadouts
+          🇱 Here you can save, delete, merge, update, share and download loadouts.
+     🇱 Nexus Premium option (download + install loadout from file)
+     
+### [Select All]
+
+### [Scan all mods for updates]
+     🇱 click '🔄️' to scan all mods, or right click an entry and click "check for updates" at the bottom of the popup.
+
+### [Save mods that are currently eneabled as loadout]
+
+### [Create Backup]
+
+### [Restore Backup]
+
+### [Browse Nexus site]
+     🇱 Directly opens the nexus website for the profile currently enabled.
+          🇱 ALT: enable the custom CZT browser in the setting under general to user the custom in-app browser.
+
+### [Delete]
+
+### [List View]
+
+### [Grid View]
+
+### [Hide Disabled]
+
+### [Enable/Disable all mods toggle]
+
+### [Update Mod Info] (legacy - still works as a fallback)
 - Right click a mod, enter its nexus url or just the ID, click save.
    - <img width="305" height="39" alt="image" src="https://github.com/user-attachments/assets/e14ca7b2-0263-49a3-aaea-b6e223104a2e" />
    - <img width="255" height="103" alt="image" src="https://github.com/user-attachments/assets/b4bc0eb9-8c49-46ce-852a-faedda22dd86" />
-
-### [Check Mods For Updates]
-- click '🔄️' on the manager tab to scan all mods, or right click an entry and click "check for updates" at the bottom of the popup.
-
-### [Disable/Restore Mods]
-- Individual mod enable/disable toggle. 
-- Toggle in the top right will enable/disable all mods at once.
 
 <img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
 
