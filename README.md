@@ -104,15 +104,19 @@
 <img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
 
 # How to install mods (NEW USER):
-> [!NOTE]
-> - First time users with mods already installed at default locations... </br>
-> - ...Move them into your downloads folder. (NOT INCLUDING mod.io, do not touch mod.io folder) 
-> - Delete the old mod files from the old default location. You wont need them anymore.</br>
-> - Select the profile (game) you want to use in CZT
-> - Select all of your mods in the right panel (you can use the check mark to select all)
-> - Click the top right arrow to install.
-> - <img width="236" height="119" alt="image" src="https://github.com/user-attachments/assets/ea11206a-1f2e-4871-b506-f1da5375bbca" />
+🟡 OPTION 1:
+  - First time users with mods already installed at default locations... </br>
+  - ...Move them into your downloads folder. (NOT INCLUDING mod.io, do not touch mod.io folder) 
+  - Delete the old mod files from the old default location. You wont need them anymore.</br>
+  - Select the profile (game) you want to use in CZT
+  - Select all of your mods in the right panel (you can use the check mark to select all)
+  - Click the top right arrow to install.
+  - Go to the manage tab. Since these mods werent installed by czt, they wont have their info saved.
+  - You will have to manually right click each one and save their nexus url.</br>
 
+ 🟢 OPTION 2:
+  - Delete all of your current mods.
+  - Redownload using the steps below. 
 
 # How to install mods (normal):
 1.) Download mods on the nexus site using the "Mod Manager Download" button.
