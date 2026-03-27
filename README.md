@@ -2,7 +2,7 @@
 - ⭐ EZ Setup & Launch: Automatically locates or creates required configuration files.
      - If you have any problems just make your way to discord so i can help you.
 - ⭐ Direct Downloads from nexus website (available only to nexus premium users. (nexus api restriction)</br>
-     - All users can take advantage of using the "Mod Manager Download" button on the nexus site to auto trigger CZT.
+     - All users can take advantage of using the "Mod Manager Download" button on the nexus site to auto trigger CZT. 
 - ⭐ Detects when mods have Updates Available/Hidden Mod Page/Removed from Site and if they are corrupted.
 - ⭐ Steam Library Detection: Scans drives for Steam libraries to auto-detect game installations. 
    - Supports custom named and multi drive steam libraries. (any drive letter C-Z)
