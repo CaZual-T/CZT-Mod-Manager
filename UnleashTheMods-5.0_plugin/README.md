@@ -8,5 +8,5 @@
     - 1st time use setup > ensure 'run at startup' is unchecked> save.
 - 3: Run UTM
     - The UTM cmd window will appear.
-- 4: Once completed, you will see your meged file as data7.pak. Delete the old mod files. (done)
+- 4: Once completed, you will see your merged file as data7.pak. Delete the old mod files. (done)
 
