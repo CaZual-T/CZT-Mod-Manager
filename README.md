@@ -28,10 +28,10 @@
 <img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
 
 # Common errors w/ solutions:
-### TO AVOID HAVING TO RESTART THE APP BETWEEN MAJOR FUNCTIONS. ENABLE DEVELOPER MODE.
-- (Windows) Settings > Advanced > For Developers (Toggle Developer Mode On)
-  - This allows symlinks and essential folders to be created without giving CZT admin permissions.
-  - 99% of errors are solved by enabling this. Including the infamous [WinError 3]
+### [WinError 3] Permission Denied at launch.
+- ENABLE DEVELOPER MODE.
+  - (Windows) Settings > Advanced > For Developers (Toggle Developer Mode On)
+    - This allows symlinks and essential folders to be created without granting CZT admin permissions.
 
 ### IF you chose to not enable developer mode, Run CZT as ADMIN if you encounter the following errors:
 - "[ERROR] No write permission to drive"
