@@ -119,6 +119,8 @@
 
 # How to install mods (normal):
 1.) Download mods on the nexus site using the "Mod Manager Download" button.
+  - OR for users with standard nexus accounts, Download and install the CZT extension.
+    - Then Download mods using the "Manual Download" button ON THE FILE. (not the one top of the page)
 
 <img width="358" height="53" alt="image" src="https://github.com/user-attachments/assets/a8ebf771-2580-4554-97f2-9822576511bb" />
 
