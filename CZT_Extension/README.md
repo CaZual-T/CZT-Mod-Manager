@@ -7,6 +7,11 @@
       - Premium accounts: Triggers once you click 'manual download'
    - Once your download is complete, CZT will begin installing the file automatically.
 
+Notes:
+- This is not for "Mod Manager Download" button. CZT already handles that in-app.
+- This is for when theres no manager button and only the manual download exists.
+
 Tested On:
 - Opera GX, Chrome, MS Edge.
 - Premium and Free nexus acccounts.
+
