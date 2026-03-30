@@ -1,0 +1,6 @@
+- Download Zip
+- Extract to a location of your choosing (recommend putting it in the CZT Mod Manager folder.)
+- Open your browser > Manager Extensions > Enable Dev Mode > Load Unpacked (select czt_nxz_bridge folder)
+   - Once the extension is installed, Pin it to the top and then select the "CZT protocol" checkbox.
+   - Go to nexus and download a mod using the manual download button to trigger CZT.
+   - Once your donwload is complete, CZT will begin installing the file automatically.
