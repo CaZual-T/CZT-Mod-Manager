@@ -84,12 +84,13 @@
 - You can click 'Install UnRar' again to rescan and set its path automatically.
   - Or click set path (again it HAS to be to /CZT Mod Manager/czt_tools/unrar.exe)
 
-### 4:) Retrieve and save your NEXUS API key 
-- Why? This is how CZT communicates with the nexus website to retrieve mod info.
-- Go to <https://next.nexusmods.com/settings/api-keys>
-- Scroll to the bottom to get your personal key.</br>
-- CZT uses the api to simply fetch mod data such as thumbnail, creator name, mod name and current version.</br>
-  - all of this gets displayed within the gui.</br>
+### 4:) Retrieve and save your NEXUS API key
+- Click the Nexus Api Key button or go to <https://next.nexusmods.com/settings/api-keys>
+  <img width="822" height="47" alt="image" src="https://github.com/user-attachments/assets/b2175dc8-0950-448b-b3ab-3f93814171fc" />
+
+- Scroll down to CZT Mod Manager a click 'Request API Key'.</br>
+  - DO NOT USE YOUR PERSONAL KEY AT THE BOTTOM OF THE PAGE.
+  <img width="652" height="205" alt="image" src="https://github.com/user-attachments/assets/aa364e24-e9eb-4c52-aabf-a018e954365d" />
 
 ### 5:) Select Game profile
 - Select an option from the drop down on the left.  (you can change this at any time)
@@ -117,21 +118,24 @@
   - Delete all of your current mods.
   - Redownload using the steps below. 
 
-# How to install mods (normal):
+# How to install new mods (normal):
 1.) Download mods on the nexus site using the "Mod Manager Download" button.
-   - <img width="358" height="53" alt="image" src="https://github.com/user-attachments/assets/a8ebf771-2580-4554-97f2-9822576511bb" />
+   
+   <img width="358" height="53" alt="image" src="https://github.com/user-attachments/assets/a8ebf771-2580-4554-97f2-9822576511bb" />
 
-   - This will automatically trigger CZT and the app will automatically handle install + saving mod info.
-<img width="577" height="203" alt="image" src="https://github.com/user-attachments/assets/af59b34a-9d04-41c7-9c8e-43cb5c425f07" />
+   - This will trigger CZT and the app will automatically handle install + saving mod info.
+    
+     <img width="577" height="203" alt="image" src="https://github.com/user-attachments/assets/af59b34a-9d04-41c7-9c8e-43cb5c425f07" />
 
 2.) Launch Game:
    - Click launch game in the main menu (left), or press CTRL+SHIFT+L.
-     - [YES] will symlink mods that are currently enabled at the time of launch 
-     - [NO] will remove all symlinks from the games directory. (fresh launch, no mods)
+   
+     <img width="376" height="180" alt="image" src="https://github.com/user-attachments/assets/4c0d48ba-02da-4b06-8bf5-a2d341dbd5c1" />
+
 > [!NOTE]
 > - You only have to launch with CZT when you install new mods, or enable/disable mods using the toggle switches within CZT.
 > - If your mod list hasn't changed, then you dont have to launch with CZT every single time you play.
-> - CZT supports drag and drop on the main menus far right panel.
+> - CZT supports drag and drop on the main menus far right panel. (unless running as admin, view faq at the top)
 
 <img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
 
@@ -142,28 +146,28 @@
 
 ### [Sort/Filter Menu]
   - 17 total filters, select one to quickly sort your mods.
-  - <img width="203" height="394" alt="image" src="https://github.com/user-attachments/assets/919c151a-4e7b-47c0-9971-4c7d47ae89a8" />
+   <img width="203" height="394" alt="image" src="https://github.com/user-attachments/assets/919c151a-4e7b-47c0-9971-4c7d47ae89a8" />
 
 ### [Loadouts Menu]
--  <img width="189" height="228" alt="image" src="https://github.com/user-attachments/assets/6c474188-73b1-4f5d-81b7-8c7a793acdaa" />
+   <img width="189" height="228" alt="image" src="https://github.com/user-attachments/assets/6c474188-73b1-4f5d-81b7-8c7a793acdaa" />
 
-    - Loadout Manager:
-      - Here you can save, delete, merge, update, share and download loadouts.
-      - <img width="781" height="480" alt="image" src="https://github.com/user-attachments/assets/34b8e1db-7556-4a37-8e24-86d945a283a2" />
+ - Loadout Manager:
+  - Here you can save, delete, merge, update, share and download loadouts.
+    <img width="781" height="480" alt="image" src="https://github.com/user-attachments/assets/34b8e1db-7556-4a37-8e24-86d945a283a2" />
 
 ### [Select All] ✅
 ### [Scan all mods for updates] 🔄️
   - click '🔄️' to scan all mods, or right click an entry and click "check for updates" at the bottom of the popup.
 ### [Save mods that are currently eneabled as loadout] 💾
 ### [Create Backup] ➕
-  - <img width="761" height="127" alt="image" src="https://github.com/user-attachments/assets/52913edd-a9df-40e6-8f13-1e05027d7890" />
+   <img width="761" height="127" alt="image" src="https://github.com/user-attachments/assets/52913edd-a9df-40e6-8f13-1e05027d7890" />
 
-    - Files + list = Actual mod files + loadouts + profile mod list.
-    - Files Only = Backup mod + loadout files
-    - mod_list.json Only = Backup loadouts + profile mod list.
+  - Files + list = Actual mod files + loadouts + profile mod list.
+  - Files Only = Backup mod + loadout files
+  - mod_list.json Only = Backup loadouts + profile mod list.
 
 ### [Restore Backup] 🛡️
-  - <img width="758" height="452" alt="image" src="https://github.com/user-attachments/assets/52f2c021-53a2-4206-a81e-e1076f842b4c" />
+   <img width="758" height="452" alt="image" src="https://github.com/user-attachments/assets/52f2c021-53a2-4206-a81e-e1076f842b4c" />
 
  
 ### [Browse Nexus site] 🔎
@@ -173,22 +177,24 @@
 ### [Delete] 🗑️
 ### [List View] 
   - Clicking a mods image in list view will take you to a mods nexus page.
-  - <img width="1062" height="60" alt="image" src="https://github.com/user-attachments/assets/cb003a24-2dff-4304-bde5-fccbb8f881f9" />
+   <img width="1062" height="60" alt="image" src="https://github.com/user-attachments/assets/cb003a24-2dff-4304-bde5-fccbb8f881f9" />
 
 ### [Grid View]
   - Clicking the 🔗 icon will take you to a mods nexus page.
-  - <img width="1038" height="196" alt="image" src="https://github.com/user-attachments/assets/3dedcebd-3be7-4792-9452-e59b77cccaf9" />
+   <img width="1038" height="196" alt="image" src="https://github.com/user-attachments/assets/3dedcebd-3be7-4792-9452-e59b77cccaf9" />
 
 ### [Hide Disabled]
-  - <img width="114" height="34" alt="image" src="https://github.com/user-attachments/assets/5ee5e268-6081-4d83-857b-13e78bf8ea72" />
+   <img width="114" height="34" alt="image" src="https://github.com/user-attachments/assets/5ee5e268-6081-4d83-857b-13e78bf8ea72" />
 
 ### [Enable/Disable all mods toggle]
-  - <img width="49" height="40" alt="image" src="https://github.com/user-attachments/assets/ea499028-242a-4bb2-807b-c42ccb6ecb28" />
+   <img width="49" height="40" alt="image" src="https://github.com/user-attachments/assets/ea499028-242a-4bb2-807b-c42ccb6ecb28" />
 
 ### [Update Mod Info] (legacy - still works as a fallback)
   - Right click a mod, enter its nexus url or just the ID, click save.
-    - <img width="305" height="39" alt="image" src="https://github.com/user-attachments/assets/e14ca7b2-0263-49a3-aaea-b6e223104a2e" />
-    - <img width="255" height="103" alt="image" src="https://github.com/user-attachments/assets/b4bc0eb9-8c49-46ce-852a-faedda22dd86" />
+  
+     <img width="305" height="39" alt="image" src="https://github.com/user-attachments/assets/e14ca7b2-0263-49a3-aaea-b6e223104a2e" /></br>
+  
+     <img width="255" height="103" alt="image" src="https://github.com/user-attachments/assets/b4bc0eb9-8c49-46ce-852a-faedda22dd86" />
 
 <img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
 
