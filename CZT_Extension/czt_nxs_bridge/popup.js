@@ -1,24 +1,55 @@
-function buildCztProtocolUrl(payload) {
-  const p = payload || {};
-  const query = new URLSearchParams({
-    game: String(p.game || ""),
-    mod_id: String(p.modId || ""),
-    file_id: String(p.fileId || ""),
-    page_url: String(p.pageUrl || ""),
-    source: "nexus-manual-download"
-  });
-  if (p.nxmKey) {
-    query.set("key", String(p.nxmKey));
-  }
-  if (p.nxmExpires) {
-    query.set("expires", String(p.nxmExpires));
-  }
-  return `cztmm://nexus/manual_download?${query.toString()}`;
-}
-
 function setStatus(msg) {
   const status = document.getElementById("status");
   status.textContent = msg || "";
+}
+
+function renderProtocolState(enabled) {
+  const state = document.getElementById("protocolStateText");
+  state.textContent = enabled ? "Enabled" : "Disabled";
+  state.classList.toggle("on", Boolean(enabled));
+  state.classList.toggle("off", !enabled);
+}
+
+function normalizeAccountMode(value) {
+  if (value === "direct" || value === "standard") {
+    return value;
+  }
+  return "unknown";
+}
+
+function modeLabel(mode) {
+  if (mode === "direct") {
+    return "Premium API";
+  }
+  if (mode === "standard") {
+    return "Standard API";
+  }
+  return "N/A";
+}
+
+function renderAccountModeSummary(obj) {
+  const row = document.getElementById("accountModeSummary");
+  const mode = normalizeAccountMode(obj.accountDownloadMode);
+  const cfg = obj.nexusApiConfig || null;
+  row.textContent = "";
+
+  const label = document.createElement("span");
+  label.className = "account-type-label";
+  label.textContent = "Account Type: ";
+
+  const value = document.createElement("span");
+  const mappedClass = mode === "direct" ? "premium" : mode === "standard" ? "standard" : "standard";
+  value.className = `account-type-value ${mappedClass}`;
+  value.textContent = modeLabel(mode);
+
+  row.appendChild(label);
+  row.appendChild(value);
+
+  if (cfg && cfg.userName) {
+    const userText = document.createElement("span");
+    userText.textContent = ` | User: ${String(cfg.userName)}`;
+    row.appendChild(userText);
+  }
 }
 
 function renderEvent(payload) {
@@ -38,7 +69,6 @@ function renderEvent(payload) {
   document.getElementById("modName").textContent = String(payload.modName || "");
   document.getElementById("modId").textContent = String(payload.modId || "");
   document.getElementById("fileId").textContent = String(payload.fileId || "");
-  document.getElementById("buttonText").textContent = String(payload.buttonText || "");
 
   const when = payload.timestamp ? new Date(Number(payload.timestamp)) : null;
   document.getElementById("time").textContent = when ? when.toLocaleString() : "";
@@ -47,32 +77,82 @@ function renderEvent(payload) {
 async function loadData() {
   const obj = await chrome.storage.local.get({
     lastManualDownloadEvent: null,
-    protocolStatus: true
+    protocolStatus: true,
+    accountDownloadMode: "unknown",
+    nexusApiConfig: null
   });
   renderEvent(obj.lastManualDownloadEvent);
+  renderAccountModeSummary(obj);
   const protocolEnabled = document.getElementById("protocolEnabled");
   protocolEnabled.checked = Boolean(obj.protocolStatus);
-
-  document.getElementById("launchNow").addEventListener("click", async () => {
-    const data = obj.lastManualDownloadEvent;
-    if (!data) {
-      setStatus("No event to launch yet.");
-      return;
-    }
-    const protocolUrl = buildCztProtocolUrl(data);
-    try {
-      await chrome.runtime.sendMessage({ type: "launch-czt-protocol", protocolUrl });
-      setStatus("Launch requested. Check browser prompt.");
-    } catch {
-      // Fallback in popup context for browsers that restrict service worker launches.
-      window.location.href = protocolUrl;
-      setStatus("Launch requested.");
-    }
-  });
+  renderProtocolState(Boolean(obj.protocolStatus));
+  const setupApi = document.getElementById("setupApi");
+  const resetApi = document.getElementById("resetApi");
 
   protocolEnabled.addEventListener("change", async () => {
     await chrome.storage.local.set({ protocolStatus: protocolEnabled.checked });
-    setStatus(protocolEnabled.checked ? "CZT protocol enabled." : "CZT protocol disabled.");
+    renderProtocolState(protocolEnabled.checked);
+  });
+
+  setupApi.addEventListener("click", async () => {
+    const raw = window.prompt(
+      "- Go to: https://www.nexusmods.com/settings/api-keys \n- Scroll down to CZT Mod Manager and click 'Request Key'\n- Enter the API key below:",
+      ""
+    );
+    if (raw === null) {
+      return;
+    }
+    const apiKey = String(raw || "").trim();
+    if (!apiKey) {
+      setStatus("Setup canceled: API key is empty.");
+      return;
+    }
+
+    setStatus("Validating API key...");
+    try {
+      const res = await chrome.runtime.sendMessage({
+        type: "nexus-api-setup",
+        apiKey
+      });
+
+      if (!res || !res.ok) {
+        const msg = res && res.error ? String(res.error) : "API setup failed.";
+        setStatus(msg);
+        return;
+      }
+
+      const latest = await chrome.storage.local.get({
+        accountDownloadMode: "unknown",
+        nexusApiConfig: null
+      });
+      renderAccountModeSummary(latest);
+
+      setStatus(
+        `API setup complete. Account mode locked to ${modeLabel(normalizeAccountMode(res.accountDownloadMode))}.`
+      );
+    } catch (err) {
+      setStatus(String(err || "API setup failed."));
+    }
+  });
+
+  resetApi.addEventListener("click", async () => {
+    try {
+      const res = await chrome.runtime.sendMessage({ type: "nexus-api-reset" });
+      if (!res || !res.ok) {
+        const msg = res && res.error ? String(res.error) : "Failed to reset API.";
+        setStatus(msg);
+        return;
+      }
+
+      const latest = await chrome.storage.local.get({
+        accountDownloadMode: "unknown",
+        nexusApiConfig: null
+      });
+      renderAccountModeSummary(latest);
+      setStatus("API setup reset. Account mode returned to auto detect.");
+    } catch (err) {
+      setStatus(String(err || "Failed to reset API."));
+    }
   });
 }
 

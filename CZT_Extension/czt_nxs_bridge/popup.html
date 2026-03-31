@@ -11,6 +11,7 @@
         --text: #f3f5f7;
         --muted: #adb6be;
         --accent: #9b0000;
+        --logo-size: 128px;
       }
       body {
         margin: 0;
@@ -23,6 +24,7 @@
         padding: 12px;
       }
       .card {
+        position: relative;
         background: var(--panel);
         border-radius: 10px;
         padding: 10px;
@@ -31,6 +33,16 @@
         font-size: 14px;
         font-weight: 600;
         margin-bottom: 6px;
+        padding-right: 40px;
+      }
+      .corner-logo {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: var(--logo-size);
+        height: var(--logo-size);
+        object-fit: contain;
+        pointer-events: none;
       }
       .row {
         font-size: 12px;
@@ -64,13 +76,54 @@
         font-weight: 700;
       }
       .toggle {
+        display: block;
         margin-top: 10px;
         font-size: 12px;
+      }
+      .protocol-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+        gap: 8px;
+      }
+      .protocol-toggle {
+        margin-top: 0;
+      }
+      .protocol-state {
+        font-size: 12px;
+        color: var(--muted);
+        white-space: nowrap;
+        font-weight: 600;
+      }
+      .protocol-state.on {
+        color: #57c06d;
+      }
+      .protocol-state.off {
+        color: #e45454;
+      }
+      .toggle input {
+        margin-right: 6px;
       }
       .status {
         margin-top: 8px;
         font-size: 12px;
         color: var(--muted);
+      }
+      .account-summary {
+        margin-top: 8px;
+        text-align: center;
+        align-self: center;
+      }
+      .account-type-label {
+        color: var(--muted);
+      }
+      .account-type-value.premium {
+        color: #d4af37;
+        font-weight: 700;
+      }
+      .account-type-value.standard {
+        color: var(--text);
       }
     </style>
   </head>
@@ -78,23 +131,28 @@
     <div class="wrap">
       <div class="card">
         <div class="title">Most Recent Download</div>
+        <img class="corner-logo" src="icons/ext_logo.png" alt="CZT" />
         <div id="emptyState" class="row">No downloads captured yet.</div>
         <div id="eventState" style="display:none;">
           <div class="row"><strong>Game:</strong> <span id="game"></span></div>
           <div class="row"><strong>Mod:</strong> <span id="modName"></span></div>
           <div class="row"><strong>Mod ID:</strong> <span id="modId"></span></div>
           <div class="row"><strong>File ID:</strong> <span id="fileId"></span></div>
-          <div class="row"><strong>Method:</strong> <span id="buttonText"></span></div>
           <div class="row"><strong>Time:</strong> <span id="time"></span></div>
         </div>
-        <div class="actions actions-launch">
-          <button id="launchNow" class="primary">Launch CZT Mod Manager</button>
+        <div class="protocol-row">
+          <label class="toggle protocol-toggle">
+            <input id="protocolEnabled" type="checkbox" />
+            Enable CZT protocol
+          </label>
+          <span id="protocolStateText" class="protocol-state">Disabled</span>
         </div>
-        <label class="toggle">
-          <input id="protocolEnabled" type="checkbox" />
-          Enable CZT protocol
-        </label>
         <div id="status" class="status"></div>
+        <div class="actions">
+          <button id="setupApi" type="button">Setup API</button>
+          <button id="resetApi" type="button">Reset API</button>
+        </div>
+        <div class="row account-summary" id="accountModeSummary">Account type: N/A</div>
       </div>
     </div>
     <script src="popup.js"></script>

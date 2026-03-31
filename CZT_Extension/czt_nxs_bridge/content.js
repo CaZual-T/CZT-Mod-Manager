@@ -1,14 +1,34 @@
 (() => {
+  const dom = globalThis.CztNexusBridgeDom;
+  const payloadUtils = globalThis.CztNexusBridgePayload;
   let pendingManualPayload = null;
   let protocolEnabledCache = true;
+  let accountDownloadModeCache = "unknown";
+  let accountDownloadModeSourceCache = "auto";
+  let lastDownloadIntent = "none";
+  let lastDownloadIntentAt = 0;
+  const DOWNLOAD_INTENT_WINDOW_MS = 60000;
 
   chrome.storage.local
-    .get({ protocolStatus: true, lastManualDownloadEvent: null })
+    .get({
+      protocolStatus: true,
+      accountDownloadMode: "unknown",
+      accountDownloadModeSource: "auto",
+      lastManualDownloadEvent: null
+    })
     .then((obj) => {
       protocolEnabledCache = Boolean(obj.protocolStatus);
+      accountDownloadModeCache = normalizeAccountDownloadMode(obj.accountDownloadMode);
+      accountDownloadModeSourceCache = normalizeAccountDownloadModeSource(obj.accountDownloadModeSource);
       const last = obj.lastManualDownloadEvent;
       if (last && typeof last === "object") {
         pendingManualPayload = last;
+        // Restore manual intent across page navigation if the cached event is still within the window and not yet consumed.
+        const age = Date.now() - Number(last.timestamp || 0);
+        if (!last.consumed && age <= DOWNLOAD_INTENT_WINDOW_MS) {
+          lastDownloadIntent = "manual";
+          lastDownloadIntentAt = Number(last.timestamp || 0);
+        }
       }
     })
     .catch(() => {
@@ -22,259 +42,187 @@
     if (changes.protocolStatus) {
       protocolEnabledCache = Boolean(changes.protocolStatus.newValue);
     }
+    if (changes.accountDownloadMode) {
+      accountDownloadModeCache = normalizeAccountDownloadMode(changes.accountDownloadMode.newValue);
+    }
+    if (changes.accountDownloadModeSource) {
+      accountDownloadModeSourceCache = normalizeAccountDownloadModeSource(
+        changes.accountDownloadModeSource.newValue
+      );
+    }
     if (changes.lastManualDownloadEvent) {
       const latest = changes.lastManualDownloadEvent.newValue;
       if (latest && typeof latest === "object") {
         pendingManualPayload = latest;
+      } else {
+        pendingManualPayload = null;
       }
     }
   });
 
-  function getClickTrigger(event) {
-    const selectors = "a,button,[role='button'],[data-download-url],[data-href],[data-url]";
-    const path = typeof event.composedPath === "function" ? event.composedPath() : [];
-    for (const item of path) {
-      if (!(item instanceof Element)) {
-        continue;
-      }
-      if (item.matches(selectors)) {
-        return item;
-      }
-      if (typeof item.closest === "function") {
-        const found = item.closest(selectors);
-        if (found) {
-          return found;
-        }
-      }
+  function normalizeAccountDownloadMode(value) {
+    if (value === "direct" || value === "standard") {
+      return value;
     }
-    return null;
+    return "unknown";
   }
 
-  function isActionTrigger(trigger) {
-    if (!trigger || !(trigger instanceof Element)) {
-      return false;
+  function normalizeAccountDownloadModeSource(value) {
+    if (value === "api") {
+      return "api";
     }
-    return trigger.matches("a,button,[role='button']");
+    return "auto";
   }
 
-  function parseModPage(urlString) {
-    try {
-      const url = new URL(urlString);
-      const parts = url.pathname.split("/").filter(Boolean);
-      const modsIndex = parts.indexOf("mods");
-      if (modsIndex <= 0 || modsIndex + 1 >= parts.length) {
-        return { game: "", modId: "" };
-      }
-      return {
-        game: parts[modsIndex - 1] || "",
-        modId: parts[modsIndex + 1] || ""
-      };
-    } catch {
-      return { game: "", modId: "" };
+  function cacheAccountDownloadMode(mode) {
+    const normalized = normalizeAccountDownloadMode(mode);
+    if (accountDownloadModeSourceCache === "api") {
+      return;
     }
+    if (normalized === "unknown" || normalized === accountDownloadModeCache) {
+      return;
+    }
+    accountDownloadModeCache = normalized;
+    chrome.storage.local.set({ accountDownloadMode: normalized });
   }
 
-  function findFileIdFromUrl(urlString) {
-    if (!urlString) {
-      return "";
+  function isDirectAccountTrigger(payload) {
+    const p = payload || {};
+    const nxmUrl = String(p.nxmUrl || "").toLowerCase();
+    const href = String(p.href || "").toLowerCase();
+    if (nxmUrl.startsWith("nxm://") || href.startsWith("nxm://")) {
+      return true;
     }
-    try {
-      const url = new URL(urlString, window.location.origin);
-      const qFile = url.searchParams.get("file_id") || url.searchParams.get("id");
-      if (qFile && /^\d+$/.test(qFile)) {
-        return qFile;
-      }
-      const match = url.pathname.match(/\/files\/(\d+)/i);
-      if (match && match[1]) {
-        return match[1];
-      }
-      return "";
-    } catch {
-      return "";
-    }
+    return Boolean(p.nxmKey || p.nxmExpires);
   }
 
-  function findNxmProtocolFromTrigger(trigger) {
-    if (!trigger) {
-      return "";
-    }
-    const attrs = ["href", "data-href", "data-download-url", "data-url"];
-    for (const attr of attrs) {
-      const raw = String(trigger.getAttribute(attr) || "").trim();
-      if (!raw) {
-        continue;
-      }
-      if (raw.toLowerCase().startsWith("nxm://")) {
-        return raw;
-      }
-    }
-
-    return "";
-  }
-
-  function parseNxmProtocol(nxmUrl) {
-    const out = {
-      nxmUrl: "",
-      game: "",
-      modId: "",
-      fileId: "",
-      nxmKey: "",
-      nxmExpires: ""
-    };
-
-    const value = String(nxmUrl || "").trim();
-    if (!value.toLowerCase().startsWith("nxm://")) {
-      return out;
-    }
-
-    out.nxmUrl = value;
-    const pathMatch = value.match(/^nxm:\/\/([^/]+)\/mods\/(\d+)(?:\/files\/(\d+))?/i);
-    if (pathMatch) {
-      out.game = String(pathMatch[1] || "").toLowerCase();
-      out.modId = String(pathMatch[2] || "");
-      out.fileId = String(pathMatch[3] || "");
-    }
-
-    const queryStart = value.indexOf("?");
-    if (queryStart >= 0) {
-      const params = new URLSearchParams(value.slice(queryStart + 1));
-      out.nxmKey = String(params.get("key") || "");
-      out.nxmExpires = String(params.get("expires") || "");
-    }
-
-    return out;
-  }
-
-  function readModName() {
-    const heading = document.querySelector("h1");
-    const headingText = heading && heading.textContent ? heading.textContent.trim() : "";
-    if (headingText) {
-      return headingText;
-    }
-
-    const ogTitle = document.querySelector("meta[property='og:title']");
-    const ogText = ogTitle ? String(ogTitle.getAttribute("content") || "").trim() : "";
-    if (ogText) {
-      return ogText;
-    }
-
-    const title = String(document.title || "").trim();
-    if (!title) {
-      return "";
-    }
-    return title.replace(/\s+at\s+.*$/i, "").trim();
-  }
-
-  function looksLikeManualDownloadClick(trigger) {
-    if (!trigger) {
-      return false;
-    }
-    if (!isActionTrigger(trigger)) {
-      return false;
-    }
-
-    const text = (trigger.textContent || "").toLowerCase();
-    const aria = (trigger.getAttribute("aria-label") || "").toLowerCase();
-    const classes = (trigger.className || "").toString().toLowerCase();
-    const href = ((trigger.getAttribute("href") || "") + "").toLowerCase();
-
-    const textSignal = text.includes("manual") && text.includes("download");
-    const ariaSignal = aria.includes("manual") && aria.includes("download");
-    const classSignal = classes.includes("manual") && classes.includes("download");
-    const hrefSignal = href.includes("manual") || href.includes("downloads") || href.includes("file_id=");
-
-    return textSignal || ariaSignal || classSignal || hrefSignal;
-  }
-
-  function looksLikeSlowDownloadClick(trigger) {
-    if (!trigger) {
-      return false;
-    }
-    if (!isActionTrigger(trigger)) {
-      return false;
-    }
-
-    const text = (trigger.textContent || "").toLowerCase();
-    const aria = (trigger.getAttribute("aria-label") || "").toLowerCase();
-    const id = (trigger.id || "").toLowerCase();
-    const classes = (trigger.className || "").toString().toLowerCase();
-    const href = ((trigger.getAttribute("href") || "") + "").toLowerCase();
-    const nxmUrl = findNxmProtocolFromTrigger(trigger).toLowerCase();
-
-    const textSignal = text.includes("slow") && text.includes("download");
-    const ariaSignal = aria.includes("slow") && aria.includes("download");
-    const idSignal = id.includes("slow") && id.includes("download");
-    const classSignal = classes.includes("slow") && classes.includes("download");
-    const hrefSignal = href.includes("slow") && href.includes("download");
-    const nxmSignal = nxmUrl.startsWith("nxm://");
-
-    if (text.includes("manual") || aria.includes("manual")) {
-      return false;
-    }
-
-    if (nxmSignal) {
+  function isLikelyPremiumByUi(trigger, payload) {
+    const label = dom.triggerLabelText(trigger);
+    if (label.includes("premium")) {
       return true;
     }
 
-    return textSignal || ariaSignal || idSignal || classSignal || hrefSignal;
+    const p = payload || {};
+    const href = String(p.href || "").toLowerCase();
+    if (href.includes("premium")) {
+      return true;
+    }
+
+    let current = trigger;
+    while (current && current instanceof Element) {
+      const className = String(current.className || "").toLowerCase();
+      const id = String(current.id || "").toLowerCase();
+      const dataTier = String(current.getAttribute("data-tier") || "").toLowerCase();
+      if (className.includes("premium") || id.includes("premium") || dataTier === "premium") {
+        return true;
+      }
+      current = current.parentElement;
+    }
+
+    return !dom.hasSlowDownloadOption(trigger);
   }
 
-  function collectPayload(trigger) {
-    const modInfo = parseModPage(window.location.href);
-    const href = trigger ? trigger.getAttribute("href") || "" : "";
-    const nxmHref = findNxmProtocolFromTrigger(trigger);
-    const nxm = parseNxmProtocol(nxmHref);
-    const dataFileId = trigger ? trigger.getAttribute("data-file-id") || "" : "";
-    const fileId =
-      nxm.fileId ||
-      dataFileId ||
-      findFileIdFromUrl(href) ||
-      String((pendingManualPayload && pendingManualPayload.fileId) || "");
+  function shouldLaunchOnManualClick(payload, trigger) {
+    if (isDirectAccountTrigger(payload)) {
+      cacheAccountDownloadMode("direct");
+      return true;
+    }
+    if (accountDownloadModeCache === "unknown" && isLikelyPremiumByUi(trigger, payload)) {
+      cacheAccountDownloadMode("direct");
+      return true;
+    }
+    return accountDownloadModeCache === "direct";
+  }
 
-    const game = nxm.game || modInfo.game || String((pendingManualPayload && pendingManualPayload.game) || "");
-    const modId = nxm.modId || modInfo.modId || String((pendingManualPayload && pendingManualPayload.modId) || "");
-
+  function withAccountMode(payload, accountMode) {
     return {
-      source: "nexus-manual-download",
-      pageUrl: window.location.href,
-      game,
-      modName: readModName(),
-      modId,
-      fileId,
-      buttonText: (trigger && trigger.textContent ? trigger.textContent.trim() : ""),
-      href,
-      nxmUrl: nxm.nxmUrl,
-      nxmKey: nxm.nxmKey,
-      nxmExpires: nxm.nxmExpires,
-      timestamp: Date.now()
+      ...(payload || {}),
+      accountMode: normalizeAccountDownloadMode(accountMode)
     };
+  }
+
+  function clearIntentAndMarkConsumed(payload) {
+    lastDownloadIntent = "none";
+    lastDownloadIntentAt = 0;
+    chrome.storage.local.set({ lastManualDownloadEvent: { ...payload, consumed: true } });
   }
 
   document.addEventListener(
     "click",
     (event) => {
-      const trigger = getClickTrigger(event);
-      const isManualDownload = looksLikeManualDownloadClick(trigger);
-      const isSlowDownload = looksLikeSlowDownloadClick(trigger);
-
-      if (!isManualDownload && !isSlowDownload) {
+      const trigger = dom.getClickTrigger(event);
+      if (!trigger) {
         return;
       }
 
-      const payload = collectPayload(trigger);
-      pendingManualPayload = payload;
+      if (dom.isManualButtonClick(trigger)) {
+        lastDownloadIntent = "manual";
+        lastDownloadIntentAt = Date.now();
 
-      if (isSlowDownload) {
-        if (!protocolEnabledCache) {
+        const payload = payloadUtils.collectPayload(trigger, { pendingManualPayload });
+        pendingManualPayload = payload;
+
+        // Cache context for popup/debug regardless of mode.
+        chrome.runtime.sendMessage({ type: "cache-manual-download", payload });
+
+        if (shouldLaunchOnManualClick(payload, trigger)) {
+          if (!protocolEnabledCache) {
+            return;
+          }
+          const directPayload = withAccountMode(payload, "direct");
+          pendingManualPayload = directPayload;
+          clearIntentAndMarkConsumed(directPayload);
+          chrome.runtime.sendMessage({ type: "manual-download-click", payload: directPayload });
           return;
         }
-        // Queue delayed protocol launch in the background so Nexus countdown can complete first.
-        chrome.runtime.sendMessage({ type: "slow-download-click", payload });
+
+        // Standard path: launch occurs on Slow Download click.
         return;
       }
 
-      chrome.runtime.sendMessage({ type: "manual-download-click", payload });
+      const isSlowDownload = dom.isSlowButtonClick(trigger);
+      if (!isSlowDownload) {
+        return;
+      }
+
+      const payload = payloadUtils.collectPayload(trigger, { pendingManualPayload });
+      pendingManualPayload = payload;
+
+      const withinIntentWindow = Date.now() - lastDownloadIntentAt <= DOWNLOAD_INTENT_WINDOW_MS;
+      if (!withinIntentWindow || lastDownloadIntent !== "manual") {
+        return;
+      }
+      if (!protocolEnabledCache) {
+        return;
+      }
+
+      cacheAccountDownloadMode("standard");
+      const standardPayload = withAccountMode(payload, "standard");
+      pendingManualPayload = standardPayload;
+      clearIntentAndMarkConsumed(standardPayload);
+      // Queue delayed protocol launch in the background so Nexus countdown can complete first.
+      chrome.runtime.sendMessage({ type: "slow-download-click", payload: standardPayload });
+      return;
     },
     true
   );
+
+  chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
+    if (!message || message.type !== "launch-czt-protocol-in-page") {
+      return;
+    }
+
+    const protocolUrl = String(message.protocolUrl || "").trim();
+    if (!protocolUrl) {
+      sendResponse({ ok: false, error: "missing protocol url" });
+      return;
+    }
+
+    try {
+      window.location.assign(protocolUrl);
+      sendResponse({ ok: true });
+    } catch (err) {
+      sendResponse({ ok: false, error: String(err || "launch failed") });
+    }
+  });
 })();
