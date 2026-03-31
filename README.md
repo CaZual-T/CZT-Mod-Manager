@@ -158,7 +158,7 @@
 ### [Select All] ✅
 ### [Scan all mods for updates] 🔄️
   - click '🔄️' to scan all mods, or right click an entry and click "check for updates" at the bottom of the popup.
-### [Save mods that are currently eneabled as loadout] 💾
+### [Save mods that are currently eneabled as a loadout] 💾
 ### [Create Backup] ➕
    <img width="761" height="127" alt="image" src="https://github.com/user-attachments/assets/52913edd-a9df-40e6-8f13-1e05027d7890" />
 
