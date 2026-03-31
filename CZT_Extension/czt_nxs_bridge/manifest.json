@@ -1,10 +1,10 @@
 {
   "manifest_version": 3,
   "name": "CZT Nexus Bridge",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Monitors 'nexusmods.com' for 'manual' download clicks. Then automatically triggers CZT Mod Manager to handle install.",
   "permissions": ["storage", "tabs"],
-  "host_permissions": ["https://www.nexusmods.com/*"],
+  "host_permissions": ["https://www.nexusmods.com/*", "https://api.nexusmods.com/*"],
   "background": {
     "service_worker": "background.js"
   },
@@ -17,7 +17,7 @@
   "content_scripts": [
     {
       "matches": ["https://www.nexusmods.com/*"],
-      "js": ["content.js"],
+      "js": ["utils/content_dom.js", "utils/content_payload.js", "content.js"],
       "run_at": "document_idle",
       "all_frames": true,
       "match_about_blank": true
