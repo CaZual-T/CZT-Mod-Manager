@@ -1,6 +1,6 @@
 - Download [czt_nxs_bridge.rar](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/CZT_Extension/czt_nxs_bridge.rar)
 - Extract to a location of your choosing (recommend putting it in the CZT Mod Manager folder.)
-- Open your browser > Manager Extensions > Enable Dev Mode > Load Unpacked (select czt_nxz_bridge folder)
+- Open your browser > Manage Extensions > Enable Dev Mode > Load Unpacked (select czt_nxz_bridge folder)
    - Once the extension is installed, Pin it to the top and then select the "CZT protocol" checkbox.
 
      <img width="357" height="260" alt="image" src="https://github.com/user-attachments/assets/841534c6-6bca-4abb-a775-e52c7d1bbcd4" />
