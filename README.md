@@ -143,10 +143,13 @@
 - Click the dowload arrow next to the mod in grid view.
   <img width="1068" height="55" alt="image" src="https://github.com/user-attachments/assets/6e922b50-1afa-43cd-bd0f-463e85ebfdb8" />
 
-  - Premium users will begin a direct download.
-  - Standard nexus accounts will be sent to the mods web page.
-    - When downloading mods that you already have installed, use the mod manger download button. If that doesnt exist, get the czt extension and use the 'manual download' button.
-  - Both ways will trigger CZT to run the install process and automatically apply all updated metadata.   
+- Premium users
+  - Instant direct download and install. 
+  - You can enable auto update outaded mods in your settings as well.
+- Standard nexus accounts will be sent to the mods web page.
+  - When downloading mods that you already have installed, use the mod manger download button.
+  - If the mod manger download button doesnt exist, get the czt extension and use the 'manual download' button.
+    - Both methods will trigger CZT to run the install process and automatically apply all updated metadata.   
 
 <img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
 
