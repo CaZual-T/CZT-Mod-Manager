@@ -108,7 +108,7 @@
   - Select the profile (game) you want to use in CZT
   - Select all of your mods in the right panel (you can use the check mark to select all)
   - Click the top right arrow to install.
-  - Go to the manage tab. Since these mods werent installed by czt, they wont have their info saved.
+  - Go to the manage tab. Since these mods were manually installed by czt, they wont have their info saved.
   - You will have to manually right click each one and save their nexus url.</br>
 
  🟢 OPTION 2:
