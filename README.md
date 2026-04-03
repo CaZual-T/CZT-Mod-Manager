@@ -1,21 +1,18 @@
 # Features: 
 - ⭐ EZ Setup & Launch: Automatically locates or creates required configuration files.
-     - If you have any problems just make your way to discord so i can help you.
-- ⭐ Plug and play mod install by using the "Mod Manager Download" button on the nexus site to auto trigger CZT.
-- ⭐ Direct (in-app) Downloads from nexus website available for nexus premium users. (official nexus api restriction)
+     - If you have any problems just make your way to discord so i can help you.
+- ⭐ Customizable UI: Users can personalize colors, fonts, and layouts for accessibility and aesthetics.
+- ⭐ Plug and play mod install by using the "Mod Manager Download" button on the nexus site to auto trigger CZT.
+- ⭐ Direct (in-app) Downloads available for nexus premium users.
 - ⭐ Detects when mods have Updates Available/Hidden Mod Page/Removed from Site and if they are corrupted.
-- ⭐ Steam Library Detection: Scans drives for Steam libraries to auto-detect game installations. 
-     - Supports custom named and multi drive steam libraries. (any drive letter C-Z)
+- ⭐ Steam Library Detection: Scans drives for Steam libraries to auto-detect game installations. 
+     - Supports custom named and multi drive steam libraries. (any drive letter C-Z)
 - ⭐ Manual pathing available for EPIC and OTHER platforms.
 - ⭐ Users can easily download, install, toggle, track, and delete mods with precise user options.
 - ⭐ Toggle Mods: Launch with or without mods enabled.
 - ⭐ Set mod load order. (Press F2)
 - ⭐ Disable mods individually & Restore at anytime.
 - ⭐ Create, Share and Download custom profile loadouts.
-- ⭐ Connects to the Nexus Mods API to collect mod info, and check versions for potential updates.
-- ⭐ CZT will show a popup when the manager itself has an available update.
-- ⭐ Detect new mods in downloads folder. (drag and drop is also supported)
-- ⭐ Shift + H will display all hotkeys in the main menu log box.
 - ⭐ Search bar and sort filters to easily navigate mods.
 - ⭐ Error Handling & Recovery: Stress tested for reliability.
 - ⭐ In-Depth user logs for both normal processes and errors.
