@@ -1,4 +1,5 @@
 import os
+import shutil
 import subprocess
 
 def run(plugin_api, *args, **kwargs):
@@ -17,7 +18,7 @@ def run(plugin_api, *args, **kwargs):
         source = cfg.get('resolved_profile_paths', {}).get(profile) or cfg.get('set_profile_path')
 
         mods = os.path.join(root, 'profile_mods', profile or 'default')
-        staging_area = os.path.join(root, 'mods_source')
+        staging_area = os.path.join(root, 'mods_source', '_utm_temp')
 
         if not source or not os.path.isdir(source):
             plugin_api.czt_log(f"[ERROR] Source folder not found: {source}")
@@ -28,13 +29,91 @@ def run(plugin_api, *args, **kwargs):
         if not os.path.isdir(mods):
             plugin_api.czt_log(f"[ERROR] Mods folder not found: {mods}")
             return
-        if not os.path.isdir(staging_area):
-            os.makedirs(staging_area, exist_ok=True)
 
-        # Build command
-        cmd = [exe_path, source, mods, staging_area]
+        # Get only the selected/checked mods from the mod manager
+        selected_mods = []
+        if hasattr(plugin_api, 'get_checked_mod_relpaths'):
+            selected_mods = plugin_api.get_checked_mod_relpaths()
+
+        if not selected_mods:
+            plugin_api.czt_log("[UTM] No mods selected. Check the mods you want to merge first.")
+            return
+
+        # Prepare a temp folder with only the selected mods
+        selected_mods_dir = os.path.join(staging_area, '_selected_mods')
+        if os.path.exists(selected_mods_dir):
+            shutil.rmtree(selected_mods_dir)
+        os.makedirs(selected_mods_dir, exist_ok=True)
+
+        for relpath in selected_mods:
+            src = os.path.join(mods, relpath)
+            dst = os.path.join(selected_mods_dir, relpath)
+            if not os.path.exists(src):
+                continue
+            os.makedirs(os.path.dirname(dst), exist_ok=True)
+            if os.path.isdir(src):
+                shutil.copytree(src, dst)
+            else:
+                shutil.copy2(src, dst)
+
+        if not os.listdir(selected_mods_dir):
+            plugin_api.czt_log("[UTM] None of the selected mods were found on disk.")
+            shutil.rmtree(selected_mods_dir, ignore_errors=True)
+            return
+
+        # Build command: source, selected mods input, staging temp, output profile mods dir
+        cmd = [exe_path, source, selected_mods_dir, staging_area, mods]
         try:
             proc = subprocess.Popen(cmd)
+            plugin_api.czt_log("[UTM] Merge started. Waiting for completion...")
+
+            def attempt_refresh_on_completion(retries=30):
+                try:
+                    active_modal = None
+                    if hasattr(plugin_api, 'QApplication'):
+                        active_modal = plugin_api.QApplication.activeModalWidget()
+                    if active_modal is not None and retries > 0:
+                        plugin_api.QTimer.singleShot(300, lambda: attempt_refresh_on_completion(retries - 1))
+                        return
+                    refreshed = False
+                    if hasattr(plugin_api, 'refresh_mod_manager_list'):
+                        refreshed = plugin_api.refresh_mod_manager_list(delay_ms=0)
+
+                    if not refreshed and hasattr(plugin_api, 'get_mod_manager_tab'):
+                        # Fallback direct refresh path in case API helper can't schedule.
+                        tab = plugin_api.get_mod_manager_tab()
+                        if tab is not None and hasattr(tab, 'refresh_list_args'):
+                            from utilities_global.refresh_manager.refresh_manager import RefreshManagerWinList
+                            RefreshManagerWinList.refresh_managerWin_list(
+                                **tab.refresh_list_args,
+                                sort_order=getattr(tab, 'sort_order', 'az'),
+                                sort_by=getattr(tab, 'sort_by', 'mod')
+                            )
+                            refreshed = True
+
+                    if refreshed:
+                        # Run a second pass shortly after to catch filesystem lag.
+                        plugin_api.QTimer.singleShot(700, lambda: plugin_api.refresh_mod_manager_list(delay_ms=0))
+                        plugin_api.czt_log("[UTM] Merge complete. Mod list refreshed.")
+                    else:
+                        plugin_api.czt_log("[UTM] Merge complete, but refresh was not available.")
+                except Exception as refresh_error:
+                    plugin_api.czt_log(f"[UTM] Merge complete, but refresh failed: {refresh_error}")
+
+            def check_process_and_refresh():
+                try:
+                    code = proc.poll()
+                    if code is None:
+                        plugin_api.QTimer.singleShot(300, check_process_and_refresh)
+                        return
+                    if code != 0:
+                        plugin_api.czt_log(f"[UTM] Merge process exited with code {code}.")
+                    else:
+                        attempt_refresh_on_completion()
+                except Exception as wait_error:
+                    plugin_api.czt_log(f"[UTM] Could not monitor merge completion: {wait_error}")
+
+            plugin_api.QTimer.singleShot(300, check_process_and_refresh)
         except Exception as e:
             plugin_api.czt_log(f"[ERROR] Failed to launch EXE: {e}")
     except Exception as e:
