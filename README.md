@@ -1,12 +1,12 @@
 # Features: 
 - ⭐ EZ Setup & Launch: Automatically locates or creates required configuration files.
-     - If you have any problems just make your way to discord so i can help you.
+  - If you have any problems just make your way to discord so i can help you.
 - ⭐ Customizable UI: Users can personalize colors, fonts, and layouts for accessibility and aesthetics.
 - ⭐ Plug and play mod install by using the "Mod Manager Download" button on the nexus site to auto trigger CZT.
 - ⭐ Direct (in-app) Downloads available for nexus premium users.
 - ⭐ Detects when mods have Updates Available/Hidden Mod Page/Removed from Site and if they are corrupted.
-- ⭐ Steam Library Detection: Scans drives for Steam libraries to auto-detect game installations. 
-     - Supports custom named and multi drive steam libraries. (any drive letter C-Z)
+- ⭐ Steam Library Detection: Scans drives for Steam libraries to auto-detect game installations.
+  - Supports custom named and multi drive steam libraries. (any drive letter C-Z)
 - ⭐ Manual pathing available for EPIC and OTHER platforms.
 - ⭐ Users can easily download, install, toggle, track, and delete mods with precise user options.
 - ⭐ Toggle Mods: Launch with or without mods enabled.
@@ -19,7 +19,7 @@
 - ⭐ Customizable UI: Users can personalize colors, fonts, and layouts for accessibility and aesthetics.
 - ⭐ Currently Supports Ready or Not, Schedule I, Dying Light 1/2, and Dying Light The Beast.
 - 🟡 Merge Utility: Combine multiple .paks into one. (limited to dying light games)
-     - ↳ Download the [UTM plugin](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/UnleashTheMods-5.0_plugin/UTM_plugin.rar). 
+  - ↳ Download the [UTM plugin](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/UnleashTheMods-5.0_plugin/UTM_plugin.rar). 
 - 🚫 Does NOT support Linux.</br>
 
 <img width="1920" height="100" alt="Untitled (2)" src="https://github.com/user-attachments/assets/cab67cc2-30e9-4fc8-8b10-beb2f904f485" />
