@@ -1,4 +1,4 @@
-- Download the rar file above. ([click here](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/language_packs/en%20-%20example/en%20-%20example.rar))
+- Download the rar file above. ([click here](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/language_packs/en%20-%20example.rar))
   - Inside is 1 folder and the only 4 files you need, just replace the english text with your choice of language.
   - You can then place the folder into CZT Mod Manager/plugins/language_packs/>folder here<
 
