@@ -1,5 +1,5 @@
 # Install
-1: Download UTM CZT Plugin.rar (extract folder to desktop, or wherever) </br>
+1: Download [UTM CZT Plugin.rar](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/UnleashTheMods-5.0_plugin/UTM_plugin.rar) (extract folder to desktop, or wherever) </br>
 2: Put the UTM_plugin FOLDER in CZT Mod Manager/plugins/scripts </br>
 
 # how to use
