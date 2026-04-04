@@ -3,10 +3,10 @@
 2: Put the UTM_plugin FOLDER in CZT Mod Manager/plugins/scripts </br>
 
 # How to use:
-- 1: Install mods like usual.
-- 2: Go to manage tab, Press F3 to open the plugin manager
+- Install mods like usual.
+- Go to manage tab, Press F3 to open the plugin manager
   - 1st time use setup > ensure 'run at startup' is unchecked> save.
-- 3: Run UTM
+- Run UTM
   - The UTM cmd window will appear.
-- 4: Once completed, you will see your meged file as data7.pak. Delete the old mod files. (done)
+- Once completed, you will see your meged file as data7.pak. Delete the old mod files. (done)
 
