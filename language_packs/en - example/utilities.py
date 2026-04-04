@@ -10,9 +10,6 @@ BTN_CANCEL = "Cancel"
 
 # ===== CheckForCZTUpdates.py =====
 WELCOME_MESSAGE = (
-    
-    "EXAMPLE LANGUAGE PACK\n\n" # Delete this line when creating a new language pack. // Just put it here during testing.
-    
     "🔄️ Auto Mod Install:\n"
     "- Download mods from the nexus site. (use the 'Mod Manager Download' button)\n"
     "- This will trigger CZT and the app will automatically handle install + saving mod info.\n"

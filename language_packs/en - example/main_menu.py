@@ -230,6 +230,9 @@ TIP_BETA_ALERTS_RESET = "Reset dismissed beta alerts so the newest beta prompt c
 TIP_INSTALL_CACHE_MAX_RESET = "Reset persistent cache size limit to default."
 MSG_FONT_BLOCKED_TITLE = "Font Blocked"
 MSG_FONT_BLOCKED_TEXT = "The font '{font_family}' is not allowed. Please select a different font."
+MSG_SETTINGS_SAVED_TITLE = "Settings Saved"
+MSG_SETTINGS_SAVED_CHANGED = "The following settings were changed:"
+MSG_SETTINGS_SAVED_NO_CHANGES = "No settings were changed."
 
 # controls.py log/status strings
 LOG_CONFIG_NOT_SAVED_NO_ROOT = "❌ [ERROR] Config not saved due to czt_root_folder not being set!\n    > Go to USER SETTINGS tab and click 'CREATE ROOT'"
