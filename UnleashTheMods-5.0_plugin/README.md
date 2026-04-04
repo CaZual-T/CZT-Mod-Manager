@@ -3,7 +3,7 @@
 2: Put the UTM_plugin FOLDER in CZT Mod Manager/plugins/scripts </br>
 
 # How to use:
-- 1: Install mods like usual (drag and drop into log box, select, install)
+- 1: Install mods like usual.
 - 2: Go to manage tab, Press F3 to open the plugin manager
     - 1st time use setup > ensure 'run at startup' is unchecked> save.
 - 3: Run UTM
