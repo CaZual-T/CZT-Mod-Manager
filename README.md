@@ -228,10 +228,10 @@
 
 # Plugins (BETA)
 - Place plugins in:
-  - CZT Mod Manager/plugins/exe_standalone
+  - CZT Mod Manager/plugins/exe_standalone/>here<
     - Press F3 to load. 
     - optional launch with admin prompt for plugins that may need it.
     - EXE plugins are not persistent and only launch when a user loads from the plugin menu.
-  - CZT Mod Manager/plugins/scripts
+  - CZT Mod Manager/plugins/scripts/>here<
     - Press F3 to load.
     - You can set scripts to persistently load at launch.
