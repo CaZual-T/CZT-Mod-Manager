@@ -117,6 +117,7 @@
 
 # How to install new mods (normal):
 1.) Download mods on the nexus site using the "Mod Manager Download" button.
+  - If the mod manager download button is missing, download the [czt extension](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main/CZT_Extension) and use the manual download button.
    
    <img width="358" height="53" alt="image" src="https://github.com/user-attachments/assets/a8ebf771-2580-4554-97f2-9822576511bb" />
 
