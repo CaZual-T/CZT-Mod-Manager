@@ -1,4 +1,4 @@
-- Place the epic games plugin FOLDER in "CZT Mod Manager\plugins\scripts\EpicGames"
+- Extract to "CZT Mod Manager\plugins\scripts\EpicGames"
   - Start CZT, then press F3
     - Enable Globally, Enable Run at Startup, Save.
   - Click 'Run' next to the plugins entry in the F3 plugin menu.
