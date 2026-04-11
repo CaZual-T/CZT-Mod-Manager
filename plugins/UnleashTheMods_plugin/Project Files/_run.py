@@ -2,9 +2,13 @@ import os
 import shutil
 import subprocess
 
+from utilities_global.file_system.Required_Folders import build_profile_folder_paths, build_required_root_paths
+
+
 def run(plugin_api, *args, **kwargs):
     try:
         cfg = getattr(plugin_api, 'cfg', {}) or {}
+        log = getattr(plugin_api, 'czt_log', print)
 
         # Resolve root folder from live config first, then fall back to plugin-relative path
         root = cfg.get('czt_root_folder')
@@ -14,29 +18,45 @@ def run(plugin_api, *args, **kwargs):
         exe_path = os.path.join(root, 'plugins', 'scripts', 'UTM_plugin', 'UnleashTheMods_Plugin.exe')
 
         # Prefer per-profile resolved paths; fall back to any direct path value
-        profile = getattr(plugin_api, 'current_profile', '') or cfg.get('current_game_profile', '')
-        source = cfg.get('resolved_profile_paths', {}).get(profile) or cfg.get('set_profile_path')
+        profile = str(getattr(plugin_api, 'current_profile', '') or cfg.get('current_game_profile', '') or '').strip()
+        resolved_paths_raw = cfg.get('resolved_profile_paths', {})
+        resolved_paths = resolved_paths_raw if isinstance(resolved_paths_raw, dict) else {}
+        source = resolved_paths.get(profile) or cfg.get('set_profile_path')
 
-        mods = os.path.join(root, 'profile_mods', profile or 'default')
-        staging_area = os.path.join(root, 'mods_source', '_utm_temp')
+        game_profiles = getattr(plugin_api, 'GAME_PROFILES', {}) or {}
+        profile_for_paths = profile or 'default'
+        profile_cfg = game_profiles.get(profile_for_paths, {}) if isinstance(game_profiles, dict) else {}
+        profile_paths = build_profile_folder_paths(root, profile_for_paths, profile_cfg)
+        root_paths = build_required_root_paths(root)
+
+        mods = profile_paths.get('mods_dir', '')
+        staging_root = str(root_paths.get('mods_src', '') or '')
+        staging_area = os.path.join(staging_root, '_utm_temp') if staging_root else ''
 
         if not source or not os.path.isdir(source):
-            plugin_api.czt_log(f"[ERROR] Source folder not found: {source}")
+            log(f"[ERROR] Source folder not found: {source}")
             return
         if not os.path.isfile(exe_path):
-            plugin_api.czt_log(f"[ERROR] Plugin EXE not found: {exe_path}")
+            log(f"[ERROR] Plugin EXE not found: {exe_path}")
             return
         if not os.path.isdir(mods):
-            plugin_api.czt_log(f"[ERROR] Mods folder not found: {mods}")
+            log(f"[ERROR] Mods folder not found: {mods}")
+            return
+        if not staging_area:
+            log("[ERROR] Staging path is not configured.")
             return
 
         # Get only the selected/checked mods from the mod manager
         selected_mods = []
         if hasattr(plugin_api, 'get_checked_mod_relpaths'):
-            selected_mods = plugin_api.get_checked_mod_relpaths()
+            selected_mods = [
+                str(relpath).strip()
+                for relpath in (plugin_api.get_checked_mod_relpaths() or [])
+                if str(relpath).strip()
+            ]
 
         if not selected_mods:
-            plugin_api.czt_log("[UTM] No mods selected. Check the mods you want to merge first.")
+            log("[UTM] No mods selected. Check the mods you want to merge first.")
             return
 
         # Prepare a temp folder with only the selected mods
@@ -57,7 +77,7 @@ def run(plugin_api, *args, **kwargs):
                 shutil.copy2(src, dst)
 
         if not os.listdir(selected_mods_dir):
-            plugin_api.czt_log("[UTM] None of the selected mods were found on disk.")
+            log("[UTM] None of the selected mods were found on disk.")
             shutil.rmtree(selected_mods_dir, ignore_errors=True)
             return
 
@@ -65,7 +85,7 @@ def run(plugin_api, *args, **kwargs):
         cmd = [exe_path, source, selected_mods_dir, staging_area, mods]
         try:
             proc = subprocess.Popen(cmd)
-            plugin_api.czt_log("[UTM] Merge started. Waiting for completion...")
+            log("[UTM] Merge started. Waiting for completion...")
 
             def attempt_refresh_on_completion(retries=30):
                 try:
@@ -94,11 +114,11 @@ def run(plugin_api, *args, **kwargs):
                     if refreshed:
                         # Run a second pass shortly after to catch filesystem lag.
                         plugin_api.QTimer.singleShot(700, lambda: plugin_api.refresh_mod_manager_list(delay_ms=0))
-                        plugin_api.czt_log("[UTM] Merge complete. Mod list refreshed.")
+                        log("[UTM] Merge complete. Mod list refreshed.")
                     else:
-                        plugin_api.czt_log("[UTM] Merge complete, but refresh was not available.")
+                        log("[UTM] Merge complete, but refresh was not available.")
                 except Exception as refresh_error:
-                    plugin_api.czt_log(f"[UTM] Merge complete, but refresh failed: {refresh_error}")
+                    log(f"[UTM] Merge complete, but refresh failed: {refresh_error}")
 
             def check_process_and_refresh():
                 try:
@@ -107,15 +127,15 @@ def run(plugin_api, *args, **kwargs):
                         plugin_api.QTimer.singleShot(300, check_process_and_refresh)
                         return
                     if code != 0:
-                        plugin_api.czt_log(f"[UTM] Merge process exited with code {code}.")
+                        log(f"[UTM] Merge process exited with code {code}.")
                     else:
                         attempt_refresh_on_completion()
                 except Exception as wait_error:
-                    plugin_api.czt_log(f"[UTM] Could not monitor merge completion: {wait_error}")
+                    log(f"[UTM] Could not monitor merge completion: {wait_error}")
 
             plugin_api.QTimer.singleShot(300, check_process_and_refresh)
         except Exception as e:
-            plugin_api.czt_log(f"[ERROR] Failed to launch EXE: {e}")
+            log(f"[ERROR] Failed to launch EXE: {e}")
     except Exception as e:
-        plugin_api.czt_log(f"[PLUGIN ERROR] Unhandled exception: {e}")
+        log(f"[PLUGIN ERROR] Unhandled exception: {e}")
     return
