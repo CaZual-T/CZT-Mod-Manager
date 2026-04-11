@@ -494,7 +494,7 @@ LOG_JSON_WRITE_ERROR = "[ERROR] Could not update mods list: {error}"
 
 # ===== install_mods/install_utilities.py (logs) =====
 LOG_STAGING_ERROR = "[STAGING ERROR] Could not stage {file_name}: {error}"
-LOG_STAGED = "[STAGED] Staged {count} mod(s) in source:\n -> {staged_list}\n[SOURCE] -> {mods_source}"
+LOG_STAGED = "[STAGED] Staged {count} mod(s) in:\n -> {staged_list}\n[SOURCE] -> {mods_source}"
 LOG_REPLACEMENT_TIMEOUT = "[WARN] Timed out waiting for replacement confirmation dialog."
 
 # ===== install_mods/archive_handler/progress.py (logs) =====

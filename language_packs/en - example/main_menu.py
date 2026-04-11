@@ -29,17 +29,18 @@ TIP_PATH_MODE_STEAM = (
 )
 TIP_BTN_MANAGE_MODS = "Join the CZT Mod Manager Discord for updates and support."
 TIP_BTN_CLEAN_MOD_LIST = (
-    "- Clean stale entries.\n"
-    "- Clean history.\n"
-    "- Remove existing symlinks for profile."
+    "4 Options:\n"
+    "- Delete existing symlinks for profile.\n"
+    "- Delete crash monitor logs.\n"
+    "- Delete download history.\n"
+    "- Remove stale entries in mod list file."
 )
 TIP_BTN_DONATIONS = "Thank you for using CZT!\nClick here to open the donations page (Paypal)"
 TIP_BTN_UPDATE_CZT = (
     "Click this to open the CZT Mod Manager instructions.\n\n"
     "[HOTKEYS]\n"
     "- Press SHIFT + H to show available hotkeys.\n"
-    "- Press F2 to open the Load Order menu.\n"
-    "- Press F3 to open the Plugins menu."
+    "- Press F2 to open the Load Order menu."
 )
 
 # Main tab labels
@@ -67,9 +68,31 @@ MSG_NO_VALID_INSTALL_DIR = (
     "No valid install directory set!\n \n- Path Mode [STEAM]:\n   > Click 'Detect Steam'\n "
     "\n- Path Mode [Manual]:\n   > Click 'SET INSTALL' and 'SET EXE' to configure."
 )
+LOG_CLEAN_HISTORY_CLEARED = "[CLEAN] Cleared history in {history_path}."
+LOG_CLEAN_HISTORY_CLEAR_FAILED = "[CLEAN] Failed to clear {history_name} at {history_path}: {error}"
+LOG_CLEAN_CRASH_LOG_CLEARED = "[CLEAN] Cleared crash monitor logs: {log_path}"
+LOG_CLEAN_CRASH_LOG_CLEAR_FAILED = "[CLEAN] Failed to clear crash monitor log {log_name} at {log_path}: {error}"
+LOG_CLEAN_MOD_LIST_UPDATE_FAILED = "[CLEAN] Failed to update mod list: {error}"
+LOG_CLEAN_STALE_ENTRIES_REMOVED = "[CLEAN] Removed {removed} stale mod entry(s) from mod_list.json for profile '{profile_name}'."
+LOG_CLEAN_NO_OPTIONS_SELECTED = "[CLEAN] No options selected."
+LOG_PER_FILE_SYMLINK_DISABLED = "[PER-FILE] Disabled symlink: {path}"
+LOG_PER_FILE_SYMLINK_REMOVE_FAILED = "[PER-FILE] Could not remove symlink {path}: {error}"
+LOG_PER_FOLDER_LINK_DISABLED = "[PER-FOLDER] Disabled symlink/junction: {path}"
+LOG_PER_FOLDER_LINK_REMOVE_FAILED = "[PER-FOLDER] Could not remove symlink/junction {path}: {error}"
+LOG_LINK_MODS_JUNCTION_DISABLED = "[LINK] Disabled Mods junction: {path}"
+LOG_LINK_MODS_SYMLINK_DISABLED = "[LINK] Disabled Mods symlink: {path}"
+LOG_LINK_MODS_SYMLINK_REMOVE_FAILED = "[LINK] Could not remove Mods symlink: {error}"
+LOG_CLEAN_PROFILE_LINKS_REMOVED = "[CLEAN] Removed existing symlinks for profile '{profile_name}'."
 
 # Clean options popup
 DLG_TITLE_CLEAN_OPTIONS = "Cleaning Options"
+CLEAN_OPTIONS_PROMPT = "Select one or multiple options:"
+CLEAN_OPTION_STALE_ENTRIES = "Remove stale entries from mods_list.json."
+CLEAN_OPTION_BROWSER_HISTORY = "Delete local CZT browser download history."
+CLEAN_OPTION_CRASH_LOGS = "Delete crash monitor logs."
+CLEAN_OPTION_SYMLINKS = "Delete existing symlinks for the current profile."
+CLEAN_OPTIONS_APPLY = "Apply"
+CLEAN_OPTIONS_CANCEL = "Cancel"
 
 # First-time setup popup
 TIP_CREATE_ROOT = (
@@ -99,7 +122,7 @@ SETTINGS_UI_TEXT = {
     "groupBox": "Advanced Settings",
     # General labels / checkboxes
     "generalUseDownloadsAsSourceCheckBox": "Use downloads folder as source.",
-    "generalUseModsSourceAsSourceCheckBox": "Use mods_source folder as source.",
+    "generalUseModsSourceAsSourceCheckBox": "Use mod_staging folder as source.",
     "generalUseBuiltInNexusBrowserCheckBox": "Open mod links using CZT's custom browser window.",
     "generalRegisterNxmHandlerCheckBox": "Set as handler for 'Mod Manager Download' button.",
     "generalUpdateOnlyEnabledModsCheckBox": "Only check enabled mods for updates during scans.",
@@ -164,14 +187,14 @@ TIP_INSTALL_LIVE_LOG_THRESHOLD = (
 
 TIP_DOWNLOAD_PARALLEL_WORKERS = (
     "Max amount of downloads CZT can run in parallel.\n"
-    "Higher values can speed up batch downloads, but may cause instability or timeouts on some systems/networks.\n"
+    "⚠️ Higher values can speed up batch downloads, but may cause instability."
 )
 
 TIP_BACKGROUND_THREADS = (
     "Background thread limit.\n"
-    "Higher values allow more tasks to run simultaneously.\n"
-    "Higher values can speed up actions, but may cause instability or timeouts on some systems.\n"
     "Update Scan/Loadout/Install operations are affected by this setting.\n"
+    "Higher values allow more tasks to run simultaneously.\n"
+    "⚠️ Higher values can speed up actions, but may cause instability."
 )
 
 TIP_UPDATE_SCAN_CACHE_HOURS = (
@@ -223,7 +246,7 @@ MSG_LANGUAGE_RESTART = "Language changed. Please restart CZT Mod Manager for the
 
 TIP_MENU_MUSIC_DROPDOWN = (
     "Select the background music track for the menu.\n"
-    "You can add custom tracks by placing them in your root folder > CZT Mod Manager/audio/menu_music.\n"
+    "You can add custom tracks by placing them in your root folder > CZT Mod Manager/plugins/audio/menu_music.\n"
     "Supported formats: .mp3, .wav, .ogg"
 )
 TIP_BETA_ALERTS_RESET = "Reset dismissed beta alerts so the newest beta prompt can show again at startup."
