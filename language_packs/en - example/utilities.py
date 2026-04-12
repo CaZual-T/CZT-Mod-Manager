@@ -228,6 +228,17 @@ TIP_REFRESH_NEXUS = (
 )
 
 # ===== loadout_system/ls_ui_manage_dialog.py =====
+LBL_MANAGE_LOADOUTS_TITLE = "Loadout Files:"
+LBL_MANAGE_LOADOUTS_DESC = "(type a name below, then click 'Save Loadout' to create a new loadout)"
+LBL_MANAGE_LOADOUTS_TIP_1 = "Tip 1: Select a saved loadout and click 'Save Loadout' to overwrite it."
+LBL_MANAGE_LOADOUTS_TIP_2 = "Tip 2: Hover over buttons for informational tooltips."
+LBL_CREATE_LOADOUT = "Create Loadout:"
+BTN_SAVE_LOADOUT = "Save Loadout"
+BTN_LOAD_SELECTED = "Load Selected"
+BTN_MERGE_SELECTED = "Merge Selected"
+BTN_IMPORT_LOADOUT = "Import Loadout"
+BTN_DELETE_LOADOUT = "Delete Loadout"
+
 TIP_OPEN_LOADOUTS_FOLDER = "Open loadouts folder"
 TIP_SAVE_LOADOUT = (
     "- Enter a new name and click 'Save Loadout' to create a new loadout \n"

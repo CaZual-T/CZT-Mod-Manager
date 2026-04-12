@@ -15,6 +15,28 @@ TIP_HIDE_DISABLED       = "Hide disabled mods from the list/grid"
 TIP_VIEW_LIST           = "List view"
 TIP_VIEW_GRID           = "Grid view"
 
+# === Main Tab Labels ===
+TAB_TITLE_MANAGE_MODS   = "Manage Mods"
+LBL_HIDE_DISABLED       = "Hide Disabled"
+
+# === Loadouts Dropdown ===
+BTN_LOADOUTS = "Loadouts"
+TIP_LOADOUTS = (
+	"1.) Start by disabling all of your mods, then enable the mods you want for the new loadout.\n"
+	"2.) Click the save icon to save enabled mods as a loadout file.\n"
+	" - Saved loadouts can be switched from this dropdown at any time.\n"
+	" - In Manage All, each loadout row has rename, copy-file, and download icons.\n"
+	" - Use 'Import from file' to add loadouts from another JSON file.\n"
+	" - You can also delete/edit loadout info by clicking 'Manage All'."
+)
+LBL_LOADOUTS_HEADER_SAVED = "Saved Loadouts"
+LBL_LOADOUTS_EMPTY = "No loadouts"
+LBL_LOADOUTS_HEADER_MANAGE = "Manage"
+BTN_LOADOUT_MANAGER = "Loadout Manager"
+LBL_LOADOUTS_HEADER_QUICK_ACTIONS = "Quick Actions"
+BTN_IMPORT_LOADOUT_FILE = "Import Loadout File"
+BTN_IMPORT_DOWNLOAD_LOADOUT = "Import + Download Loadout"
+
 # === Search Bar ===
 SEARCH_PLACEHOLDER = "Search mods : {profile}"
 

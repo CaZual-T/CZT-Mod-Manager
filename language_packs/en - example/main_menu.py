@@ -46,6 +46,31 @@ TIP_BTN_UPDATE_CZT = (
 # Main tab labels
 LBL_PATH_MODE_MANUAL = "Manual"
 LBL_PATH_MODE_STEAM = "Steam"
+TAB_TITLE_MAIN_MENU = "Main Menu"
+
+# Main tab button/section labels
+LBL_PATH_MODES = "Path Modes"
+LBL_BTN_DETECT_STEAM = "Detect Steam"
+LBL_BTN_SAVE_CONFIG = "Save Config"
+LBL_BTN_SET_INSTALL_DIRECTORY = "Set Install Directory"
+LBL_BTN_SET_EXE_PATH = "Set EXE Path"
+LBL_BTN_LAUNCH_GAME = "Launch Game"
+LBL_BTN_BROWSE = "Browse"
+LBL_BTN_SETTINGS = "Settings"
+LBL_BTN_SETUP = "Setup"
+LBL_BTN_GUIDE = "Guide"
+LBL_BTN_DISCORD = "Discord"
+LBL_BTN_CLEAN = "Clean"
+LBL_BTN_DONATIONS = "Donations"
+
+# Main tab storage stats labels
+LBL_STORAGE_OVERVIEW = "[Storage Overview]"
+LBL_STATS_DISK_USAGE_TOTAL = "Disk Usage (total):"
+LBL_STATS_DISK_USAGE_PROFILE = "Disk Usage (profile):"
+LBL_STATS_MODS_ENABLED = "Mods Enabled:"
+LBL_STATS_MODS_DISABLED = "Mods Disabled:"
+LBL_STATS_CORRUPTED = "Corrupted:"
+LBL_STATS_UPDATES_AVAILABLE = "Updates Available:"
 
 # Main tab setup popup titles
 DLG_TITLE_CUSTOM_SETTINGS = "Custom Settings"
@@ -95,6 +120,13 @@ CLEAN_OPTIONS_APPLY = "Apply"
 CLEAN_OPTIONS_CANCEL = "Cancel"
 
 # First-time setup popup
+LBL_FTS_CREATE_ROOT = "Create Root"
+LBL_FTS_INSTALL_UNRAR = "Install UnRAR"
+LBL_FTS_NEXUS_API_KEY = "Nexus API Key"
+LBL_FTS_SAVE_KEY = "Save Key"
+LBL_FTS_SET_PATH = "Set Path"
+LBL_FTS_OPEN_ROOT = "Open Root"
+
 TIP_CREATE_ROOT = (
     "Click 'Create Root', Then select your preferred drive.\n"
     "CZT will AUTO create root folders and set source path."
@@ -120,6 +152,8 @@ SETTINGS_UI_TEXT = {
     # Group headers
     "General_Settings": "General Settings",
     "groupBox": "Advanced Settings",
+    "startupGroup_2": "Color Options",
+    "startupGroup_3": "Font Options",
     # General labels / checkboxes
     "generalUseDownloadsAsSourceCheckBox": "Use downloads folder as source.",
     "generalUseModsSourceAsSourceCheckBox": "Use mod_staging folder as source.",
@@ -154,6 +188,7 @@ SETTINGS_UI_TEXT = {
     "generalEnableSecondaryInstallSafetyCheckBox": "Enable secondary install safety.",
     "similaritySecondaryTokensLabel": "Secondary minimum token overlap:",
     "similaritySecondaryRatioLabel": "Secondary match ratio:",
+    "saveButton": "Save",
 }
 
 SETTINGS_HELP_TEXT = (
@@ -204,8 +239,8 @@ TIP_UPDATE_SCAN_CACHE_HOURS = (
 )
 
 TIP_SAVE_SETTINGS = (
-    "Save settings and apply changes immediately.\n"
-    " Note: Some font changes may require reopening this window."
+    "Save settings and apply changes.\n"
+    "> Note: Certain settings may require a restart to take full effect."
 )
 
 # Reset button tooltips
