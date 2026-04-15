@@ -1,8 +1,7 @@
-﻿## CZT Mod Manager v3.0.8.4
+## Version: 3.0.8.4
 
-- Tag: 3.0.8.4
 - Published: 2026-04-13
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.8.4
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.8.4
 
 - Fixed a crash that would occur on startup when "scan mods for updates on startup" was enabled.
 - Crash monitor logs will auto clear once they reach 2mb in size.
@@ -18,11 +17,10 @@
 
 ---
 
-## CZT Mod Manager v3.0.8.3
+## Version: 3.0.8.3
 
-- Tag: 3.0.8.3
 - Published: 2026-04-12
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.8.3
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.8.3
 
 - Updated language files.
    - Buttons, Sub Menus, and Popups all have custom language keys now.
@@ -34,11 +32,10 @@
 
 ---
 
-## CZT Mod Manager v3.0.8.2
+## Version: 3.0.8.2
 
-- Tag: 3.0.8.2
 - Published: 2026-04-11
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.8.2
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.8.2
 
 ⚠️ READ THIS If you're updating from 3.0.7.7 
 
@@ -57,11 +54,10 @@ Patch Notes:
 
 ---
 
-## CZT Mod Manager v3.0.8.0
+## Version: 3.0.8.0
 
-- Tag: 3.0.8.0
 - Published: 2026-04-10
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.8.0
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.8.0
 
 - improved version comparison.
   - Compares version + install date vs upload date. 
@@ -73,11 +69,10 @@ Patch Notes:
 
 ---
 
-## CZT Mod Manager v3.0.7.7
+## Version: 3.0.7.7
 
-- Tag: 3.0.7.7
 - Published: 2026-04-04
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.7.7
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.7.7
 
 - Hey...how ya doin...it's me again...with another update... 
 - Improved the "update scan".  Now it actually checks file versions and not just the overall mod page version.
@@ -85,11 +80,10 @@ Patch Notes:
 
 ---
 
-## CZT Mod Manager v3.0.7.6
+## Version: 3.0.7.6
 
-- Tag: 3.0.7.6
 - Published: 2026-04-04
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.7.6
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.7.6
 
 - Fixed a bug that was causing version mismatches when using the Manual Download button on nexus. (czt extension)
 - This issue was causing instant 'update available' flags in some cases even if the user just installed the mod. 
@@ -97,11 +91,10 @@ Patch Notes:
 
 ---
 
-## CZT Mod Manager v3.0.7.5
+## Version: 3.0.7.5
 
-- Tag: 3.0.7.5
 - Published: 2026-04-04
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.7.5
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.7.5
 
 - Fixed a bug that caused custom names to be overwritten when "auto download mods marked as 'update available' " was enabled.
 - Fixed F9 'missing mods from loadout detection' false positives.
@@ -114,11 +107,10 @@ Patch Notes:
 
 ---
 
-## CZT Mod Manager v3.0.7.2
+## Version: 3.0.7.2
 
-- Tag: 3.0.7.2
 - Published: 2026-04-02
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.7.2
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.7.2
 
 - Another fix for version comparison during scan. Found the main issue being that I was comparing against the nexus page version and not the actual file version.
 
@@ -134,11 +126,10 @@ Patch Notes:
 
 ---
 
-## CZT Mod Manager v3.0.7.1
+## Version: 3.0.7.1
 
-- Tag: 3.0.7.1
 - Published: 2026-04-02
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.7.1
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.7.1
 
 - HOTFIX:
   - Fixed a metadata sync issue that was happening when a user would update an existing mod. 
@@ -146,11 +137,10 @@ Patch Notes:
 
 ---
 
-## CZT Mod Manager v3.0.7
+## Version: 3.0.7
 
-- Tag: 3.0.7
 - Published: 2026-04-02
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.7
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.7
 
 - Refactored install logic:
   - Dying Light profiles: 
@@ -167,22 +157,20 @@ Patch Notes:
 
 ---
 
-## CZT Mod Manager v3.0.6.8
+## Version: 3.0.6.8
 
-- Tag: 3.0.6.8
 - Published: 2026-04-01
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.6.8
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.6.8
 
 - Fixed an error that was preventing CZT from creating a "Mods" folder when it was missing from the active profiles directory. (RoN, S1)
 - Added Xbox Games platform support for Ready or Not.
 
 ---
 
-## CZT Mod Manager v3.0.6.6
+## Version: 3.0.6.6
 
-- Tag: 3.0.6.6
 - Published: 2026-03-31
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.6.6
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.6.6
 
 - File selection prompts include main and optional categories. (in both download and loadout pins)
 - Fixed a bug that would cause custom display names to be overwritten when updating/validating a loadout.
@@ -202,22 +190,20 @@ Patch Notes:
 
 ---
 
-## CZT Mod Manager v3.0.6.5-beta
+## Version: 3.0.6.5-beta
 
-- Tag: 3.0.6.5-beta
 - Published: 2026-03-30
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.6.5-beta
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.6.5-beta
 
 - test build for czt nexus extension.
 - go to https://github.com/CaZual-T/CZT-Mod-Manager/tree/main/CZT_Extension for more info.
 
 ---
 
-## CZT Mod Manager v3.0.6.2
+## Version: 3.0.6.2
 
-- Tag: 3.0.6.2
 - Published: 2026-03-27
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.6.2
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.6.2
 
 - All download buttons now work for free users by instantly redirecting you to the mods download page.
   - Premium users can still remote download with one click of course.
@@ -226,11 +212,10 @@ Patch Notes:
 
 ---
 
-## CZT Mod Manager v3.0.6.1
+## Version: 3.0.6.1
 
-- Tag: 3.0.6.1
 - Published: 2026-03-27
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.6.1
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.6.1
 
 ### Updated API:
   - Using the "Mod Manager Download" button to download files on the nexus site will now automatically send the file directly to CZT to download & install.
@@ -275,11 +260,10 @@ Patch Notes:
 
 ---
 
-## CZT Mod Manager v3.0.6.0-beta
+## Version: 3.0.6.0-beta
 
-- Tag: 3.0.6.0-beta
 - Published: 2026-03-26
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.6.0-beta
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.6.0-beta
 
 - added in-app browser (replaced merge button)
    - DL users, if you used the merge, sorry, use the UTM plugin. 
@@ -296,21 +280,19 @@ Note: This version of CZT is a bit larger (139mb) than past versions due to the 
 
 ---
 
-## CZT Mod Manager v3.0.5.3-beta
+## Version: 3.0.5.3-beta
 
-- Tag: 3.0.5.3-beta
 - Published: 2026-03-25
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.5.3-beta
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.5.3-beta
 
 - Fixed a bug that would cause the wrong path to be set for the current profile at the time of running steam detection.
 
 ---
 
-## CZT Mod Manager v3.0.5.2-beta
+## Version: 3.0.5.2-beta
 
-- Tag: 3.0.5.2-beta
 - Published: 2026-03-25
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.5.2-beta
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.5.2-beta
 
 - New Controls (manager tab):
    - Backup/Restore.
@@ -338,11 +320,10 @@ Note: This version of CZT is a bit larger (139mb) than past versions due to the 
 
 ---
 
-## CZT Mod Manager v3.0.3
+## Version: 3.0.3-stable
 
-- Tag: 3.0.3-stable
 - Published: 2026-03-20
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.3-stable
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.3-stable
 
 - Module optimization.
    - Refactored the following functions:
@@ -356,11 +337,10 @@ Note: This version of CZT is a bit larger (139mb) than past versions due to the 
 
 ---
 
-## CZT Mod Manager v3.0.2.8-beta
+## Version: 3.0.2.8-beta
 
-- Tag: 3.0.2.8-beta
 - Published: 2026-03-20
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.2.8-beta
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.2.8-beta
 
 - testing, and feedback is appreciated.
 - backend module optimization.
@@ -374,11 +354,10 @@ Note: This version of CZT is a bit larger (139mb) than past versions due to the 
 
 ---
 
-## CZT Mod Manager v3.0.2.7
+## Version: 3.0.2.7
 
-- Tag: 3.0.2.7
 - Published: 2026-03-19
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.2.7
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.2.7
 
 - Fixed a bug that caused CZT to crash during install after in app downloads.
 - Implemented multi threaded actions:
@@ -397,11 +376,10 @@ Note: This version of CZT is a bit larger (139mb) than past versions due to the 
 
 ---
 
-## CZT Mod Manager v3.0.2.1 
+## Version: 3.0.2.1
 
-- Tag: 3.0.2.1
 - Published: 2026-03-17
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.2.1
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.2.1
 
 ### v3.0.2.1
 - Updated the dialogue on the install safety popup to be more direct.
@@ -425,11 +403,10 @@ Note: This version of CZT is a bit larger (139mb) than past versions due to the 
 
 ---
 
-## CZT Mod Manager v3.0.1.5
+## Version: 3.0.1.5
 
-- Tag: 3.0.1.5
 - Published: 2026-03-14
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.1.5
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.1.5
 
 ## Changes made in 3.0.0.1-3.0.1.5
 
@@ -466,11 +443,10 @@ Note: This version of CZT is a bit larger (139mb) than past versions due to the 
 
 ---
 
-## CZT Mod Manager V3
+## Version: 3.0
 
-- Tag: 3.0
 - Published: 2026-02-07
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0
 
 ### Main
 - Upgraded from PyQT5 to Pyside6 gui library.
@@ -508,11 +484,10 @@ Note: This version of CZT is a bit larger (139mb) than past versions due to the 
 
 ---
 
-## CZT Mod Manager v2.0.1.7
+## Version: 2.0.1.7
 
-- Tag: 2.0.1.7
 - Published: 2026-02-03
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/2.0.1.7
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/2.0.1.7
 
 ## Fixed
 - Fixed dead Discord invite link (Join Discord button).
@@ -564,11 +539,10 @@ Note: This version of CZT is a bit larger (139mb) than past versions due to the 
 
 ---
 
-## CZT Mod Manager 2.0
+## Version: 2.0
 
-- Tag: 2.0
 - Published: 2026-01-23
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/2.0
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/2.0
 
 ### IMPORTANT NOTES:
 Ready or Not users pre v2 (updated from v1.9.x.x):
@@ -619,22 +593,20 @@ All users pre  v2 (updated from v1.9.x.x)
 
 ---
 
-## hotfix-1.9.1.317
+## Version: 1.9.1.317
 
-- Tag: 1.9.1.317
 - Published: 2025-11-27
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.9.1.317
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.9.1.317
 
 - Fixed a bug that caused steam users to crash upon launching their selected game.
 - This was due to a small oversight during the testing of manual pathing. My fault.
 
 ---
 
-## CZT Mod Manager 1.9.1.316
+## Version: 1.9.1.316
 
-- Tag: 1.9.1.316
 - Published: 2025-11-26
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.9.1.316
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.9.1.316
 
 Added option for manual pathing.
 - This allows users to override the steam library pathing and set game paths for ANY platform. (EPIC Games, tactically acquired, etc)
@@ -648,11 +620,10 @@ New custom settings:
 
 ---
 
-## CZT Mod Manager 1.9.1.31
+## Version: 1.9.1.31
 
-- Tag: 1.9.1.31
 - Published: 2025-11-23
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.9.1.31
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.9.1.31
 
 - Added a launch elevation prompt. (this will only effect users that have perm issues with symlink @ game launch)
 - CZT will attempt to link when 'launch game' is pressed, if it fails due to a permission error, it will ask to relaunch CZT with admin perms.
@@ -664,11 +635,10 @@ New custom settings:
 
 ---
 
-## CZT Mod Manager 1.9.1.3
+## Version: 1.9.1.3
 
-- Tag: 1.9.1.3
 - Published: 2025-11-22
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.9.1.3
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.9.1.3
 
 - Fixed a bug that caused CZT to crash upon clicking the ‘select outdated’ button.
 - Fixed a bug that prevented users from being able to use ‘select outdated’ on folder based mods.
@@ -679,11 +649,10 @@ New custom settings:
 
 ---
 
-## CZT Mod Manager 1.9.1.0
+## Version: 1.9.1.0
 
-- Tag: 1.9.1.0
 - Published: 2025-11-21
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.9.1.0
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.9.1.0
 
 # Added the following features to the manage mods tab:
 - Search bar to easily jump to any mod.
@@ -695,11 +664,10 @@ New custom settings:
 
 ---
 
-## CZT Mod Manager 1.9.0.3
+## Version: 1.9.0.3
 
-- Tag: 1.9.0.3
 - Published: 2025-11-18
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.9.0.3
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.9.0.3
 
 - Updated launch logic to use steam app IDs.
 - Fixed "Steam client is required" popup at launch for all Dying Light games.
@@ -708,11 +676,10 @@ IMPORTANT: RUN "Load Steam Libraries" again so CZT can save steam.exe to your co
 
 ---
 
-## CZT Mod Manager 1.9.0.2
+## Version: 1.9.0.2
 
-- Tag: 1.9.0.2
 - Published: 2025-11-01
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.9.0.2
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.9.0.2
 
 - Separated the "update local info" checkbox logic in the manage tab.
 - Added individual checkbox for display name.
@@ -724,11 +691,10 @@ IMPORTANT: RUN "Load Steam Libraries" again so CZT can save steam.exe to your co
 
 ---
 
-## CZT Mod Manager 1.9.0.1
+## Version: 1.9.0.1
 
-- Tag: 1.9.0.1
 - Published: 2025-10-31
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.9.0.1
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.9.0.1
 
 [Creators]
 - I updated how CZT reads _mod_info.json for file base mods (.pak, .dll, .asi etc)
@@ -739,11 +705,10 @@ IMPORTANT: RUN "Load Steam Libraries" again so CZT can save steam.exe to your co
 
 ---
 
-## CZT Mod Manager 1.9.0
+## Version: 1.9.0
 
-- Tag: 1.9.0
 - Published: 2025-10-30
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.9.0
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.9.0
 
 [Manifest support]
 - Mod creators can now add _mod_info.json files inside their zipped folders to include a display name, current version number, and mod url information.
@@ -767,11 +732,10 @@ IMPORTANT: RUN "Load Steam Libraries" again so CZT can save steam.exe to your co
 
 ---
 
-## CZT Mod Manager 1.8.1
+## Version: 1.8.1
 
-- Tag: 1.8.1
 - Published: 2025-10-24
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.8.1
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.8.1
 
 - Added the ability to toggle mods individually. 
 - Disabling a mod within the manager tab prevents it from being loaded at launch.
@@ -806,11 +770,10 @@ IMPORTANT: RUN "Load Steam Libraries" again so CZT can save steam.exe to your co
 
 ---
 
-## CZT Mod Manager v1.8.0
+## Version: 1.8.0
 
-- Tag: 1.8.0
 - Published: 2025-10-20
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.8.0
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.8.0
 
 - Fully converted to PyQt5
 - Completed the conversion of all the remaining cTk elements/windows to PyQt5. 
@@ -833,11 +796,10 @@ IMPORTANT: RUN "Load Steam Libraries" again so CZT can save steam.exe to your co
 
 ---
 
-## CZT Mod Manager 1.7.1.3
+## Version: 1.7.1.3
 
-- Tag: 1.7.1.3
 - Published: 2025-10-17
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.7.1.3
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.7.1.3
 
 - Added Dying Light 1 Support.
 - Added actual nexus names for data.pak style mods. Now it will display in ui as data.pak (Mod_Name)
@@ -864,11 +826,10 @@ IMPORTANT: RUN "Load Steam Libraries" again so CZT can save steam.exe to your co
 
 ---
 
-## CZT Mod Manager 1.6.5.3
+## Version: 1.6.5.3
 
-- Tag: 1.6.5.3
 - Published: 2025-09-29
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.6.5.3
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.6.5.3
 
 - Rebuilt my drive, path, and steam library detection.
 - Optimized method used to find .exe and other custom pathways
@@ -889,11 +850,10 @@ IMPORTANT: RUN "Load Steam Libraries" again so CZT can save steam.exe to your co
 
 ---
 
-## CZT Mod Manager 1.6.1
+## Version: 1.6.1
 
-- Tag: 1.6.1
 - Published: 2025-09-26
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.6.1
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.6.1
 
 - Fixed mod preview images going blank when refreshing. 
 - Added mod merge functionality for dying light games
@@ -905,11 +865,10 @@ IMPORTANT: RUN "Load Steam Libraries" again so CZT can save steam.exe to your co
 
 ---
 
-## CZT Mod Manager 1.5.5
+## Version: 1.5.5
 
-- Tag: 1.5.5
 - Published: 2025-09-17
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.5.5
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.5.5
 
 - Converted Install Popup (and others from cTk to PyQt5) PyQt handles long lists and overall heavy gui better.
 - Fixed an issue that was preventing the nexus link from saving and loading persistently on some profiles.
@@ -930,11 +889,10 @@ A few other things but its 5:45am and my brain hurts lol
 
 ---
 
-## CZT Mod Manager 1.5.0
+## Version: 1.5.0
 
-- Tag: 1.5.0
 - Published: 2025-09-13
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.5.0
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.5.0
 
 - Rebuilt mod manager window. Converted from cTk to PyQt5. This helped with lag issues when scrolling long lists of mods.
 - Added Local and New version labels to mod manager window.
@@ -951,11 +909,10 @@ A few other things but its 5:45am and my brain hurts lol
 
 ---
 
-## CZT Mod Manager v1.0.4
+## Version: 1.0.4
 
-- Tag: 1.0.4
 - Published: 2025-08-22
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.0.4
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.0.4
 
 - Fixed launch failure
 - Fixed false av flags.
@@ -967,11 +924,10 @@ Note: there is still one flag on virus total. This is probably due to this tools
 
 ---
 
-## CZT Mod Installer v1.0.2
+## Version: 1.0.2
 
-- Tag: 1.0.2
 - Published: 2025-08-17
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.0.2
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.0.2
 
 - Ui Rework
 - Fixed a backend issue where profiles werent properly filtering pak and dlls based on true / false arg.
@@ -989,11 +945,10 @@ Added:
 
 ---
 
-## CZT Mod Installer v1.0
+## Version: 1.0.0
 
-- Tag: 1.0.0
 - Published: 2025-08-16
-- URL: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.0.0
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.0.0
 
 Initial Release.
 
