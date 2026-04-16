@@ -1,3 +1,12 @@
+## Version: 3.0.8.5
+
+- Published: 2026-04-15
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.8.5
+
+- Changelog will read from the new patch notes file on the github page instead of the release description.
+- New settings for fonts and color options.
+- Centralized custom options module (more v3.1 prep, nothing you'll notice on the outside)
+
 ## Version: 3.0.8.4
 
 - Published: 2026-04-13
