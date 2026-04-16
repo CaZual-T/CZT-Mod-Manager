@@ -6,6 +6,9 @@
 - Centralized custom options module (more v3.1 prep, nothing you'll notice on the outside)
 - New settings for font and color options.
 - Migrated czt patch notes from release descriptions to the new [patch notes](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/patch_notes.md) file.
+- Updated [language files](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main/language_packs).
+   - Main Menu buttons
+   - Color/Font buttons 
 
 ## Version: 3.0.8.4
 
