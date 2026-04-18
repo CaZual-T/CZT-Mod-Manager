@@ -7,3 +7,6 @@
     - native name of the language, e.g., 'Español', 'Deutsch', 'Français', 'Русский'. (This is what appears within the settings drop down menu)
   - LANGUAGE_CODE = "en"
     - language code (e.g., 'es', 'de', 'fr', 'ru'). IMPORTANT: This should match the languages folder name. This can be anything you want as long as it's consistent with the folder name.
+
+
+Useful Tools for updating your language files - [WinMerge](https://winmerge.org/?lang=en)
