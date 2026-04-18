@@ -9,4 +9,4 @@
     - language code (e.g., 'es', 'de', 'fr', 'ru'). IMPORTANT: This should match the languages folder name. This can be anything you want as long as it's consistent with the folder name.
 
 
-Useful Tool for updating your language files - [WinMerge](https://winmerge.org/?lang=en)
+Useful tool for updating your language files - [WinMerge](https://winmerge.org/?lang=en)
