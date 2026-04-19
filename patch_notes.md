@@ -1,3 +1,11 @@
+## Version: 3.0.8.6-beta
+
+- Published: 2026-04-19
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.8.6-beta
+
+- update flags
+- nexus api v3 for update scans. 
+
 ## Version: 3.0.8.5
 
 - Published: 2026-04-15
