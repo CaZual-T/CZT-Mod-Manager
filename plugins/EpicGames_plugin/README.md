@@ -7,3 +7,6 @@
   - Select pathing mode: Epic Games
   - Press CTRL+E (wait a few seconds...)
   - Your epic games paths should now be saved and usable within CZT!
+
+
+⚠️ Limited testing has went into the epic games plugin. I only tested on Dying Light 1.
