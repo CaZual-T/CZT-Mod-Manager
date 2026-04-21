@@ -1,3 +1,21 @@
+## Version: 3.0.9.0
+
+- Published: 2026-04-20
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.9.0
+
+- fixed the buttons on the 'restore backup' delete backup popup.
+- fixed an issue that caused category names to not be applied upon download.
+   - note: update scans will backfill missing metadata.
+- fixed spinboxes in custom settings.
+- misc custom setting improvements related to font and color options.
+   - live language, font, and color previews.
+- fixed a bug that caused the music volume slider to fallback to defaults when set to 0%.
+   - music slider will adjust the volume in realtime.
+
+- migrated to nexus api v3 for update scans.
+   - significantly more accurate.
+   - tracks the files direct version instead of comparing to the overall page version.
+
 ## Version: 3.0.8.5
 
 - Published: 2026-04-15
