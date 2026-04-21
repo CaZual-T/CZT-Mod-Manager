@@ -52,7 +52,7 @@ TAB_TITLE_MAIN_MENU = "Main Menu"
 LBL_PATH_MODES = "Path Modes"
 LBL_BTN_DETECT_STEAM = "Detect Steam"
 LBL_BTN_SAVE_CONFIG = "Save Config"
-LBL_BTN_SET_INSTALL_DIRECTORY = "Set Install Directory"
+LBL_BTN_SET_INSTALL_DIRECTORY = "Set Install Path"
 LBL_BTN_SET_EXE_PATH = "Set EXE Path"
 LBL_BTN_LAUNCH_GAME = "Launch Game"
 LBL_BTN_BROWSE = "Browse"
@@ -159,6 +159,7 @@ SETTINGS_UI_TEXT = {
     "startupGroup_3": "Font Options",
     # Color button labels
     "groupBoxBorderColorBtn": "Log Box Border Color",
+    "logBoxBackgroundColorBtn": "Log Box Background Color",
     "storageOverviewBorderColorBtn": "Storage Overview Border",
     "lineSeparatorColorBtn": "Line Separator Color",
     "selectedModBorderColorBtn": "Selected Mod Border Color",
@@ -233,6 +234,10 @@ SETTINGS_UI_TEXT = {
     "customFontLabelsBtn": "Mod List Font",
     "customFontTooltipBtn": "Tooltip Font",
     "customFontCbBtn": "Checkbox Font",
+    "customFontButtonBtn": "Button Font",
+    "customFontMainMenuVerticalButtonsBtn": "Main Menu Left Btns Font",
+    "customFontMainMenuTopButtonsBtn": "Main Menu Top Btns Font",
+    "customFontManageTabButtonsBtn": "Manage Tab Btns Font",
     # General labels / checkboxes
     "generalUseDownloadsAsSourceCheckBox": "Use downloads folder as source.",
     "generalUseModsSourceAsSourceCheckBox": "Use mod_staging folder as source.",
