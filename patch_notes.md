@@ -14,7 +14,7 @@
 
 - migrated to nexus api v3 for update scans.
    - significantly more accurate.
-   - tracks the files direct version instead of comparing to the overall page version.
+   - tracks file ID and direct file version instead of comparing to the overall page version.
 
 ## Version: 3.0.8.5
 
