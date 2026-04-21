@@ -1,3 +1,15 @@
+## Version: 3.0.9.1
+
+- Published: 2026-04-21
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.9.1
+
+- Updated language files for the following:
+   - Load order menu.
+   - Plugins menu.
+   - Mod manger tab info.
+   - Mod entry popup.
+- Fixed a few areas where text was clipping behind other ui elements.
+
 ## Version: 3.0.9.0
 
 - Published: 2026-04-20
