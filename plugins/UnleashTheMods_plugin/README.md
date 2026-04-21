@@ -7,9 +7,11 @@
 
 # How to use:
 - Install mods like usual.
-- Go to manage tab, Press F3 to open the plugin manager
+- Open manage tab.
+- Select files you want to merge.
+- Press F3 to open the plugin manager
   - 1st time use setup > ensure 'run at startup' is unchecked> save.
 - Run UTM
   - The UTM cmd window will appear.
-- Once completed, you will see your meged file as data7.pak. Delete the old mod files. (done)
+- Once completed, you will see your merged file as data7.pak. Delete the old mod files. (done)
 
