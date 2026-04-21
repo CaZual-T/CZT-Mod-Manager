@@ -14,4 +14,3 @@
 - Run UTM
   - The UTM cmd window will appear.
 - Once completed, you will see your merged file as data7.pak. Delete the old mod files. (done)
-
