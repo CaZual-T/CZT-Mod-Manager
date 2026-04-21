@@ -91,8 +91,6 @@ Patch Notes:
 - Published: 2026-04-10
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.8.0
 
-- improved version comparison.
-  - Compares version + install date vs upload date. 
 - improved install/extract process for loadout installs.
 - fixed a crash that would occur when more than 75+ mods were installed at once.
 - restructured czt root file system.
@@ -105,10 +103,6 @@ Patch Notes:
 
 - Published: 2026-04-04
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.7.7
-
-- Hey...how ya doin...it's me again...with another update... 
-- Improved the "update scan".  Now it actually checks file versions and not just the overall mod page version.
-- Anyways, have a good weekend ... x_X
 
 ---
 
@@ -143,18 +137,6 @@ Patch Notes:
 
 - Published: 2026-04-02
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.7.2
-
-- Another fix for version comparison during scan. Found the main issue being that I was comparing against the nexus page version and not the actual file version.
-
-- This would lead to mixed versions sometimes if a mod creator chose to not update the actual page version when they uploaded a new file version.
-
-- NOTE: Users 3.0.7.1 and back...Yall are gonna hate me after you run that update scan again 😅 
-  - You WILL have false positives at first. 
-  - You will need to re-install those select mods to make the update flag disappear.
-  - I apologize for this inconvenience. 
-  - Premium nexus users i recommend enabling "auto download mods flagged" in your settings before running the scan.
-
-- Once you're done that's it. Just a one time 'resync' essentially.
 
 ---
 
@@ -525,7 +507,6 @@ Note: This version of CZT is a bit larger (139mb) than past versions due to the 
 - Fixed dead Discord invite link (Join Discord button).
 - Fixed toggle state and config sync for “Run at Startup” scripts.
 - Fixed crashes when root/config didn’t exist (Save Config / Launch Game).
-- Fixed CZT version comparison (now checks full numeric value).
 - Improved Steam detection depth (now 5 folders).
 
 ## Plugin System
