@@ -38,7 +38,7 @@
    - Its IMPOSSIBLE for windows explorer to move files to an app with higher permissions. This is a windows limitation.
      - That is also why CZT detect archive files in your downloads folders so you can skip the dnd and simply install.
     
-### A mod i have installed has an update available butCZT isnt flagging it,
+### "A mod i have installed has an update available butCZT isnt flagging it"
   - This happens when creators upload a new version of a mod but didnt use/update the exisiting file.
     - When uploading to a mod page, users can choose to upload a new file, or update an existing one.
       - If they uploaded a new one instead of updating an existing one it breaks the file_id branch.
