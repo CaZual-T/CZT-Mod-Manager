@@ -14,3 +14,10 @@
 - Run UTM
   - The UTM cmd window will appear.
 - Once completed, you will see your merged file as data7.pak. Delete the old mod files. (done)
+
+
+
+Working as of 4/25/2026 - CZT v3.0.9.1
+- This will not be updated past this point. 
+- 0 interest in improving it. 
+- Theres literally 50 different mergers for dying light now. Just a bunch of clones. Use one of them. 
