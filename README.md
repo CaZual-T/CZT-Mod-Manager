@@ -21,8 +21,7 @@
 - 🟡 Merge Utility: Combine multiple .paks into one. (limited to dying light games)
   - ↳ Download the [UTM plugin](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/plugins/UnleashTheMods_plugin/UTM_plugin.rar). 
 - 🚫 Does NOT support Linux.</br>
-
-
+#
 # Common errors w/ solutions:
 ### [WinError 3] Permission Denied at launch.
 - ENABLE DEVELOPER MODE.
@@ -37,9 +36,15 @@
 ### "I cant drag and drop downloaded mods into CZT"
 - That will happen when CZT is running as Admin.
    - Its IMPOSSIBLE for windows explorer to move files to an app with higher permissions. This is a windows limitation.
-     - That is also why CZT detect archive files in your downloads folders so you can skip the dnd and simply install.﻿
-
-
+     - That is also why CZT detect archive files in your downloads folders so you can skip the dnd and simply install.
+    
+### A mod i have installed has an update available butCZT isnt flagging it,
+  - This happens when creators upload a new version of a mod but didnt use/update the exisiting file.
+    - When uploading to a mod page, users can choose to upload a new file, or update an existing one.
+      - If they uploaded a new one instead of updating an existing one it breaks the file_id branch.
+      - Theres no real fix for this other than to manually download from nexus, and hope the creator doesnt keep updating incorrectly.
+      - I could make it compare against mod page version, or when a new file is uploaded, but that is messy and leads to false positives.
+#
 # Install/Setup Instructions:
 >[!TIP]
 >- Almost every ui element has a tooltip. Hover over buttons and drop downs etc to see them.
@@ -95,8 +100,7 @@
 
   - Alternatively you can use manual pathing and follow the instructions in the log box.
 ###
-
-
+#
 # How to install mods (NEW USER):
 🟡 OPTION 1:
   - First time users with mods already installed at default locations... </br>
@@ -111,7 +115,7 @@
  🟢 OPTION 2:
   - Delete all of your current mods.
   - Redownload using the steps below. 
-
+#
 # How to install new mods (normal):
 1.) Download mods on the nexus site using the "Mod Manager Download" button.
   - If the mod manager download button is missing, download the [czt extension](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main/CZT_Extension) and use the manual download button.
@@ -128,7 +132,7 @@
 > - You only have to launch with CZT when you install new mods, or enable/disable mods using the toggle switches within CZT.
 > - If your mod list hasn't changed, then you dont have to launch with CZT every single time you play.
 > - CZT supports drag and drop on the main menus far right panel. (unless running as admin, view faq at the top)
-
+#
 # Updating Mods
 - Click the download arrow next to the mod in grid view.
   <img width="1068" height="55" alt="image" src="https://github.com/user-attachments/assets/6e922b50-1afa-43cd-bd0f-463e85ebfdb8" />
@@ -141,7 +145,7 @@
        - When downloading mods that you already have installed, use the mod manger download button.
        - If the mod manger download button doesnt exist, get the czt extension and use the 'manual download' button.
          - Both methods will trigger CZT to run the install process and automatically apply updated metadata.   
-
+#
 # Manage Mods tab basic controls (left to right):
 <img width="1094" height="39" alt="image" src="https://github.com/user-attachments/assets/620b4def-f476-4855-aa6a-e238f9c73092" />
 
@@ -183,8 +187,7 @@
 
 ### [Update Mod Info] (legacy - still works as a fallback)
   - Right click a mod, enter its nexus url or just the ID, click save.
-
-  
+#
 # Global Hotkeys
     [HOTKEY CONTROLS]
         > F2           : Open Load Order Menu.
@@ -196,8 +199,7 @@
         > Ctrl+Shift+L : Initiate a missile launch.
         > Ctrl+Shift+S : Launch debug console.
         > Ctrl+Alt+P   : Open paypal donation page.
-
-
+#
 # Plugins (Deprecated)
 - Place plugins in:
   - CZT Mod Manager/plugins/exe_standalone/>here<
