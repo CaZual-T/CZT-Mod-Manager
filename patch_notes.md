@@ -1,5 +1,5 @@
 ## Version: 3.0.9.2
-
+ 
 - Published: 2026-05-01
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.9.2
 
