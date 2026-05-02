@@ -1,3 +1,11 @@
+## Version: 3.0.9.2
+
+- Published: 2026-05-01
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.9.2
+
+- Added progress bar to App update process
+- Added progress bar to 'Auto download mods flagged as update available' (swear i did this before lol)
+
 ## Version: 3.0.9.1
 
 - Published: 2026-04-21
