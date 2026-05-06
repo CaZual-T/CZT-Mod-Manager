@@ -1,12 +1,11 @@
-- Extract to "CZT Mod Manager\plugins\scripts\EpicGames"
+- Extract to "CZT Mod Manager\plugins\EpicGames"
   - Start CZT, then press F3
-    - Enable Globally, Enable Run at Startup, Save.
+    - Enable Globally, Enable Run at Startup.
   - Click 'Run' next to the plugins entry in the F3 plugin menu.
   - Close that window.
   - Select the profile that you need epic for. (from the drop down in the main menu)
   - Select pathing mode: Epic Games
   - Press CTRL+E (wait a few seconds...)
   - Your epic games paths should now be saved and usable within CZT!
-
 
 ⚠️ Limited testing has went into the epic games plugin. I only tested on Dying Light 1.
