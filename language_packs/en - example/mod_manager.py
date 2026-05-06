@@ -104,6 +104,14 @@ BTN_RESTORE_SELECTED            = "Restore Selected"
 MSG_RESTORED_WITH_ERRORS        = "Restored {restored} mod(s), but {errors} error(s) occurred."
 MSG_RESTORED_OK                 = "Restored {restored} mod file(s)."
 
+# === Toggle/Log Messages ===
+LOG_TYPE_DISABLED               = "[{mod_type}] Disabled {count} mod(s)"
+LOG_TYPE_ENABLED                = "[{mod_type}] Enabled {count} mod(s)"
+LOG_MOD_LIST_ITEM               = "  - {mod_name}"
+LOG_DISABLE_TOTAL               = "[DISABLE] Disabled {count} mod(s) successfully."
+LOG_DISABLE_FAILED_ITEM         = "[{mod_type}] Failed to disable mod {mod_name}: {error}"
+LOG_ENABLE_FAILED_ITEM          = "[{mod_type}] Failed to enable mod {mod_name}: {error}"
+
 # === Mod Links ===
 MSG_NO_MOD_LINKS        = "No mod links found to open."
 MSG_CONFIRM_OPEN_LINKS  = "Open links for {count} selected mod(s)?"

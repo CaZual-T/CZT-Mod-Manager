@@ -66,10 +66,10 @@ LBL_BTN_DONATIONS = "Donations"
 # Main tab storage stats labels
 LBL_STORAGE_OVERVIEW = "[Storage Overview]"
 LBL_STATS_DISK_USAGE_TOTAL = "Disk Usage (total):"
-LBL_STATS_DISK_USAGE_PROFILE = "Disk Usage (profile):"
+LBL_STATS_DISK_USAGE_ENABLED = "Disk Usage (enabled):"
+LBL_STATS_DISK_USAGE_DISABLED = "Disk Usage (disabled):"
 LBL_STATS_MODS_ENABLED = "Mods Enabled:"
 LBL_STATS_MODS_DISABLED = "Mods Disabled:"
-LBL_STATS_CORRUPTED = "Corrupted:"
 LBL_STATS_UPDATES_AVAILABLE = "Updates Available:"
 
 # Main tab setup popup titles
@@ -108,6 +108,14 @@ LOG_LINK_MODS_JUNCTION_DISABLED = "[LINK] Disabled Mods junction: {path}"
 LOG_LINK_MODS_SYMLINK_DISABLED = "[LINK] Disabled Mods symlink: {path}"
 LOG_LINK_MODS_SYMLINK_REMOVE_FAILED = "[LINK] Could not remove Mods symlink: {error}"
 LOG_CLEAN_PROFILE_LINKS_REMOVED = "[CLEAN] Removed existing symlinks for profile '{profile_name}'."
+LOG_CLEAN_EXE_TYPE_LINKS_REMOVED = "[{mod_type}] Unlinked {count} mod(s)."
+LOG_CLEAN_TYPE_SYMLINKS_REMOVED = "[{mod_type}] Unlinked {count} mod(s)."
+LOG_CLEAN_PER_FILE_REMOVE_FAILED_SUMMARY = "[CLEAN] Failed to remove {count} mod symlink(s)."
+LOG_CLEAN_PER_FOLDER_LINKS_REMOVED = "[PER-FOLDER] Unlinked {count} mod(s)."
+LOG_CLEAN_PER_FOLDER_REMOVE_FAILED_SUMMARY = "[CLEAN] Failed to remove {count} mod folder link(s)."
+LOG_CLEAN_ERRORS_OMITTED = "[CLEAN] ...and {count} more error(s)."
+LOG_CLEAN_CONTENT_LINKS_REMOVE_FAILED = "[CLEAN] Could not remove content mod links: {error}"
+LOG_CLEAN_PROFILE_LINKS_REMOVED_SUMMARY = "[CLEAN] Removed {count} existing link(s) for profile '{profile_name}'."
 
 # Clean options popup
 DLG_TITLE_CLEAN_OPTIONS = "Cleaning Options"
