@@ -1,0 +1,10 @@
+{
+    "manifest_version": 1,
+    "id": "czt.epicgames",
+    "name": "Epic Games Path Resolver",
+    "version": "2.0.0",
+    "author": "CaZual_T",
+    "description": "Adds an 'Epic Games' path mode + Shift+E hotkey that scans local drives for Epic manifests and auto-resolves the active profile's exe + install path.",
+    "entry": "plugin.py",
+    "ui": true
+}
