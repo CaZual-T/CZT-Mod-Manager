@@ -1,0 +1,10 @@
+{
+    "manifest_version": 1,
+    "id": "czt.unleashthemods",
+    "name": "Unleash The Mods Merger",
+    "version": "2.0.0",
+    "author": "CaZual_T",
+    "description": "Runs the UnleashTheMods .NET merger on the currently checked mods, then refreshes the mod list when the EXE finishes.",
+    "entry": "plugin.py",
+    "ui": true
+}
