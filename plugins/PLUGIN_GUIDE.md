@@ -1,4 +1,4 @@
-# CZT Plugin API v2 — Author Guide
+# CZT Plugin API v2 — Creator Guide
 
 ## Plugin layout
 
