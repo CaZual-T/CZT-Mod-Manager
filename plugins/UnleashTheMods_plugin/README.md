@@ -3,14 +3,15 @@
 - Click the link then click the download button top right (see image below)
  <img width="266" height="77" alt="image" src="https://github.com/user-attachments/assets/7e7282fa-d386-4394-a339-3fe157f3a66a" />
 
-2: Put the UTM_plugin FOLDER in CZT Mod Manager/plugins/scripts </br>
+2: Put the UTM_plugin FOLDER in CZT Mod Manager/plugins
 
 # How to use:
 - Install mods like usual.
 - Open manage tab.
 - Select files you want to merge.
 - Press F3 to open the plugin manager
-  - 1st time use setup > ensure 'run at startup' is unchecked> save.
+  - Load UTM
+- Click the plugins drop down in the top right of CZT
 - Run UTM
   - The UTM cmd window will appear.
 - Once completed, you will see your merged file as data7.pak. Delete the old mod files. (done)
