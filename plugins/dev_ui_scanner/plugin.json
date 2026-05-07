@@ -1,0 +1,10 @@
+{
+    "manifest_version": 1,
+    "id": "czt.dev.ui_scanner",
+    "name": "[Dev] UI Layout Scanner",
+    "version": "2.0.0",
+    "author": "CaZual_T",
+    "description": "Developer aid: opens a tree view of the main window's widget/layout hierarchy. Re-opens with Shift+U.",
+    "entry": "plugin.py",
+    "ui": true
+}
