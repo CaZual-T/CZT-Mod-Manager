@@ -62,6 +62,8 @@ LBL_BTN_GUIDE = "Guide"
 LBL_BTN_DISCORD = "Discord"
 LBL_BTN_CLEAN = "Clean"
 LBL_BTN_DONATIONS = "Donations"
+LBL_BTN_PATCH_NOTES = "Patch Notes"
+TIP_BTN_PATCH_NOTES = "View CZT Mod Manager patch notes and check for updates."
 
 # Main tab storage stats labels
 LBL_STORAGE_OVERVIEW = "[Storage Overview]"
