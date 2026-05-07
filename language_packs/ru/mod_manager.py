@@ -1,0 +1,160 @@
+# Вкладка Mod Manager - Русские строки
+
+# === Подсказки кнопок ===
+TIP_SELECT_ALL          = "Выбрать все моды"
+TIP_TOGGLE_ALL          = "Включить/Выключить все моды"
+TIP_QUICK_SAVE          = "Сохранить включенные моды как лоадаут"
+TIP_RESTORE_BACKUP      = "Восстановить из списка резервных копий"
+TIP_SCAN_UPDATES        = "Проверить все моды на обновления"
+TIP_BROWSE_NEXUS        = "Открыть Nexus Mods для этой игры"
+TIP_DISABLE             = "Отключить выбранные моды"
+TIP_RESTORE_DISABLED    = "Восстановить отключенные моды"
+TIP_DELETE              = "Удалить выбранные моды"
+TIP_CREATE_BACKUP       = "Создать резервную копию модов и/или mods_list.json."
+TIP_HIDE_DISABLED       = "Скрыть отключенные моды из списка/сетки"
+TIP_VIEW_LIST           = "Вид списком"
+TIP_VIEW_GRID           = "Вид сеткой"
+
+# === Подписи главной вкладки ===
+TAB_TITLE_MANAGE_MODS   = "Управление модами"
+LBL_HIDE_DISABLED       = "Скрыть отключенные"
+
+# === Выпадающий список лоадаутов ===
+BTN_LOADOUTS = "Лоадауты"
+TIP_LOADOUTS = (
+	"1.) Начните с отключения всех модов, затем включите те, которые хотите для нового лоадаута.\n"
+	"2.) Нажмите иконку сохранения, чтобы сохранить включенные моды в файл лоадаута.\n"
+	" - Сохраненные лоадауты можно переключать из этого списка в любое время.\n"
+	" - В Manage All у каждой строки лоадаута есть иконки переименования, копирования файла и загрузки.\n"
+	" - Используйте 'Import from file', чтобы добавить лоадауты из другого JSON-файла.\n"
+	" - Вы также можете удалять/редактировать информацию лоадаута через 'Manage All'."
+)
+LBL_LOADOUTS_HEADER_SAVED = "Сохраненные лоадауты"
+LBL_LOADOUTS_EMPTY = "Нет лоадаутов"
+LBL_LOADOUTS_HEADER_MANAGE = "Управление"
+BTN_LOADOUT_MANAGER = "Менеджер лоадаутов"
+LBL_LOADOUTS_HEADER_QUICK_ACTIONS = "Быстрые действия"
+BTN_IMPORT_LOADOUT_FILE = "Импорт файла лоадаута"
+BTN_IMPORT_DOWNLOAD_LOADOUT = "Импорт + загрузка лоадаута"
+
+# === Поиск ===
+SEARCH_PLACEHOLDER = "Поиск модов : {profile}"
+
+# === Сортировка / Фильтр ===
+TIP_SORT_BY_MOD_NAME    = "Сортировать по имени мода"
+TIP_SORT_BY_CREATOR     = "Сортировать по автору"
+BTN_SORT_FILTER         = "Сортировка/Фильтр"
+
+SORT_SECTION_DISPLAY_NAME   = "Отображаемое имя"
+SORT_AZ_DISPLAY_NAME        = "Отображаемое имя A-Z"
+SORT_ZA_DISPLAY_NAME        = "Отображаемое имя Z-A"
+
+SORT_SECTION_CREATOR    = "Автор"
+SORT_AZ_CREATOR         = "Автор A-Z"
+SORT_ZA_CREATOR         = "Автор Z-A"
+
+SORT_SECTION_CATEGORY   = "Категория"
+SORT_AZ_CATEGORY        = "Категория A-Z"
+SORT_ZA_CATEGORY        = "Категория Z-A"
+
+SORT_SECTION_STATUS         = "Статус"
+SORT_FAVORITES              = "Избранное (сверху)"
+SORT_UPDATES_AVAILABLE      = "Доступны обновления (сверху)"
+SORT_MOD_HIDDEN             = "Скрытые моды (сверху)"
+SORT_MOD_REMOVED            = "Удаленные моды (сверху)"
+SORT_CORRUPTED              = "Поврежденные (сверху)"
+SORT_ENABLED                = "Включенные (сверху)"
+SORT_DISABLED               = "Отключенные (сверху)"
+
+SORT_SECTION_FILE_SIZE  = "Размер файла"
+SORT_SMALLEST           = "Сначала меньшие"
+SORT_LARGEST            = "Сначала большие"
+
+SORT_SECTION_INSTALL_DATE   = "Дата установки"
+SORT_NEW_TO_OLD             = "С новых к старым (время установки)"
+SORT_OLD_TO_NEW             = "Со старых к новым (время установки)"
+
+# === Диалог удаления модов ===
+DLG_DELETE_TITLE            = "Удалить ({count}) мод(ов)?"
+BTN_YES_DELETE              = "Да, удалить"
+BTN_CANCEL                  = "Отмена"
+MSG_NO_MODS_SELECTED_DELETE = "Не выбраны файлы модов для удаления."
+MSG_ENABLED_MODS_SKIPPED    = "Включенные моды были пропущены, потому что включена опция 'Защищать включенные моды от удаления'."
+MSG_MODS_DIR_NOT_FOUND      = "Папка модов не найдена. Укажите корректную корневую папку."
+
+# === Удаление одного мода ===
+DLG_DELETE_MOD_TITLE        = "Удалить мод"
+MSG_CONFIRM_DELETE_MOD      = "Удалить этот мод?\n{filename}"
+
+# === Отключение модов ===
+MSG_NO_MODS_SELECTED_DISABLE    = "Не выбраны файлы модов для отключения."
+DLG_DISABLE_TITLE               = "Отключить моды"
+MSG_CONFIRM_DISABLE             = "Вы уверены, что хотите отключить выбранные моды?"
+MSG_DISABLED_WITH_ERRORS        = "Отключено {moved} мод(ов), но произошло ошибок: {errors}."
+MSG_DISABLED_OK                 = "Отключено файлов модов: {moved}."
+
+# === Диалог восстановления отключенных модов ===
+MSG_NO_DISABLED_FOLDER          = "Папка отключенных модов не найдена."
+MSG_NO_MODS_TO_RESTORE          = "В папке отключенных нет модов для восстановления."
+DLG_RESTORE_TITLE               = "Восстановить отключенные моды"
+LBL_RESTORE_CONFIRM             = "Восстановить эти моды?"
+BTN_SELECT_ALL                  = "Выбрать все"
+BTN_DESELECT_ALL                = "Снять выбор"
+BTN_RESTORE_SELECTED            = "Восстановить выбранные"
+MSG_RESTORED_WITH_ERRORS        = "Восстановлено {restored} мод(ов), но произошло ошибок: {errors}."
+MSG_RESTORED_OK                 = "Восстановлено файлов модов: {restored}."
+
+# === Сообщения Toggle/Log ===
+LOG_TYPE_DISABLED               = "[{mod_type}] Отключено {count} мод(ов)"
+LOG_TYPE_ENABLED                = "[{mod_type}] Включено {count} мод(ов)"
+LOG_MOD_LIST_ITEM               = "  - {mod_name}"
+LOG_DISABLE_TOTAL               = "[DISABLE] Успешно отключено {count} мод(ов)."
+LOG_DISABLE_FAILED_ITEM         = "[{mod_type}] Не удалось отключить мод {mod_name}: {error}"
+LOG_ENABLE_FAILED_ITEM          = "[{mod_type}] Не удалось включить мод {mod_name}: {error}"
+
+# === Ссылки модов ===
+MSG_NO_MOD_LINKS        = "Ссылки модов для открытия не найдены."
+MSG_CONFIRM_OPEN_LINKS  = "Открыть ссылки для {count} выбранных мод(ов)?"
+MSG_OPEN_LINKS_INFO     = "Будет открыто вкладок браузера: {count}."
+
+# === Окно информации о моде ===
+TIP_REFRESH_NEXUS       = "Обновить данные Nexus и перекачать изображение"
+TIP_DOWNLOAD_NEXUS      = "Скачать последний файл с Nexus"
+BTN_CHECK_FOR_UPDATE    = "Проверить обновление"
+DLG_TITLE_EDIT_MOD_ENTRY = "Редактирование записи мода"
+LBL_EDIT_NAME           = "Название:"
+LBL_EDIT_CREATOR        = "Автор:"
+LBL_EDIT_FILE           = "Файл:"
+LBL_EDIT_SIZE           = "Размер:"
+LBL_EDIT_VERSION        = "Версия:"
+LBL_EDIT_INSTALL_DATE   = "Дата установки:"
+LBL_EDIT_STATUS         = "Статус:"
+LBL_EDIT_DISPLAY_NAME   = "Отображаемое имя"
+LBL_EDIT_NEXUS_ID_URL   = "ID или URL мода Nexus"
+BTN_SAVE                = "Сохранить"
+FMT_LOCAL_LATEST        = "Локальная: {local_version} | Последняя: {latest_version}"
+LBL_STATUS_ENABLED      = "Включен"
+LBL_STATUS_DISABLED     = "Отключен"
+LBL_NO_IMAGE            = "Нет изображения"
+LBL_ROW_CATEGORY        = "Категория"
+LBL_ROW_SIZE            = "Размер"
+LBL_ROW_FILE            = "Файл"
+LBL_ROW_LOCAL           = "Локальная"
+LBL_ROW_LATEST          = "Последняя"
+LBL_ROW_INSTALL         = "Установка"
+LBL_ROW_MOD_ID          = "ID мода"
+TAG_VALID_UP_TO_DATE    = "Актуален"
+TAG_UPDATE_REMOVED      = "Удален"
+TAG_UPDATE_HIDDEN       = "Скрыт"
+TAG_UPDATE_AVAILABLE    = "Доступно обновление"
+TAG_REMOVED_DELETED     = "Удален/Удален с Nexus"
+TAG_CORRUPTED           = "Поврежден"
+
+# === Диалог параметров принудительного обновления ===
+DLG_FORCE_UPDATE_TITLE      = "Параметры принудительного обновления"
+LBL_FORCE_UPDATE_PROMPT     = "Какие атрибуты обновить принудительно?"
+CB_DISPLAY_NAME             = "Отображаемое имя"
+CB_THUMBNAIL                = "Миниатюра / Изображение"
+CB_INSTALL_DATE             = "Дата установки"
+CB_LOCAL_VERSION            = "Локальная версия (для модов стиля data2.pak, data3.pak и т.д.)"
+BTN_APPLY                   = "Применить"
