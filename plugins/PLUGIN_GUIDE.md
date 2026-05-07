@@ -13,8 +13,6 @@ Each plugin lives in its own folder under `<czt_root>/plugins/`:
     README.md       # optional
 ```
 
-A reference plugin lives in `.misc/plugin_examples/hello_czt/`.
-
 ## plugin.json schema (manifest_version 1)
 
 | Field | Type | Required | Description |
@@ -78,9 +76,18 @@ matching the documented payload. Full list: see
 
 ### Per-plugin storage
 
-Use `host.config.plugin_data()` to get a dict scoped to your plugin id.
-Mutate it in place and call `host.config.save_plugin_data()` to persist.
-Stored under `cfg["plugin_data"][<your_id>]`.
+Each plugin gets its own private storage dict, scoped by plugin id.
+
+```python
+data = host.config.plugin_data()       # dict you can read/mutate
+data["run_count"] = data.get("run_count", 0) + 1
+host.config.save_plugin_data()         # persists to disk
+```
+
+The dict is saved to `data.json` inside your plugin's folder
+(`<plugins_root>/<your_plugin_dir>/data.json`). It is **not** stored in the
+user's main `czt_mm_config.json`, so uninstalling your plugin is just a
+folder delete — no leftover data in the user's config.
 
 ## Lifecycle
 
