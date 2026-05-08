@@ -19,8 +19,6 @@
 - ⭐ In-Depth user logs for both normal processes and errors.
 - ⭐ Customizable UI: Users can personalize colors, fonts, and layouts for accessibility and aesthetics.
 - ⭐ Currently Supports Ready or Not, Schedule I, Dying Light 1/2, and Dying Light The Beast.
-- 🟡 Merge Utility: Combine multiple .paks into one. (limited to dying light games)
-  - ↳ Download the [UTM plugin](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/plugins/UnleashTheMods_plugin/UTM_plugin.rar). 
 - 🚫 Does NOT support Linux.</br>
 #
 # Common errors w/ solutions:
