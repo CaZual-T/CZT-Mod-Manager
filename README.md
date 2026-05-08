@@ -189,15 +189,16 @@
 #
 # Global Hotkeys
     [HOTKEY CONTROLS]
-        > F2           : Open Load Order Menu.
-        > F3           : Open Plugins Menu. (beta)
-        > CTRL+O       : Open CZT root folder.
-        > Shift+H      : Show hotkey options.
-        > Shift+C      : Show current config.
-        > Shift+R      : Show resource file paths.
-        > Ctrl+Shift+L : Initiate a missile launch.
-        > Ctrl+Shift+S : Launch debug console.
-        > Ctrl+Alt+P   : Open paypal donation page.
+    > F2           : Open Load Order Menu.
+    > F3           : Open Plugins Menu.
+    > F5           : Re-center main window on screen.
+    > F9           : Detect missing mods from a saved loadout.
+    > CTRL+O       : Open CZT root folder.
+    > Shift+H      : Show hotkey options.
+    > Shift+C      : Show current config.
+    > Shift+R      : Show resource file paths.
+    > Ctrl+Shift+L : Launch game.
+    > Ctrl+Shift+S : Launch debug console.
 #
 # Plugins
 - Place plugins in:
