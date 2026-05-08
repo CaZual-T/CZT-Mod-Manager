@@ -7,6 +7,7 @@ TIP_QUICK_SAVE          = "Сохранить включенные моды ка
 TIP_RESTORE_BACKUP      = "Восстановить из списка резервных копий"
 TIP_SCAN_UPDATES        = "Проверить все моды на обновления"
 TIP_BROWSE_NEXUS        = "Открыть Nexus Mods для этой игры"
+TIP_DOWNLOAD_SELECTED   = "Скачать выбранные моды (Shift+D)"
 TIP_DISABLE             = "Отключить выбранные моды"
 TIP_RESTORE_DISABLED    = "Восстановить отключенные моды"
 TIP_DELETE              = "Удалить выбранные моды"
