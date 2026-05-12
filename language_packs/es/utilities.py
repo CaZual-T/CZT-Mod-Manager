@@ -7,6 +7,10 @@ DLG_TITLE_SELECT_DRIVE = "Seleccionar Unidad"
 LBL_SELECT_DRIVE = "Elige una unidad para las carpetas de Mod Manager:"
 BTN_OK = "Aceptar"
 BTN_CANCEL = "Cancelar"
+BTN_YES = "Sí"
+BTN_NO = "No"
+BTN_SHOW_DETAILS = "Mostrar detalles..."
+BTN_HIDE_DETAILS = "Ocultar detalles..."
 
 # ===== CheckForCZTUpdates.py =====
 WELCOME_MESSAGE = (
@@ -48,7 +52,7 @@ MSG_HOTKEY_CONTROLS = (
     "    > Ctrl+Shift+S : Abrir consola de depuracion.\n        \n"
 )
 DLG_TITLE_PATCH_NOTES = "Notas de la versión"
-LBL_PATCH_NOTES = "CZT Mod Manager — Notas de la versión"
+LBL_PATCH_NOTES = "CZT Mod Manager - Notas de la versión"
 DLG_TITLE_UPDATE_ERROR = "Error de Actualizacion"
 MSG_UPDATE_ERROR = "Error al descargar o ejecutar el instalador:\n{error}"
 MSG_NO_RELEASE_NOTES = "No se encontraron notas de version para este canal de actualizacion."
@@ -720,15 +724,15 @@ LOG_BROWSER_JS = "[NEXUS_BROWSER][JS] {text}"
 
 # ===== nexus/browse_mods/marquee_label.py =====
 BANNER_TEXT_FREE = (
-    "Cuenta Nexus standard detectada — "
-    "Esta funcion esta disenada para cuentas premium — "
-    "Nexus restringe las descargas directas desde apps remotas para cuentas gratuitas — "
+    "Cuenta Nexus standard detectada - "
+    "Esta funcion esta disenada para cuentas premium - "
+    "Nexus restringe las descargas directas desde apps remotas para cuentas gratuitas - "
     "Nexus aplica las mismas limitaciones en Vortex."
 )
 BANNER_TEXT_PREMIUM = (
     "No necesitas iniciar sesion para explorar o descargar mods, para eso sirve la clave API en el menu de setup "
-    "— Para usar este navegador, ve a un mod de tu eleccion y luego haz clic en el boton 'Download + Install Current Mod' "
-    "— La informacion del mod se guarda en tu archivo local de lista de mods en el momento de la descarga"
+    "- Para usar este navegador, ve a un mod de tu eleccion y luego haz clic en el boton 'Download + Install Current Mod' "
+    "- La informacion del mod se guarda en tu archivo local de lista de mods en el momento de la descarga"
 )
 LOG_ACCOUNT_TIER_FALLBACK = "[NEXUS_BROWSER] No se pudo resolver el nivel de cuenta, usando gratis por defecto: {error}"
 
@@ -761,8 +765,8 @@ OPT_SKIP_DOWNLOAD             = "(omitir descarga)"
 OPT_INSTALL_NEW               = "(instalar como nuevo)"
 OPT_INSTALL_ALL               = "Instalar Todo"
 OPT_SKIP                      = "Omitir"
-MSG_BROKEN_LINK               = "(enlace roto — descargar manualmente)"
-MSG_BROKEN_LINK_URL           = "(enlace roto — ver {url})"
+MSG_BROKEN_LINK               = "(enlace roto - descargar manualmente)"
+MSG_BROKEN_LINK_URL           = "(enlace roto - ver {url})"
 BTN_APPLY                     = "Aplicar"
 BTN_SKIP_ALL                  = "Omitir Todo"
 BTN_USE_THIS_FILE             = "Usar Este Archivo"

@@ -7,6 +7,10 @@ DLG_TITLE_SELECT_DRIVE = "Выбор диска"
 LBL_SELECT_DRIVE = "Выберите диск для папок Mod Manager:"
 BTN_OK = "Ок"
 BTN_CANCEL = "Отмена"
+BTN_YES = "Да"
+BTN_NO = "Нет"
+BTN_SHOW_DETAILS = "Показать подробности..."
+BTN_HIDE_DETAILS = "Скрыть подробности..."
 
 # ===== CheckForCZTUpdates.py =====
 WELCOME_MESSAGE = (
@@ -48,7 +52,7 @@ MSG_HOTKEY_CONTROLS = (
     "    > Ctrl+Shift+S : Открыть консоль отладки.\n        \n"
 )
 DLG_TITLE_PATCH_NOTES = "История изменений"
-LBL_PATCH_NOTES = "CZT Mod Manager — История изменений"
+LBL_PATCH_NOTES = "CZT Mod Manager - История изменений"
 DLG_TITLE_UPDATE_ERROR = "Ошибка обновления"
 MSG_UPDATE_ERROR = "Не удалось скачать или запустить установщик:\n{error}"
 MSG_NO_RELEASE_NOTES = "Для этого канала обновлений не найдено заметок к релизу."
@@ -720,15 +724,15 @@ LOG_BROWSER_JS = "[NEXUS_BROWSER][JS] {text}"
 
 # ===== nexus/browse_mods/marquee_label.py =====
 BANNER_TEXT_FREE = (
-	"Обнаружен стандартный аккаунт Nexus — "
-	"Эта функция рассчитана на премиум-аккаунты — "
-	"Прямые загрузки из удаленных приложений ограничены Nexus для бесплатных аккаунтов — "
+	"Обнаружен стандартный аккаунт Nexus - "
+	"Эта функция рассчитана на премиум-аккаунты - "
+	"Прямые загрузки из удаленных приложений ограничены Nexus для бесплатных аккаунтов - "
 	"Nexus применяет те же ограничения к Vortex."
 )
 BANNER_TEXT_PREMIUM = (
 	"Для просмотра и загрузки модов вход в аккаунт не нужен, для этого и используется API-ключ в меню setup "
-	"— Чтобы использовать этот браузер, перейдите на страницу нужного мода и нажмите кнопку 'Download + Install Current Mod' "
-	"— Информация о моде сохраняется в локальный файл списка модов во время загрузки"
+	"- Чтобы использовать этот браузер, перейдите на страницу нужного мода и нажмите кнопку 'Download + Install Current Mod' "
+	"- Информация о моде сохраняется в локальный файл списка модов во время загрузки"
 )
 LOG_ACCOUNT_TIER_FALLBACK = "[NEXUS_BROWSER] Не удалось определить уровень аккаунта, используется free: {error}"
 
@@ -761,8 +765,8 @@ OPT_SKIP_DOWNLOAD             = "(пропустить загрузку)"
 OPT_INSTALL_NEW               = "(установить как новый)"
 OPT_INSTALL_ALL               = "Установить все"
 OPT_SKIP                      = "Пропустить"
-MSG_BROKEN_LINK               = "(ссылка недоступна — скачайте вручную)"
-MSG_BROKEN_LINK_URL           = "(ссылка недоступна — см. {url})"
+MSG_BROKEN_LINK               = "(ссылка недоступна - скачайте вручную)"
+MSG_BROKEN_LINK_URL           = "(ссылка недоступна - см. {url})"
 BTN_APPLY                     = "Применить"
 BTN_SKIP_ALL                  = "Пропустить все"
 BTN_USE_THIS_FILE             = "Использовать этот файл"

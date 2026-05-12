@@ -160,7 +160,7 @@ MSG_API_KEY_SAVED_TEXT = "Nexus API Key saved to config."
 SETTINGS_RESET_BUTTON_TEXT = "Reset"
 SETTINGS_FONT_BUTTON_VALUE_TEXT = "{label}: {value}"
 
-# UI text overrides — maps widget objectName to display text
+# UI text overrides - maps widget objectName to display text
 SETTINGS_UI_TEXT = {
     # Group headers
     "General_Settings": "General Settings",

@@ -160,7 +160,7 @@ MSG_API_KEY_SAVED_TEXT = "Clave API de Nexus guardada en la configuracion."
 SETTINGS_RESET_BUTTON_TEXT = "Restablecer"
 SETTINGS_FONT_BUTTON_VALUE_TEXT = "{label}: {value}"
 
-# Sobrescrituras de texto UI — mapea objectName del widget a texto mostrado
+# Sobrescrituras de texto UI - mapea objectName del widget a texto mostrado
 SETTINGS_UI_TEXT = {
     # Encabezados de grupo
     "General_Settings": "Ajustes Generales",

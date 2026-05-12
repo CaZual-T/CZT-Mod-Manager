@@ -7,6 +7,10 @@ DLG_TITLE_SELECT_DRIVE = "Select Drive"
 LBL_SELECT_DRIVE = "Choose a drive for Mod Manager folders:"
 BTN_OK = "Ok"
 BTN_CANCEL = "Cancel"
+BTN_YES = "Yes"
+BTN_NO = "No"
+BTN_SHOW_DETAILS = "Show Details..."
+BTN_HIDE_DETAILS = "Hide Details..."
 
 # ===== CheckForCZTUpdates.py =====
 WELCOME_MESSAGE = (
@@ -48,7 +52,7 @@ MSG_HOTKEY_CONTROLS = (
     "    > Ctrl+Shift+S : Launch debug console.\n        \n"
 )
 DLG_TITLE_PATCH_NOTES = "Patch Notes"
-LBL_PATCH_NOTES = "CZT Mod Manager — Patch Notes"
+LBL_PATCH_NOTES = "CZT Mod Manager - Patch Notes"
 DLG_TITLE_UPDATE_ERROR = "Update Error"
 MSG_UPDATE_ERROR = "Failed to download or run installer:\n{error}"
 MSG_NO_RELEASE_NOTES = "No release notes were found for this update channel."
@@ -720,15 +724,15 @@ LOG_BROWSER_JS = "[NEXUS_BROWSER][JS] {text}"
 
 # ===== nexus/browse_mods/marquee_label.py =====
 BANNER_TEXT_FREE = (
-	"Standard Nexus account detected — "
-	"This feature is designed for premium accounts — "
-	"Direct downloads from remote apps are restricted by Nexus for free accounts — "
+	"Standard Nexus account detected - "
+	"This feature is designed for premium accounts - "
+	"Direct downloads from remote apps are restricted by Nexus for free accounts - "
 	"Nexus enforces the same limitations on Vortex."
 )
 BANNER_TEXT_PREMIUM = (
 	"You do not need to sign-in to browse or download mods, that's what the API key is for in the setup menu "
-	"— To use this browser, navigate to a mod of your choice, then click the 'Download + Install Current Mod' button "
-	"— Mod info is saved to your local mod list file at the time of download"
+	"- To use this browser, navigate to a mod of your choice, then click the 'Download + Install Current Mod' button "
+	"- Mod info is saved to your local mod list file at the time of download"
 )
 LOG_ACCOUNT_TIER_FALLBACK = "[NEXUS_BROWSER] Could not resolve account tier, defaulting to free: {error}"
 
@@ -761,8 +765,8 @@ OPT_SKIP_DOWNLOAD             = "(skip download)"
 OPT_INSTALL_NEW               = "(install new)"
 OPT_INSTALL_ALL               = "Install All"
 OPT_SKIP                      = "Skip"
-MSG_BROKEN_LINK               = "(broken link — download manually)"
-MSG_BROKEN_LINK_URL           = "(broken link — see {url})"
+MSG_BROKEN_LINK               = "(broken link - download manually)"
+MSG_BROKEN_LINK_URL           = "(broken link - see {url})"
 BTN_APPLY                     = "Apply"
 BTN_SKIP_ALL                  = "Skip All"
 BTN_USE_THIS_FILE             = "Use This File"
