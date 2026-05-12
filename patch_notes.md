@@ -1,3 +1,73 @@
+## Version: 3.1
+
+- Published: Coming Soon (You can go to the github release page and test the latest beta version)
+- Url: Coming Soon (You can go to the github release page and test the latest beta version)
+
+- Added support for additional ready or not mod types.
+    - FMOD
+    - Movies
+    - Splash
+    - VO_MOD
+    - DLL
+- Rebuilt plugin API and plugin manager window.
+    - Plugin support has been significantly improved.
+    - Supports .dll, .exe, and .py scripts
+    - Loaded plugins with executable functions will be available in the plugin drop down, top right of the main app.
+    - All documentation for plugin users & creators will be posted on the main github page.
+    - Move existing plugins OUT of the old scripts/standalone folders into the main 'plugins' folder 
+         - You can delete the old 'scripts' & 'standalone_exe' folders as they wont be used anymore.
+- Added support for specific game engines along with stubs to implement more via plugins.
+    - This is what drives installs and symlinks in conjunction with the profiles global settings.
+- Updated Install, Loadouts, Cache, and a few other utilities to work with the new api, engine and file types.
+- Added color option for "settings group box".
+- Fixed an issue that caused metadata to be wiped from new mod types during update scans.
+- Fixed a bug that would break the main layout when unloading a plugin.
+     - This was due to destroying the plugins dropdown when no plugins were actively loaded. 
+     - This has been fixed by simply 'hiding' it when it isn't in use. 
+- Resizable window to help fit other languages.
+     - CZT will remember its last location on screen when closed. (kinda like windows explorer)
+     - New hotkey to recenter the window. (F5)
+- Added patch notes button to main menu. 
+     -  There is an option to force check for updates on this popup aswell.
+- Small qol addition for future updates. beta version will show up to 5 of the past version instead of just the 1 most recent.
+- Updated language files to be current with new logs, also added a few things i missed previously like the hotkey list.
+- Added dev tool plugins to the main repo.
+- tweaked main user config format.
+     - moved color and font settings into styles_config.json 
+- updated dialog windows for install, replace, download, and loadout prompts. 
+     - unified style and much cleaner work flow. 
+- added a 'download selected' button on the manage tab.
+- tweaked global progress bar.
+     - added a popup that displays all downloads happening in parallel. 
+     - more accurate progression tracking.
+     - triggered upon all major functions.
+- fixed an issue that would make the app appear frozen when attempting to move the window while saving loadouts.
+- fixed grid view
+     - add / subtract columns on window resize.
+     - larger tiles.
+     - reorganized info displayed. 
+- updated mod entry window (this is the window that appears when right clicking a mod)
+     - mod stats (downloads, endorsements, dates)
+     - description.
+     - local and remote info (version, size, file name etc)
+     - added progress bar to the popup itself during actions. (save & check for update)
+     - reorganized layout. 
+     - removed old force options.
+     - refresh icon on this window is now the 'check for updates' button.
+     - relocated download button (top right but beneath the checck for updates icon)
+     - added delete button.
+- changed scrolling from step to per px, so scrolling through mods will be smoother.
+- disabled scroll wheel from effecting drop down boxes. 
+- made a few changes to the overall app window to handle resizing better. (especially useful for other languages)
+- manage tab search bar now supports categories. (try typing 'audio' 'weapons' 'visual' etc)
+- fixed an issue that caused loadouts to apply incorrectly if all mods were disabled at the time of applying. 
+     - main problem: czt was enabling mods that weren't listed within the selected loadout. 
+          - this mainly effected FMOD, VO_MOD, Splash, Movies.
+ - cleanup and consolidation of redundant functions.
+ - updated language files.
+ - fixed button styling for additional languages.
+
+
 ## Version: 3.0.9.2
  
 - Published: 2026-05-01
