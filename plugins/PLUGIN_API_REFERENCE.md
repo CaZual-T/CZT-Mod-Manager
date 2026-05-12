@@ -37,7 +37,7 @@ Notes:
 ## 3) Minimal plugin (working v2 example)
 
 ```python
-from plugins_ import Host, Plugin
+from czt_plugins import Host, Plugin
 
 
 class HelloPlugin(Plugin):
@@ -268,17 +268,17 @@ Guidelines:
 Old model:
 
 - Entry point: `run(plugin_api)`
-- Imports like `plugins_.Global_Plugin_API`
+- Imports like `czt_plugins.Global_Plugin_API`
 
 New model:
 
 - Entry point: `register(host) -> Plugin`
-- Imports from `plugins_` (`Host`, `Plugin`, events/helpers as needed)
+- Imports from `czt_plugins` (`Host`, `Plugin`, events/helpers as needed)
 
 Minimal migration template:
 
 ```python
-from plugins_ import Host, Plugin
+from czt_plugins import Host, Plugin
 
 
 class MyPlugin(Plugin):
@@ -314,14 +314,14 @@ def register(host: Host) -> Plugin:
 ## 10) Canonical imports
 
 ```python
-from plugins_ import Host, Plugin
+from czt_plugins import Host, Plugin
 ```
 
 Optional direct imports:
 
 ```python
-from plugins_ import KNOWN_EVENTS, PluginEventNamespace
+from czt_plugins import KNOWN_EVENTS, PluginEventNamespace
 ```
 
-Use `plugins_` as the stable public surface. Avoid relying on unrelated internal
+Use `czt_plugins` as the stable public surface. Avoid relying on unrelated internal
 modules unless there is no host API for your use case.

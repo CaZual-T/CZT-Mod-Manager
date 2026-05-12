@@ -34,7 +34,7 @@ typedef void (*CztLogFn)(const char* msg);
 
 /*
  * Emit an event onto the global event bus.
- * event_name:    NUL-terminated UTF-8 string (see plugins_.events.KNOWN_EVENTS).
+ * event_name:    NUL-terminated UTF-8 string (see czt_plugins.events.KNOWN_EVENTS).
  * json_payload:  NUL-terminated UTF-8 JSON object string. Pass NULL or "" for
  *                an empty payload. Must be a flat object whose keys become
  *                **kwargs for Python listeners.

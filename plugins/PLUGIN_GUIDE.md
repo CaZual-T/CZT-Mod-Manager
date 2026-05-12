@@ -38,7 +38,7 @@ Each plugin lives in its own folder under `<czt_root>/plugins/`:
 The entry module **must** define:
 
 ```python
-from plugins_ import Host, Plugin
+from czt_plugins import Host, Plugin
 
 class MyPlugin(Plugin):
     def enable(self):  ...
@@ -72,7 +72,7 @@ CZT internals. Anything outside `host.*` is unsupported and may change.
 
 Subscribe via `host.events.on(name, callback)`. Callbacks receive `**kwargs`
 matching the documented payload. Full list: see
-[plugins_/events.py](../../plugins_/events.py) `KNOWN_EVENTS`.
+[czt_plugins /events.py](../../czt_plugins /events.py) `KNOWN_EVENTS`.
 
 ### Per-plugin storage
 
@@ -154,7 +154,7 @@ Profiles can then opt in with `"engine": "godot"`.
 
 ## Migrating from the v1 API
 
-The legacy `plugins_.Global_Plugin_API.PluginContextAPI`, `Global_Run_Plugins`,
+The legacy `czt_plugins.Global_Plugin_API.PluginContextAPI`, `Global_Run_Plugins`,
 `F3_Menu`, and `plugin_auto_loader` modules are **gone**. Old `.py`, `.bat`,
 and `.exe` plugins are no longer loaded. Rewrite as a v2 plugin:
 
@@ -163,7 +163,7 @@ and `.exe` plugins are no longer loaded. Rewrite as a v2 plugin:
 | `def run(context):` | `class MyPlugin(Plugin): def enable(self): ...` + `register(host)` |
 | Top-level `ui_plugin = True` | `"ui": true` in plugin.json |
 | `context.cfg`, `context.czt_log` | `host.config.get(...)`, `host.log.info(...)` |
-| Direct Qt class imports from `plugins_.Global_Plugin_API` | Import Qt directly from `PySide6` |
+| Direct Qt class imports from `czt_plugins.Global_Plugin_API` | Import Qt directly from `PySide6` |
 | `connect_event(...)` (module level) | `host.events.on(...)` |
 | `cfg["startup_enabled_plugins"]` | `cfg["plugin_autoload"]` |
 | `cfg["global_enabled_plugins"]` | `cfg["plugin_enabled_global"]` |
