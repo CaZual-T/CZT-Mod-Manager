@@ -15,4 +15,4 @@
 
 Useful tool for updating your language files - [WinMerge](https://winmerge.org/?lang=en)
 
-Note: Claude Opus was used translate.
+Note: Claude Opus was used to translate en to es/ru.
