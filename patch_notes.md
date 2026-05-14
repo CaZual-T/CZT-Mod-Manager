@@ -16,7 +16,7 @@
     - All documentation for plugin users & creators will be posted on the main github page.
     - Move existing plugins OUT of the old scripts/standalone folders into the main 'plugins' folder 
          - You can delete the old 'scripts' & 'standalone_exe' folders as they wont be used anymore.
-- Added support for specific game engines along with stubs to implement more via plugins.
+- Added support for specific game engines.
     - This is what drives installs and symlinks in conjunction with the profiles global settings.
 - Updated Install, Loadouts, Cache, and a few other utilities to work with the new api, engine and file types.
 - Added color option for "settings group box".
