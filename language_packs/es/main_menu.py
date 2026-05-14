@@ -66,13 +66,47 @@ LBL_BTN_PATCH_NOTES = "Notas de versión"
 TIP_BTN_PATCH_NOTES = "Ver las notas de la versión de CZT Mod Manager y buscar actualizaciones."
 
 # Etiquetas de estadisticas de almacenamiento de la pestaña principal
-LBL_STORAGE_OVERVIEW = "[Resumen de Almacenamiento]"
-LBL_STATS_DISK_USAGE_TOTAL = "Uso de Disco (total):"
-LBL_STATS_DISK_USAGE_ENABLED = "Uso de Disco (activados):"
-LBL_STATS_DISK_USAGE_DISABLED = "Uso de Disco (desactivados):"
-LBL_STATS_MODS_ENABLED = "Mods Activados:"
-LBL_STATS_MODS_DISABLED = "Mods Desactivados:"
-LBL_STATS_UPDATES_AVAILABLE = "Actualizaciones Disponibles:"
+LBL_STORAGE_OVERVIEW = "[Resumen CZT]"
+LBL_STATS_DISK_USAGE_TOTAL = "CZT - Almacenamiento usado:"
+LBL_STATS_MODS_ENABLED = "Mods Activados: {count}"
+LBL_STATS_MODS_DISABLED = "Mods Desactivados: {count}"
+LBL_STATS_MODS_ENABLED_VALUE_FMT = "tamano en disco: {size}"
+LBL_STATS_MODS_DISABLED_VALUE_FMT = "tamano en disco: {size}"
+LBL_STATS_UPDATES_AVAILABLE = "Actualizaciones Disponibles: {count}"
+LBL_STATS_APP_CPU_USAGE = "CZT - Uso de CPU:"
+LBL_STATS_APP_RAM_USAGE = "CZT - Uso de RAM:"
+LBL_STATS_NETWORK_SPEED = "Velocidad de red:"
+LBL_STATS_DISK_RW_SPEED = "Velocidad de Lectura | Escritura:"
+LBL_STATS_DISK_TRANSFER_RATE = "Tasa de Transferencia:"
+LBL_STATS_UPDATES_VALUE_FMT = "escaneado: {date}"
+LBL_STATS_LAST_CHECKED_NEVER = "nunca"
+LBL_STATS_NETWORK_VALUE_FMT = "↑ {sent} | ↓ {recv}"
+LBL_STATS_DISK_RW_VALUE_FMT = "L {read} | E {write}"
+LBL_STATS_DISK_TRANSFER_VALUE_FMT = "{total}"
+LBL_STATS_UNAVAILABLE = "No Disponible"
+
+TIP_STORAGE_OVERVIEW_CUSTOMIZE = "Haz clic para personalizar los widgets de Resumen CZT: reordena filas o cambia lo que se muestra."
+TIP_OVERVIEW_ITEM_UPDATES_AVAILABLE = "Muestra cuantos mods tienen actualizaciones disponibles.\n ↳ escaneado: (fecha) es la fecha del escaneo completo/automatico mas reciente."
+TIP_OVERVIEW_ITEM_MODS_ENABLED = "Mods activados (cantidad) para el perfil actual:\n ↳ tamano total de la carpeta de mods 'activados' del perfil actual."
+TIP_OVERVIEW_ITEM_MODS_DISABLED = "Mods desactivados (cantidad) para el perfil actual:\n ↳ tamano total de la carpeta de mods 'desactivados' del perfil actual."
+TIP_OVERVIEW_ITEM_DISK_USAGE_TOTAL = "Almacenamiento usado por CZT (tamano de la carpeta raiz del usuario)\n / capacidad total de la unidad que aloja tu carpeta raiz de CZT."
+TIP_OVERVIEW_ITEM_APP_CPU_USAGE = "Uso de CPU de CZT | uso de CPU del sistema | velocidad actual del reloj de CPU."
+TIP_OVERVIEW_ITEM_APP_RAM_USAGE = "Uso de RAM de CZT | RAM total del sistema."
+TIP_OVERVIEW_ITEM_NETWORK_SPEED = "Velocidad en vivo de subida y bajada de red del sistema."
+TIP_OVERVIEW_ITEM_DISK_RW_SPEED = "Velocidad en vivo de lectura y escritura para la unidad seleccionada (unidad)."
+TIP_OVERVIEW_ITEM_DISK_TRANSFER_RATE = "Tasa en vivo combinada de transferencia de lectura + escritura para la unidad seleccionada (unidad)."
+
+DLG_TITLE_STORAGE_WIDGETS = "Personalizar Resumen CZT"
+DLG_STORAGE_WIDGETS_DESC = "Arrastra elementos para reordenar. Las filas marcadas se muestran en Resumen CZT."
+LBL_STORAGE_WIDGETS_DRIVE_LABEL = "Selecciona la unidad para el resumen de L/E y Tasa de Transferencia:"
+LBL_STORAGE_WIDGETS_DRIVE_ALL = "Todas"
+BTN_STORAGE_WIDGETS_RESTORE_DEFAULT = "Restaurar por Defecto"
+BTN_STORAGE_WIDGETS_CANCEL = "Cancelar"
+BTN_STORAGE_WIDGETS_APPLY = "Aplicar"
+MSG_STORAGE_WIDGETS_NONE_SELECTED_TITLE = "No hay Widgets Seleccionados"
+MSG_STORAGE_WIDGETS_NONE_SELECTED_BODY = "Selecciona al menos un widget para mostrar."
+MSG_STORAGE_WIDGETS_TOO_MANY_TITLE = "Demasiados Widgets"
+MSG_STORAGE_WIDGETS_TOO_MANY_BODY = "Este panel admite hasta {max_visible} widgets visibles al mismo tiempo."
 
 # Titulos de ventanas emergentes de configuracion de la pestaña principal
 DLG_TITLE_CUSTOM_SETTINGS = "Ajustes Personalizados"
@@ -170,10 +204,16 @@ SETTINGS_UI_TEXT = {
     # Etiquetas de botones de color
     "groupBoxBorderColorBtn": "Color del borde de log box",
     "logBoxBackgroundColorBtn": "Color de fondo de log box",
-    "storageOverviewBorderColorBtn": "Borde de storage overview",
+    "storageOverviewBorderColorBtn": "Borde de Resumen CZT",
     "lineSeparatorColorBtn": "Color del separador de linea",
     "selectedModBorderColorBtn": "Color del borde de mod seleccionado",
     "entryBorderColorBtn": "Color del borde de entrada",
+    "entrySelectedBorderColorBtn": "Borde de entrada seleccionada",
+    "entryBorderHoverColorBtn": "Hover del borde de entrada",
+    "entryBackgroundColorBtn": "Color de fondo de entrada",
+    "descriptionBackgroundColorBtn": "Fondo de descripcion",
+    "descriptionBorderColorBtn": "Borde de descripcion",
+    "installListBorderColorBtn": "Borde de lista de instalacion",
     "scrollbarHandleBgBtn": "BG del handle de scrollbar",
     "scrollbarHandleHoverBgBtn": "BG hover del handle de scrollbar",
     "scrollbarBorderBtn": "Borde del handle de scrollbar",
@@ -215,10 +255,18 @@ SETTINGS_UI_TEXT = {
     "saveBtnBorderHoverColorBtn": "Hover del borde de boton Save",
     "saveBtnTextColorBtn": "Color de texto de boton Save",
     "saveBtnTextHoverColorBtn": "Hover de texto de boton Save",
+    "actionBtnDisplayColorBtn": "Color de boton de accion",
+    "actionBtnHoverColorBtn": "Hover de boton de accion",
+    "actionBtnBorderColorBtn": "Borde de boton de accion",
+    "actionBtnBorderHoverColorBtn": "Hover del borde de boton de accion",
+    "actionBtnTextColorBtn": "Color de texto de boton de accion",
+    "actionBtnTextHoverColorBtn": "Hover de texto de boton de accion",
     "okBtnDisplayColorBtn": "Color de boton OK",
     "okBtnHoverColorBtn": "Hover de boton OK",
     "okBtnBorderColorBtn": "Borde de boton OK",
     "okBtnBorderHoverColorBtn": "Hover del borde de boton OK",
+    "okBtnTextColorBtn": "Color de texto de boton OK",
+    "okBtnTextHoverColorBtn": "Hover de texto de boton OK",
     "cancelBtnDisplayColorBtn": "Color de boton Cancel",
     "cancelBtnHoverColorBtn": "Hover de boton Cancel",
     "cancelBtnBorderColorBtn": "Borde de boton Cancel",

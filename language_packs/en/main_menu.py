@@ -66,13 +66,47 @@ LBL_BTN_PATCH_NOTES = "Patch Notes"
 TIP_BTN_PATCH_NOTES = "View CZT Mod Manager patch notes and check for updates."
 
 # Main tab storage stats labels
-LBL_STORAGE_OVERVIEW = "[Storage Overview]"
-LBL_STATS_DISK_USAGE_TOTAL = "Disk Usage (total):"
-LBL_STATS_DISK_USAGE_ENABLED = "Disk Usage (enabled):"
-LBL_STATS_DISK_USAGE_DISABLED = "Disk Usage (disabled):"
-LBL_STATS_MODS_ENABLED = "Mods Enabled:"
-LBL_STATS_MODS_DISABLED = "Mods Disabled:"
-LBL_STATS_UPDATES_AVAILABLE = "Updates Available:"
+LBL_STORAGE_OVERVIEW = "[CZT Overview]"
+LBL_STATS_DISK_USAGE_TOTAL = "CZT - Storage Used:"
+LBL_STATS_MODS_ENABLED = "Mods Enabled: {count}"
+LBL_STATS_MODS_DISABLED = "Mods Disabled: {count}"
+LBL_STATS_MODS_ENABLED_VALUE_FMT = "size on disk: {size}"
+LBL_STATS_MODS_DISABLED_VALUE_FMT = "size on disk: {size}"
+LBL_STATS_UPDATES_AVAILABLE = "Updates Available: {count}"
+LBL_STATS_APP_CPU_USAGE = "CZT - CPU Usage:"
+LBL_STATS_APP_RAM_USAGE = "CZT - RAM Usage:"
+LBL_STATS_NETWORK_SPEED = "Network Speed:"
+LBL_STATS_DISK_RW_SPEED = "Read | Write Speed:"
+LBL_STATS_DISK_TRANSFER_RATE = "Transfer Rate:"
+LBL_STATS_UPDATES_VALUE_FMT = "scanned: {date}"
+LBL_STATS_LAST_CHECKED_NEVER = "never"
+LBL_STATS_NETWORK_VALUE_FMT = "↑ {sent} | ↓ {recv}"
+LBL_STATS_DISK_RW_VALUE_FMT = "R {read} | W {write}"
+LBL_STATS_DISK_TRANSFER_VALUE_FMT = "{total}"
+LBL_STATS_UNAVAILABLE = "Unavailable"
+
+TIP_STORAGE_OVERVIEW_CUSTOMIZE = "Click to customize CZT Overview widgets: reorder rows or swap what is displayed."
+TIP_OVERVIEW_ITEM_UPDATES_AVAILABLE = "Shows how many mods have updates available.\n ↳ scanned: (date) is the most recent full/auto scan date."
+TIP_OVERVIEW_ITEM_MODS_ENABLED = "Enabled mods (count) for the current profile:\n ↳ total size of the current profile's 'enabled' mods folder."
+TIP_OVERVIEW_ITEM_MODS_DISABLED = "Disabled mods (count) for the current profile:\n ↳ total size of the current profile's 'disabled' mods folder."
+TIP_OVERVIEW_ITEM_DISK_USAGE_TOTAL = "Size of the CZT root folder / Capacity of the drive that hosts your CZT root folder."
+TIP_OVERVIEW_ITEM_APP_CPU_USAGE = "CZT CPU usage | system CPU usage | current CPU clock speed."
+TIP_OVERVIEW_ITEM_APP_RAM_USAGE = "CZT RAM usage | total system RAM."
+TIP_OVERVIEW_ITEM_NETWORK_SPEED = "Live system network upload and download speed."
+TIP_OVERVIEW_ITEM_DISK_RW_SPEED = "Live read and write speed for selected drive (drive)."
+TIP_OVERVIEW_ITEM_DISK_TRANSFER_RATE = "Live combined read + write transfer rate for selected drive (drive)."
+
+DLG_TITLE_STORAGE_WIDGETS = "Customize CZT Overview"
+DLG_STORAGE_WIDGETS_DESC = "Drag items to reorder. Checked rows are shown in CZT Overview."
+LBL_STORAGE_WIDGETS_DRIVE_LABEL = "Select drive to use for W/R and Transfer Rate overview:"
+LBL_STORAGE_WIDGETS_DRIVE_ALL = "All"
+BTN_STORAGE_WIDGETS_RESTORE_DEFAULT = "Restore Default"
+BTN_STORAGE_WIDGETS_CANCEL = "Cancel"
+BTN_STORAGE_WIDGETS_APPLY = "Apply"
+MSG_STORAGE_WIDGETS_NONE_SELECTED_TITLE = "No Widgets Selected"
+MSG_STORAGE_WIDGETS_NONE_SELECTED_BODY = "Select at least one widget to display."
+MSG_STORAGE_WIDGETS_TOO_MANY_TITLE = "Too Many Widgets"
+MSG_STORAGE_WIDGETS_TOO_MANY_BODY = "This panel supports up to {max_visible} visible widgets at a time."
 
 # Main tab setup popup titles
 DLG_TITLE_CUSTOM_SETTINGS = "Custom Settings"
@@ -170,10 +204,16 @@ SETTINGS_UI_TEXT = {
     # Color button labels
     "groupBoxBorderColorBtn": "Log Box Border Color",
     "logBoxBackgroundColorBtn": "Log Box Background Color",
-    "storageOverviewBorderColorBtn": "Storage Overview Border",
+    "storageOverviewBorderColorBtn": "CZT Overview Border",
     "lineSeparatorColorBtn": "Line Separator Color",
     "selectedModBorderColorBtn": "Selected Mod Border Color",
     "entryBorderColorBtn": "Entry Border Color",
+    "entrySelectedBorderColorBtn": "Selected Entry Border",
+    "entryBorderHoverColorBtn": "Entry Border Hover",
+    "entryBackgroundColorBtn": "Entry Background Color",
+    "descriptionBackgroundColorBtn": "Description Background",
+    "descriptionBorderColorBtn": "Description Border",
+    "installListBorderColorBtn": "Install List Border",
     "scrollbarHandleBgBtn": "Scrollbar Handle BG",
     "scrollbarHandleHoverBgBtn": "Scrollbar Handle Hover BG",
     "scrollbarBorderBtn": "Scrollbar Handle Border",
@@ -215,10 +255,18 @@ SETTINGS_UI_TEXT = {
     "saveBtnBorderHoverColorBtn": "Save Btn Border Hover",
     "saveBtnTextColorBtn": "Save Btn Text Color",
     "saveBtnTextHoverColorBtn": "Save Btn Text Hover",
+    "actionBtnDisplayColorBtn": "Action Btn Color",
+    "actionBtnHoverColorBtn": "Action Btn Hover",
+    "actionBtnBorderColorBtn": "Action Btn Border",
+    "actionBtnBorderHoverColorBtn": "Action Btn Border Hover",
+    "actionBtnTextColorBtn": "Action Btn Text Color",
+    "actionBtnTextHoverColorBtn": "Action Btn Text Hover",
     "okBtnDisplayColorBtn": "OK Btn Color",
     "okBtnHoverColorBtn": "OK Btn Hover",
     "okBtnBorderColorBtn": "OK Btn Border",
     "okBtnBorderHoverColorBtn": "OK Btn Border Hover",
+    "okBtnTextColorBtn": "OK Btn Text Color",
+    "okBtnTextHoverColorBtn": "OK Btn Text Hover",
     "cancelBtnDisplayColorBtn": "Cancel Btn Color",
     "cancelBtnHoverColorBtn": "Cancel Btn Hover",
     "cancelBtnBorderColorBtn": "Cancel Btn Border",

@@ -66,14 +66,47 @@ LBL_BTN_PATCH_NOTES = "История изменений"
 TIP_BTN_PATCH_NOTES = "Просмотр истории изменений CZT Mod Manager и проверка обновлений."
 
 # Подписи статистики хранилища
-LBL_STORAGE_OVERVIEW = "[Обзор хранилища]"
-LBL_STATS_DISK_USAGE_TOTAL = "Использование диска (всего):"
-LBL_STATS_DISK_USAGE_ENABLED = "Использование диска:"
-LBL_STATS_DISK_USAGE_DISABLED = "Использование диска:"
-LBL_STATS_MODS_ENABLED = "Включено модов:"
-LBL_STATS_MODS_DISABLED = "Отключено модов:"
-LBL_STATS_CORRUPTED = "Повреждено:"
-LBL_STATS_UPDATES_AVAILABLE = "Доступно обновлений:"
+LBL_STORAGE_OVERVIEW = "[Обзор CZT]"
+LBL_STATS_DISK_USAGE_TOTAL = "CZT - Использовано хранилища:"
+LBL_STATS_MODS_ENABLED = "Включено модов: {count}"
+LBL_STATS_MODS_DISABLED = "Отключено модов: {count}"
+LBL_STATS_MODS_ENABLED_VALUE_FMT = "размер на диске: {size}"
+LBL_STATS_MODS_DISABLED_VALUE_FMT = "размер на диске: {size}"
+LBL_STATS_UPDATES_AVAILABLE = "Доступно обновлений: {count}"
+LBL_STATS_APP_CPU_USAGE = "CZT - Загрузка CPU:"
+LBL_STATS_APP_RAM_USAGE = "CZT - Использование RAM:"
+LBL_STATS_NETWORK_SPEED = "Скорость сети:"
+LBL_STATS_DISK_RW_SPEED = "Скорость чтения | записи:"
+LBL_STATS_DISK_TRANSFER_RATE = "Скорость передачи:"
+LBL_STATS_UPDATES_VALUE_FMT = "сканировано: {date}"
+LBL_STATS_LAST_CHECKED_NEVER = "никогда"
+LBL_STATS_NETWORK_VALUE_FMT = "↑ {sent} | ↓ {recv}"
+LBL_STATS_DISK_RW_VALUE_FMT = "Ч {read} | З {write}"
+LBL_STATS_DISK_TRANSFER_VALUE_FMT = "{total}"
+LBL_STATS_UNAVAILABLE = "Недоступно"
+
+TIP_STORAGE_OVERVIEW_CUSTOMIZE = "Нажмите, чтобы настроить виджеты обзора CZT: меняйте порядок строк или содержимое."
+TIP_OVERVIEW_ITEM_UPDATES_AVAILABLE = "Показывает, сколько модов имеют доступные обновления.\n ↳ сканировано: (дата) - дата самого свежего полного/автоматического сканирования."
+TIP_OVERVIEW_ITEM_MODS_ENABLED = "Включенные моды (количество) для текущего профиля:\n ↳ общий размер папки 'включенных' модов текущего профиля."
+TIP_OVERVIEW_ITEM_MODS_DISABLED = "Отключенные моды (количество) для текущего профиля:\n ↳ общий размер папки 'отключенных' модов текущего профиля."
+TIP_OVERVIEW_ITEM_DISK_USAGE_TOTAL = "Использовано хранилища CZT (размер корневой папки пользователя)\n / общая емкость диска, на котором находится корневая папка CZT."
+TIP_OVERVIEW_ITEM_APP_CPU_USAGE = "Нагрузка CPU от CZT | общая нагрузка CPU системы | текущая частота CPU."
+TIP_OVERVIEW_ITEM_APP_RAM_USAGE = "Использование RAM приложением CZT | общий объем RAM системы."
+TIP_OVERVIEW_ITEM_NETWORK_SPEED = "Живая скорость отдачи и загрузки сети системы."
+TIP_OVERVIEW_ITEM_DISK_RW_SPEED = "Живая скорость чтения и записи для выбранного диска (диск)."
+TIP_OVERVIEW_ITEM_DISK_TRANSFER_RATE = "Живая суммарная скорость передачи чтение + запись для выбранного диска (диск)."
+
+DLG_TITLE_STORAGE_WIDGETS = "Настроить обзор CZT"
+DLG_STORAGE_WIDGETS_DESC = "Перетаскивайте элементы для изменения порядка. Отмеченные строки отображаются в обзоре CZT."
+LBL_STORAGE_WIDGETS_DRIVE_LABEL = "Выберите диск для обзора Ч/З и скорости передачи:"
+LBL_STORAGE_WIDGETS_DRIVE_ALL = "Все"
+BTN_STORAGE_WIDGETS_RESTORE_DEFAULT = "Восстановить по умолчанию"
+BTN_STORAGE_WIDGETS_CANCEL = "Отмена"
+BTN_STORAGE_WIDGETS_APPLY = "Применить"
+MSG_STORAGE_WIDGETS_NONE_SELECTED_TITLE = "Виджеты не выбраны"
+MSG_STORAGE_WIDGETS_NONE_SELECTED_BODY = "Выберите хотя бы один виджет для отображения."
+MSG_STORAGE_WIDGETS_TOO_MANY_TITLE = "Слишком много виджетов"
+MSG_STORAGE_WIDGETS_TOO_MANY_BODY = "Эта панель поддерживает до {max_visible} видимых виджетов одновременно."
 
 # Заголовки всплывающих окон главной вкладки
 DLG_TITLE_CUSTOM_SETTINGS = "Пользовательские настройки"
@@ -171,10 +204,16 @@ SETTINGS_UI_TEXT = {
     # Подписи кнопок цвета
     "groupBoxBorderColorBtn": "Цвет границы log box",
     "logBoxBackgroundColorBtn": "Цвет фона log box",
-    "storageOverviewBorderColorBtn": "Граница storage overview",
+    "storageOverviewBorderColorBtn": "Граница обзора CZT",
     "lineSeparatorColorBtn": "Цвет разделительной линии",
     "selectedModBorderColorBtn": "Цвет границы выбранного мода",
     "entryBorderColorBtn": "Цвет границы записи",
+    "entrySelectedBorderColorBtn": "Граница выбранной записи",
+    "entryBorderHoverColorBtn": "Наведение границы записи",
+    "entryBackgroundColorBtn": "Цвет фона записи",
+    "descriptionBackgroundColorBtn": "Фон описания",
+    "descriptionBorderColorBtn": "Граница описания",
+    "installListBorderColorBtn": "Граница списка установки",
     "scrollbarHandleBgBtn": "BG ползунка scrollbar",
     "scrollbarHandleHoverBgBtn": "BG наведения ползунка scrollbar",
     "scrollbarBorderBtn": "Граница ползунка scrollbar",
@@ -216,10 +255,18 @@ SETTINGS_UI_TEXT = {
     "saveBtnBorderHoverColorBtn": "Наведение границы кнопки Save",
     "saveBtnTextColorBtn": "Цвет текста кнопки Save",
     "saveBtnTextHoverColorBtn": "Наведение текста кнопки Save",
+    "actionBtnDisplayColorBtn": "Цвет кнопки действия",
+    "actionBtnHoverColorBtn": "Наведение кнопки действия",
+    "actionBtnBorderColorBtn": "Граница кнопки действия",
+    "actionBtnBorderHoverColorBtn": "Наведение границы кнопки действия",
+    "actionBtnTextColorBtn": "Цвет текста кнопки действия",
+    "actionBtnTextHoverColorBtn": "Наведение текста кнопки действия",
     "okBtnDisplayColorBtn": "Цвет кнопки OK",
     "okBtnHoverColorBtn": "Наведение кнопки OK",
     "okBtnBorderColorBtn": "Граница кнопки OK",
     "okBtnBorderHoverColorBtn": "Наведение границы кнопки OK",
+    "okBtnTextColorBtn": "Цвет текста кнопки OK",
+    "okBtnTextHoverColorBtn": "Наведение текста кнопки OK",
     "cancelBtnDisplayColorBtn": "Цвет кнопки Cancel",
     "cancelBtnHoverColorBtn": "Наведение кнопки Cancel",
     "cancelBtnBorderColorBtn": "Граница кнопки Cancel",
