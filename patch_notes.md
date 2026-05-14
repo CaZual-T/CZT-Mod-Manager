@@ -67,7 +67,7 @@
  - updated language files.
  - fixed button styling for additional languages.
  - czt overview corner (bottom left, main menu)
- - click to change widgets.
+	 - click to change widgets.
 
 ## Version: 3.0.9.2
  
