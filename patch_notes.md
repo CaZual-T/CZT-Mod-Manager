@@ -1,7 +1,7 @@
-## Version: 3.1
+## Version: 3.0.11.0
 
-- Published: Coming Soon (You can go to the github release page and test the latest beta version)
-- Url: Coming Soon (You can go to the github release page and test the latest beta version)
+- Published: 2026-05-14
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.11.0
 
 - Added support for additional ready or not mod types.
     - FMOD
