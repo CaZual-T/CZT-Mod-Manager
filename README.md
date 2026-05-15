@@ -1,3 +1,5 @@
+                                                                                                                        CLICK THAT ↗️
+
 # Features: 
 - ⭐ EZ Setup & Launch: Automatically locates or creates required configuration files.
   - If you have any problems just make your way to discord so i can help you.
