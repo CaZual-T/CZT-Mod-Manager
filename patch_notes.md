@@ -1,3 +1,11 @@
+## Version: 3.0.11.1
+
+- Published: 2026-05-14
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.11.1
+
+- Fixed an incorrect button label when validating loadouts
+- consolidated file selection when validating loadouts. (same way we do with downloads and loadout creation)
+
 ## Version: 3.0.11.0
 
 - Published: 2026-05-14
