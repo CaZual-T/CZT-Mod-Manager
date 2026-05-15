@@ -150,8 +150,8 @@
          - You can enable auto update outdated mods in your settings as well.
      - Standard Nexus accounts:
        - Auto opens mod page on nexus.
-       - When downloading mods that you already have installed, use the mod manger download button.
-       - If the mod manger download button doesnt exist, get the czt extension and use the 'manual download' button.
+       - When downloading mods from nexus that you already have installed, use the 'mod manager download' button.
+       - If the mod manager download button doesnt exist, get the czt extension and use the 'manual download' button.
          - Both methods will trigger CZT to run the install process and automatically apply updated metadata.   
 
 #
