@@ -134,7 +134,6 @@
     - Cancel, Do not launch
     <img width="376" height="180" alt="image" src="https://github.com/user-attachments/assets/4c0d48ba-02da-4b06-8bf5-a2d341dbd5c1" />
 
-
 > [!NOTE]
 > - You only have to launch with CZT when you install new mods, or enable/disable mods using the toggle switches within CZT.
 > - If your mod list hasn't changed, then you dont have to launch with CZT every single time you play.
@@ -160,22 +159,21 @@
 
 | Action | Type | Description |
 |---|---|---|
-| [Search Bar] |<img width="256" height="37" alt="image" src="https://github.com/user-attachments/assets/6f463aa3-d375-4d83-aa8b-9a4a849a13f1" />|search using mod names, creators or categories to quickly filter mods. only mods that match what you type will be displayed|
-| [Sort/Filter Menu] |<img width="100" height="34" alt="image" src="https://github.com/user-attachments/assets/837bf92a-8779-4dba-b997-864076895bdd" />| 17 total filters, select one to quickly sort your mods. |
-| [Loadouts Menu] |<img width="96" height="31" alt="image" src="https://github.com/user-attachments/assets/55a0f581-202e-48a9-95f9-41ec4fc0778e" />| Here you can save, delete, merge, update, share and download loadouts. |
-| [Select All] | ✅ | Select or Deselect all mods for bulk actions.
+| [Search Bar] | <img width="256" height="37" alt="image" src="https://github.com/user-attachments/assets/6f463aa3-d375-4d83-aa8b-9a4a849a13f1" /> | search using mod names, creators or categories to quickly filter mods. only mods that match what you type will be displayed |
+| [Sort/Filter Menu] | <img width="100" height="34" alt="image" src="https://github.com/user-attachments/assets/837bf92a-8779-4dba-b997-864076895bdd" /> | 17 total filters, select one to quickly sort your mods. |
+| [Loadouts Menu] | <img width="96" height="31" alt="image" src="https://github.com/user-attachments/assets/55a0f581-202e-48a9-95f9-41ec4fc0778e" /> | Here you can save, delete, merge, update, share and download loadouts. |
+| [Select All] | ✅ | Select or Deselect all mods for bulk actions. |
 | [check for updates] | 🔄️ | checks all mods (enabled and disabled) for updates. |
 | [Save as Loadout | 💾 | Enabled mods will be saved as a loadout | 
 | [Create Backup] | ➕ | Create a backup of mod files + loadouts + profile mod list. |
 | [Restore Backup] | 🛡️ | select a backup to restore |
 | [Browse Nexus site] | 🔎 | Directly opens the nexus website for the profile currently enabled. |
 | [Delete] | 🗑️ | delete selected mods |
-| [List View] |<img width="38" height="35" alt="image" src="https://github.com/user-attachments/assets/92e0d713-c41a-42d7-8fc8-dbe84c067940" />|mods are listed vertically |
-| [Grid View] |<img width="36" height="32" alt="image" src="https://github.com/user-attachments/assets/1a3a2381-9da9-4c10-ab2c-9b9a5c531bd8" />|mods are listed in a 2x5 sccrolable grid |
-| [Hide Disabled] |<img width="121" height="34" alt="image" src="https://github.com/user-attachments/assets/75cb1d9a-8659-44cb-a799-793fd1444d23" />|disabled mods will be hidden from the main list. |
-| [Bulk Toggle] |<img width="61" height="40" alt="image" src="https://github.com/user-attachments/assets/3ecbaea3-afcc-4804-a729-7f01ddca3afd" />|Enable/Disable all |
+| [List View] | <img width="38" height="35" alt="image" src="https://github.com/user-attachments/assets/92e0d713-c41a-42d7-8fc8-dbe84c067940" />| mods are listed vertically |
+| [Grid View] | <img width="36" height="32" alt="image" src="https://github.com/user-attachments/assets/1a3a2381-9da9-4c10-ab2c-9b9a5c531bd8" />| mods are listed in a 2x5 sccrolable grid |
+| [Hide Disabled] | <img width="121" height="34" alt="image" src="https://github.com/user-attachments/assets/75cb1d9a-8659-44cb-a799-793fd1444d23" /> | disabled mods will be hidden from the main list. |
+| [Bulk Toggle] | <img width="61" height="40" alt="image" src="https://github.com/user-attachments/assets/3ecbaea3-afcc-4804-a729-7f01ddca3afd" /> | Enable/Disable all |
 | [Update Mod Info] | RMB | Right click a mod to see in-depth mod info, or change the display name. |
-
 
 #
 # Global Hotkeys
