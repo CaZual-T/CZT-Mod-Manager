@@ -61,7 +61,7 @@
   <img width="841" height="161" alt="image" src="https://github.com/user-attachments/assets/77aeaa09-02cd-4f94-b34c-f350e6bc3dfb" />
 
   - Click create root.
-    <img width="160" height="167" alt="image" src="https://github.com/user-attachments/assets/f08378bf-7d88-4615-9156-c9d860d37c7c" />
+  <img width="160" height="167" alt="image" src="https://github.com/user-attachments/assets/f08378bf-7d88-4615-9156-c9d860d37c7c" />
 
   - Select a Drive:</br>
     <img width="357" height="199" alt="image" src="https://github.com/user-attachments/assets/e7092185-1c80-4f53-94f0-82ae1dd5a78e" />
@@ -123,18 +123,23 @@
 1.) Download mods on the nexus site using the "Mod Manager Download" button.
   - If the mod manager download button is missing, download the [czt extension](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main/CZT_Extension) and use the manual download button.
     <img width="358" height="53" alt="image" src="https://github.com/user-attachments/assets/a8ebf771-2580-4554-97f2-9822576511bb" />
-
+  
   - This will trigger CZT and the app will automatically handle install + saving mod info.
     <img width="577" height="203" alt="image" src="https://github.com/user-attachments/assets/af59b34a-9d04-41c7-9c8e-43cb5c425f07" />
 
 2.) Launch Game:
   - Click launch game in the main menu (left), or press CTRL+SHIFT+L.
+    - Start with mods 
+    - Start without mods 
+    - Cancel, Do not launch
     <img width="376" height="180" alt="image" src="https://github.com/user-attachments/assets/4c0d48ba-02da-4b06-8bf5-a2d341dbd5c1" />
+
 
 > [!NOTE]
 > - You only have to launch with CZT when you install new mods, or enable/disable mods using the toggle switches within CZT.
 > - If your mod list hasn't changed, then you dont have to launch with CZT every single time you play.
 > - CZT supports drag and drop on the main menus far right panel. (unless running as admin, view faq at the top)
+
 #
 # Updating Mods
 - Click the download arrow next to the mod in grid view.
@@ -148,48 +153,30 @@
        - When downloading mods that you already have installed, use the mod manger download button.
        - If the mod manger download button doesnt exist, get the czt extension and use the 'manual download' button.
          - Both methods will trigger CZT to run the install process and automatically apply updated metadata.   
+
 #
-# Manage Mods tab basic controls (left to right):
+# Manage Mods tab - basic controls (left to right):
 <img width="1094" height="39" alt="image" src="https://github.com/user-attachments/assets/620b4def-f476-4855-aa6a-e238f9c73092" />
 
-### [Search Bar]
+| Action | Type | Description |
+|---|---|---|
+| [Search Bar] |<img width="256" height="37" alt="image" src="https://github.com/user-attachments/assets/6f463aa3-d375-4d83-aa8b-9a4a849a13f1" />|search using mod names, creators or categories to quickly filter mods. only mods that match what you type will be displayed|
+| [Sort/Filter Menu] |<img width="100" height="34" alt="image" src="https://github.com/user-attachments/assets/837bf92a-8779-4dba-b997-864076895bdd" />| 17 total filters, select one to quickly sort your mods. |
+| [Loadouts Menu] |<img width="96" height="31" alt="image" src="https://github.com/user-attachments/assets/55a0f581-202e-48a9-95f9-41ec4fc0778e" />| Here you can save, delete, merge, update, share and download loadouts. |
+| [Select All] | ✅ | Select or Deselect all mods for bulk actions.
+| [check for updates] | 🔄️ | checks all mods (enabled and disabled) for updates. |
+| [Save as Loadout | 💾 | Enabled mods will be saved as a loadout | 
+| [Create Backup] | ➕ | Create a backup of mod files + loadouts + profile mod list. |
+| [Restore Backup] | 🛡️ | select a backup to restore |
+| [Browse Nexus site] | 🔎 | Directly opens the nexus website for the profile currently enabled. |
+| [Delete] | 🗑️ | delete selected mods |
+| [List View] |<img width="38" height="35" alt="image" src="https://github.com/user-attachments/assets/92e0d713-c41a-42d7-8fc8-dbe84c067940" />|mods are listed vertically |
+| [Grid View] |<img width="36" height="32" alt="image" src="https://github.com/user-attachments/assets/1a3a2381-9da9-4c10-ab2c-9b9a5c531bd8" />|mods are listed in a 2x5 sccrolable grid |
+| [Hide Disabled] |<img width="121" height="34" alt="image" src="https://github.com/user-attachments/assets/75cb1d9a-8659-44cb-a799-793fd1444d23" />|disabled mods will be hidden from the main list. |
+| [Bulk Toggle] |<img width="61" height="40" alt="image" src="https://github.com/user-attachments/assets/3ecbaea3-afcc-4804-a729-7f01ddca3afd" />|Enable/Disable all |
+| [Update Mod Info] | RMB | Right click a mod to see in-depth mod info, or change the display name. |
 
-### [Sort/Filter Menu]
-  - 17 total filters, select one to quickly sort your mods.
 
-### [Loadouts Menu]
- - Loadout Manager:
-  - Here you can save, delete, merge, update, share and download loadouts.
-
-### [Select All] ✅
-### [Scan all mods for updates] 🔄️
-  - click '🔄️' to scan all mods, or right click an entry and click "check for updates" at the bottom of the popup.
-### [Save mods that are currently enabled as a loadout] 💾
-### [Create Backup] ➕
-  - Files + list = Actual mod files + loadouts + profile mod list.
-  - Files Only = Backup mod + loadout files
-  - mod_list.json Only = Backup loadouts + profile mod list.
-
-### [Restore Backup] 🛡️
-
-### [Browse Nexus site] 🔎
-  - Default: Directly opens the nexus website for the profile currently enabled.
-    - Custom: enable the custom CZT browser in the setting under general to user the custom in-app browser.
-      - Premium nexus account is recommended for the in-app browser feature.
-### [Delete] 🗑️
-### [List View] 
-  - Clicking a mods image in list view will take you to a mods nexus page.
-   <img width="1062" height="60" alt="image" src="https://github.com/user-attachments/assets/cb003a24-2dff-4304-bde5-fccbb8f881f9" />
-
-### [Grid View]
-  - Clicking the 🔗 icon will take you to a mods nexus page.
-
-### [Hide Disabled]
-
-### [Enable/Disable all mods toggle]
-
-### [Update Mod Info] (legacy - still works as a fallback)
-  - Right click a mod, enter its nexus url or just the ID, click save.
 #
 # Global Hotkeys
     [HOTKEY CONTROLS]
