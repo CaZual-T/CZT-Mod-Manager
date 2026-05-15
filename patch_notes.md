@@ -766,13 +766,13 @@ New custom settings:
 - Published: 2025-11-21
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/1.9.1.0
 
-# Added the following features to the manage mods tab:
-- Search bar to easily jump to any mod.
-- Shift + left click mod name to edit the display name.
-- Sort mods A-Z/Z-A by mod display name.
-- Sort mods A-Z/Z-A by mod creator name.
-- Creator name next to mod name in ui.
-- Force update install date checkbox.
+- Added the following features to the manage mods tab:
+	- Search bar to easily jump to any mod.
+	- Shift + left click mod name to edit the display name.
+	- Sort mods A-Z/Z-A by mod display name.
+	- Sort mods A-Z/Z-A by mod creator name.
+	- Creator name next to mod name in ui.
+	- Force update install date checkbox.
 
 ---
 
