@@ -20,6 +20,10 @@
 - ⭐ Customizable UI: Users can personalize colors, fonts, and layouts for accessibility and aesthetics.
 - ⭐ Currently Supports Ready or Not, Schedule I, Dying Light 1/2, and Dying Light The Beast.
 - 🚫 Does NOT support Linux.</br>
+
+<img width="1254" height="620" alt="image" src="https://github.com/user-attachments/assets/9cdec0f9-ef4e-4bdd-b4d4-002eded6b397" />
+<img width="1251" height="618" alt="image" src="https://github.com/user-attachments/assets/9f27b17f-87b6-41c5-ab70-6658c7a44bf3" />
+
 #
 # Common errors w/ solutions:
 ### [WinError 3] Permission Denied at launch.
