@@ -303,10 +303,10 @@ Patch Notes:
 
 ---
 
-## Version: 3.0.6.5-beta
+## Version: 3.0.6.5
 
 - Published: 2026-03-30
-- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.6.5-beta
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.6.5
 
 - test build for czt nexus extension.
 - go to https://github.com/CaZual-T/CZT-Mod-Manager/tree/main/CZT_Extension for more info.
@@ -373,10 +373,10 @@ Patch Notes:
 
 ---
 
-## Version: 3.0.6.0-beta
+## Version: 3.0.6.0
 
 - Published: 2026-03-26
-- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.6.0-beta
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.6.0
 
 - added in-app browser (replaced merge button)
    - DL users, if you used the merge, sorry, use the UTM plugin. 
@@ -393,19 +393,19 @@ Note: This version of CZT is a bit larger (139mb) than past versions due to the 
 
 ---
 
-## Version: 3.0.5.3-beta
+## Version: 3.0.5.3
 
 - Published: 2026-03-25
-- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.5.3-beta
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.5.3
 
 - Fixed a bug that would cause the wrong path to be set for the current profile at the time of running steam detection.
 
 ---
 
-## Version: 3.0.5.2-beta
+## Version: 3.0.5.2
 
 - Published: 2026-03-25
-- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.5.2-beta
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.5.2
 
 - New Controls (manager tab):
    - Backup/Restore.
@@ -450,10 +450,10 @@ Note: This version of CZT is a bit larger (139mb) than past versions due to the 
 
 ---
 
-## Version: 3.0.2.8-beta
+## Version: 3.0.2.8
 
 - Published: 2026-03-20
-- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.2.8-beta
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.2.8
 
 - testing, and feedback is appreciated.
 - backend module optimization.
