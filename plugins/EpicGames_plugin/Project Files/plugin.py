@@ -1,4 +1,4 @@
-﻿# CZT Mod Manager — Epic Games Plugin (v2 API)
+# CZT Mod Manager — Epic Games Plugin (v2 API)
 # Adds an "Epic Games" path mode to the User Setup tab and a Shift+E hotkey
 # that scans local drives for Epic manifests and resolves the active profile's
 # install/exe paths.
@@ -10,7 +10,7 @@ import threading
 
 from PySide6.QtWidgets import QCheckBox
 
-from plugins_ import Host, Plugin
+from czt_plugins import Host, Plugin
 
 
 PATH_MODE_TAG = "epic-games_plugin"

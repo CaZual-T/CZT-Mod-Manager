@@ -10,7 +10,7 @@ import subprocess
 from PySide6.QtCore import QTimer
 from PySide6.QtWidgets import QApplication
 
-from plugins_ import Host, Plugin
+from czt_plugins import Host, Plugin
 from utilities_global.czt_root_file_system.Required_Folders import (
     build_profile_folder_paths,
     build_required_root_paths,
