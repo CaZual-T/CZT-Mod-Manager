@@ -9,6 +9,7 @@
 	- czt overview
 	- recovery
 	- directory search (replaced python os.walk)
+- This greatly improved response time overall throughout the entire app.
 
 ## Version: 3.0.11.2
 
