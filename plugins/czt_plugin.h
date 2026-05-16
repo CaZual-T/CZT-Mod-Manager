@@ -9,7 +9,7 @@
  *     "native_abi": 1
  *
  * The DLL is loaded by ctypes when the host plugin's register(host) calls
- *     host.native.load("your_plugin.dll", abi_version=1)
+ *     host.C.load("your_plugin.dll", abi_version=1)
  *
  * All strings are UTF-8.
  */

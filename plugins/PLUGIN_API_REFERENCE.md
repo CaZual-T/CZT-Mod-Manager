@@ -113,7 +113,7 @@ The `host` object is the supported public contract.
 - `host.mods`: checked/all mods + refresh helper
 - `host.ui`: UI helpers, styles, and Plugins dropdown integration
 - `host.hotkeys`: hotkey registration
-- `host.native`: native DLL loading helper
+- `host.C`: native DLL loader
 
 ### 5.1 Logging
 
@@ -224,12 +224,12 @@ of plugin teardown.
 ### 5.8 Native libraries
 
 ```python
-lib = self.host.native.load(dll_path="path/to/my.dll", abi_version=1)
+lib = self.host.C.load(dll_path="path/to/my.dll", abi_version=1)
 if lib is None:
     self.host.log.error("Native lib failed to load")
 ```
 
-When loaded through `host.native`, native shutdown is called during teardown.
+When loaded through `host.C`, native shutdown is called during teardown.
 
 ## 6) Lifecycle behavior
 

@@ -66,13 +66,13 @@ CZT internals. Anything outside `host.*` is unsupported and may change.
 | `host.mods` | `list()`, `checked()`, `refresh()`. |
 | `host.ui` | `main_window()`, `is_ready()`, `add_menu_item(label, cb)`, style helpers. |
 | `host.hotkeys` | `register(key, cb)`. |
-| `host.native` | `load(dll_path, abi_version=1)`. |
+| `host.C` | `load(dll_path, abi_version=1)`. |
 
 ### Documented events
 
 Subscribe via `host.events.on(name, callback)`. Callbacks receive `**kwargs`
 matching the documented payload. Full list: see
-[czt_plugins /events.py](../../czt_plugins /events.py) `KNOWN_EVENTS`.
+[czt_plugins/events.py](../../czt_plugins/events.py) `KNOWN_EVENTS`.
 
 ### Per-plugin storage
 
@@ -95,7 +95,7 @@ folder delete — no leftover data in the user's config.
 2. **load**     — entry module imported, `register(host)` called.
 3. **enable**   — `Plugin.enable()` called.
 4. **disable**  — `Plugin.disable()` called; `host.events`, `host.ui`,
-   `host.hotkeys`, `host.native` registrations are auto-removed.
+   `host.hotkeys`, `host.C` registrations are auto-removed.
 5. **unload**   — `Plugin.unload()` called; module removed from `sys.modules`.
 
 A crash in any step auto-disables the plugin and surfaces the error in the
@@ -115,7 +115,7 @@ Plugin Manager dialog.
 4. Load it from your Python `enable()`:
    ```python
    def enable(self):
-       lib = self.host.native.load("my_plugin.dll", abi_version=1)
+       lib = self.host.C.load("my_plugin.dll", abi_version=1)
        if lib is None:
            self.host.log.error("native lib failed to load")
    ```
