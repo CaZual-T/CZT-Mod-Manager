@@ -2,7 +2,7 @@
 
 - Published: 2026-05-14
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.11.2
-- 
+  
 - attempt at fixing ui lag do to czt overview widgets.
 
 Note: 
