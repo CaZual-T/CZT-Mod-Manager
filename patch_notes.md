@@ -7,7 +7,7 @@
 
 Note: 
 - This was reported by a few users, it was never lagging for me tbh, but it does feel *smoother* overall. 
-- Hopefully this fixes it for other users.
+- Hopefully this fixes the issues that other users were experiencing.
 
 ## Version: 3.0.11.1
 
