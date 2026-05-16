@@ -4,7 +4,11 @@
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.12.0
 
 - converted some of the heavier functions from python to C....thats the short version.
-- i was going to run this as a beta but being as nobody participated in feedback last time im just pushing this to main now.
+ - archive handling
+ - steam detection
+ - czt overview
+ - recovery
+ - directory search 
 
 ## Version: 3.0.11.2
 
