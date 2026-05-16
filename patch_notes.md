@@ -1,6 +1,14 @@
+## Version: 3.0.12.0
+
+- Published: 2026-05-16
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.12.0
+
+- converted some of the heavier functions from python to C....thats the short version.
+- i was going to run this as a beta but being as nobody participated in feedback last time im just pushing this to main now.
+
 ## Version: 3.0.11.2
 
-- Published: 2026-05-14
+- Published: 2026-05-15
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.11.2
  
 - This is an attempt to fix ui lag that was being caused by the new czt overview widgets.
