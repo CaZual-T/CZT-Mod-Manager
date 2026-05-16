@@ -8,7 +8,7 @@
 	- steam detection
 	- czt overview
 	- recovery
-	- directory search 
+	- directory search (replaced python os.walk)
 
 ## Version: 3.0.11.2
 
