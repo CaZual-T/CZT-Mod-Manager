@@ -98,7 +98,7 @@ TIP_OVERVIEW_ITEM_DISK_TRANSFER_RATE = "Live combined read + write transfer rate
 
 DLG_TITLE_STORAGE_WIDGETS = "Customize CZT Overview"
 DLG_STORAGE_WIDGETS_DESC = "Drag items to reorder. Checked rows are shown in CZT Overview."
-LBL_STORAGE_WIDGETS_DRIVE_LABEL = "Select drive to use for W/R and Transfer Rate overview:"
+LBL_STORAGE_WIDGETS_DRIVE_LABEL = "Select drive to use for R/W and Transfer Rate overview:"
 LBL_STORAGE_WIDGETS_DRIVE_ALL = "All"
 BTN_STORAGE_WIDGETS_RESTORE_DEFAULT = "Restore Default"
 BTN_STORAGE_WIDGETS_CANCEL = "Cancel"
