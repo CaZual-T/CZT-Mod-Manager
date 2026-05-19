@@ -63,7 +63,6 @@ SORT_FAVORITES              = "Избранное (сверху)"
 SORT_UPDATES_AVAILABLE      = "Доступны обновления (сверху)"
 SORT_MOD_HIDDEN             = "Скрытые моды (сверху)"
 SORT_MOD_REMOVED            = "Удаленные моды (сверху)"
-SORT_CORRUPTED              = "Поврежденные (сверху)"
 SORT_ENABLED                = "Включенные (сверху)"
 SORT_DISABLED               = "Отключенные (сверху)"
 
@@ -168,7 +167,6 @@ TAG_UPDATE_REMOVED      = "Удален"
 TAG_UPDATE_HIDDEN       = "Скрыт"
 TAG_UPDATE_AVAILABLE    = "Доступно обновление"
 TAG_REMOVED_DELETED     = "Удален/Удален с Nexus"
-TAG_CORRUPTED           = "Поврежден"
 
 # === Диалог параметров принудительного обновления ===
 DLG_FORCE_UPDATE_TITLE      = "Параметры принудительного обновления"

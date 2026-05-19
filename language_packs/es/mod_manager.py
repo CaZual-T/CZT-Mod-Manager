@@ -63,7 +63,6 @@ SORT_FAVORITES              = "Favoritos (arriba)"
 SORT_UPDATES_AVAILABLE      = "Actualizaciones disponibles (arriba)"
 SORT_MOD_HIDDEN             = "Mod Oculto (arriba)"
 SORT_MOD_REMOVED            = "Mod Eliminado (arriba)"
-SORT_CORRUPTED              = "Corrupto (arriba)"
 SORT_ENABLED                = "Activado (arriba)"
 SORT_DISABLED               = "Desactivado (arriba)"
 
@@ -168,7 +167,6 @@ TAG_UPDATE_REMOVED      = "Eliminado"
 TAG_UPDATE_HIDDEN       = "Oculto"
 TAG_UPDATE_AVAILABLE    = "Actualizacion Disponible"
 TAG_REMOVED_DELETED     = "Eliminado/Borrado"
-TAG_CORRUPTED           = "Corrupto"
 
 # === Dialogo de opciones de actualizacion forzada ===
 DLG_FORCE_UPDATE_TITLE      = "Opciones de Actualizacion Forzada"

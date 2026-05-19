@@ -63,7 +63,6 @@ SORT_FAVORITES              = "Favorites (on top)"
 SORT_UPDATES_AVAILABLE      = "Updates available (on top)"
 SORT_MOD_HIDDEN             = "Mod Hidden (on top)"
 SORT_MOD_REMOVED            = "Mod Removed (on top)"
-SORT_CORRUPTED              = "Corrupted (on top)"
 SORT_ENABLED                = "Enabled (on top)"
 SORT_DISABLED               = "Disabled (on top)"
 
@@ -168,7 +167,6 @@ TAG_UPDATE_REMOVED      = "Removed"
 TAG_UPDATE_HIDDEN       = "Hidden"
 TAG_UPDATE_AVAILABLE    = "Update Available"
 TAG_REMOVED_DELETED     = "Removed/Deleted"
-TAG_CORRUPTED           = "Corrupted"
 
 # === Force Update Options Dialog ===
 DLG_FORCE_UPDATE_TITLE      = "Force Update Options"
