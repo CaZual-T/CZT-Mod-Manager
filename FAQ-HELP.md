@@ -1,5 +1,5 @@
 ### Nexus Account Status:
-- If you every upgrade or downgrade you premium status on nexus you HAVE to go to the api key page and get a new key.
+- You HAVE to go to the api key page and get a new key, IF you ever upgrade or downgrade your nexus premium status.
 
 # Common errors w/ solutions:
 ### [WinError 3] Permission Denied at launch.
