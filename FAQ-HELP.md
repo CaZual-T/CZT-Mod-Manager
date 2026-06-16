@@ -1,5 +1,4 @@
-### Nexus Account Status:
-- You HAVE to go to the api key page and get a new key, IF you ever upgrade or downgrade your nexus premium status.
+
 
 # Common errors w/ solutions:
 ### [WinError 3] Permission Denied at launch.
@@ -23,4 +22,7 @@
       - If they uploaded a new one instead of updating an existing one it breaks the file_id branch.
       - Theres no real fix for this other than to manually download from nexus, and hope the creator doesnt keep updating incorrectly.
       - I could make it compare against mod page version, or when a new file is uploaded, but that is messy and leads to false positives.
-#
+
+### Nexus Account Status:
+- You HAVE to go to the api key page and get a new key, IF you ever upgrade or downgrade your nexus premium status.
+  - Not doing this may result in failed downloads or metadata not being saved/updated properly.
