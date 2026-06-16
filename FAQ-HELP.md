@@ -23,6 +23,7 @@
       - Theres no real fix for this other than to manually download from nexus, and hope the creator doesnt keep updating incorrectly.
       - I could make it compare against mod page version, or when a new file is uploaded, but that is messy and leads to false positives.
 
-### Nexus Account Status:
-- You HAVE to go to the api key page and get a new key, IF you ever upgrade or downgrade your nexus premium status.
-  - Not doing this may result in failed downloads or metadata not being saved/updated properly.
+### Download/Update Failure (mods):
+- Note_1: Ensure that you have your api key saved in both the main app and the extension (if you use it)
+- Note_2: You HAVE to get a new API key if you ever upgrade or downgrade your nexus premium status.
+
