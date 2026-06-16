@@ -17,10 +17,10 @@
      - That is also why CZT detect archive files in your downloads folders so you can skip the dnd and simply install.
     
 ### "A mod i have installed has an update available but CZT isnt flagging it"
-  - This happens when creators upload a new version of a mod but didnt use/update the exisiting file.
-    - When uploading to a mod page, users can choose to upload a new file, or update an existing one.
-      - If they uploaded a new one instead of updating an existing one it breaks the file_id branch.
-      - Theres no real fix for this other than to manually download from nexus, and hope the creator doesnt keep updating incorrectly.
+  - This happens when creators upload a new version of a mod but didnt use/update the EXISTING file.
+    - When uploading to a mod page, users can choose to upload a new file, or UPDATE an existing one.
+      - If they uploaded as new instead of updating an existing one, it breaks the file_id branch.
+      - There's no real fix for this other than to manually download from nexus, and hope the creator doesnt keep updating incorrectly.
       - I could make it compare against mod page version, or when a new file is uploaded, but that is messy and leads to false positives.
 
 ### Download/Update Failure (mods):
