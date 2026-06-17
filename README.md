@@ -1,8 +1,14 @@
-🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main/docs) for help and other guides (faq, install/update mods, controls etc)</br>
-1️⃣ CZT [Initial Setup Guide](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main#installsetup-instructions) (first time users)</br>
+
 ❗ CZT Mod Manager is a free program. DO NOT DOWNLOAD OR PURCHASE FROM ANY OTHER SITES.</br>
-✅ Only download from my [github page](https://github.com/CaZual-T/CZT-Mod-Manager) or from [nexus](https://www.nexusmods.com/readyornot/mods/7190).</br> 
-  
+
+✅ Official Pages: 
+- [CZT-Mod-Manager-Github](https://github.com/CaZual-T/CZT-Mod-Manager) 
+- [NEXUS PAGE](https://www.nexusmods.com/readyornot/mods/7190)
+
+1️⃣ CZT [Initial Setup Guide](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main#installsetup-instructions) (first time users)</br>
+
+🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main/docs) for help and other guides (faq, install/update mods, controls etc)</br>
+
 # Features: 
 - ⭐ EZ Setup & Launch: Automatically locates or creates required configuration files.
   - If you have any problems just make your way to discord so i can help you.
