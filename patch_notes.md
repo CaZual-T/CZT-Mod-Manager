@@ -1,12 +1,16 @@
+## Version: 3.0.12.2
+
+- Published: 2026-06-16
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.12.2
+
+- misc text cleanup (logs etc) 
+
 ## Version: 3.0.12.1
 
 - Published: 2026-05-16
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.12.1
 
 - cleaned up the patch from earlier. (3.0.12.0)
-- this is the final update.
-- thank you for the support and having patience with me.
-- anyways, happy modding!
 
 ## Version: 3.0.12.0
 
