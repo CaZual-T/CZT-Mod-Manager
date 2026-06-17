@@ -26,4 +26,3 @@
 ### Download/Update Failure (mods):
 - Note_1: Ensure that you have your api key saved in both the main app and the extension (if you use it)
 - Note_2: You HAVE to get a new API key if you ever upgrade or downgrade your nexus premium status.
-
