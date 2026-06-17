@@ -1,6 +1,6 @@
 1️⃣ CZT [First time install/Setup Guide](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/CZT_Install_and_Setup.md)</br>
 
-🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main/docs) for help and other guides (czt setup, faq, install/update mods, controls etc)</br>
+🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main/docs) for faq, how to install/update mods, and in app controls.</br>
 
 ✅ Official Pages: 
 - [CZT-Mod-Manager-Github](https://github.com/CaZual-T/CZT-Mod-Manager) 
