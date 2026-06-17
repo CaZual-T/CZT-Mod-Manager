@@ -1,5 +1,5 @@
-🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main/docs) for help and other guides (faq, install/update mods, controls etc)
-1️⃣ CZT [Initial Setup Guide](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main#installsetup-instructions) (first time users)
+🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main/docs) for help and other guides (faq, install/update mods, controls etc)</br>
+1️⃣ CZT [Initial Setup Guide](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main#installsetup-instructions) (first time users)</br>
 ⚠️ CZT Mod Manager is a free program. DO NOT DOWNLOAD OR PURCHASE FROM ANY OTHER SITES.
    - Only download from this github page or from nexus. 
   
