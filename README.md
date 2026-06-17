@@ -6,7 +6,7 @@
 
 1️⃣ CZT [Initial Setup Guide](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/CZT_Install_and_Setup.md) (first time users)</br>
 
-🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main/docs) for help and other guides (faq, install/update mods, controls etc)</br>
+🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main/docs) for help and other guides (czt setup, faq, install/update mods, controls etc)</br>
 
 # Features: 
 - ⭐ EZ Setup & Launch: Automatically locates or creates required configuration files.
