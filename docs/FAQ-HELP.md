@@ -26,3 +26,7 @@
 ### Download/Update Failure (mods):
 - Note_1: Ensure that you have your api key saved in both the main app and the extension (if you use it)
 - Note_2: You HAVE to get a new API key if you ever upgrade or downgrade your nexus premium status.
+
+### Updating CZT Mod Manager
+- CZT will detect and notify you in app if their is an available update.
+- Updates can be downloaded and installed without ever needing to open a browser.
