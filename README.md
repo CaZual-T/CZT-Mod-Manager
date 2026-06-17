@@ -1,5 +1,4 @@
-
-❗ CZT Mod Manager is a free program. DO NOT DOWNLOAD OR PURCHASE FROM ANY OTHER SITES.</br>
+❗CZT Mod Manager is a free program. DO NOT DOWNLOAD OR PURCHASE FROM ANY OTHER SITES.</br>
 
 ✅ Official Pages: 
 - [CZT-Mod-Manager-Github](https://github.com/CaZual-T/CZT-Mod-Manager) 
