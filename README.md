@@ -1,6 +1,7 @@
 ✅ Official Pages: 
 - [CZT-Mod-Manager-Github](https://github.com/CaZual-T/CZT-Mod-Manager) 
 - [NEXUS PAGE](https://www.nexusmods.com/readyornot/mods/7190)
+- [Discord](https://discord.com/invite/kyARuAHbS2)
 
 ❗CZT Mod Manager is a free program. DO NOT DOWNLOAD OR PURCHASE FROM ANY OTHER SITES.</br>
 
