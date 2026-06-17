@@ -1,6 +1,6 @@
 # How to install mods (NEW USER):
 🟡 OPTION 1:
-  - First time users with mods already installed at default locations... </br>
+  - First time users with mods installed at default locations... </br>
   - ...Move them into your downloads folder. (NOT INCLUDING mod.io, do not touch mod.io folder) 
   - Delete the old mod files from the old default location. You wont need them anymore.</br>
   - Select the profile (game) you want to use in CZT
@@ -9,7 +9,7 @@
   - Go to the manage tab. Since these mods were manually installed by czt, they wont have their info saved.
   - You will have to manually right click each one and save their nexus url.</br>
 
- 🟢 OPTION 2:
+ 🟢 OPTION 2: (RECOMMENDED)
   - Delete all of your current mods.
   - Redownload using the steps below. 
 #
