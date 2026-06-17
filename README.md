@@ -1,4 +1,4 @@
-Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main/docs) for help and other guides (faq, install/update mods, controls etc)
+🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main/docs) for help and other guides (faq, install/update mods, controls etc)
 
 # Features: 
 - ⭐ EZ Setup & Launch: Automatically locates or creates required configuration files.
@@ -83,4 +83,4 @@ Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main/docs) for hel
   - Alternatively you can use manual pathing and follow the instructions in the log box.
 ###
 
-Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main/docs) for help and other guides (faq, install/update mods, controls etc)
+🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main/docs) for help and other guides (faq, install/update mods, controls etc)
