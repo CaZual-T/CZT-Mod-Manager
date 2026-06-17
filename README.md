@@ -31,5 +31,10 @@
 - ⭐ Currently Supports Ready or Not, Schedule I, Dying Light 1/2, and Dying Light The Beast.
 - 🚫 Does NOT support Linux.</br>
 
-<img width="1254" height="620" alt="image" src="https://github.com/user-attachments/assets/9cdec0f9-ef4e-4bdd-b4d4-002eded6b397" />
-<img width="1251" height="618" alt="image" src="https://github.com/user-attachments/assets/9f27b17f-87b6-41c5-ab70-6658c7a44bf3" />
+<img width="1250" height="613" alt="image" src="https://github.com/user-attachments/assets/ff4a8d15-9b01-40d1-95c2-1926446f93cb" />
+<img width="1251" height="613" alt="image" src="https://github.com/user-attachments/assets/b55ebcf0-b908-47b4-bbab-02d245ce9e20" />
+<img width="1250" height="613" alt="image" src="https://github.com/user-attachments/assets/b5a2cb51-0539-45e0-9f67-82271caf8dae" />
+<img width="602" height="633" alt="image" src="https://github.com/user-attachments/assets/dbcdb8b4-84f3-4deb-a290-10397dcaef14" />
+<img width="718" height="512" alt="image" src="https://github.com/user-attachments/assets/49d44f15-97f7-4a43-af81-d562dba889e3" />
+<img width="1119" height="617" alt="image" src="https://github.com/user-attachments/assets/94134bfa-097d-47e6-8d25-e465ddccb803" />
+<img width="782" height="481" alt="image" src="https://github.com/user-attachments/assets/56d0b53b-8aa2-4b8c-82db-13f91cd18beb" />
