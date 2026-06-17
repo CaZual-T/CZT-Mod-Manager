@@ -1,10 +1,10 @@
-❗CZT Mod Manager is a free program. DO NOT DOWNLOAD OR PURCHASE FROM ANY OTHER SITES.</br>
-
 ✅ Official Pages: 
 - [CZT-Mod-Manager-Github](https://github.com/CaZual-T/CZT-Mod-Manager) 
 - [NEXUS PAGE](https://www.nexusmods.com/readyornot/mods/7190)
 
-1️⃣ CZT [Initial Setup Guide](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/CZT_Install_and_Setup.md) (first time users)</br>
+❗CZT Mod Manager is a free program. DO NOT DOWNLOAD OR PURCHASE FROM ANY OTHER SITES.</br>
+
+1️⃣ CZT [First time install/Setup Guide](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/CZT_Install_and_Setup.md)</br>
 
 🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main/docs) for help and other guides (czt setup, faq, install/update mods, controls etc)</br>
 
