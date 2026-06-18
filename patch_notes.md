@@ -1,3 +1,12 @@
+## Version: 3.0.13.0
+
+- Published: 2026-06-18
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.13.0
+
+- Fixed update scan.
+- Updated nexus v3 endpoints
+- Added Forza Horizon 6 support
+
 ## Version: 3.0.12.2
 
 - Published: 2026-06-16
