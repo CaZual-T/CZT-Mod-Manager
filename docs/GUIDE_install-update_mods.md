@@ -47,4 +47,4 @@
        - If the mod manager download button doesnt exist, get the czt extension and use the 'manual download' button.
          - Both methods will trigger CZT to run the install process and automatically apply updated metadata.
          - 
-🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs) for faq, how to install/update mods, and in app controls.</br>
+🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs) for FAQ and in app controls.</br>
