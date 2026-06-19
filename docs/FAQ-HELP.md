@@ -20,8 +20,11 @@
   - This happens when creators upload a new version of a mod but didnt use/update the EXISTING file.
     - When uploading to a mod page, users can choose to upload a new file, or UPDATE an existing one.
       - If they uploaded as new instead of updating an existing one, it breaks the file_id branch.
-      - There's no real fix for this other than to manually download from nexus, and hope the creator doesnt keep updating incorrectly.
-      - I could make it compare against mod page version, or when a new file is uploaded, but that is messy and leads to false positives.
+  - 20260616 
+    - Nexus has updated their upload/update process making it much more streamlined.
+    - CZT has been updated to the latest nexus v3 endpoints.
+      - ~~There's no real fix for this other than to manually download from nexus, and hope the creator doesnt keep updating incorrectly.~~
+      - ~~I could make it compare against mod page version, or when a new file is uploaded, but that is messy and leads to false positives.~~
 
 ### Download/Update Failure (mods):
 - Note_1: Ensure that you have your api key saved in both the main app and the extension (if you use it)
