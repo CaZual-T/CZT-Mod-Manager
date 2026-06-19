@@ -3,15 +3,15 @@
 - Published: 2026-06-18
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.13.2
 
-- fixed false 'update available' pings when scanning mods.
+- Fixed false 'update available' pings when scanning mods.
 
 ## Version: 3.0.13.1
 
 - Published: 2026-06-18
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.13.1
 
-- fixed czt nxs bridge handling.
-- implemented fs_manager into our forzatech engine handler, moving os.walk from major functions, and only using it for a backup in the off chance our file system dll (fs_manager) is missing.
+- Fixed czt nxs bridge handling.
+- Implemented fs_manager into our forzatech engine handler, moving os.walk from major functions, and only using it for a backup in the off chance our file system dll (fs_manager) is missing.
 
 ## Version: 3.0.13.0
 
@@ -41,7 +41,7 @@
 - Published: 2026-05-16
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.12.0
 
-- converted some of the heavier functions from python to C....thats the short version.
+- Converted some of the heavier functions from python to C....thats the short version.
 	- archive handling
 	- steam detection
 	- czt overview
