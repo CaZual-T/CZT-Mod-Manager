@@ -13,4 +13,4 @@ Forza Horizon 6:
 - the easiest way to do this is create a mediapc folder on your desktop, inside that put the required subfolder like camera, cars, control etc. then drag your created mod inside that subfolder.
 - zip the mediafolder on your desktop and rename it to a name of your choice. UPLOAD THAT.
 
-- most creators already do this.
+- long story short, put yout mods in the correct scope before zipping and uploading them. most creators already do this.
