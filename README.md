@@ -29,7 +29,7 @@
 - ⭐ Error Handling & Recovery: Stress tested for reliability.
 - ⭐ In-Depth user logs for both normal processes and errors.
 - ⭐ Customizable UI: Users can personalize colors, fonts, and layouts for accessibility and aesthetics.
-- ⭐ Currently Supports Ready or Not, Schedule I, Dying Light 1/2, and Dying Light The Beast.
+- ⭐ Currently Supports Forza Horizon 6, Ready or Not, Schedule I, Dying Light 1/2, and Dying Light The Beast.
 - 🚫 Does NOT support Linux.</br>
 
 <img width="1250" height="613" alt="image" src="https://github.com/user-attachments/assets/ff4a8d15-9b01-40d1-95c2-1926446f93cb" />
