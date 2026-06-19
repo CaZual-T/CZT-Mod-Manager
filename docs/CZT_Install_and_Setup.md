@@ -54,5 +54,5 @@
   - Alternatively you can use manual pathing and follow the instructions in the log box.
 ###
 
-🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE_install-update_mods.md) for the install/update mods guide</br>
+🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE_install-update_mods.md) for a guide on how to install/update mods</br>
 🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/FAQ-HELP.md) for FAQ and Troubleshooting</br>
