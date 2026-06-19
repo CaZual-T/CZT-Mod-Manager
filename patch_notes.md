@@ -1,3 +1,11 @@
+## Version: 3.0.13.1
+
+- Published: 2026-06-18
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.13.1
+
+- fixed czt nxs bridge handling.
+- implemented fs_manager into our forzatech engine handler, moving os.walk from major functions, and only using it for a backup in the off chance the dll is missing.
+
 ## Version: 3.0.13.0
 
 - Published: 2026-06-18
