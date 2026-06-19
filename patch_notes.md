@@ -1,3 +1,10 @@
+## Version: 3.0.13.2
+
+- Published: 2026-06-18
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.13.2
+
+- fixed false 'update available' pings when scanning mods.
+
 ## Version: 3.0.13.1
 
 - Published: 2026-06-18
