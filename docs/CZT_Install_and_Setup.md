@@ -54,4 +54,4 @@
   - Alternatively you can use manual pathing and follow the instructions in the log box.
 ###
 
-🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE_install-update_mods.md) for faq, how to install/update mods, and in app controls.</br>
+🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE_install-update_mods.md) for how to install/update mods!</br>
