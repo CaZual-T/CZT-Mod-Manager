@@ -1,3 +1,11 @@
+## Version: 3.0.13.4
+
+- Published: 2026-06-19
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.13.4
+
+- Xbox Game Pass support for Forza Horizon 6
+- Updated manual pathing (Install and EXE)
+
 ## Version: 3.0.13.3
 
 - Published: 2026-06-19
