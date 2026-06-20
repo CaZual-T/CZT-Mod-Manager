@@ -54,7 +54,8 @@ Video Guide (it's not great, but provides a visual for the guide below): https:/
   <img width="726" height="279" alt="image" src="https://github.com/user-attachments/assets/2bf4962a-a637-4f5d-93d4-7dcfdc581f9f" />
 
   - Alternatively you can use manual pathing and follow the instructions in the log box.
-  - <img width="643" height="438" alt="image" src="https://github.com/user-attachments/assets/3a41b6b3-96f4-49fc-bf58-5794ada62291" />
+  - XBOX and Epic Games ⬇️</br>
+  <img width="643" height="438" alt="image" src="https://github.com/user-attachments/assets/3a41b6b3-96f4-49fc-bf58-5794ada62291" />
 
 ###
 
