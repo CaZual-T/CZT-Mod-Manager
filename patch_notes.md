@@ -1,5 +1,15 @@
 ## Version: 3.0.13.2
 
+- Published: 2026-06-19
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.13.3
+
+- custom version.dll loader support for forza
+	- At launch czt installs our custom version.dll to forza ff a mod contains a version.dll. 
+	- CZT will also rename the mods version.dll to modname-version.dll automatically.
+ 	- The renamed dll will then be linked like normal and the czt version.dll will handles passing info to the game from the mod dlls. 
+
+## Version: 3.0.13.2
+
 - Published: 2026-06-18
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.13.2
 
