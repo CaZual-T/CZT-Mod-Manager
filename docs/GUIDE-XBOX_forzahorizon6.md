@@ -20,7 +20,7 @@
 
 <img width="558" height="377" alt="image" src="https://github.com/user-attachments/assets/4d19712b-b9f0-472a-98cf-33e3280eeb76" /></br>
 
-## Click 'Set Install Path' to the 'content; folder
+## Click 'Set Install Path' to the 'content' folder
   - C:\XboxGames\AB03F40C-E85D-467B-8C67-3870B89BD2D1\Content
   - your path may vary! The name of fh6 root folder seems to be different for other users!
     - The overall format will be the same --> (xbox/string of numbers/**content**)
