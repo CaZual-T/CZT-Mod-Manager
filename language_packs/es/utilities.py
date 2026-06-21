@@ -327,6 +327,7 @@ LOG_DEV_MODE_SETTINGS_OPEN_FAILED = "[ERROR] No se pudo abrir configuracion de M
 LOG_FORZATECH_HOISTED_PAYLOAD = "[ForzaTech] Se extrajo el contenido de '{mod}' de '{prefix}' a la raiz del juego."
 LOG_FORZATECH_RENAMED_LOADER = "[ForzaTech] Se renombro version.dll de '{mod}' -> {rel} para carga proxy."
 LOG_FORZATECH_MERGE_LINK_FAILED = "[ForzaTech] Fallo el enlace de fusion para {rel}: {error}"
+LOG_FORZATECH_CONFLICTS_MODS = "[ForzaTech] Mods con archivos en conflicto:\n{mod_list}"
 LOG_FORZATECH_CONFLICTS_RESOLVED = "[ForzaTech] Se resolvieron {count} conflicto(s) de archivo por orden de carga."
 LOG_FORZATECH_LOADER_NOT_FOUND = "[ForzaTech] Cargador integrado no encontrado en {path}; omitiendo."
 LOG_FORZATECH_LOADER_INJECTED = "[ForzaTech] Se inyecto el cargador proxy version.dll integrado."
