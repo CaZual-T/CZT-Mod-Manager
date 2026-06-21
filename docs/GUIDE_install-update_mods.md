@@ -10,7 +10,7 @@
   - You will have to manually right click each one and save their nexus url.</br>
 
  🟢 OPTION 2: (RECOMMENDED)
-  - Delete all of your current mods. (❗FH6 USERS; VERIFY YOUR FILES ON STEAM TO GET BACK TO VANILLA) 
+  - Delete all of your current mods. (❗FH6 USERS; VERIFY YOUR FILES TO GET BACK TO ACTUAL VANILLA) 
   - Redownload using the steps below. 
 #
 # How to install new mods (normal):
