@@ -1,3 +1,11 @@
+## Version: 3.0.14.0
+
+- Published: 2026-06-21
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.14.0
+
+- autoscoping for fh6 mods.
+	- this will restructure mods into the correct folder structure automatically before installing.
+
 ## Version: 3.0.13.4
 
 - Published: 2026-06-20
