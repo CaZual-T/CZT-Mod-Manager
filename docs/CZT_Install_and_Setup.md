@@ -49,21 +49,21 @@ Video Guide (it's not great, but provides a visual for the guide below): https:/
 
 ### 5:) Select Game profile
 - Select an option from the drop down on the left.  (you can change this at any time)
-<img width="163" height="209" alt="image" src="https://github.com/user-attachments/assets/7344a472-de24-4d37-b70a-e3a667880ac6" />
+<img width="165" height="216" alt="image" src="https://github.com/user-attachments/assets/f0df65c9-2035-44c1-83bd-bdca5edcc608" />
 
-### 6-default) Steam Users:
-- Choose pathing mode (It's set to steam 'auto' by default)
-- Click DETECT STEAM. (you should see someting like the image below)
-  <img width="726" height="279" alt="image" src="https://github.com/user-attachments/assets/2bf4962a-a637-4f5d-93d4-7dcfdc581f9f" />
+### 6:) Set Path Mode:
+Steam:</br>
+<img width="168" height="91" alt="image" src="https://github.com/user-attachments/assets/ba250395-74f6-4114-89e9-ef28d774841e" /></br>
+  - Choose pathing mode (It's set to steam 'auto' by default)
+  - Click DETECT STEAM. (you should see someting like the image below)
+    <img width="726" height="279" alt="image" src="https://github.com/user-attachments/assets/2bf4962a-a637-4f5d-93d4-7dcfdc581f9f" /></br>
 
-### 6-alternative) Manual Pathing
-  - XBOX, Epic Games, 'Other'
+XBOX, Epic Games, 'Other'
+  - click pathing mode -> select manual
   - 🆘 FORZA HORIZON 6 'XBOX/GAMEPASS' USERS --> Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE-XBOX_forzahorizon6.md)</br>
-    <img width="643" height="438" alt="image" src="https://github.com/user-attachments/assets/3a41b6b3-96f4-49fc-bf58-5794ada62291" />
+<img width="171" height="93" alt="image" src="https://github.com/user-attachments/assets/90e50273-8253-4a9c-9513-81dd73d5c92a" /></br>
+<img width="643" height="438" alt="image" src="https://github.com/user-attachments/assets/3a41b6b3-96f4-49fc-bf58-5794ada62291" /></br>
 
 ###
-
-# 
-
 🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE_install-update_mods.md) for a guide on how to install/update mods</br>
 🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/FAQ-HELP.md) for FAQ and Troubleshooting</br>
