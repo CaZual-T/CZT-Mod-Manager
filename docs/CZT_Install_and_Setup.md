@@ -49,11 +49,14 @@ Video Guide (it's not great, but provides a visual for the guide below): https:/
 
 ### 5:) Select Game profile
 - Select an option from the drop down on the left.  (you can change this at any time)
+<img width="163" height="209" alt="image" src="https://github.com/user-attachments/assets/7344a472-de24-4d37-b70a-e3a667880ac6" />
+
+### 6-default) Steam Users:
 - Choose pathing mode (It's set to steam 'auto' by default)
 - Click DETECT STEAM. (you should see someting like the image below)
   <img width="726" height="279" alt="image" src="https://github.com/user-attachments/assets/2bf4962a-a637-4f5d-93d4-7dcfdc581f9f" />
 
-  - Alternatively you can use manual pathing and follow the instructions in the log box.
+### 6-alternative) Manual Pathing
   - XBOX, Epic Games, 'Other'
   - 🆘 FORZA HORIZON 6 'XBOX/GAMEPASS' USERS --> Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE-XBOX_forzahorizon6.md)</br>
     <img width="643" height="438" alt="image" src="https://github.com/user-attachments/assets/3a41b6b3-96f4-49fc-bf58-5794ada62291" />
