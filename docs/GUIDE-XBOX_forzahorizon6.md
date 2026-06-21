@@ -1,4 +1,4 @@
-### Go into the xbox app
+### Open the xbox app
 - Right click FH6 --> Click 'Manage'</br>
 <img width="424" height="390" alt="image" src="https://github.com/user-attachments/assets/3651f774-14d2-4a20-984e-1a8ca2aa0a9c" /></br>
 - click 'files'</br>
