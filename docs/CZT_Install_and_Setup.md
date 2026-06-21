@@ -1,6 +1,6 @@
 Video Guide (it's not great, but provides a visual for the guide below): https://youtu.be/0D4QZrE7Cws
 
-# Install/Setup Instructions:
+# Install/Setup Instructions: 
 >[!TIP]
 >- Almost every ui element has a tooltip. Hover over buttons and drop downs etc to see them.
 ### 1:) Download and Run installer
