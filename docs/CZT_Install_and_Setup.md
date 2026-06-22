@@ -49,8 +49,8 @@ Video Guide (it's not great, but provides a visual for the guide below): https:/
     <img width="652" height="205" alt="image" src="https://github.com/user-attachments/assets/aa364e24-e9eb-4c52-aabf-a018e954365d" />
 
 ### 5:) Select Game profile
-- Select an option from the drop down on the left.  (you can change this at any time)
-<img width="165" height="216" alt="image" src="https://github.com/user-attachments/assets/f0df65c9-2035-44c1-83bd-bdca5edcc608" />
+- Select an option from the drop down on the left.  (you can change this at any time)</br>
+  <img width="165" height="216" alt="image" src="https://github.com/user-attachments/assets/f0df65c9-2035-44c1-83bd-bdca5edcc608" />
 
 ### 6:) Set Path Mode:
 ### 🔵 STEAM </br>
