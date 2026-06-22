@@ -53,7 +53,7 @@ Video Guide (it's not great, but provides a visual for the guide below): https:/
 <img width="165" height="216" alt="image" src="https://github.com/user-attachments/assets/f0df65c9-2035-44c1-83bd-bdca5edcc608" />
 
 ### 6:) Set Path Mode:
-- 🟡 STEAM </br>
+- 🔵 STEAM </br>
 - Ensure the path mode is set to **Steam** (should be by default).</br>
 <img width="168" height="91" alt="image" src="https://github.com/user-attachments/assets/ba250395-74f6-4114-89e9-ef28d774841e" /></br>
   - Click DETECT STEAM.</br>
@@ -61,7 +61,7 @@ Video Guide (it's not great, but provides a visual for the guide below): https:/
     - This will check your steam .vdf file for every game CZT manages and automatically set applicable paths.</br>
     <img width="726" height="279" alt="image" src="https://github.com/user-attachments/assets/2bf4962a-a637-4f5d-93d4-7dcfdc581f9f" /></br>
 
-- 🟢 XBOX, Epic Games, 'Other' </br>
+- 🟡 XBOX, Epic Games, 'Other' </br>
 - Click path mode --> select 'manual'</br>
 <img width="171" height="93" alt="image" src="https://github.com/user-attachments/assets/90e50273-8253-4a9c-9513-81dd73d5c92a" /></br>
   - 🔴 FORZA HORIZON 6 'XBOX/GAMEPASS' USERS ⚠️ --> [CLICK HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE-XBOX_forzahorizon6.md) <-- ⚠️</br>
