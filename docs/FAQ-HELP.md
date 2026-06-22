@@ -39,4 +39,4 @@
 --> [CZT Initial Install/Setup](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/CZT_Install_and_Setup.md)</br>
 --> [CZT Controls](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE_controls.md)</br>
 --> [How to Install/Update Mods](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE_install-update_mods.md)</br>
---> [Xbox: Forza Horizon 6 Guide](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE-XBOX_forzahorizon6.md)</br>
+--> [Xbox: Forza Horizon 6 Guide](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE_xbox_forzahorizon6.md)</br>
