@@ -23,6 +23,6 @@ Forza Horizon 6:
 
   FH6_NOTE: mods that are standalone like spotify radio are fine too. But i imagine if you make mods at that level you already know that.
 
-
-Note_To_All:
-- Let me know if you need anything enabled for your specific mod. 
+##
+> [!NOTE]  
+> Let me know if you need anything enabled for your specific mod/profile (game) that you're working with.
