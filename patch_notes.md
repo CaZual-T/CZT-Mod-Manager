@@ -4,11 +4,11 @@
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.14.1
 
 - Improved autoscoping for forza horizon 6 mods. 
- - I stg half the mod creators for that game are fucking sped. 
+  - I stg half the mod creators for that game are fucking sped. 
 - Conflict detection
- - List mods that have conflicting files at launch
- - Auto conflict resolution determined by loadorder.
-   - note: this will only effect conflicting **files** within mods. this wont swap an entire mod for the other unless they both contatin exact 1:1 files.
+  - List mods that have conflicting files at launch
+  - Auto conflict resolution determined by loadorder.
+   - Note: this will only effect conflicting **files** within mods. this wont swap an entire mod for the other unless they both contatin exact 1:1 files.
    - meaning you can use mods with conflicting files and czt will automatically detect and replace the specific files with whatever mod is set higher in load order.
 
 ## Version: 3.0.14.0
