@@ -64,9 +64,9 @@ Video Guide (it's not great, but provides a visual for the guide below): https:/
 ### 🟡 XBOX, Epic Games, 'Other' </br>
 - Click path mode --> select 'manual'</br>
 <img width="171" height="93" alt="image" src="https://github.com/user-attachments/assets/90e50273-8253-4a9c-9513-81dd73d5c92a" /></br>
-  - 🔴 FORZA HORIZON 6 'XBOX/GAMEPASS' USERS ⚠️ --> [CLICK HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE_xbox_forzahorizon6.md) <-- ⚠️</br>
 <img width="643" height="438" alt="image" src="https://github.com/user-attachments/assets/3a41b6b3-96f4-49fc-bf58-5794ada62291" /></br>
+  - 🔴 FORZA HORIZON 6 'XBOX/GAMEPASS' USERS ⚠️ --> [CLICK HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE_xbox_forzahorizon6.md) <-- ⚠️</br>
 
-###
+##
 🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE_install-update_mods.md) for a guide on how to install/update mods.</br>
 🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/FAQ-HELP.md) for FAQ.</br>
