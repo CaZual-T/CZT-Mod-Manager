@@ -4,6 +4,7 @@
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.14.2
 
 - More improvements to the FH6 autoscoping feature.
+	- dont worry forza mod creators. i'll continue to do everything for you. f-ck-n useless. (mainly applies to cosmetic creators)
 - Added a hotkey to link/unlink mods without launching the game f7/f8.
 - Fixed a bug that would cause duplicate installs if a user downloaded a mod that was in the disabled state at the time of download. 
 
