@@ -1,15 +1,15 @@
 Dying Light:
 - no specific requirements
-- recommendation: try to combine as many of your mods as possible. Dying light has an annoying pak limit.
-- .pak, .asi, .dll
+- recommendation: try to combine as many of your mods as possible. Dying light has an annoying pak limit.</br>
+Mod Types --> .pak, .asi, .dll
 
 Schedule I: 
-- no specific requirements
-- .pak, .dll (let me know if you need .asi enabled)
+- no specific requirements</br>
+Mod Types --> .pak, .dll (let me know if you need .asi enabled)
 
 Ready or Not: 
-- no specific requirements
-- .pak, .asi, .dll, FMOD, Splash, Movies, VO_MOD
+- no specific requirements</br>
+Mod Types --> .pak, .asi, .dll, FMOD, Splash, Movies, VO_MOD
 
 Forza Horizon 6: 
 - IT REALLY HELPS WHEN YOU PRE-SCOPE YOUR MODS!!!
@@ -22,3 +22,7 @@ Forza Horizon 6:
 - long story short, put yout mods in the correct scope before zipping and uploading them. most creators already do this.
 
   FH6_NOTE: mods that are standalone like spotify radio are fine too. But i imagine if you make mods at that level you already know that.
+
+
+Note_To_All:
+- Let me know if you need anything enabled for your specific mod. 
