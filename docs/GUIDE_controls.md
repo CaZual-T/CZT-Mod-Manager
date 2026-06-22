@@ -37,3 +37,6 @@
 - Place plugins in:
   - CZT Mod Manager/plugins/>here<
     - Press F3 to load.
+
+##
+🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/FAQ-HELP.md) for FAQ </br>
