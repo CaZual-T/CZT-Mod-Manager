@@ -1,6 +1,10 @@
-
-
 # Common errors w/ solutions:
+
+### Windows says its a virus and stopped my download/install
+- CZT Mod Manager is an unsigned app, it will ALWAYS hit windows defender etc.
+- NOTE THAT NEXUS STAFF HAS ACCESS TO MY SOURCE CODE. Thats quite literally the only reassurance i can give you.
+- Use it, dont use it, idgaf at this point. Im not going to beg/plead with people.
+
 ### [WinError 3] Permission Denied at launch.
 - ENABLE DEVELOPER MODE.
   - (Windows) Settings > Advanced > For Developers (Toggle Developer Mode On)
