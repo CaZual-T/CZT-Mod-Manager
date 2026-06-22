@@ -34,9 +34,12 @@
 - ⭐ Currently Supports Forza Horizon 6, Ready or Not, Schedule I, Dying Light 1, 2, and Dying Light The Beast.
 - 🚫 Does NOT support Linux.</br>
 
+##
 <img width="1250" height="613" alt="image" src="https://github.com/user-attachments/assets/ff4a8d15-9b01-40d1-95c2-1926446f93cb" />
 <img width="1251" height="613" alt="image" src="https://github.com/user-attachments/assets/b55ebcf0-b908-47b4-bbab-02d245ce9e20" />
 <img width="1250" height="613" alt="image" src="https://github.com/user-attachments/assets/b5a2cb51-0539-45e0-9f67-82271caf8dae" />
+
+## </br>
 <img width="602" height="633" alt="image" src="https://github.com/user-attachments/assets/dbcdb8b4-84f3-4deb-a290-10397dcaef14" />
 <img width="718" height="512" alt="image" src="https://github.com/user-attachments/assets/49d44f15-97f7-4a43-af81-d562dba889e3" />
 <img width="1119" height="617" alt="image" src="https://github.com/user-attachments/assets/94134bfa-097d-47e6-8d25-e465ddccb803" />
