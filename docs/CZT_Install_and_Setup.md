@@ -4,7 +4,8 @@ Video Guide (it's not great, but provides a visual for the guide below): https:/
 # Install/Setup Instructions: 
 >[!TIP]
 >- Almost every ui element has a tooltip. Hover over buttons and drop downs etc to see them.
-### 1:) Download Installer
+### 1:) Install CZT Mod Manager
+- Download: https://github.com/CaZual-T/CZT-Mod-Manager/releases
 - Run Installer</br>
   <img width="591" height="460" alt="image" src="https://github.com/user-attachments/assets/59bf3727-a474-456c-8387-9dd7aadf4eb8" />
   <img width="592" height="459" alt="image" src="https://github.com/user-attachments/assets/8226a656-4a15-47a4-baa5-5ff635b5c30a" />
