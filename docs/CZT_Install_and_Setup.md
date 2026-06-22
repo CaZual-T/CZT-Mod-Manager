@@ -4,7 +4,11 @@ Video Guide (it's not great, but provides a visual for the guide below): https:/
 # Install/Setup Instructions: 
 >[!TIP]
 >- Almost every ui element has a tooltip. Hover over buttons and drop downs etc to see them.
-### 1:) Download and Run installer
+### 1:) Download Installer
+- Run Installer</br>
+  <img width="591" height="460" alt="image" src="https://github.com/user-attachments/assets/59bf3727-a474-456c-8387-9dd7aadf4eb8" />
+  <img width="592" height="459" alt="image" src="https://github.com/user-attachments/assets/8226a656-4a15-47a4-baa5-5ff635b5c30a" />
+  <img width="595" height="458" alt="image" src="https://github.com/user-attachments/assets/70a9e31b-33f9-4b62-b84b-7b243713de8f" />
 
 ### 2:) Create Root 
 - Click 'SETUP' on the main menu.
@@ -62,11 +66,11 @@ Video Guide (it's not great, but provides a visual for the guide below): https:/
     <img width="726" height="279" alt="image" src="https://github.com/user-attachments/assets/2bf4962a-a637-4f5d-93d4-7dcfdc581f9f" /></br>
 
 ### 🟡 XBOX, Epic Games, 'Other' </br>
-- Click path mode
-  - --> select 'manual'</br>
+- Click "Path Modes"
+  - Select "Manual"</br>
 <img width="171" height="93" alt="image" src="https://github.com/user-attachments/assets/90e50273-8253-4a9c-9513-81dd73d5c92a" /></br>
 <img width="643" height="438" alt="image" src="https://github.com/user-attachments/assets/3a41b6b3-96f4-49fc-bf58-5794ada62291" /></br>
-- 🔴 FORZA HORIZON 6 'XBOX/GAMEPASS' USERS ⚠️ --> [CLICK HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE_xbox_forzahorizon6.md) <-- ⚠️</br>
+  - 🔴 FORZA HORIZON 6 'XBOX/GAMEPASS' USERS ⚠️ [--> CLICK HERE <--](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE_xbox_forzahorizon6.md) ⚠️</br>
 
 ##
 🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE_install-update_mods.md) for a guide on how to install/update mods.</br>
