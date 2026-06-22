@@ -36,7 +36,7 @@
 #
 # Updating Mods
 - Click the download arrow next to the mod in grid view.
-  <img width="1068" height="55" alt="image" src="https://github.com/user-attachments/assets/6e922b50-1afa-43cd-bd0f-463e85ebfdb8" />
+  <img width="1194" height="54" alt="image" src="https://github.com/user-attachments/assets/2d5c6c7e-9ad7-45c7-917c-a7f437b5986f" />
 
      - Premium Nexus accounts:
        - Instant direct download and install. 
