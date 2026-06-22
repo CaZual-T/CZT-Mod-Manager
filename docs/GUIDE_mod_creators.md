@@ -21,4 +21,4 @@ Forza Horizon 6:
 
 - long story short, put yout mods in the correct scope before zipping and uploading them. most creators already do this.
 
-FH6_NOTE: mods that are standalone like spotify radio are fine too. But i imagine if you make mods at that level you already know that.
+  FH6_NOTE: mods that are standalone like spotify radio are fine too. But i imagine if you make mods at that level you already know that.
