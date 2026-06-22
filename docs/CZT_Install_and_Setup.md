@@ -53,14 +53,15 @@ Video Guide (it's not great, but provides a visual for the guide below): https:/
 
 ### 6:) Set Path Mode:
 - Steam:</br>
+- Ensure the path mode is set to **Steam** (should be by default).</br>
 <img width="168" height="91" alt="image" src="https://github.com/user-attachments/assets/ba250395-74f6-4114-89e9-ef28d774841e" /></br>
-  - Path Mode is set to **Steam** by default.
   - Click DETECT STEAM. (you should see someting like the image below)
+  - <img width="174" height="123" alt="image" src="https://github.com/user-attachments/assets/9971edd9-8921-4fe8-a52b-17b492d583b5" /></br>
     <img width="726" height="279" alt="image" src="https://github.com/user-attachments/assets/2bf4962a-a637-4f5d-93d4-7dcfdc581f9f" /></br>
 
 - XBOX, Epic Games, 'Other'</br>
+- Click path mode --> select 'manual'</br>
 <img width="171" height="93" alt="image" src="https://github.com/user-attachments/assets/90e50273-8253-4a9c-9513-81dd73d5c92a" /></br>
-  - Click path mode --> select 'manual'
   - 🆘 FORZA HORIZON 6 'XBOX/GAMEPASS' USERS --> [CLICK HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE-XBOX_forzahorizon6.md) <--</br>
 <img width="643" height="438" alt="image" src="https://github.com/user-attachments/assets/3a41b6b3-96f4-49fc-bf58-5794ada62291" /></br>
 
