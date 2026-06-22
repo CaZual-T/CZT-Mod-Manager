@@ -12,7 +12,7 @@ Ready or Not:
 - .pak, .asi, .dll, FMOD, Splash, Movies, VO_MOD
 
 Forza Horizon 6: 
-- YOU MUST HAVE A MEDIA OR MEDIAPC FOLDER IN YOUR UPLOADED FILE.
+- IT REALLY HELPS WHEN YOU PRE-SCOPE YOUR MODS!!!
   - Example: CustomRX7Mod.rar inside should be -> mediapc/cars/MAZ_RX7_92.zip
     - the easiest way to do this is by creating a mediapc folder on your desktop
     - inside the mediapc folder add the required subfolder like camera, cars, controls etc. (if needed)
