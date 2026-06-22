@@ -33,3 +33,10 @@
 ### Updating CZT Mod Manager
 - CZT will detect and notify you in app if their is an available update.
 - Updates can be downloaded and installed without ever needing to open a browser.
+
+## Return
+--> [Homepage](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main)
+--> [CZT Initial](Install/Setup https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/CZT_Install_and_Setup.md)
+--> [CZT Controls](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE_controls.md)
+--> [How to Install/Update Mods](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE_install-update_mods.md)
+--> [Xbox: Forza Horizon 6 Guide(https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE-XBOX_forzahorizon6.md)
