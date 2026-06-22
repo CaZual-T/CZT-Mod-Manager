@@ -46,6 +46,7 @@
        - When downloading mods from nexus that you already have installed, use the 'mod manager download' button.
        - If the mod manager download button doesnt exist, get the czt extension and use the 'manual download' button.
          - Both methods will trigger CZT to run the install process and automatically apply updated metadata.
-##          
-🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/FAQ-HELP.md) for FAQ </br>
+##
 🎛️ Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE_controls.md) for In-App controls
+🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/FAQ-HELP.md) for FAQ </br>
+
