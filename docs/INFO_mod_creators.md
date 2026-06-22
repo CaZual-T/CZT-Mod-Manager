@@ -5,7 +5,7 @@ Mod Types --> .pak, .asi, .dll
 
 Schedule I: 
 - no specific requirements</br>
-Mod Types --> .pak, .dll (let me know if you need .asi enabled)
+Mod Types --> .pak, .dll
 
 Ready or Not: 
 - no specific requirements</br>
