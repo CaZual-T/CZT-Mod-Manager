@@ -13,8 +13,8 @@ Video Guide (it's not great, but provides a visual for the guide below): https:/
 - This popup will appear.
   <img width="841" height="161" alt="image" src="https://github.com/user-attachments/assets/77aeaa09-02cd-4f94-b34c-f350e6bc3dfb" />
 
-  - Click create root.
-  <img width="160" height="167" alt="image" src="https://github.com/user-attachments/assets/f08378bf-7d88-4615-9156-c9d860d37c7c" />
+  - Click create root.</br>
+    <img width="160" height="167" alt="image" src="https://github.com/user-attachments/assets/f08378bf-7d88-4615-9156-c9d860d37c7c" />
 
   - Select a Drive:</br>
     <img width="357" height="199" alt="image" src="https://github.com/user-attachments/assets/e7092185-1c80-4f53-94f0-82ae1dd5a78e" />
