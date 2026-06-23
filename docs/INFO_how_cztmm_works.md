@@ -32,3 +32,5 @@ or PRESS F7 TO PRELINK MODS AND THEN LAUNCH THROUGH STEAM/EXE.
     - automatically detects conflicting pak names, and will rename at the users discretion.
     - .dll and .asi are handled accordingly and linked to the games exe.
       - Uninstall (F8/Safe Mode) simply removes the linked files from the source folder and any potential .dll/.asi mods from root (exe location)
+     
+🟢 Remember, this is just an explanation of how it works. All YOU have to do is press 1-2 buttons.
