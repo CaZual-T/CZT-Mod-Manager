@@ -1,10 +1,30 @@
+## Version: 3.0.14.3
+
+- Published: 2026-06-22
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.14.2
+
+- Improvement to version.dll proxy loading.
+- CZT can now load and manage mods that utilize the below files.
+	- version.dll + .asi
+	- winmm.dll
+	- dsound.dll
+	- dinput8.dll
+	- dxgi.dll
+	- d3d12.dll
+- All profiles utilize this besides schedule 1 being as it literally uses melon loader to inject mods.
+- Fixed an issue where loader style mods were being kept in a folder instead of being linked to the exe.
+	- This only happened when the mod was double foldered within its zip.
+- Thats a wrap. I hope everyone enjoys using CZT, and happy modding!
+	- No more updates will be pushed. I wasnt even going to reopen the project but i could resist adding forza.
+ 	- I still use czt regularly so if something major breaks im sure ill fix it.
+    - As for new features, take the plugin creator docs from this github and feed it to claude. Im sure you can come up with something.
+
 ## Version: 3.0.14.2
 
 - Published: 2026-06-22
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.14.2
 
 - More improvements to the FH6 autoscoping feature.
-	- dont worry forza mod creators. i'll continue to do everything for you. f-ck-n useless. (mainly applies to cosmetic creators)
 - Added a hotkey to link/unlink mods without launching the game f7/f8.
 - Fixed a bug that would cause duplicate installs if a user downloaded a mod that was in the disabled state at the time of download. 
 
