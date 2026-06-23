@@ -4,6 +4,8 @@
 
 🆘 [CLICK HERE](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main/docs) for faq, how to install/update mods, and in app controls.</br>
 
+🔵 [CLICK HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/INFO_how_cztmm_works.md) to learn more about how czt works!
+
 ✅ Official Pages ⬇️ 
 - [CZT-Mod-Manager-Github](https://github.com/CaZual-T/CZT-Mod-Manager) 
 - [NEXUS PAGE](https://www.nexusmods.com/profile/CaZualT/mods)
