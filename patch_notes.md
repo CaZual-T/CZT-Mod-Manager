@@ -15,8 +15,8 @@
 - Fixed an issue where loader style mods were being kept in a folder instead of being linked to the exe.
 	- This only happened when the mod was double foldered within its zip.
 - Thats a wrap. I hope everyone enjoys using CZT, and happy modding!
-	- No more updates will be pushed. I wasnt even going to reopen the project but i could resist adding forza.
- 	- I still use czt regularly so if something major breaks im sure ill fix it.
+	- No more updates will be pushed. I wasnt even going to reopen the project, but i could resist adding fh6.
+ 	- I still use czt regularly so if something *major* breaks im sure ill fix it.
     - As for new features, take the plugin creator docs from this github and feed it to claude. Im sure you can come up with something.
 
 ## Version: 3.0.14.2
