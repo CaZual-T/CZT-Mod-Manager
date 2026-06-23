@@ -1,3 +1,14 @@
+## Version: 3.0.14.4
+
+- Published: 2026-06-23
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.14.4
+
+- Major improvement to fh6 autoscoping
+  - czt will detect if a mod contains a CarBuildTime.txt file or .carbin extension.
+  - all categories now have solid anchors to help guide mod installations. 
+  - dozens of mods went into testing this.
+  - Mod types tested -> radio, car cosmetics, silent main menu, fast startup, loading screens/icons, button icons, MFG x4 unlock (DLSS) 
+
 ## Version: 3.0.14.3
 
 - Published: 2026-06-22
