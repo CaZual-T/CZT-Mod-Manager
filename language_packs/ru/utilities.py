@@ -329,13 +329,13 @@ LOG_DEV_MODE_SETTINGS_OPEN_FAILED = "[ERROR] Не удалось открыть 
 
 # ===== engines/ForzaTech/forzatech_core.py logs =====
 LOG_FORZATECH_HOISTED_PAYLOAD = "[ForzaTech] Содержимое '{mod}' извлечено из '{prefix}' в корень игры."
-LOG_FORZATECH_RENAMED_LOADER = "[ForzaTech] version.dll мода '{mod}' переименован -> {rel} для прокси-загрузки."
+LOG_LOADER_RENAMED = "[Loader] {name} мода '{mod}' переименован -> {rel} для прокси-загрузки."
 LOG_FORZATECH_MERGE_LINK_FAILED = "[ForzaTech] Не удалось создать ссылку слияния для {rel}: {error}"
 LOG_FORZATECH_CONFLICTS_MODS = "[ForzaTech] Моды с конфликтующими файлами:\n{mod_list}"
 LOG_FORZATECH_CONFLICTS_RESOLVED = "[ForzaTech] Разрешено {count} конфликт(ов) файлов по порядку загрузки."
-LOG_FORZATECH_LOADER_NOT_FOUND = "[ForzaTech] Встроенный загрузчик не найден в {path}; пропуск."
-LOG_FORZATECH_LOADER_INJECTED = "[ForzaTech] Встроенный прокси-загрузчик version.dll внедрён."
-LOG_FORZATECH_LOADER_INJECT_FAILED = "[ForzaTech] Не удалось внедрить встроенный загрузчик: {error}"
+LOG_LOADER_NOT_FOUND = "[Loader] Встроенный загрузчик не найден в {path}; пропуск."
+LOG_LOADER_INJECTED = "[Loader] Встроенный прокси-загрузчик '{name}' внедрён."
+LOG_LOADER_INJECT_FAILED = "[Loader] Не удалось внедрить встроенный загрузчик: {error}"
 LOG_FORZATECH_STAGING_MISSING = "[ForzaTech] Отсутствует каталог подготовки; нечего развёртывать."
 LOG_FORZATECH_GAME_ROOT_NOT_FOUND = "[ForzaTech] Корень игры не найден: {path}"
 LOG_FORZATECH_AUTOSCOPE_KEPT_ZIP = "[ForzaTech] Архив контента '{name}' сохранён сжатым в mediapc/{reldir}/."

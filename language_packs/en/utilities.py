@@ -329,13 +329,13 @@ LOG_DEV_MODE_SETTINGS_OPEN_FAILED = "[ERROR] Failed to open Dev Mode settings: {
 
 # ===== engines/ForzaTech/forzatech_core.py logs =====
 LOG_FORZATECH_HOISTED_PAYLOAD = "[ForzaTech] Extracted '{mod}' payload out of '{prefix}' to the game root."
-LOG_FORZATECH_RENAMED_LOADER = "[ForzaTech] Renamed '{mod}' version.dll --> {rel} for proxy loading."
+LOG_LOADER_RENAMED = "[Loader] Renamed '{mod}' {name} --> {rel} for proxy loading."
 LOG_FORZATECH_MERGE_LINK_FAILED = "[ForzaTech] Merge link failed for {rel}: {error}"
 LOG_FORZATECH_CONFLICTS_MODS = "[ForzaTech] Mods with conflicting files:\n{mod_list}"
 LOG_FORZATECH_CONFLICTS_RESOLVED = "[ForzaTech] Resolved {count} file conflict(s) by load order."
-LOG_FORZATECH_LOADER_NOT_FOUND = "[ForzaTech] Built-in loader not found at {path}; skipping."
-LOG_FORZATECH_LOADER_INJECTED = "[ForzaTech] Installed CZTMM 'version.dll' proxy loader."
-LOG_FORZATECH_LOADER_INJECT_FAILED = "[ForzaTech] Failed to inject built-in loader: {error}"
+LOG_LOADER_NOT_FOUND = "[Loader] Built-in loader not found at {path}; skipping."
+LOG_LOADER_INJECTED = "[Loader] Installed CZTMM '{name}' proxy loader."
+LOG_LOADER_INJECT_FAILED = "[Loader] Failed to inject built-in loader: {error}"
 LOG_FORZATECH_STAGING_MISSING = "[ForzaTech] Staging dir missing; nothing to deploy."
 LOG_FORZATECH_GAME_ROOT_NOT_FOUND = "[ForzaTech] Game root not found: {path}"
 LOG_FORZATECH_AUTOSCOPE_KEPT_ZIP = "[ForzaTech] Scoped content archive '{name}' into mediapc/{reldir}/{name}."
