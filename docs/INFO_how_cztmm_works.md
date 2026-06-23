@@ -22,7 +22,8 @@ or PRESS F7 TO PRELINK MODS AND THEN LAUNCH THROUGH STEAM/EXE.
     - Simple because all RoN mods are additions and never directly replace vanilla files.
 - Forza Horizon 6:
   - Here we essentially take a snapshot of the vanilla files + some assistance from .ext filtering to recreate the vanilla structure 1:1.
-  - Forza mods are then normalized to a mediapc/{scope} structure and "overlayed".
+  - Forza mods are then normalized to a mediapc/{scope} structure and "overlayed" (installed) into the game.
+    - Automatically scope and fix improper mod structures upon install (mods missing mediapc/cars/ etc)
   - CZT also normalizes mods to mediapc to simply keep things cleaner.
     - Uninstall (F8/Safe Mode) reverts the game back to vanilla by utilizing the files we staged earlier.
     - This is a bit more complicated but its how managers like mo2 work from my understanding. 
