@@ -3,7 +3,7 @@
 - Published: 2026-06-22
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.14.2
 
-- Fixed an issue where loader style mods were being kept in a folder instead of being linked to the exe.
+- Fixed an issue that caused loader style mods to be kept in a folder instead of being linked to the exe.
 	- This only happened when the mod was double foldered within its zip.
 
 ## Version: 3.0.14.2
