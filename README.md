@@ -1,4 +1,4 @@
-# Welcome to the CZT Mod Manager Homepage! 
+# Welcome to the CZT Mod Manager Homepage!
 
 ➡️ [CLICK HERE for First time install/Setup Guide](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/CZT_Install_and_Setup.md) ⬅️ </br>
 
