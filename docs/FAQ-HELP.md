@@ -14,6 +14,11 @@
 - NOTE THAT NEXUS STAFF HAS ACCESS TO MY SOURCE CODE. Thats quite literally the only reassurance i can give you.
 - Use it, dont use it, idgaf at this point. Im not going to beg/plead with people.
 
+### Windows Defender:
+- CZT may trigger windows defender, especially when play fh6. This is because we use our own version.dll to load mods that also use that same file.
+  - Therefore windows tweaks out due to the searching/loading capability.
+    - Note: The .dll will ONLY load files that are within the same directory and include "-version" in the name.
+
 ### [WinError 3] Permission Denied at launch.
 - ENABLE DEVELOPER MODE.
   - (Windows) Settings > Advanced > For Developers (Toggle Developer Mode On)
@@ -38,11 +43,6 @@
     - CZT has been updated to the latest nexus v3 endpoints.
       - ~~There's no real fix for this other than to manually download from nexus, and hope the creator doesnt keep updating incorrectly.~~
       - ~~I could make it compare against mod page version, or when a new file is uploaded, but that is messy and leads to false positives.~~
-
-### Windows Defender:
-- CZT may trigger windows defender, especially when play fh6. This is because we use our own version.dll to load mods that also use that same file.
-  - Therefore windows tweaks out due to the searching/loading capability.
-    - Note: The .dll will ONLY load files that are within the same directory and include "-version" in the name.
 
 ### Download/Update Failure (mods):
 - Note_1: Ensure that you have your api key saved in both the main app and the extension (if you use it)
