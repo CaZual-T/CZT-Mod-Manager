@@ -40,7 +40,7 @@ Latest Release: https://github.com/CaZual-T/CZT-Mod-Manager/releases
 - Click "Install Unrar"
   - Alternative: Download from: https://www.rarlab.com/rar/unrarw64.exe and place it in /CZT Mod Manager/czt_tools/unrar.exe
 - Click browse when the installer popup appears.</br>
-  - Install to > /CZT Mod Manager/czt_tools/unrar.exe</br>
+  - Install to > DriveThatYouChoseForRootFolder:/CZT Mod Manager/czt_tools/unrar.exe</br>
     - Right now you have to do it this way.
     - I meant to set it up so you could set a path to winrar if you already had that installed,
     - but i guess i fuckered it all up so it only works if unrar is in the czt_tools folder.
