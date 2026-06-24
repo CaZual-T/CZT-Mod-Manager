@@ -25,6 +25,8 @@
     > F2           : Open Load Order Menu.
     > F3           : Open Plugins Menu.
     > F5           : Re-center main window on screen.
+    > F7           : Link mods without launching game.
+    > F8           : Unlink mods without launching game
     > F9           : Detect missing mods from a saved loadout.
     > CTRL+O       : Open CZT root folder.
     > Shift+H      : Show hotkey options.
