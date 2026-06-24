@@ -75,6 +75,8 @@ Latest Release: https://github.com/CaZual-T/CZT-Mod-Manager/releases
 <img width="643" height="438" alt="image" src="https://github.com/user-attachments/assets/3a41b6b3-96f4-49fc-bf58-5794ada62291" /></br>
   - 🔴 FORZA HORIZON 6 'XBOX/GAMEPASS' USERS ⚠️ [--> CLICK HERE <--](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE_xbox_forzahorizon6.md) ⚠️</br>
 
+### Once your paths are set you're ready to start downloading and installing mods!
+- Read the "how to install/update mods" guide below!
 ##
 🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE_install-update_mods.md) for a guide on how to install/update mods.</br>
 🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/FAQ-HELP.md) for FAQ.</br>
