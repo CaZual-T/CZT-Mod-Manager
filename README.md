@@ -4,7 +4,7 @@
 
 🆘 [CLICK HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/FAQ-HELP.md) for FAQ/Troubleshooting.</br>
 
-🔵 [CLICK HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/INFO_how_cztmm_works.md) to learn more about how czt works!
+🔵 [CLICK HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/INFO_how_cztmm_works.md) to learn more about how czt works! </br>
 
 ✅ Official Pages ⬇️ 
 - [CZT-Mod-Manager-Github](https://github.com/CaZual-T/CZT-Mod-Manager) 
