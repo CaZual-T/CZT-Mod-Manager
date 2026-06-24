@@ -1,4 +1,4 @@
-⬅️ [RETURN TO HOMEPAGE](https://github.com/CaZual-T/CZT-Mod-Manager/main/README.md)
+⬅️ [RETURN TO HOMEPAGE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/README.md)
 
 ## Where does CZT store mods?
 - All mods are stored within "{RootDriveSelectedAtSetup}:\CZT Mod Manager\czt_mod_data\installed_mods\{profile_name}"
