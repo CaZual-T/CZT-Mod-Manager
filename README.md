@@ -2,7 +2,7 @@
 
 ➡️ [CLICK HERE for First time install/Setup Guide](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/CZT_Install_and_Setup.md) ⬅️ </br>
 
-🆘 [CLICK HERE](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main/docs) for faq, how to install/update mods, and in app controls.</br>
+🆘 [CLICK HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/FAQ-HELP.md) for FAQ/Troubleshooting.</br>
 
 🔵 [CLICK HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/INFO_how_cztmm_works.md) to learn more about how czt works!
 
