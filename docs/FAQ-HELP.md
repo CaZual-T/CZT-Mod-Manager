@@ -42,7 +42,7 @@
 ### Windows Defender.
 - CZT maay trigger windows defender, especially when play fh6. This is because we use our own version.dll to load mods that also use that same file.
   - Therefore windows tweaks out due to the searching/loading capability.
-    - Note: The .dll will ONLY load files that are within the same direcroty and include "-version" in the name.
+    - Note: The .dll will ONLY load files that are within the same directory and include "-version" in the name.
 
 ### Download/Update Failure (mods):
 - Note_1: Ensure that you have your api key saved in both the main app and the extension (if you use it)
