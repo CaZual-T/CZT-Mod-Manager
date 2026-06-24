@@ -15,7 +15,8 @@
 - Use it, dont use it, idgaf at this point. Im not going to beg/plead with people.
 
 ### Windows Defender:
-- CZT may trigger windows defender, especially when play fh6. This is because we use our own version.dll to load mods that utilize the same file.
+- CZT may trigger windows defender, especially when play fh6.
+  - This is because we use our own version.dll to load mods that utilize the same file.
   - Therefore windows tweaks out due to the searching/loading capability.
     - Note: The .dll will ONLY load files that are within the same directory and include "-version" in the name.
 
