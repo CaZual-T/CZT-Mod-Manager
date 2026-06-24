@@ -38,7 +38,7 @@
 - CZT will detect and notify you in app if their is an available update.
 - Updates can be downloaded and installed without ever needing to open a browser.
 
-## Return
+## Direct links
 --> [CZT Mod Manager Homepage](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main)</br>
 --> [CZT - How it works](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/INFO_how_cztmm_works.md)</br>
 --> [CZT - Initial Install/Setup](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/CZT_Install_and_Setup.md)</br>
