@@ -1,3 +1,12 @@
+## Version: 3.0.14.5
+
+- Published: 2026-06-27
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.14.5
+
+- Schedule I:
+  - Updated engine.
+  - Added support for mods that utilize a plugins folder.
+
 ## Version: 3.0.14.4
 
 - Published: 2026-06-23
