@@ -72,7 +72,7 @@ Latest Release: https://github.com/CaZual-T/CZT-Mod-Manager/releases
 - Click "Path Modes"
   - Select "Manual"</br>
 <img width="171" height="93" alt="image" src="https://github.com/user-attachments/assets/90e50273-8253-4a9c-9513-81dd73d5c92a" /></br>
-<img width="643" height="438" alt="image" src="https://github.com/user-attachments/assets/3a41b6b3-96f4-49fc-bf58-5794ada62291" /></br>
+<img width="641" height="423" alt="image" src="https://github.com/user-attachments/assets/415dbaf3-03fd-46c7-a91d-18b400b700d0" /></br>
   - 🔴 FORZA HORIZON 6 'XBOX/GAMEPASS' USERS ⚠️ [--> CLICK HERE <--](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE_xbox_forzahorizon6.md) ⚠️</br>
 
 ### Once your paths are set you're ready to start downloading and installing mods!
