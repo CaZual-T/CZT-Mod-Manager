@@ -1,3 +1,21 @@
+## Version: 3.0.15.0
+
+- Published: 2026-07-01
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.0
+
+⚠️ MANUAL PATH USERS READ THIS.
+- UNLINK YOUR MODS BEFORE UPDATING.
+- ONCE YOU UPDATE, RESELECT MANUAL IN THE PATH MODE OPTIONS.
+- CLICK SET INSTALL, THEN SELECT SELECT YOUR GAMES MAIN FOLDER.
+  - DO NOT SELECT THE MODS, SOURCE, CONTENT FOLDERS. AGAIN SELECT THE GAMES MAIN FOLDER.
+
+- Improved manual path mode significantly.
+- Fixed some download bugs that would cause random strings of characters to be appended to the mods folder name.
+  - you may notice duplicates when you redownload because of this. Just delete the old version (you can right click yor mods to see the full file name)
+- Fixed an issue that would somehow bypass schedule I plugin filter when downloading in-app.
+  - This lead to mods that should be in the plugins folder getting put into the mods folder.
+
+
 ## Version: 3.0.14.5
 
 - Published: 2026-06-27
