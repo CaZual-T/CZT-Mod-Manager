@@ -20,11 +20,10 @@
 
 <img width="558" height="377" alt="image" src="https://github.com/user-attachments/assets/4d19712b-b9f0-472a-98cf-33e3280eeb76" /></br>
 
-## Click 'Set Install Path' to the 'content' folder
-  - C:\XboxGames\AB03F40C-E85D-467B-8C67-3870B89BD2D1\Content
+## Click 'Set Install Path'
+  - C:\XboxGames\AB03F40C-E85D-467B-8C67-3870B89BD2D1
   - your path may vary! The name of fh6 root folder seems to be different for other users!
-    - The overall format will be the same --> (xbox/string of numbers/**content**)
-<img width="506" height="89" alt="image" src="https://github.com/user-attachments/assets/58ee6c3f-a4be-49ef-8c7c-63c68ddadc41" /></br>
+    - The overall format will be the same --> (xbox/string of numbers)
 
 ## Click save in app</br>
 <img width="824" height="102" alt="image" src="https://github.com/user-attachments/assets/3d5ab069-44de-4596-8586-a124930f2664" /></br>
