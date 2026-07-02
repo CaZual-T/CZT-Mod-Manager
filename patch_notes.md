@@ -1,4 +1,4 @@
-## Version: 3.0.15.3
+## Version: 3.0.15.4
 - Published: 2026-07-02
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.3
   - resized the dialog icons in the 'set install' and 'set exe' window.
@@ -7,7 +7,13 @@
   - cleaned up logs.
   - updated language files.
   - added forza horizon 5 support.
-
+  - Refactored a few functions due to spaghetti taking over. All functionality is the same. Just cleaner on my end.
+    - archive handling
+    - custom setting runtime
+    - mod list controls
+    - fh autoscope
+    - stats overview.
+    
 🎆🎇 HAVE A GOOD 4TH of July! "Rah, Crayons, Kill" and all that good shit.
 
 ## Version: 3.0.15.0 - 3.0.15.2
