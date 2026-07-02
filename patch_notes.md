@@ -1,12 +1,12 @@
 ## Version: 3.0.15.3
 - Published: 2026-07-02
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.3
-
-- resized the dialog icons in the 'set install' and 'set exe' window.
-- fixed phantom update flags.
-- fixed the update scan "Mods Scanned: {scanned}/{total count}" mismatch.
-- cleaned up logs.
-- updated language files.
+  - resized the dialog icons in the 'set install' and 'set exe' window.
+  - fixed phantom update flags.
+  - fixed the update scan "Mods Scanned: {scanned}/{total count}" mismatch.
+  - cleaned up logs.
+  - updated language files.
+  - added forza horizon 5 support.
 
 🎆🎇 HAVE A GOOD 4TH of July! "Rah, Crayons, Kill" and all that good shit.
 
