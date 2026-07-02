@@ -16,7 +16,7 @@
     
 🎆🎇 HAVE A GOOD 4TH of July! "Rah, Crayons, Kill" and all that good shit. 
 
-## Version: 3.0.15.0 - 3.0.15.2
+## Version: 3.0.15.0 - 3.0.15.3
 
 - Published: 2026-07-01 | Updated: 2026-07-02
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.0
