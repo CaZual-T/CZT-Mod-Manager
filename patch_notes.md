@@ -1,18 +1,4 @@
-## Version: 3.0.15.2
-
-- Published: 2026-07-02
-- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.2
-
-- fixed .dll linking for dying light profiles. (specifically winmm.dll reliant mods)
-
-## Version: 3.0.15.1
-
-- Published: 2026-07-01
-- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.1
-
-- hotfix for schedule 1 profile.
-
-## Version: 3.0.15.0
+## Version: 3.0.15.0 - 3.0.15.2
 
 - Published: 2026-07-01
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.0
@@ -28,7 +14,7 @@
   - you may notice duplicates when you redownload because of this. Just delete the old version (you can right click yor mods to see the full file name)
 - Fixed an issue that would somehow bypass schedule I plugin filter when downloading in-app.
   - This lead to mods that should be in the plugins folder getting put into the mods folder.
-
+- Fixed .dll linking for dying light profiles. (specifically winmm.dll reliant mods)
 
 ## Version: 3.0.14.5
 
