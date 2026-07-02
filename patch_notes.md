@@ -13,10 +13,12 @@
 
 - Improved manual path mode significantly.
 - Fixed some download bugs that would cause random strings of characters to be appended to the mods folder name.
-  - you may notice duplicates when you redownload because of this. Just delete the old version (you can right click yor mods to see the full file name)
+  - you may notice duplicates when you redownload because of this. Just delete the old version.
+    - right click mods in the manage tab to see the full file name.
 - Fixed an issue that would somehow bypass schedule I plugin filter when downloading in-app.
   - This lead to mods that should be in the plugins folder getting put into the mods folder.
-- Fixed .dll linking for dying light profiles. (specifically winmm.dll reliant mods)
+  - Added schedule I engine to app startup with the others (v3.0.15.1)
+- Fixed .dll linking for dying light profiles. (specifically winmm.dll reliant mods) (v3.0.15.2)
 
 ## Version: 3.0.14.5
 
