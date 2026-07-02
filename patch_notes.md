@@ -1,3 +1,15 @@
+## Version: 3.0.15.3
+- Published: 2026-07-02
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.3
+
+- resized the dialog icons in the 'set install' and 'set exe' window.
+- fixed phantom update flags.
+- fixed the update scan "Mods Scanned: {scanned}/{total count}" mismatch.
+- cleaned up logs.
+- updated language files.
+
+🎆🎇 HAVE A GOOD 4TH of July! "Rah, Crayons, Kill" and all that good shit.
+
 ## Version: 3.0.15.0 - 3.0.15.2
 
 - Published: 2026-07-01 | Updated: 2026-07-02
