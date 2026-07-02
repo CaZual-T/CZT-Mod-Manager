@@ -28,7 +28,7 @@
     - String of numbers/letters may vary so you need to check inside each one to find the correct folder containing forza.
 
 ## Click save in app</br>
-<img width="824" height="102" alt="image" src="https://github.com/user-attachments/assets/3d5ab069-44de-4596-8586-a124930f2664" /></br>
+<img width="490" height="104" alt="image" src="https://github.com/user-attachments/assets/a2689f61-8edf-47c5-a931-ad3f8310c29d" /></br>
 
 ##
 🆘 Click [HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/GUIDE_install-update_mods.md) for a guide on how to install/update mods</br>
