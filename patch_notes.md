@@ -1,3 +1,10 @@
+## Version: 3.0.15.1
+
+- Published: 2026-07-01
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.1
+
+- hotfix for schedule 1 profile.
+
 ## Version: 3.0.15.0
 
 - Published: 2026-07-01
