@@ -3,8 +3,7 @@
 - Published: 2026-07-02
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.2
 
-- Dying Light profiles.
-  - fixed winmm.dll mods not linking correctly.
+- fixed .dll linking for dying light profiles. (specifically winmm.dll reliant mods)
 
 ## Version: 3.0.15.1
 
