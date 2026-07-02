@@ -7,7 +7,8 @@
 🔵 [CLICK HERE](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/INFO_how_cztmm_works.md) to learn more about how czt works! </br>
 
 ✅ Official Pages ⬇️ 
-- [CZT-Mod-Manager-Github](https://github.com/CaZual-T/CZT-Mod-Manager) 
+- [CZT-Mod-Manager-Github](https://github.com/CaZual-T/CZT-Mod-Manager)
+- [Patch Notes](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/patch_notes.md)
 - [NEXUS PAGE](https://www.nexusmods.com/profile/CaZualT/mods)
 - [Discord](https://discord.com/invite/kyARuAHbS2)
 
