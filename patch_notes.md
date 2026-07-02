@@ -1,4 +1,4 @@
-## Version: 3.0.15.4
+## Version: 3.0.15.4 (unreleased)
 - Published: 2026-07-02
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.4
   - resized the dialog icons in the 'set install' and 'set exe' window.
