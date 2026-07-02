@@ -14,16 +14,18 @@
 
 ## Click 'Set EXE path'</br>
 <img width="172" height="262" alt="image" src="https://github.com/user-attachments/assets/8b727751-c52a-408b-9a67-f06c99aa62d4" /></br>
+- Your path may vary! The name of fh6 root folder seems to be different for other users!</br>
+  - C:\XboxGames\Forza Horizon 6\Content\forzahorizon6.exe</br>
   - C:\XboxGames\AB03F40C-E85D-467B-8C67-3870B89BD2D1\Content\forzahorizon6.exe</br>
-  - your path may vary! The name of the fh6 root folder seems to be different for other users!
-    - The overall format will be the same --> (xbox/**string of numbers**/content/**forzahorizon6.exe**)
+    - String of numbers/letters may vary so you need to check inside each one to find the correct folder containing forza.
 
 <img width="558" height="377" alt="image" src="https://github.com/user-attachments/assets/4d19712b-b9f0-472a-98cf-33e3280eeb76" /></br>
 
 ## Click 'Set Install Path'
+- Your path may vary! The name of fh6 root folder seems to be different for other users!
+  - C:\XboxGames\Forza Horizon 6
   - C:\XboxGames\AB03F40C-E85D-467B-8C67-3870B89BD2D1
-  - your path may vary! The name of fh6 root folder seems to be different for other users!
-    - The overall format will be the same --> (xbox/string of numbers)
+    - String of numbers/letters may vary so you need to check inside each one to find the correct folder containing forza.
 
 ## Click save in app</br>
 <img width="824" height="102" alt="image" src="https://github.com/user-attachments/assets/3d5ab069-44de-4596-8586-a124930f2664" /></br>
