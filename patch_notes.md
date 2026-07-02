@@ -9,7 +9,7 @@
   - CLICK SET INSTALL, THEN SELECT SELECT YOUR GAMES MAIN FOLDER.
     - DO NOT SELECT THE MODS, SOURCE, CONTENT FOLDERS. AGAIN SELECT THE GAMES MAIN FOLDER.
 - ⚠️ STEAM USERS READ THIS.
-  - Just detect steam again and you should be good. 
+  - Just click 'detect steam' again and you should be good. 
 
 - Improved manual path mode significantly.
 - Fixed some download bugs that would cause random strings of characters to be appended to the mods folder name.
