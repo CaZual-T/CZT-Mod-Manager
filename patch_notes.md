@@ -1,4 +1,4 @@
-## Version: 3.0.15.4 (unreleased)
+## Version: 3.0.15.4
 - Published: 2026-07-02
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.4
   - resized the dialog icons in the 'set install' and 'set exe' window.
@@ -14,7 +14,7 @@
     - fh autoscope
     - stats overview.
     
-🎆🎇 HAVE A GOOD 4TH of July! "Rah, Crayons, Kill" and all that good shit.
+🎆🎇 HAVE A GOOD 4TH of July! "Rah, Crayons, Kill" and all that good shit. 
 
 ## Version: 3.0.15.0 - 3.0.15.2
 
