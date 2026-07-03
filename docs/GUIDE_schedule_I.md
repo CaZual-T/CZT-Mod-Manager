@@ -12,4 +12,5 @@
     - czt installs/uninstalls all mod files upon download.</br>
     - Makes it easy to UPDATE mods without ever having to go on nexus.</br>
     - Enable/Disable mods before loading the game.</br>
-    - save loadouts, and shar mod profiles with friends (nexus premium accounts only)
+    - create backups of your mods.
+    - save loadouts, and share mod profiles with friends.
