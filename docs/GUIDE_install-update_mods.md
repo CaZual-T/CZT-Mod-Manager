@@ -33,7 +33,7 @@
 > [!NOTE]
 > - You only have to launch with CZT when you install new mods, or enable/disable mods using the toggle switches within CZT.
 > - If your mod list hasn't changed, then you dont have to launch with CZT every single time you play.
-> - CZT supports drag and drop on the main menus far right panel. (unless running as admin, view faq at the top)
+> - CZT supports drag and drop on the main menus far right panel. (unless running as admin, view faq at the bottom)
 
 #
 # Updating Mods
