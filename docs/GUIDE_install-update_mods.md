@@ -26,7 +26,7 @@
   <img width="48" height="34" alt="image" src="https://github.com/user-attachments/assets/2b9ddbb1-e461-4400-8b6e-05032091f319" /></br>
     - Enabled mods will be symlinked (installed to the game) upon launch or pressing F7.</br>
   - Click launch game in the main menu (left), or press CTRL+SHIFT+L.</br>
-    - Start with mods. </br>
+    - Start with mods. [Link | Modded]</br>
     <img width="376" height="180" alt="image" src="https://github.com/user-attachments/assets/4c0d48ba-02da-4b06-8bf5-a2d341dbd5c1" /></br>
     - Alternatively you can press F7 to link mods, then launch the game from a shortcut etc.</br>
   - Uninstall Mods by pressing F8 or you can click launch game on the main menu and use 'safe mode'</br>
