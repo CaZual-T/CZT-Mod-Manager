@@ -5,7 +5,7 @@
 
 ## How does CZT know where to install mods?
 ### CZT Mod Manager utilizes multiple 'engines'</br>
-<img width="275" height="256" alt="image" src="https://github.com/user-attachments/assets/05e5b8a1-6b3d-4a7e-a8cb-96b8c49249b6" /></br>
+<img width="250" height="135" alt="image" src="https://github.com/user-attachments/assets/a6461450-8e2d-4233-8eac-952058da4381" /></br>
 - These are the main components that drives installations, and linking for every profile.
 - Seperate engines also allow me to update and maintain profiles efficiently without breaking the entire manager.
 
