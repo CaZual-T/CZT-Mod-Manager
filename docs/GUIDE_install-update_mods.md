@@ -22,9 +22,10 @@
     <img width="577" height="203" alt="image" src="https://github.com/user-attachments/assets/af59b34a-9d04-41c7-9c8e-43cb5c425f07" />
 
 2.) Enabled Mods and Launch Game:
-  Enable mods on the manage tab with the toggle switch
-    - Enabled mods will be symlinked (installed to the game) upon launch or pressing F7.
-  - Click launch game in the main menu (left), or press CTRL+SHIFT+L.
+  - Enable mods on the 'manage tab' with the toggle switch</br>
+  <img width="48" height="34" alt="image" src="https://github.com/user-attachments/assets/2b9ddbb1-e461-4400-8b6e-05032091f319" /></br>
+    - Enabled mods will be symlinked (installed to the game) upon launch or pressing F7.</br>
+  - Click launch game in the main menu (left), or press CTRL+SHIFT+L.</br>
     - Start with mods. </br>
     <img width="376" height="180" alt="image" src="https://github.com/user-attachments/assets/4c0d48ba-02da-4b06-8bf5-a2d341dbd5c1" /></br>
     - Alternatively you can press F7 to link mods, then launch the game from a shortcut etc.</br>
