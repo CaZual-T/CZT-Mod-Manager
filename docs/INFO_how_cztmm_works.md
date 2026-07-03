@@ -28,8 +28,8 @@ or PRESS F7 TO PRELINK MODS AND THEN LAUNCH THROUGH STEAM/EXE.
     - Uninstall (F8/Safe Mode) reverts the game back to vanilla by utilizing the files we staged earlier.
     - This is a bit more complicated but its how managers like mo2 work from my understanding. 
 - Schedule I:
-  - The simplest out of all of them due to how it utilizes a traditional mods folder.
-    - Uninstall (F8/Safe Mode) removes linked mods from the "mods" folder.
+  - The simplest out of all of them due to how it utilizes a traditional mods/plugins folder.
+    - Uninstall (F8/Safe Mode) removes linked mods from the "mods/plugins" folder.
 - Dying light (all):
   - Installs .pak files to source.
     - automatically detects conflicting pak names, and will rename at the users discretion.
