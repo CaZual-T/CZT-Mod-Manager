@@ -4,8 +4,8 @@ Dying Light:
 Mod Types --> .pak, .asi, .dll
 
 Schedule I: 
-- no specific requirements</br>
-Mod Types --> .pak, .dll
+- no specific requirements, utilize plugins folder when needed so czt can scope everything upon install.</br>
+Mod Types --> .pak, .asi, .dll
 
 Ready or Not: 
 - no specific requirements</br>
@@ -19,7 +19,8 @@ Forza Horizon 6:
     - drag your created mod inside the subfolder.
     - zip the mediapc folder on your desktop and rename it to a name of your choice. UPLOAD THAT.
 
-- long story short, put yout mods in the correct scope before zipping and uploading them. most creators already do this.
+- long story short, even though czt autoscopes and catches 99% of these issues,</br>
+  it still helps to put your mods in the correct scope before zipping and uploading them. most creators already do this.
 
   FH6_NOTE: mods that are standalone like spotify radio are fine too. But i imagine if you make mods at that level you already know that.
 
