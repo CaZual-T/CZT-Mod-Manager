@@ -22,6 +22,9 @@ Forza Horizon 6:
 - long story short, even though czt autoscopes and catches 99% of these issues,</br>
   it still helps to put your mods in the correct scope before zipping and uploading them. most creators already do this.
 
+- Mod Types --> czt makes an index of all forza files and file types within the actual game. 
+    - Meaning it will literally support any file type found within the game.
+
   FH6_NOTE: mods that are standalone like spotify radio are fine too. But i imagine if you make mods at that level you already know that.
 
 ##
