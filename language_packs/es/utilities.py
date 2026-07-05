@@ -43,6 +43,7 @@ MSG_HOTKEY_CONTROLS = (
     "    > F2           : Abrir menu de orden de carga.\n"
     "    > F3           : Abrir menu de plugins.\n"
     "    > F5           : Recentrar la ventana principal en la pantalla.\n"
+    "    > F6           : Anadir / Editar perfiles de juego personalizados.\n"
     "    > F7           : Enlazar mods (sin iniciar el juego).\n"
     "    > F8           : Desenlazar mods / modo seguro (sin iniciar el juego).\n"
     "    > F9           : Detectar mods faltantes de un loadout guardado.\n"
@@ -144,9 +145,7 @@ DLG_TITLE_ROOT_CREATED = "Raiz Creada"
 MSG_ROOT_CREATED = "Carpetas raiz de CZT creadas en: {czt_root_folder}"
 DLG_TITLE_SELECT_UNRAR = "Seleccionar Ejecutable de UnRAR"
 MSG_UNRAR_INSTALLER_PROMPT = (
-    "El instalador de UnRAR se iniciara a continuacion.\n"
-    "Configura la carpeta de destino en:\n"
-    " > Unidad_Seleccionada_Para_Raiz\\CZT Mod Manager\\czt_tools <"
+    "El instalador de UnRAR se iniciara a continuacion."
 )
 LOG_UNRAR_INSTALLER_LAUNCHED = (
     "Instalador de UnRAR iniciado. Completa la instalacion.\n"
@@ -350,6 +349,8 @@ LOG_FORZATECH_AUTOSCOPE_UNSCOPED = "[ForzaTech][autoscope] No se pudo determinar
 LOG_FORZATECH_AUTOSCOPE_RESCOPED = "[ForzaTech][autoscope] Re-ubicado '{mod}': {count} archivo(s) -> mediapc/."
 LOG_FORZATECH_AUTOSCOPE_UNRESOLVED = "[ForzaTech][autoscope] {count} archivo(s) en '{mod}' quedaron sin ubicar (categoria desconocida)."
 LOG_FORZATECH_AUTOSCOPE_MOVE_FAILED = "[ForzaTech][autoscope] No se pudo mover '{path}': {error}"
+LOG_FORZATECH_AUTOSCOPE_REZIPPED_CAR = "[ForzaTech][autoscope] Bundle de coche suelto re-comprimido -> mediapc/Cars/{name}.zip"
+LOG_FORZATECH_AUTOSCOPE_REZIP_FAILED = "[ForzaTech][autoscope] Error al re-comprimir bundle de coche '{name}': {error}"
 LOG_FORZATECH_AUTOSCOPE_REZIPPED_CAR = "[ForzaTech][autoscope] Bundle de coche suelto re-comprimido -> mediapc/Cars/{name}.zip"
 LOG_FORZATECH_AUTOSCOPE_REZIP_FAILED = "[ForzaTech][autoscope] Error al re-comprimir bundle de coche '{name}': {error}"
 LOG_FORZATECH_NO_ENABLED_MODS = "[ForzaTech] No hay mods habilitados para desplegar."
@@ -821,7 +822,6 @@ LBL_CTX_INSTALLED_FILE        = "Archivo Instalado: {name}"
 LBL_CTX_MOD_FILE              = "Archivo del Mod: {name}"
 LBL_MOD_FALLBACK              = "Mod {mod_id}"
 LBL_TARGET_UNKNOWN            = "desconocido"
-
 
 # ===== nexus/protocol_handler/nxm/nxm_register.py (logs) =====
 LOG_NXM_REGISTERED = "[NXM] Manejador de protocolo nxm:// registrado: {command}"

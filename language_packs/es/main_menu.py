@@ -180,7 +180,10 @@ TIP_INSTALL_UNRAR = (
     "Instala en > Unidad_Seleccionada_Para_Raiz/CZT Mod Manager/czt_tools/UnRAR.exe \n"
     "Nota: Puedes volver a hacer clic aqui despues de instalar unrar para detectar su ruta automaticamente."
 )
-TIP_BROWSE_UNRAR = "Selecciona la ruta de WinRAR.exe o UnRAR.exe si ya esta instalado."
+TIP_BROWSE_UNRAR = (
+    "Establece la ruta a UnRAR.exe (o WinRAR.exe) ubicado en cualquier lugar de tu PC.\n"
+    "Busca el archivo, o pega su ruta completa en la casilla y presiona Enter para guardar."
+)
 TIP_NEXUS_API = (
     "Obtiene tu clave API de Nexus Mods\n"
     "Se abrira el sitio web de nexus\n"
@@ -188,6 +191,11 @@ TIP_NEXUS_API = (
 )
 MSG_API_KEY_SAVED_TITLE = "Clave API Guardada"
 MSG_API_KEY_SAVED_TEXT = "Clave API de Nexus guardada en la configuracion."
+MSG_UNRAR_PATH_INVALID_TITLE = "Ruta de UnRAR invalida"
+MSG_UNRAR_PATH_INVALID_TEXT = (
+    "Esa ruta no apunta a un UnRAR.exe o WinRAR.exe valido.\n"
+    "Busca el archivo o pega su ruta completa y presiona Enter."
+)
 
 # Ventana emergente de ajustes personalizados
 
@@ -455,3 +463,192 @@ LOG_DEST_FOLDER_NOT_FOUND = "[ERROR] No se encontro la carpeta de destino."
 LOG_OPENED_INSTALL_AND_MODS = "Ubicacion de instalacion del juego y carpeta Mods abiertas."
 LOG_SELECTED_PROFILE = "[PROFILE] Perfil seleccionado: {current_profile}"
 LOG_PROFILE_FOLDER_WARN = "[PROFILE][WARN] No se pudieron asegurar las carpetas del perfil para '{current_profile}': {error}"
+
+# ============================================================
+# Custom Profiles popup (F6)
+# ============================================================
+DLG_TITLE_CUSTOM_PROFILES = "Perfiles Personalizados"
+LBL_CUSTOM_PROFILES_TITLE = "Perfiles de Juego Personalizados"
+LBL_CUSTOM_PROFILES_SUBTITLE = (
+    "Agrega tus propios juegos. Los campos en blanco heredan valores predeterminados sensatos del motor."
+)
+LBL_EDITING = "Editando:"
+LBL_PROFILE_NAME = "Nombre del Perfil *"
+LBL_ENGINE = "Motor *"
+LBL_ENGINE_DESCRIPTION = "Descripcion:"
+LBL_STEAM_APPID = "ID de App de Steam"
+LBL_LAUNCH_EXE = "Ejecutable de Inicio"
+LBL_GAME_PATH = "Ruta de Mods del Juego"
+LBL_NEXUS_LINK = "Enlace de Nexus del Juego *"
+LBL_MOD_DIR_NAME = "Nombre de Carpeta de Mods"
+LBL_ROUTING = "Enrutamiento de Carpetas"
+LBL_DEFAULT_MODS_DIR = "Colocar los mods directamente en la carpeta raiz del perfil (sin subcarpeta 'Mods')"
+OPT_NEW_PROFILE = "＋ Nuevo Perfil"
+BTN_DELETE_PROFILE = "Eliminar"
+BTN_SAVE_PROFILE = "Guardar Perfil"
+BTN_CLOSE = "Cerrar"
+
+# Custom Profiles - input placeholders
+PH_PROFILE_NAME = "ej: Mi Juego Increible"
+PH_STEAM_APPID = "ID de App de Steam (ej: 1144200)"
+PH_LAUNCH_EXE = "Juego.exe"
+PH_GAME_PATH = r"\Mi Juego\Mods"
+PH_NEXUS_LINK = "https://www.nexusmods.com/<juego>/mods/"
+PH_MOD_DIR_NAME = "Mods"
+PH_ROUTING = "plugins=Plugins, config=Config"
+
+# Custom Profiles - in-depth field tooltips
+TIP_CP_PROFILE_SELECTOR = (
+    "Elige que perfil editar.\n"
+    "• '＋ Nuevo Perfil' abre un formulario en blanco para crear un juego nuevo.\n"
+    "• Al seleccionar un perfil existente se cargan sus valores para editarlo o eliminarlo.\n"
+    "Aqui solo aparecen TUS perfiles personalizados --> los perfiles integrados no se pueden editar\n"
+    "ni eliminar desde esta ventana."
+)
+TIP_CP_PROFILE_NAME = (
+    "El nombre visible de tu juego, mostrado en el desplegable de perfiles (obligatorio).\n"
+    "Tambien se convierte en un nombre de carpeta real bajo tu raiz de CZT, asi que debe ser un\n"
+    "nombre de carpeta valido de Windows.\n"
+    "Permitido: letras, numeros, espacios, guiones, guiones bajos.\n"
+    "No permitido: < > : \" / \\ | ? * , nombres que terminen en espacio o punto, y\n"
+    "nombres reservados (CON, PRN, NUL, COM1…).\n"
+    "Debe ser unico --> no puede coincidir con un perfil integrado u otro personalizado."
+)
+TIP_CP_ENGINE = (
+    "El motor de mods que CZT usa para instalar y enlazar los mods de este juego (obligatorio).\n"
+    "Elige el motor que coincida con tu juego (p. ej. Unreal Engine, Unity, Techland).\n"
+    "El motor aporta valores predeterminados inteligentes (tipos de archivo permitidos, como se enlazan los mods),\n"
+    "asi que rara vez necesitas tocar los campos avanzados de abajo.\n"
+    "El texto gris bajo esta casilla resume el motor seleccionado."
+)
+TIP_CP_STEAM_APPID = (
+    "El ID de App de Steam del juego (opcional, solo numeros).\n"
+    "Lo encuentras en la URL de la tienda de Steam: store.steampowered.com/app/<APPID>/.\n"
+    "CZT lo usa para localizar automaticamente el juego a traves de tu biblioteca de Steam.\n"
+    "Dejalo en blanco para juegos que no son de Steam --> aun puedes definir rutas manualmente en la\n"
+    "pestana del Menu Principal. Letras o simbolos aqui se rechazaran al guardar."
+)
+TIP_CP_LAUNCH_EXE = (
+    "El ejecutable del juego, relativo a la carpeta del juego (opcional).\n"
+    "Ejemplo: Juego.exe  o  Binaries\\Win64\\Juego.exe.\n"
+    "Separa varios candidatos con comas --> CZT usa el primero que encuentre.\n"
+    "Lo usa el boton 'Iniciar Juego'; dejalo en blanco si inicias el juego tu mismo."
+)
+TIP_CP_GAME_PATH = (
+    "Un fragmento de ruta usado para ayudar a detectar la carpeta de mods del juego (Steam).\n"
+    "Normalmente el final de la ruta de instalacion, p. ej. \\Mi Juego\\Mods.\n"
+    "Separa varios candidatos con comas.\n"
+    "Esto es una pista de deteccion, no una ruta completa --> para control manual total, define la\n"
+    "ruta de instalacion del juego en la pestana del Menu Principal despues de guardar."
+)
+TIP_CP_NEXUS_LINK = (
+    "La pagina de Nexus Mods de este juego (opcional).\n"
+    "Formato: https://www.nexusmods.com/<juego>/mods/  donde <juego> es el dominio\n"
+    "mostrado en la URL del sitio para ese juego.\n"
+    "Habilita el navegador de Nexus integrado y los enlaces 'abrir en Nexus' para este perfil.\n"
+    "Dejalo en blanco si el juego no esta en Nexus Mods."
+)
+TIP_CP_MOD_DIR_NAME = (
+    "El nombre de la carpeta del lado del juego donde se enlazan los mods (opcional).\n"
+    "Valores comunes: Mods, Paks, source. Por defecto es 'Mods' si se deja en blanco.\n"
+    "Se ignora cuando 'Colocar los mods directamente en la carpeta raiz del perfil' esta marcado.\n"
+    "Si no estas seguro, deja el valor predeterminado --> el motor suele gestionarlo correctamente."
+)
+TIP_CP_ROUTING = (
+    "Avanzado: envia carpetas especificas de nivel superior a una carpeta distinta del lado del juego\n"
+    "(opcional).\n"
+    "- Formato: origen=Destino, separado por comas. Ejemplo: plugins=Plugins, config=Config.\n"
+    "- Significado: una carpeta 'plugins' dentro de un mod se enlaza a la carpeta 'Plugins' del juego\n"
+    "en lugar de la carpeta Mods normal.\n"
+    "-Dejalo en blanco a menos que tu juego separe los plugins etc. de los mods normales."
+)
+TIP_CP_DEFAULT_MODS_DIR = (
+    "Cuando esta marcado, los mods se colocan directamente en la carpeta raiz del perfil en lugar\n"
+    "de una subcarpeta 'Mods'.\n"
+    "Usa esto para juegos que cargan los mods directamente desde la raiz del juego.\n"
+    "Cuando esta marcado, se ignora el 'Nombre de Carpeta de Mods' de arriba.\n"
+    "Dejalo sin marcar para el caso tipico (los mods viven en una carpeta Mods dedicada)."
+)
+TIP_CP_SAVE = (
+    "Valida y guarda este perfil.\n"
+    "Los perfiles nuevos aparecen de inmediato en el desplegable de perfiles; editar actualiza la\n"
+    "entrada existente.\n"
+    "Se guarda en custom_profiles.json en tu carpeta raiz de CZT."
+)
+TIP_CP_DELETE = (
+    "Elimina el perfil personalizado seleccionado.\n"
+    "Esto solo quita la entrada del perfil --> NO elimina ningun mod instalado\n"
+    "ni archivos en el disco.\n"
+    "Solo esta disponible para perfiles personalizados que creaste (no integrados)."
+)
+TIP_CP_CLOSE = (
+    "Cierra esta ventana.\n"
+    "Los cambios sin guardar en el formulario se descartan; los perfiles ya guardados se conservan."
+)
+
+# Custom Profiles - status / dialog messages
+MSG_ENGINE_EXPERIMENTAL = (
+    "⚠ Motor experimental: no probado con un juego real. Espera solo despliegue basico "
+    "de archivos (sin enrutamiento especial ni gestion de orden de carga)."
+)
+MSG_NO_ROOT_FOLDER = "Primero define tu carpeta raiz de CZT (Configuracion Inicial)."
+MSG_APPID_NUMERIC = "El ID de App de Steam debe ser numerico."
+DLG_TITLE_DELETE_PROFILE = "Eliminar Perfil"
+MSG_CONFIRM_DELETE_PROFILE = (
+    "¿Eliminar el perfil personalizado '{name}'?\nEsto no elimina ningun mod instalado."
+)
+
+# Custom Profiles - validation / persistence messages
+MSG_NAME_EMPTY = "El nombre del perfil no puede estar vacio."
+MSG_NAME_INVALID_CHARS = 'El nombre no puede contener ninguno de: < > : " / \\ | ? *'
+MSG_NAME_RESERVED = "'{name}' es un nombre reservado del sistema."
+MSG_NAME_TRAILING = "El nombre no puede terminar con un espacio o punto."
+MSG_NAME_BUILTIN = "'{name}' es un nombre de perfil integrado; elige otro."
+MSG_NAME_EXISTS = "Ya existe un perfil personalizado llamado '{name}'."
+MSG_SELECT_ENGINE = "Selecciona un motor para este perfil."
+MSG_UNKNOWN_ENGINE = "Motor desconocido: '{engine}'."
+MSG_SAVE_FAILED = "No se pudo escribir custom_profiles.json (verifica los permisos de la carpeta)."
+MSG_PROFILE_SAVED = "Perfil '{name}' guardado."
+MSG_NOT_CUSTOM = "'{name}' no es un perfil personalizado."
+MSG_DELETE_UPDATE_FAILED = "No se pudo actualizar custom_profiles.json."
+MSG_PROFILE_DELETED = "Perfil '{name}' eliminado."
+
+FORZATECH_DESC = (
+    "Motor de superposicion de archivos sueltos para Forza Horizon. Los mods son carpetas (no paks) "
+    "con un arbol 'media' que sobrescribe el contenido original, un arbol aditivo 'mediapc', "
+    "y/o archivos raiz como un proxy version.dll. CZT fusiona todos los mods habilitados "
+    "en una sola superposicion segun el orden de carga (el de arriba gana los conflictos), luego la mapea al "
+    "juego como una union por cada carpeta de nivel superior mas un enlace simbolico por cada archivo raiz. "
+    "Donde ya existe una carpeta original real, superpone por archivo y respalda "
+    "lo que oculta como '.czt_orig'."
+)
+
+TECHLAND_DESC = (
+    "Motor de .pak basado en ranuras para el C-Engine de Techland (Dying Light 1/2, The "
+    "Beast). El orden de carga proviene de los nombres numerados data##.pak, con ranuras bajas "
+    "reservadas para el juego y un rango superior abierto a los mods. CZT enlaza "
+    "el .pak de cada mod en la carpeta de recursos plana del juego y lo renombra a una "
+    "ranura libre. Los plugins nativos .dll/.asi se enlazan junto al exe del juego. Sin "
+    "carpeta Content ni audio separado - el audio va dentro de los paks."
+)
+
+UNREAL_DESC = (
+    "Motor de paks para Unreal Engine 4/5. Maneja .pak heredado mas contenedores IoStore "
+    ".utoc/.ucas (y archivos .sig para juegos con paks firmados). CZT enlaza "
+    "los paks en la carpeta de mods del juego (LogicMods, ~mods o Mods) y los renombra "
+    "por numero de pakchunk para definir el orden de carga. Admite modloaders .dll/.asi "
+    "como UE4SS enlazados al exe, mas audio opcional Wwise (.bnk/.wem) y FMOD "
+    "(.bank)."
+)
+
+UNITY_DESC = (
+    "Motor impulsado por modloaders para Unity (BepInEx, MelonLoader, UnityModManager) "
+    "- los loaders siguen gestionando el orden de carga, no el motor. Los mods suelen ser plugins .dll o "
+    "paquetes de assets .bundle/.unity3d. CZT enlaza los mods .dll en la carpeta "
+    "de mods del loader y enruta carpetas conocidas de nivel superior (p. ej. 'plugins') a sus "
+    "equivalentes en la raiz del juego. Audio FMOD/Wwise opcional; sin concepto de pak ni "
+    "carpeta Content."
+)
+
+
+
