@@ -479,7 +479,7 @@ LBL_ENGINE_DESCRIPTION = "Description:"
 LBL_STEAM_APPID = "Steam App ID"
 LBL_LAUNCH_EXE = "Launch Executable"
 LBL_GAME_PATH = "Game Mod Path"
-LBL_NEXUS_LINK = "Nexus Game Link *"
+LBL_NEXUS_LINK = "Nexus Game Link"
 LBL_MOD_DIR_NAME = "Mod Folder Name"
 LBL_ROUTING = "Folder Routing"
 LBL_DEFAULT_MODS_DIR = "Stage mods directly in the profile root folder (no 'Mods' subfolder)"
@@ -529,7 +529,7 @@ TIP_CP_STEAM_APPID = (
     "Main Menu tab. Letters or symbols here will be rejected on save."
 )
 TIP_CP_LAUNCH_EXE = (
-    "The game's executable, relative to the game folder (optional).\n"
+    "The game's executable, relative to the game folder.\n"
     "Example: Game.exe  or  Binaries\\Win64\\Game.exe.\n"
     "Separate multiple candidates with commas --> CZT uses the first one it finds.\n"
     "Used by the 'Launch Game' button; leave blank if you launch the game yourself."
@@ -542,21 +542,19 @@ TIP_CP_GAME_PATH = (
     "game's installation path on the Main Menu tab after saving."
 )
 TIP_CP_NEXUS_LINK = (
-    "The Nexus Mods page for this game (optional).\n"
+    "The Nexus Mods page for this game.\n"
     "Format: https://www.nexusmods.com/<game>/mods/  where <game> is the domain\n"
     "shown in the site's URL for that game.\n"
-    "Enables the in-app Nexus browser and 'open on Nexus' links for this profile.\n"
-    "Leave blank if the game isn't on Nexus Mods."
+    "Enables the in-app Nexus browser and 'open on Nexus' links for this profile."
 )
 TIP_CP_MOD_DIR_NAME = (
-    "The name of the game-side folder mods are linked into (optional).\n"
+    "The name of the game-side folder mods are linked into.\n"
     "Common values: Mods, Paks, source. Defaults to 'Mods' if left blank.\n"
     "Ignored when 'Stage mods directly in the profile root folder' is checked.\n"
-    "If unsure, leave the default --> the engine usually handles this correctly."
+    "If unsure, leave the default --> the selected engine usually handles this correctly."
 )
 TIP_CP_ROUTING = (
-    "Advanced: send specific top-level folders to a different game-side folder\n"
-    "(optional).\n"
+    "Advanced: send specific top-level folders to a different game-side folder (optional).\n"
     "- Format: source=Target, comma-separated. Example: plugins=Plugins, config=Config.\n"
     "- Meaning: a 'plugins' folder inside a mod is linked to the game's 'Plugins'\n"
     "folder instead of the normal Mods folder.\n"

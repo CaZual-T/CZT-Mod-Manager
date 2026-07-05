@@ -479,7 +479,7 @@ LBL_ENGINE_DESCRIPTION = "描述："
 LBL_STEAM_APPID = "Steam App ID"
 LBL_LAUNCH_EXE = "启动可执行文件"
 LBL_GAME_PATH = "游戏模组路径"
-LBL_NEXUS_LINK = "Nexus 游戏链接 *"
+LBL_NEXUS_LINK = "Nexus 游戏链接"
 LBL_MOD_DIR_NAME = "模组文件夹名称"
 LBL_ROUTING = "文件夹路由"
 LBL_DEFAULT_MODS_DIR = "将模组直接放入配置文件根目录（不使用 'Mods' 子文件夹）"
@@ -529,7 +529,7 @@ TIP_CP_STEAM_APPID = (
     "此处的字母或符号在保存时会被拒绝。"
 )
 TIP_CP_LAUNCH_EXE = (
-    "游戏的可执行文件，相对于游戏文件夹（可选）。\n"
+    "游戏的可执行文件，相对于游戏文件夹。\n"
     "示例：Game.exe 或 Binaries\\Win64\\Game.exe。\n"
     "用逗号分隔多个候选项 --> CZT 使用找到的第一个。\n"
     "由 '启动游戏' 按钮使用；如果你自己启动游戏，请留空。"
@@ -542,14 +542,13 @@ TIP_CP_GAME_PATH = (
     "主菜单选项卡设置游戏的安装路径。"
 )
 TIP_CP_NEXUS_LINK = (
-    "此游戏的 Nexus Mods 页面（可选）。\n"
+    "此游戏的 Nexus Mods 页面。\n"
     "格式：https://www.nexusmods.com/<game>/mods/  其中 <game> 是该游戏在\n"
     "网站 URL 中显示的域名。\n"
-    "为此配置文件启用应用内 Nexus 浏览器和 '在 Nexus 打开' 链接。\n"
-    "如果游戏不在 Nexus Mods 上，请留空。"
+    "为此配置文件启用应用内 Nexus 浏览器和 '在 Nexus 打开' 链接。"
 )
 TIP_CP_MOD_DIR_NAME = (
-    "模组链接到的游戏端文件夹名称（可选）。\n"
+    "模组链接到的游戏端文件夹名称。\n"
     "常见值：Mods、Paks、source。留空时默认为 'Mods'。\n"
     "当勾选 '将模组直接放入配置文件根目录' 时忽略此项。\n"
     "如不确定，请保留默认值 --> 引擎通常会正确处理。"

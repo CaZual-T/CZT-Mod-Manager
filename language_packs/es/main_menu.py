@@ -479,7 +479,7 @@ LBL_ENGINE_DESCRIPTION = "Descripcion:"
 LBL_STEAM_APPID = "ID de App de Steam"
 LBL_LAUNCH_EXE = "Ejecutable de Inicio"
 LBL_GAME_PATH = "Ruta de Mods del Juego"
-LBL_NEXUS_LINK = "Enlace de Nexus del Juego *"
+LBL_NEXUS_LINK = "Enlace de Nexus del Juego"
 LBL_MOD_DIR_NAME = "Nombre de Carpeta de Mods"
 LBL_ROUTING = "Enrutamiento de Carpetas"
 LBL_DEFAULT_MODS_DIR = "Colocar los mods directamente en la carpeta raiz del perfil (sin subcarpeta 'Mods')"
@@ -529,7 +529,7 @@ TIP_CP_STEAM_APPID = (
     "pestana del Menu Principal. Letras o simbolos aqui se rechazaran al guardar."
 )
 TIP_CP_LAUNCH_EXE = (
-    "El ejecutable del juego, relativo a la carpeta del juego (opcional).\n"
+    "El ejecutable del juego, relativo a la carpeta del juego.\n"
     "Ejemplo: Juego.exe  o  Binaries\\Win64\\Juego.exe.\n"
     "Separa varios candidatos con comas --> CZT usa el primero que encuentre.\n"
     "Lo usa el boton 'Iniciar Juego'; dejalo en blanco si inicias el juego tu mismo."
@@ -542,14 +542,13 @@ TIP_CP_GAME_PATH = (
     "ruta de instalacion del juego en la pestana del Menu Principal despues de guardar."
 )
 TIP_CP_NEXUS_LINK = (
-    "La pagina de Nexus Mods de este juego (opcional).\n"
+    "La pagina de Nexus Mods de este juego.\n"
     "Formato: https://www.nexusmods.com/<juego>/mods/  donde <juego> es el dominio\n"
     "mostrado en la URL del sitio para ese juego.\n"
-    "Habilita el navegador de Nexus integrado y los enlaces 'abrir en Nexus' para este perfil.\n"
-    "Dejalo en blanco si el juego no esta en Nexus Mods."
+    "Habilita el navegador de Nexus integrado y los enlaces 'abrir en Nexus' para este perfil."
 )
 TIP_CP_MOD_DIR_NAME = (
-    "El nombre de la carpeta del lado del juego donde se enlazan los mods (opcional).\n"
+    "El nombre de la carpeta del lado del juego donde se enlazan los mods.\n"
     "Valores comunes: Mods, Paks, source. Por defecto es 'Mods' si se deja en blanco.\n"
     "Se ignora cuando 'Colocar los mods directamente en la carpeta raiz del perfil' esta marcado.\n"
     "Si no estas seguro, deja el valor predeterminado --> el motor suele gestionarlo correctamente."
