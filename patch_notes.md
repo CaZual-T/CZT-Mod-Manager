@@ -6,6 +6,7 @@
 - new mod downloads will inherit the file name instead of the page name upon initial download.
 - currently installed mods will be preselected when downloading mods in-app that have multiple options.
   - You can still choose a different version if you wish.
+- added the abiliity to add your own profiles (games) to CZT. (Press F6)
 - some other shit but i want to go blow shit up so ill update this later see yaaaaa
 
 ## Version: 3.0.15.4
