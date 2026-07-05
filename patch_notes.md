@@ -3,6 +3,7 @@
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.5
 
 - updated czt nexus bridge extension. (download from github --> v0.3.0)
+- updated the install unrar step during setup. Users can now install unrar.exe anyhwere on their pc.
 - new mod downloads will inherit the file name instead of the page name upon initial download. (useful when a mod has multiple options)
 - currently installed mods will be preselected when downloading mods in-app that have multiple options.
   - you can still choose a different version if you wish.
