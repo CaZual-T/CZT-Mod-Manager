@@ -1,3 +1,11 @@
+## Version: 3.0.15.6
+- Published: 2026-07-05
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.6
+
+- fixed a bug that would cause a new mods 'version', 'page id', and 'download hash' to be appended to the display name.
+- updated language files.
+  - fixed missing keys in es, ru, zh-cn. 
+
 ## Version: 3.0.15.5
 - Published: 2026-07-04
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.5
@@ -11,7 +19,7 @@
 - currently installed mods will be preselected when downloading mods in-app that have multiple options.
   - you can still choose a different version if you wish.
 - added the abiliity to add your own profiles (games) to CZT. (Press F6)
-- some other shit but i want to go blow shit up so ill update this later see yaaaaa
+- some other shit but i want to go blow shit up so ill update this later see yaaaaa 💀😂
 
 ## Version: 3.0.15.4
 - Published: 2026-07-02
