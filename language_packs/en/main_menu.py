@@ -176,11 +176,14 @@ TIP_CREATE_ROOT = (
     "CZT will AUTO create root folders and set source path."
 )
 TIP_INSTALL_UNRAR = (
-    "Download and install UnRAR.exe to enable mod extraction.\n"
-    "Install to > Drive Selected For CZT Root/CZT Mod Manager/czt_tools/UnRAR.exe \n"
-    "Note: You can click this again after installing unrar to auto-detect its path."
+    "Download and install UnRAR to enable mod extraction.\n"
+    "UnRAR.exe can live anywhere on your PC - the czt_tools folder is just the default.\n"
+    "After installing, click again to auto-detect it, or use 'Set Path' to browse or paste the path."
 )
-TIP_BROWSE_UNRAR = "Select the WinRAR.exe or UnRAR.exe path if already installed."
+TIP_BROWSE_UNRAR = (
+    "Set the path to UnRAR.exe (or WinRAR.exe) located anywhere on your PC.\n"
+    "Browse to the file, or paste its full path into the box and press Enter to save."
+)
 TIP_NEXUS_API = (
     "Get your Nexus Mods API key\n"
     "The nexus website will open\n"
@@ -188,6 +191,11 @@ TIP_NEXUS_API = (
 )
 MSG_API_KEY_SAVED_TITLE = "API Key Saved"
 MSG_API_KEY_SAVED_TEXT = "Nexus API Key saved to config."
+MSG_UNRAR_PATH_INVALID_TITLE = "Invalid UnRAR Path"
+MSG_UNRAR_PATH_INVALID_TEXT = (
+    "That path doesn't point to a valid UnRAR.exe or WinRAR.exe.\n"
+    "Browse to the file, or paste its full path and press Enter."
+)
 
 # Custom settings popup
 
@@ -455,3 +463,192 @@ LOG_DEST_FOLDER_NOT_FOUND = "[ERROR] Destination folder not found."
 LOG_OPENED_INSTALL_AND_MODS = "Game install location and Mods folder opened."
 LOG_SELECTED_PROFILE = "[PROFILE] Selected profile: {current_profile}"
 LOG_PROFILE_FOLDER_WARN = "[PROFILE][WARN] Could not ensure profile folders for '{current_profile}': {error}"
+
+# ============================================================
+# Custom Profiles popup (F6)
+# ============================================================
+DLG_TITLE_CUSTOM_PROFILES = "Custom Profiles"
+LBL_CUSTOM_PROFILES_TITLE = "Custom Game Profiles"
+LBL_CUSTOM_PROFILES_SUBTITLE = (
+    "Add your own games. Fields left blank inherit sensible engine defaults."
+)
+LBL_EDITING = "Editing:"
+LBL_PROFILE_NAME = "Profile Name *"
+LBL_ENGINE = "Engine *"
+LBL_ENGINE_DESCRIPTION = "Description:"
+LBL_STEAM_APPID = "Steam App ID"
+LBL_LAUNCH_EXE = "Launch Executable"
+LBL_GAME_PATH = "Game Mod Path"
+LBL_NEXUS_LINK = "Nexus Game Link *"
+LBL_MOD_DIR_NAME = "Mod Folder Name"
+LBL_ROUTING = "Folder Routing"
+LBL_DEFAULT_MODS_DIR = "Stage mods directly in the profile root folder (no 'Mods' subfolder)"
+OPT_NEW_PROFILE = "＋ New Profile"
+BTN_DELETE_PROFILE = "Delete"
+BTN_SAVE_PROFILE = "Save Profile"
+BTN_CLOSE = "Close"
+
+# Custom Profiles - input placeholders
+PH_PROFILE_NAME = "ex: My Awesome Game"
+PH_STEAM_APPID = "Steam App ID (ex: 1144200)"
+PH_LAUNCH_EXE = "Game.exe"
+PH_GAME_PATH = r"\My Game\Mods"
+PH_NEXUS_LINK = "https://www.nexusmods.com/<game>/mods/"
+PH_MOD_DIR_NAME = "Mods"
+PH_ROUTING = "plugins=Plugins, config=Config"
+
+# Custom Profiles - in-depth field tooltips
+TIP_CP_PROFILE_SELECTOR = (
+    "Choose which profile to edit.\n"
+    "• '＋ New Profile' opens a blank form to create a brand-new game.\n"
+    "• Selecting an existing profile loads its values so you can edit or delete it.\n"
+    "Only YOUR custom profiles appear here --> built-in profiles cannot be edited\n"
+    "or deleted from this window."
+)
+TIP_CP_PROFILE_NAME = (
+    "The display name for your game, shown in the profile dropdown (required).\n"
+    "This also becomes a real folder name under your CZT root, so it must be a\n"
+    "valid Windows folder name.\n"
+    "Allowed: letters, numbers, spaces, dashes, underscores.\n"
+    "Not allowed: < > : \" / \\ | ? * , names ending in a space or period, and\n"
+    "reserved names (CON, PRN, NUL, COM1…).\n"
+    "Must be unique --> it cannot match a built-in or another custom profile."
+)
+TIP_CP_ENGINE = (
+    "The mod engine CZT uses to install and link this game's mods (required).\n"
+    "Pick the engine that matches your game (e.g. Unreal Engine, Unity, Techland).\n"
+    "The engine supplies smart defaults (allowed file types, how mods are linked),\n"
+    "so you rarely need to touch the advanced fields below.\n"
+    "The grey text under this box summarizes the selected engine."
+)
+TIP_CP_STEAM_APPID = (
+    "The game's Steam App ID (optional, numbers only).\n"
+    "Find it in the Steam store URL: store.steampowered.com/app/<APPID>/.\n"
+    "CZT uses this to auto-locate the game through your Steam library.\n"
+    "Leave blank for non-Steam games --> you can still set paths manually on the\n"
+    "Main Menu tab. Letters or symbols here will be rejected on save."
+)
+TIP_CP_LAUNCH_EXE = (
+    "The game's executable, relative to the game folder (optional).\n"
+    "Example: Game.exe  or  Binaries\\Win64\\Game.exe.\n"
+    "Separate multiple candidates with commas --> CZT uses the first one it finds.\n"
+    "Used by the 'Launch Game' button; leave blank if you launch the game yourself."
+)
+TIP_CP_GAME_PATH = (
+    "A path fragment used to help detect the game's mod folder (Steam).\n"
+    "Usually the tail of the install path, e.g. \\My Game\\Mods.\n"
+    "Separate multiple candidates with commas.\n"
+    "This is a detection hint, not a full path --> for full manual control, set the\n"
+    "game's installation path on the Main Menu tab after saving."
+)
+TIP_CP_NEXUS_LINK = (
+    "The Nexus Mods page for this game (optional).\n"
+    "Format: https://www.nexusmods.com/<game>/mods/  where <game> is the domain\n"
+    "shown in the site's URL for that game.\n"
+    "Enables the in-app Nexus browser and 'open on Nexus' links for this profile.\n"
+    "Leave blank if the game isn't on Nexus Mods."
+)
+TIP_CP_MOD_DIR_NAME = (
+    "The name of the game-side folder mods are linked into (optional).\n"
+    "Common values: Mods, Paks, source. Defaults to 'Mods' if left blank.\n"
+    "Ignored when 'Stage mods directly in the profile root folder' is checked.\n"
+    "If unsure, leave the default --> the engine usually handles this correctly."
+)
+TIP_CP_ROUTING = (
+    "Advanced: send specific top-level folders to a different game-side folder\n"
+    "(optional).\n"
+    "- Format: source=Target, comma-separated. Example: plugins=Plugins, config=Config.\n"
+    "- Meaning: a 'plugins' folder inside a mod is linked to the game's 'Plugins'\n"
+    "folder instead of the normal Mods folder.\n"
+    "-Leave blank unless your game separates plugins etc from regular mods."
+)
+TIP_CP_DEFAULT_MODS_DIR = (
+    "When checked, mods are staged directly in the profile's root folder instead\n"
+    "of a 'Mods' subfolder.\n"
+    "Use this for games that load mods straight from the game root.\n"
+    "When checked, 'Mod Folder Name' above is ignored.\n"
+    "Leave unchecked for the typical case (mods live in a dedicated Mods folder)."
+)
+TIP_CP_SAVE = (
+    "Validate and save this profile.\n"
+    "New profiles appear immediately in the profile dropdown; editing updates the\n"
+    "existing entry.\n"
+    "Saved to custom_profiles.json in your CZT root folder."
+)
+TIP_CP_DELETE = (
+    "Delete the selected custom profile.\n"
+    "This only removes the profile entry --> it does NOT delete any installed mods\n"
+    "or files on disk.\n"
+    "Only available for custom profiles you created (not built-ins)."
+)
+TIP_CP_CLOSE = (
+    "Close this window.\n"
+    "Unsaved changes in the form are discarded; already-saved profiles are kept."
+)
+
+# Custom Profiles - status / dialog messages
+MSG_ENGINE_EXPERIMENTAL = (
+    "⚠ Experimental engine: untested against a real game. Expect basic file "
+    "deployment only (no special routing or load-order handling)."
+)
+MSG_NO_ROOT_FOLDER = "Set your CZT root folder first (First Time Setup)."
+MSG_APPID_NUMERIC = "Steam App ID must be numeric."
+DLG_TITLE_DELETE_PROFILE = "Delete Profile"
+MSG_CONFIRM_DELETE_PROFILE = (
+    "Delete custom profile '{name}'?\nThis does not delete any installed mods."
+)
+
+# Custom Profiles - validation / persistence messages
+MSG_NAME_EMPTY = "Profile name cannot be empty."
+MSG_NAME_INVALID_CHARS = 'Name cannot contain any of: < > : " / \\ | ? *'
+MSG_NAME_RESERVED = "'{name}' is a reserved system name."
+MSG_NAME_TRAILING = "Name cannot end with a space or period."
+MSG_NAME_BUILTIN = "'{name}' is a built-in profile name; choose another."
+MSG_NAME_EXISTS = "A custom profile named '{name}' already exists."
+MSG_SELECT_ENGINE = "Select an engine for this profile."
+MSG_UNKNOWN_ENGINE = "Unknown engine: '{engine}'."
+MSG_SAVE_FAILED = "Could not write custom_profiles.json (check folder permissions)."
+MSG_PROFILE_SAVED = "Profile '{name}' saved."
+MSG_NOT_CUSTOM = "'{name}' is not a custom profile."
+MSG_DELETE_UPDATE_FAILED = "Could not update custom_profiles.json."
+MSG_PROFILE_DELETED = "Profile '{name}' deleted."
+
+FORZATECH_DESC = (
+    "Loose-file overlay engine for Forza Horizon. Mods are folders (not paks) "
+    "with a 'media' tree that overrides vanilla content, an additive 'mediapc' "
+    "tree, and/or root files like a version.dll proxy. CZT merges all enabled "
+    "mods into one overlay in load order (top wins conflicts), then maps it into "
+    "the game as a junction per top-level folder plus a symlink per root file. "
+    "Where a real vanilla folder already exists it overlays per-file and backs "
+    "up anything it shadows as '.czt_orig'."
+)
+
+TECHLAND_DESC = (
+    "Slot-based .pak engine for Techland's C-Engine (Dying Light 1/2, The "
+    "Beast). Load order comes from numbered data##.pak filenames, with low "
+    "slots reserved for the game and an upper range open to mods. CZT symlinks "
+    "each mod's .pak into the game's flat resource folder and renames it into a "
+    "free slot. Native .dll/.asi plugins are linked beside the game exe. No "
+    "Content folder or separate audio - audio ships inside the paks."
+)
+
+UNREAL_DESC = (
+    "Pak engine for Unreal Engine 4/5. Handles legacy .pak plus IoStore "
+    ".utoc/.ucas containers (and .sig files for signed-pak games). CZT symlinks "
+    "paks into the game's mod folder (LogicMods, ~mods, or Mods) and renames "
+    "them by pakchunk number to set load order. Supports .dll/.asi modloaders "
+    "like UE4SS linked to the exe, plus optional Wwise (.bnk/.wem) and FMOD "
+    "(.bank) audio."
+)
+
+UNITY_DESC = (
+    "Modloader-driven engine for Unity (BepInEx, MelonLoader, UnityModManager) "
+    "- loaders still handle load order, not the engine. Mods are typically .dll plugins or "
+    ".bundle/.unity3d asset packs. CZT symlinks .dll mods into the loader's "
+    "mods folder and routes known top-level folders (e.g. 'plugins') to their "
+    "game-root equivalents. Optional FMOD/Wwise audio; no pak or Content-folder "
+    "concept."
+)
+
+
+

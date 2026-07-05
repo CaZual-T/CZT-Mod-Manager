@@ -43,6 +43,7 @@ MSG_HOTKEY_CONTROLS = (
     "    > F2           : Open Load Order Menu.\n"
     "    > F3           : Open Plugins Menu.\n"
     "    > F5           : Re-center main window on screen.\n"
+    "    > F6           : Add / Edit custom game profiles.\n"
     "    > F7           : Link mods (no game launch).\n"
     "    > F8           : Unlink mods / safe mode (no game launch).\n"
     "    > F9           : Detect missing mods from a saved loadout.\n"
@@ -144,9 +145,7 @@ DLG_TITLE_ROOT_CREATED = "Root Created"
 MSG_ROOT_CREATED = "CZT root folders created at: {czt_root_folder}"
 DLG_TITLE_SELECT_UNRAR = "Select UnRAR Executable"
 MSG_UNRAR_INSTALLER_PROMPT = (
-    "UnRAR installer will launch next.\n"
-    "Set destination folder to:\n"
-    " > Drive_Selected_For_Root\\CZT Mod Manager\\czt_tools <"
+    "UnRAR installer will launch next."
 )
 LOG_UNRAR_INSTALLER_LAUNCHED = (
     "UnRAR installer launched. Please complete installation.\n"
