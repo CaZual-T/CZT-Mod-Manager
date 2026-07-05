@@ -106,6 +106,32 @@
     return title.replace(/\s+at\s+.*$/i, "").trim();
   }
 
+  function getFileScope(trigger) {
+    if (!trigger || typeof trigger.closest !== "function") {
+      return null;
+    }
+    // After you click a file, we match it here to track the clicked file's own subtree so a
+    // multi-file page can't leak the FIRST file's name/id into the download. (this is to prevent incorrect display names upon download)
+    const scopeSelectors = [
+      "[data-file-id]",
+      "[id^='file-expander-header']",
+      "[id*='file-expander-header']",
+      ".file-expander-header",
+      ".accordion-tabs",
+      "[role='dialog']",
+      ".modal",
+      ".popup",
+      "#download_wrapper"
+    ];
+    for (const sel of scopeSelectors) {
+      const found = trigger.closest(sel);
+      if (found) {
+        return found;
+      }
+    }
+    return null;
+  }
+
   function readFileNameFromPage(trigger) {
     // Try the slow download button href — Nexus CDN links end with the actual filename.
     const href = trigger ? trigger.getAttribute("href") || "" : "";
@@ -121,19 +147,25 @@
       }
     }
 
-    // Try common Nexus DOM selectors for the displayed file name.
-    const selectors = [
-      "[data-file-name]",
-      ".popup-file-name",
-      ".file-expander-header",
-      ".download-file-name"
-    ];
-    for (const sel of selectors) {
-      const el = document.querySelector(sel);
-      if (el) {
-        const name = StandardizeFileName(el.getAttribute("data-file-name") || el.textContent || "");
-        if (name) {
-          return name;
+    // Scope the DOM lookup to the clicked file's container. On multi-file mod
+    // pages a document-wide querySelector would return the FIRST file's name
+    // regardless of which file the user actually clicked, so we only read the
+    // name from inside the trigger's own file/download container.
+    const scope = getFileScope(trigger);
+    if (scope) {
+      const selectors = [
+        "[data-file-name]",
+        ".popup-file-name",
+        ".file-expander-header",
+        ".download-file-name"
+      ];
+      for (const sel of selectors) {
+        const el = scope.matches && scope.matches(sel) ? scope : scope.querySelector(sel);
+        if (el) {
+          const name = StandardizeFileName(el.getAttribute("data-file-name") || el.textContent || "");
+          if (name) {
+            return name;
+          }
         }
       }
     }
@@ -187,6 +219,7 @@
 
   globalThis.CztNexusBridgeDom = {
     getClickTrigger,
+    getFileScope,
     hasSlowDownloadOption,
     isManualButtonClick,
     isSlowButtonClick,
