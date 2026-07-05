@@ -37,15 +37,8 @@ Latest Release: https://github.com/CaZual-T/CZT-Mod-Manager/releases
 >   - Simple math, but there's always one...
 
 ### 3:) Install/Set Unrar 
-- Click "Install Unrar"
-  - Alternative: Download from: https://www.rarlab.com/rar/unrarw64.exe and place it in /CZT Mod Manager/czt_tools/unrar.exe
-- Click browse when the installer popup appears.</br>
-  - Install to > DriveThatYouChoseForRootFolder:/CZT Mod Manager/czt_tools/unrar.exe</br>
-    - Right now you have to do it this way.
-    - I meant to set it up so you could set a path to winrar if you already had that installed,
-    - but i guess i fuckered it all up so it only works if unrar is in the czt_tools folder.
-- You can click 'Install UnRar' again to rescan and set its path automatically.
-  - Or click set path (again it HAS to be to /CZT Mod Manager/czt_tools/unrar.exe)
+- Click "Install Unrar" (this will auto set your path if it already exists on your pc)
+  - Alternative: Download from: https://www.rarlab.com/rar/unrarw64.exe
 
 ### 4:) Retrieve and save your NEXUS API key
 - Click the Nexus Api Key button or go to <https://next.nexusmods.com/settings/api-keys>
