@@ -1,3 +1,13 @@
+## Version: 3.0.15.5
+- Published: 2026-07-04
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.5
+
+- updated czt nexus bridge extension
+- new mod downloads will inherit the file name instead of the page name upon initial download.
+- currently installed mods will be preselected when downloading mods in-app that have multiple options.
+  - You can still choose a different version if you wish.
+- some other shit but i want to go blow shit up so ill update this later see yaaaaa
+
 ## Version: 3.0.15.4
 - Published: 2026-07-02
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.4
