@@ -18,6 +18,8 @@
 - ⭐ EZ Setup & Launch: Automatically locates or creates required configuration files.
   - If you have any problems just make your way to discord so i can help you.
 - ⭐ Handles .pak, .asi, .dll, FMOD (.bank), Splash (.png), Movies (.mp4), VO_MOD (folder/.ogg).
+- ⭐ Main + Optional files available on the mod page will be listed (drop down selection) in-app upon download.
+- ⭐ Catches when a mod has multiple versions in an archive, allows you to choose a file or install all.
 - ⭐ Customizable UI: Users can personalize colors, fonts, and layouts for accessibility and aesthetics.
 - ⭐ Plug and play mod install by using the "Mod Manager Download" button on the nexus site to auto trigger CZT.
 - ⭐ Direct (in-app) Downloads available for nexus premium users.
