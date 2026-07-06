@@ -1,6 +1,6 @@
 ## Main Note(s):
 - CZT Mod Manager handles the mod files themselves, but doesnt 'load' anything into the game on its own.</br>
-- Manager Tasks (how it handles mods): install/uninstall, enable/disable, stage, symlink, load order etc.</br>
+- Manager Tasks (how it handles mods): install/uninstall, enable/disable, stage, symlink etc.</br>
 - Manager DOES NOT handle INJECTION.</br>
 "Why does this matter?" ⬇️</br>
   - ➡️ it matters because you will still need to have melon loader installed.</br>
