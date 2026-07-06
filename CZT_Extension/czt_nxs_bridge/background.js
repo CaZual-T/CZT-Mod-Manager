@@ -1,7 +1,17 @@
 const SLOW_DOWNLOAD_LAUNCH_DELAY_MS = 5500;
 let pendingLaunchTimer = null;
 let pendingLaunchTabId = null;
+// Debounce accidental/rapid repeat clicks on the same file's download button so
+// a single mod file only fires one protocol launch within this window.
+const LAUNCH_DEDUPE_WINDOW_MS = 4000;
+let lastLaunchKey = "";
+let lastLaunchAt = 0;
 const NEXUS_VALIDATE_URL = "https://api.nexusmods.com/v1/users/validate.json";
+
+function launchDedupeKey(payload) {
+  const p = payload || {};
+  return [p.game, p.modId, p.fileId].map((value) => String(value || "")).join("|");
+}
 
 function normalizeAccountDownloadMode(value) {
   if (value === "direct" || value === "standard") {
@@ -49,7 +59,7 @@ async function validateNexusApiKey(apiKey) {
       apikey: key,
       accept: "application/json",
       "application-name": "CZT Nexus Bridge",
-      "application-version": "0.1.0"
+      "application-version": "0.3.1"
     }
   });
 
@@ -128,6 +138,15 @@ async function maybeLaunchCzt(payload, delayMs = 0, tabId = null) {
   if (!shouldLaunch) {
     return;
   }
+
+  const key = launchDedupeKey(payload);
+  const now = Date.now();
+  if (key && key === lastLaunchKey && now - lastLaunchAt <= LAUNCH_DEDUPE_WINDOW_MS) {
+    // Same file already launched moments ago; ignore the duplicate trigger.
+    return;
+  }
+  lastLaunchKey = key;
+  lastLaunchAt = now;
 
   const protocolUrl = buildCztProtocolUrl(payload);
   if (delayMs > 0) {

@@ -207,6 +207,27 @@
     true
   );
 
+  function launchProtocolViaIframe(protocolUrl) {
+    // Launch the custom protocol through a throwaway hidden iframe instead of
+    // navigating the top document. The new Nexus UI starts the actual file
+    // download via client-side JS; navigating the top-level window (e.g.
+    // window.location.assign) wins the navigation race and aborts that
+    // download. An iframe fires the protocol handler without disturbing the
+    // page, so the native download is left intact.
+    const iframe = document.createElement("iframe");
+    iframe.style.display = "none";
+    iframe.setAttribute("aria-hidden", "true");
+    iframe.src = protocolUrl;
+    (document.body || document.documentElement).appendChild(iframe);
+    setTimeout(() => {
+      try {
+        iframe.remove();
+      } catch {
+        // Ignore cleanup failures; the hidden iframe is harmless if it lingers.
+      }
+    }, 1000);
+  }
+
   chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
     if (!message || message.type !== "launch-czt-protocol-in-page") {
       return;
@@ -219,7 +240,7 @@
     }
 
     try {
-      window.location.assign(protocolUrl);
+      launchProtocolViaIframe(protocolUrl);
       sendResponse({ ok: true });
     } catch (err) {
       sendResponse({ ok: false, error: String(err || "launch failed") });
