@@ -2,6 +2,7 @@
 
 ## Where does CZT store mods?
 - All mods are stored within "{RootDriveSelectedAtSetup}:\CZT Mod Manager\czt_mod_data\installed_mods\{profile_name}"
+- Enabled mods are then 'linked' to the active profile when you press F7 or 'Launch Game' --> 'Link | Modded'
 
 ## How does CZT know where to install mods?
 ### CZT Mod Manager utilizes multiple 'engines'</br>
@@ -15,22 +16,22 @@
 LAUNCH WITH CZT FROM THE MAIN MENU TO INJECT MODS TO THE ACTIVE GAME PROFILE.</br>
 or PRESS F7 TO PRELINK MODS AND THEN LAUNCH THROUGH STEAM/EXE.
 
-- Ready or Not:
+- Ready or Not (UE5):
   - Content mods are the ones that go into Content/FMOD, MOVIES, SPLASH, VO_MOD
   - Pak files go into Content/PAKS/Mods/
     - Uninstall (F8/Safe Mode) removes the linked files from all content folders and any potential .dll/.asi mods from root (exe location)
     - Simple because all RoN mods are additions and never directly replace vanilla files.
-- Forza Horizon 6:
+- Forza Horizon 6 (ForzaTech):
   - Here we essentially take a snapshot of the vanilla files + some assistance from .ext filtering to recreate the vanilla structure 1:1.
   - Forza mods are then normalized to a mediapc/{scope} structure and "overlayed" (installed) into the game.
     - Automatically scope and fix improper mod structures upon install (mods missing mediapc/cars/ etc)
   - CZT also normalizes mods to mediapc to simply keep things cleaner.
     - Uninstall (F8/Safe Mode) reverts the game back to vanilla by utilizing the files we staged earlier.
     - This is a bit more complicated but its how managers like mo2 work from my understanding. 
-- Schedule I:
+- Schedule I (Unity):
   - The simplest out of all of them due to how it utilizes a traditional mods/plugins folder.
     - Uninstall (F8/Safe Mode) removes linked mods from the "mods/plugins" folder.
-- Dying light (all):
+- Dying light (Techland C-Engine):
   - Installs .pak files to source.
     - automatically detects conflicting pak names, and will rename at the users discretion.
     - .dll and .asi are handled accordingly and linked to the games exe.
