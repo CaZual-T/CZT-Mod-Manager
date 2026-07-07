@@ -20,7 +20,8 @@ or PRESS F7 TO PRELINK MODS AND THEN LAUNCH THROUGH STEAM/EXE.
   - Content mods are the ones that go into Content/FMOD, MOVIES, SPLASH, VO_MOD
   - Pak files go into Content/PAKS/Mods/
     - Uninstall (F8/Safe Mode) removes the linked files from all content folders and any potential .dll/.asi mods from root (exe location)
-    - Simple because all RoN mods are additions and never directly replace vanilla files.
+    - Simple because all RoN mods are additional files within a mods folder.
+    - Content mods FMOD, MOVIES, SPLASH, VO_MOD never directly replace vanilla files and a backup is automatically made when mods are linked. Making it easy to go back to vanilla files.
 - Forza Horizon 6 (ForzaTech):
   - Here we essentially take a snapshot of the vanilla files + some assistance from .ext filtering to recreate the vanilla structure 1:1.
   - Forza mods are then normalized to a mediapc/{scope} structure and "overlayed" (installed) into the game.
@@ -36,6 +37,7 @@ or PRESS F7 TO PRELINK MODS AND THEN LAUNCH THROUGH STEAM/EXE.
   - Installs .pak files to source.
     - automatically detects conflicting pak names, and will rename at the users discretion.
     - .dll and .asi are handled accordingly and linked to the games exe.
-      - Uninstall (F8/Safe Mode) simply removes the linked files from the source folder and any potential .dll/.asi mods from root (exe location)
+      - F7 / Launch Game --> 'Modded' to symlink enabled mods to the "source" folder. Any .dll/.asi loaders go to the game root (exe location)
+      - F8 / Launch Game --> 'Safe Mode' to remove symlinks from all locations.
      
 🟢 Remember: this is just an explanation of how it works. All YOU have to do is press 1-2 buttons.
