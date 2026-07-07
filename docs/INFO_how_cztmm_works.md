@@ -11,10 +11,9 @@
 - Seperate engines also allow me to update and maintain profiles efficiently without breaking the entire manager.
 
 ### Game Specific Info:
-- All mods are installed the same way for every profile.
 - After you download mods
 LAUNCH WITH CZT FROM THE MAIN MENU TO INJECT MODS TO THE ACTIVE GAME PROFILE.</br>
-or PRESS F7 TO PRELINK MODS AND THEN LAUNCH THROUGH STEAM/EXE.
+--> or PRESS F7 TO PRELINK MODS AND THEN LAUNCH THROUGH STEAM/EXE.
 
 - Ready or Not (UE5):
   - Most RoN mods are simple .pak files that get symlinked into the Content/Paks/Mods folder.
