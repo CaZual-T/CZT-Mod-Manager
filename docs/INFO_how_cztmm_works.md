@@ -30,7 +30,8 @@ or PRESS F7 TO PRELINK MODS AND THEN LAUNCH THROUGH STEAM/EXE.
     - This is a bit more complicated but its how managers like mo2 work from my understanding. 
 - Schedule I (Unity):
   - The simplest out of all of them due to how it utilizes a traditional mods/plugins folder.
-    - Uninstall (F8/Safe Mode) removes linked mods from the "mods/plugins" folder.
+    - F7 / Launch Game --> 'Modded' to symlink enabled mods to their "mods/plugins" folder.
+    - F8 / Launch Game --> 'Safe Mode' to remove symlinks.
 - Dying light (Techland C-Engine):
   - Installs .pak files to source.
     - automatically detects conflicting pak names, and will rename at the users discretion.
