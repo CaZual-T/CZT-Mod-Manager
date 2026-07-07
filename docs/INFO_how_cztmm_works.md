@@ -21,7 +21,7 @@ or PRESS F7 TO PRELINK MODS AND THEN LAUNCH THROUGH STEAM/EXE.
   - Pak files go into Content/PAKS/Mods/
     - Uninstall (F8/Safe Mode) removes the linked files from all content folders and any potential .dll/.asi mods from root (exe location)
       - Most RoN mods are additional pak files that get symlinked into the mods folder.
-      - Content mods FMOD, MOVIES, SPLASH, VO_MOD never directly replace vanilla files. When content mods are linked, CZT makes a backup of any vanilla files touched. This ensures you can esasdily get back to a vanilla game when you press F8 or launch in safe mode.
+      - Content mods FMOD, MOVIES, SPLASH, VO_MOD never directly replace vanilla files. When content mods are linked, CZT makes a backup of any vanilla files touched. This ensures you can easily get back to a vanilla game when pressing F8 or launching in safe mode.
 - Forza Horizon 6 (ForzaTech):
   - Here we essentially take a snapshot of the vanilla files + some assistance from .ext filtering to recreate the vanilla structure 1:1.
   - Forza mods are then normalized to a mediapc/{scope} structure and "overlayed" (installed) into the game.
