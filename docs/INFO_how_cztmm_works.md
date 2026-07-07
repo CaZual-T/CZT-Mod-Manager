@@ -25,7 +25,7 @@ or PRESS F7 TO PRELINK MODS AND THEN LAUNCH THROUGH STEAM/EXE.
   - Forza mods are then normalized to a mediapc/{scope} structure and "overlayed" (installed) into the game.
     - Automatically scope and fix improper mod structures upon install (mods missing mediapc/cars/ etc)
   - CZT also normalizes mods to mediapc to simply keep things cleaner.
-    - F7 / Launch Game --> deploys the file overlay metnioned above.
+    - F7 / Launch Game --> deploys the file overlay mentioned above.
     - F8 / Launch Game --> 'Safe Mode' reverts the game back to vanilla by utilizing the files we staged earlier.
 - Schedule I (Unity):
   - The simplest out of all of them due to how it utilizes a traditional mods/plugins folder.
