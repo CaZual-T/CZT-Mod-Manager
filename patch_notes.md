@@ -2,6 +2,13 @@
 - Published: 2026-07-05
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.6
 
+- updated nexus_install_writeback AGAIN
+- nexus keeps updating their site which caused the mod 'version', 'page id', and 'download hash' to be appended to the display name AGAIN 🤬
+
+## Version: 3.0.15.6
+- Published: 2026-07-05
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.6
+
 - fixed a bug that would cause a new mods 'version', 'page id', and 'download hash' to be appended to the display name.
 - updated language files.
   - fixed missing keys in es, ru, zh-cn. 
