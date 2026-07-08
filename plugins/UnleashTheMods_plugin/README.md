@@ -18,7 +18,7 @@
 
 
 
-Working as of 4/25/2026 - CZT v3.0.9.1
+Working as of 4/25/2026
 - This will not be updated past this point. 
 - 0 interest in improving it. 
 - Theres literally 50 different mergers for dying light now. Just a bunch of clones. Use one of them. 
