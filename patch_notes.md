@@ -6,8 +6,8 @@
   - nexus recently updated their site.
     - with that update it brought back the 'display name clutter' from before.
     - this has been fixed...again.
-- moved downloads to a background thread to prevent windows crash state.
-  - this would occur when attempting to move the window while downloading large files.
+- fixed windows crash state that would occur when attempting to navigate the gui during download/install.
+  - moved downloads to a background thread to prevent windows crash state. 
       
 ## Version: 3.0.15.6
 - Published: 2026-07-05
