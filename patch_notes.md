@@ -2,10 +2,11 @@
 - Published: 2026-07-05
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.7
 
-- updated/fixed nexus_install_writeback
-  - the nexus site recently updated.
-  - this brought back the mod 'version', 'page id', and 'download hash' being  appended to the display name upon 1st time installs 🤬
-
+- updated nexus_install_writeback. (this is what sets a mods display info in CZT)
+  - nexus recently updated their site.
+    - with that update it brought back the 'display name clutter' from before.
+    - this has been fixed...again.
+      
 ## Version: 3.0.15.6
 - Published: 2026-07-05
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.6
