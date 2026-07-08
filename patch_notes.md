@@ -3,8 +3,8 @@
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.6
 
 - updated nexus_install_writeback AGAIN
-  - nexus keeps updating their site which caused the mod 'version', 'page id', and 'download hash'</br>
-    to be appended to the display name AGAIN 🤬
+  - the nexus site recently updated and caused the mod 'version', 'page id', and 'download hash'</br>
+    to be appended to the display name AGAIN 🤬 [FIXED]
 
 ## Version: 3.0.15.6
 - Published: 2026-07-05
