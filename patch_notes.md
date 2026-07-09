@@ -8,6 +8,7 @@
   - all initial mod naming is now handled in one place.
   - folder and display names always match and updates resolve in place without losing data.
 - cleaned up internal duplication across the download, install, and refresh logic. (this fixed 90% of our issues)
+- schedule I bug that would force the user to overwrite upon install instead of allowing them to install as new.
 
 [New]
 - Schedule I: added support for mods that use the 'UserLibs' folder
