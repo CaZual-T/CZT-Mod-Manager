@@ -1,3 +1,10 @@
+## CZT Mod Manager v3.0.15.9
+- Published: 2026-07-09
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.9
+
+[Fixed]
+- Forza: car years being removed from an archives name during install. 
+
 ## CZT Mod Manager v3.0.15.8
 - Published: 2026-07-09
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.8
