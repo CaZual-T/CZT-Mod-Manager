@@ -4,11 +4,10 @@
 
 [Fixed]
 - downloading folder based mods (e.g. Forza Horizon 6 mods) in groups/loadouts no longer ressets/overwrites their metadata (creator, version, category, Mod ID).
-- cluttered download names (timestamps, `755 1`, "Nexus") are now cleaned consistently, while real names like `LAM_RX7_92` are kept intact.
-  - all initial mod naming is now handled in one place.
+- cluttered download names (timestamps, `755 1`, "Nexus") are now cleaned consistently.
   - folder and display names always match and updates resolve in place without losing data.
 - cleaned up internal duplication across the download, install, and refresh logic. (this fixed 90% of our issues)
-- schedule I bug that would force the user to overwrite upon install instead of allowing them to install as new.
+- Schedule I: bug that would force the user to overwrite upon install instead of allowing them to install as new.
 
 [New]
 - Schedule I: added support for mods that use the 'UserLibs' folder
