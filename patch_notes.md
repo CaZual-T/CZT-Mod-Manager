@@ -1,3 +1,20 @@
+## CZT Mod Manager v3.0.15.8
+- Published: 2026-07-09
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.8
+
+[Fixed]
+- downloading folder based mods (e.g. Forza Horizon 6 mods) in groups/loadouts no longer ressets/overwrites their metadata (creator, version, category, Mod ID).
+- cluttered download names (timestamps, `755 1`, "Nexus") are now cleaned consistently, while real names like `LAM_RX7_92` are kept intact.
+  - all initial mod naming is now handled in one place.
+  - folder and display names always match and updates resolve in place without losing data.
+- cleaned up internal duplication across the download, install, and refresh logic. (this fixed 90% of our issues)
+
+[New]
+- Schedule I: added support for mods that use the 'UserLibs' folder
+
+[Notes]
+- mods already stored with cluttered names won't fix themselves --> re-download to collapse them onto the correct entry.
+
 ## Version: 3.0.15.7
 - Published: 2026-07-08
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.7
