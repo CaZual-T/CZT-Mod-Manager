@@ -29,7 +29,7 @@
     - Start with mods. [Link | Modded]</br>
     <img width="376" height="180" alt="image" src="https://github.com/user-attachments/assets/4c0d48ba-02da-4b06-8bf5-a2d341dbd5c1" /></br>
     - Alternatively you can press F7 to link mods, then launch the game from a shortcut etc.</br>
-  - Uninstall Mods by pressing F8 or you can click launch game on the main menu and use 'safe mode'.</br>
+  - Unlink Mods by pressing F8 or you can click launch game on the main menu and use 'safe mode'.</br>
 > [!NOTE]
 > - You only have to launch with CZT when you install new mods, or enable/disable mods using the toggle switches within CZT.
 > - If your mod list hasn't changed, then you dont have to launch with CZT every single time you play.
