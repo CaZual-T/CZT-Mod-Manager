@@ -1,3 +1,11 @@
+## CZT Mod Manager v3.0.15.10
+- Published: 2026-07-10
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.10
+
+- update scan
+  - fixed a false ping bug that would occur when an author would rollback file versions.
+    - prevent comparing local version to a mod pages archived version.
+
 ## CZT Mod Manager v3.0.15.9
 - Published: 2026-07-09
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.9
