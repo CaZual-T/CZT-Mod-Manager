@@ -1,3 +1,13 @@
+## CZT Mod Manager v3.1.0.0
+- Published: 2026-07-12
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.1.0.0
+
+FORZA UPDATE
+- IM FUCKING R3T@RD3D and shouldve done this waaaay sooner.
+  - CZT WILL NOW USE THE .CARBIN TO NOT ONLY DETECT CAR MODS, </br>
+    BUT TO ALSO SUCCESFULLY RENAME THE FILE TO THE CORRECT CAR NAME THATS LITERALLY IN THE FUCKING .CARBIN NAME -_-
+    
+
 ## CZT Mod Manager v3.0.15.99
 - Published: 2026-07-12
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.99
