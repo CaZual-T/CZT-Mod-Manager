@@ -1,4 +1,4 @@
-## CZT Mod Manager v3.1-final
+## CZT Mod Manager v3.1
 - Published: 2026-07-12
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.1.0.0
 
