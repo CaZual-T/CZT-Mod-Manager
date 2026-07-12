@@ -337,6 +337,7 @@ LOG_LOADER_INJECT_FAILED = "[Loader] Не удалось внедрить вст
 LOG_FORZATECH_STAGING_MISSING = "[ForzaTech] Отсутствует каталог подготовки; нечего развёртывать."
 LOG_FORZATECH_GAME_ROOT_NOT_FOUND = "[ForzaTech] Корень игры не найден: {path}"
 LOG_FORZATECH_AUTOSCOPE_KEPT_ZIP = "[ForzaTech] Архив контента '{name}' сохранён сжатым в mediapc/{reldir}/."
+LOG_FORZATECH_AUTOSCOPE_CARBIN_NAME = "[ForzaTech][autoscope] Обнаружен .carbin '{carbin}' в '{archive}' -> имя бандла авто '{name}'."
 LOG_FORZATECH_AUTOSCOPE_ZIP_UNSCOPED = "[ForzaTech] Не удалось определить категорию архива контента '{name}'; оставлен сжатым в корне мода для ручной настройки."
 LOG_FORZATECH_AUTOSCOPE_FAILED = "[ForzaTech] Не удалось определить область для '{mod}': {error}"
 LOG_FORZATECH_AUTOSCOPE_NO_MEDIA = "[ForzaTech][autoscope] Папка media/ установленной игры не найдена; используются только эвристики."

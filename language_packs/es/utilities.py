@@ -337,6 +337,7 @@ LOG_LOADER_INJECT_FAILED = "[Loader] No se pudo inyectar el cargador integrado: 
 LOG_FORZATECH_STAGING_MISSING = "[ForzaTech] Falta el directorio de preparacion; nada que desplegar."
 LOG_FORZATECH_GAME_ROOT_NOT_FOUND = "[ForzaTech] No se encontro la raiz del juego: {path}"
 LOG_FORZATECH_AUTOSCOPE_KEPT_ZIP = "[ForzaTech] Se mantuvo el archivo de contenido '{name}' comprimido en mediapc/{reldir}/."
+LOG_FORZATECH_AUTOSCOPE_CARBIN_NAME = "[ForzaTech][autoscope] Se detecto .carbin '{carbin}' en '{archive}' -> nombrando el bundle de coche '{name}."
 LOG_FORZATECH_AUTOSCOPE_ZIP_UNSCOPED = "[ForzaTech] No se pudo determinar la categoria del archivo de contenido '{name}'; se mantuvo comprimido en la raiz del mod para ajuste manual."
 LOG_FORZATECH_AUTOSCOPE_FAILED = "[ForzaTech] Fallo el auto-ajuste para '{mod}': {error}"
 LOG_FORZATECH_AUTOSCOPE_NO_MEDIA = "[ForzaTech][autoscope] No se encontro media/ instalado; usando solo heuristicas."
