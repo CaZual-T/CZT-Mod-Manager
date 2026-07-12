@@ -1,3 +1,9 @@
+## CZT Mod Manager v3.0.15.99
+- Published: 2026-07-12
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.99
+
+- Fixed CZT version number so v3.0.15.9 users actually recieve an in-app ping.
+
 ## CZT Mod Manager v3.0.15.10
 - Published: 2026-07-10
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.0.15.10
