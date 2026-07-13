@@ -4,7 +4,7 @@
 
 - loadout system updated (file id fix).
 - centralized file renaming that happens when downloading NEW mods (not existing).
-  - this will be my last update to the main branch (for a while at least).
+  - this will be my last update.
   - the manager is in a good place right now (especially after all the bug fixing over the past week)
   - i hope this tool can continue to be useful to others in the future. 
   - thank you to everyone that stuck around and provided feedback over the past year or so.
