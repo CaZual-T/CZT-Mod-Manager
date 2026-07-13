@@ -1,9 +1,9 @@
 ## CZT Mod Manager v3.1.0.01
-- Published: 2026-07-12
+- Published: 2026-07-13
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.1.0.01
 
 - added a safety to .carbin files to ignore .carbin files that include -copy within the file name.
- - this only happened when a modder would leave their old project files inside the vehicle archive.
+  - this only happened when a modder would leave their old project files inside the vehicle archive.
 
 ## CZT Mod Manager v3.1
 - Published: 2026-07-12
