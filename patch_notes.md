@@ -13,9 +13,9 @@
 - btw, mod creators, if you check the main github page, i included docs on how to make plugins for CZT.
 
 - special thanks to my main testers:
-  - fleezus christ (aka bushdid911xv)
-  - reduxious (aka ekud/redux)
-  - lithiumpb
+  - fleezus christ (aka bushdid911xv) 💎
+  - reduxious (aka ekud/redux) 💎
+  - lithiumpb 
   - mfcardinal
   - shadowx
   - ghostnoah
