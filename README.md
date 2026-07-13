@@ -14,6 +14,8 @@
 
 ❗CZT Mod Manager is a free program. DO NOT DOWNLOAD OR PURCHASE FROM ANY OTHER SITES.</br>
 
+### Nexus Stats: 177 Endorsements and 13,000 downloads (all listings combined)
+
 # Features: 
 - ⭐ EZ Setup & Launch: Automatically locates or creates required configuration files.
   - If you have any problems just make your way to discord so i can help you.
