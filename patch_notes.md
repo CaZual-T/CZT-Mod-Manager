@@ -1,3 +1,36 @@
+## CZT Mod Manager v3.1.0.02
+- Published: 2026-07-13
+- Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.1.0.02
+
+- loadout system updated (file id fix).
+- centralized file renaming that happens when downloading NEW mods (not existing).
+  - this will be my last update to the main branch (for a while at least).
+  - the manager is in a good place right now (especially after all the bug fixing over the past week)
+  - i hope this tool can continue to be useful to others in the future. 
+  - thank you to everyone that stuck around and provided feedback over the past year or so.
+  - anyways, yeah, that's a wrap on CZT Mod Manager.
+
+- btw, mod creators, if you check the main github page, i included docs on how to make plugins for CZT.
+
+- special thanks to my main testers:
+  - fleezus christ (aka bushdid911xv)
+  - reduxious (aka ekud/redux)
+  - lithiumpb
+  - mfcardinal
+  - shadowx
+  - ghostnoah
+  - rk87
+  - drexrage
+  - articwolf8
+  - deadmew2
+  - bork0904
+  - foxcloud
+  - tom.9821
+  - lyricseal
+  - arkham5000
+  - mr.mcbitches
+  - theofficialnoobsaibot
+
 ## CZT Mod Manager v3.1.0.01
 - Published: 2026-07-13
 - Url: https://github.com/CaZual-T/CZT-Mod-Manager/releases/tag/3.1.0.01
