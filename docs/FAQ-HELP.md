@@ -22,7 +22,7 @@
 
 
 ### [WinError 1] The function is incorrect.
-- This happens when you try to create a symbolic link on a filesystem or drive configuration that DOES NOT support Windows symlinks.
+- This happens when you try to create a symlink on a drive that does not support Windows symlinks.
 - Usually happens when users attempt to utilize a portable/external drive. 
 
 ### [WinError 3] Permission Denied at launch.
