@@ -1,4 +1,4 @@
-## Resources
+## Resources 
 --> [CZT - Homepage](https://github.com/CaZual-T/CZT-Mod-Manager/tree/main)</br>
 --> [CZT - How it works](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/INFO_how_cztmm_works.md)</br>
 --> [CZT - Initial Install/Setup](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/docs/CZT_Install_and_Setup.md)</br>
