@@ -20,10 +20,10 @@
   - Therefore windows tweaks out due to the searching/loading capability.
     - Note: The .dll will ONLY load files that are within the same directory and include "-version" in the name.
 
-
 ### [WinError 1] The function is incorrect.
-- This happens when you try to create a symlink on a drive that does not support Windows symlinks.
-- Usually happens when users attempt to utilize a portable/external drive. 
+- This error will appear when a users attemps to create symlinks on a drive that does not support Windows symlinks.
+- Usually happens when users have CZT installed on a portable/external drive.
+  - Thats a you problem. 
 
 ### [WinError 3] Permission Denied at launch.
 - ENABLE DEVELOPER MODE.
