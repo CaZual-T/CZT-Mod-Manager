@@ -20,6 +20,11 @@
   - Therefore windows tweaks out due to the searching/loading capability.
     - Note: The .dll will ONLY load files that are within the same directory and include "-version" in the name.
 
+
+### [WinError 1] The function is incorrect.
+- This happens when you try to create a symbolic link on a filesystem or drive configuration that DOES NOT support Windows symlinks.
+- Usually happens when users attempt to utilize a portable/external drive. 
+
 ### [WinError 3] Permission Denied at launch.
 - ENABLE DEVELOPER MODE.
   - (Windows) Settings > Advanced > For Developers (Toggle Developer Mode On)
