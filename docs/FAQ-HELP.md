@@ -23,7 +23,8 @@
 ### [WinError 1] The function is incorrect.
 - This error will appear when a users attemps to create symlinks on a drive that does not support Windows symlinks.
 - Usually happens when users have CZT installed on a portable/external drive.
-  - Thats a you problem. 
+  - Thats a you problem. Either use an actual drive or uninstall CZT.
+  - Not stressing myself out because timmmy wants to put the mod managers on a usb.
 
 ### [WinError 3] Permission Denied at launch.
 - ENABLE DEVELOPER MODE.
