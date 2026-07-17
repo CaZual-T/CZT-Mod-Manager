@@ -22,7 +22,8 @@
 
 ### [WinError 1] The function is incorrect.
 - This error will appear when a users attemps to create symlinks on a drive that does not support Windows symlinks.
-- Usually happens when users have CZT installed on a portable/external drive.
+- Usually happens when users have CZT installed on a USB. 
+- USB drives do not support symlinking. (portable ssd/m.2 like an ROG STRIX ARION will work, but basic fat32 USBs will not.)
   - Thats a you problem. Either use an actual drive or uninstall CZT.
   - Not stressing myself out because 'timmmaaay' wants to put the mod manager on a usb.
 
@@ -56,5 +57,5 @@
 - Note_2: You HAVE to get a new API key if you ever upgrade or downgrade your nexus premium status.
 
 ### Updating CZT Mod Manager
-- CZT will detect and notify you in app if their is an available update.
+- CZT will detect and notify you in app if there are any available updates.
 - Updates can be downloaded and installed without ever needing to open a browser.
