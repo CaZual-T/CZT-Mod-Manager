@@ -9,7 +9,7 @@
 ✅ Official Pages ⬇️ 
 - [CZT-Mod-Manager-Github](https://github.com/CaZual-T/CZT-Mod-Manager)
 - [Patch Notes](https://github.com/CaZual-T/CZT-Mod-Manager/blob/main/patch_notes.md)
-- [NEXUS PAGE](https://www.nexusmods.com/profile/CaZualT/mods)
+- [NEXUS PAGE](https://www.nexusmods.com/profile/CZTMods)
 - [Discord](https://discord.com/invite/kyARuAHbS2)
 
 ❗CZT Mod Manager is a free program. DO NOT DOWNLOAD OR PURCHASE FROM ANY OTHER SITES.</br>
